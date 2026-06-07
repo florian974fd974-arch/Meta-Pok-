@@ -229,7 +229,13 @@
           if(!pblTeamDecks[teamId]) return;
           if(!pblTeamDecks[teamId].serverDays) pblTeamDecks[teamId].serverDays={};
           Object.keys(p[teamId]).forEach(function(day){
-            var arr=p[teamId][day]; if(arr&&arr.length) pblTeamDecks[teamId].serverDays[day]=arr;
+            var v=p[teamId][day], arr=null;
+            if(Array.isArray(v)){ arr=v; }
+            else if(v&&(v.s19||v.s21)){ arr=[];
+              (v.s19||[]).forEach(function(d){ arr.push({n:d.n+' · 19h', img:d.img}); });
+              (v.s21||[]).forEach(function(d){ arr.push({n:d.n+' · 21h', img:d.img}); });
+            }
+            if(arr&&arr.length) pblTeamDecks[teamId].serverDays[day]=arr;
           });
         });
       }catch(e){}
