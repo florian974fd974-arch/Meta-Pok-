@@ -1,0 +1,1516 @@
+{
+  "format": "Regulation Set M-A",
+  "metaSummary": "La méta Regulation M-A s'articule autour d'un core central ultra-dominant : Garchomp-Kingambit-Basculegion forme le triangle de fer présent dans plus de 50% des équipes, chacun ayant plus de 50% d'usage. Cette stabilité cache une évolution tactique subtile : l'émergence de Floette Éternelle (35,65%) comme pivot défensif méga-évolutif bouleverse les calculs classiques, tandis que Charizard Mega-Y (41,14%) impose un tempo offensif solaire. Le format se divise en deux philosophies : les compositions hyper-offensives Tailwind (Whimsicott/Aerodactyl + sweepers) qui cherchent à écraser rapidement, et les setups Trick Room (Sinistcha + Floette) qui inversent le tempo. Les derniers résultats majeurs montrent que la flexibilité l'emporte : les champions combinent contrôle de vitesse, redistribution de Fake Out (Incineroar/Sneasler), et capacité à pivoter entre modes offensif et défensif.",
+  "analysis": {
+    "whatToPlay": "Le core **Garchomp + Kingambit + Basculegion + Whimsicott** reste l'archétype dominant : Tailwind activé par Whimsicott permet à Garchomp Choice Scarf et Kingambit Chople Berry de balayer, tandis que Basculegion abuse de Last Respects en fin de partie. Variante recommandée : ajouter Charizard-Y pour le mode soleil alternatif. L'archétype **Trick Room Floette** gagne en puissance : combiner Sinistcha (Rage Powder + Trick Room) avec Floette Éternelle Mega (Calm Mind setup) et Incineroar (Fake Out + Parting Shot) crée une forteresse adaptative capable de retourner les matchups défavorables. Ce style bat les compositions Tailwind trop linéaires. Enfin, les **équipes Sneasler Unburden** exploitent un angle sous-estimé : White Herb + Close Combat + Coaching permettent des snowballs explosifs, surtout couplés à Kingambit Defiant qui punit les Intimidate adverses.",
+    "howToCounter": {
+      "Garchomp": "Floette Éternelle Mega résiste parfaitement (Fairy immunise contre Dragon Claw, bulk énorme encaisse Earthquake réduit) et OHKO avec Moonblast/Dazzling Gleam. Sinistcha avec Rage Powder détourne ses attaques pendant que votre second Pokémon setup. Basculegion Choice Scarf outvitesse même les Garchomp Scarf et menace avec Wave Crash. Sylveon Pixilate Hyper Voice ignore Protect et frappe en spread. Astuce : si vous voyez Roseli Berry à la team preview, amenez impérativement une menace non-Fairy (Incineroar, Basculegion eau).",
+      "Kingambit": "Incineroar est LE counter ultime : Intimidate baisse son attaque, Fake Out brise son momentum, Flare Blitz/Close Combat pour le KO (attention au Chople Berry, calculez le 2HKO). Charizard Mega-Y en mode soleil OHKO avec Heat Wave boosté avant qu'il n'agisse. Sneasler Close Combat ignore Sucker Punch en frappant en premier avec Unburden activé. Les utilisateurs avancés jouent des Pokémon avec Coaching/Helping Hand pour dépasser le seuil de KO malgré Chople Berry. Évitez absolument les attaques qui baissent vos stats (Defiant transforme chaque -1 en +2 attaque).",
+      "Basculegion": "Whimsicott est critique : Encore lock sur Aqua Jet/Protect, puis Tailwind pour contrôler le tempo pendant qu'il est neutralisé. Rillaboom (si dans votre format) ou tout porteur de Grassy Terrain réduit drastiquement les dégâts d'Aqua Jet. Eternal Flower Floette tank les deux STABs et riposte avec Moonblast. Aerodactyl Mega avec Tailwind + Rock Slide outvitesse même les sets Scarf et flinch. Stratégie avancée : jouez anti-synergie en éliminant d'abord Kingambit/Garchomp pour réduire le compteur de Last Respects à 0-1 faint, transformant Basculegion en simple attaquant Water moyen."
+    }
+  },
+  "topPokemon": [
+    {
+      "rank": 1,
+      "name": "Garchomp",
+      "usage": 57.72,
+      "ability": "Rough Skin",
+      "abilities": [
+        {
+          "name": "Rough Skin",
+          "pct": 97.65
+        },
+        {
+          "name": "Sand Veil",
+          "pct": 2.35
+        }
+      ],
+      "item": "Sitrus Berry",
+      "items": [
+        {
+          "name": "Sitrus Berry",
+          "pct": 37.65
+        },
+        {
+          "name": "Choice Scarf",
+          "pct": 23.53
+        },
+        {
+          "name": "Roseli Berry",
+          "pct": 17.65
+        },
+        {
+          "name": "Soft Sand",
+          "pct": 4.71
+        },
+        {
+          "name": "Haban Berry",
+          "pct": 4.71
+        },
+        {
+          "name": "White Herb",
+          "pct": 3.53
+        },
+        {
+          "name": "Lum Berry",
+          "pct": 2.35
+        },
+        {
+          "name": "Dragon Fang",
+          "pct": 2.35
+        }
+      ],
+      "moves": [
+        {
+          "name": "Earthquake",
+          "pct": 92.94
+        },
+        {
+          "name": "Dragon Claw",
+          "pct": 89.41
+        },
+        {
+          "name": "Rock Slide",
+          "pct": 75.29
+        },
+        {
+          "name": "Protect",
+          "pct": 54.12
+        },
+        {
+          "name": "Stomping Tantrum",
+          "pct": 36.47
+        },
+        {
+          "name": "Poison Jab",
+          "pct": 29.41
+        },
+        {
+          "name": "Rock Tomb",
+          "pct": 16.47
+        },
+        {
+          "name": "Scale Shot",
+          "pct": 3.53
+        }
+      ],
+      "partners": [
+        {
+          "name": "Kingambit",
+          "pct": 72.94
+        },
+        {
+          "name": "Charizard",
+          "pct": 63.53
+        },
+        {
+          "name": "Basculegion",
+          "pct": 63.53
+        },
+        {
+          "name": "Whimsicott",
+          "pct": 40
+        },
+        {
+          "name": "Eternal Flower Floette",
+          "pct": 31.76
+        },
+        {
+          "name": "Aerodactyl",
+          "pct": 24.71
+        },
+        {
+          "name": "Sylveon",
+          "pct": 22.35
+        },
+        {
+          "name": "Incineroar",
+          "pct": 21.18
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Kingambit",
+      "usage": 52.95,
+      "ability": "Defiant",
+      "abilities": [
+        {
+          "name": "Defiant",
+          "pct": 100
+        }
+      ],
+      "item": "Chople Berry",
+      "items": [
+        {
+          "name": "Chople Berry",
+          "pct": 61.36
+        },
+        {
+          "name": "Black Glasses",
+          "pct": 32.95
+        },
+        {
+          "name": "Focus Sash",
+          "pct": 4.55
+        },
+        {
+          "name": "Shuca Berry",
+          "pct": 1.14
+        },
+        {
+          "name": "Sucker Punch",
+          "pct": 100
+        },
+        {
+          "name": "Kowtow Cleave",
+          "pct": 98.86
+        },
+        {
+          "name": "Protect",
+          "pct": 79.55
+        },
+        {
+          "name": "Iron Head",
+          "pct": 64.77
+        }
+      ],
+      "moves": [
+        {
+          "name": "Sucker Punch",
+          "pct": 100
+        },
+        {
+          "name": "Kowtow Cleave",
+          "pct": 98.86
+        },
+        {
+          "name": "Protect",
+          "pct": 79.55
+        },
+        {
+          "name": "Iron Head",
+          "pct": 64.77
+        },
+        {
+          "name": "Low Kick",
+          "pct": 44.32
+        },
+        {
+          "name": "Swords Dance",
+          "pct": 12.5
+        },
+        {
+          "name": "Defiant",
+          "pct": 100
+        }
+      ],
+      "partners": [
+        {
+          "name": "Garchomp",
+          "pct": 70.45
+        },
+        {
+          "name": "Basculegion",
+          "pct": 68.18
+        },
+        {
+          "name": "Charizard",
+          "pct": 56.82
+        },
+        {
+          "name": "Whimsicott",
+          "pct": 44.32
+        },
+        {
+          "name": "Sneasler",
+          "pct": 36.36
+        },
+        {
+          "name": "Eternal Flower Floette",
+          "pct": 27.27
+        },
+        {
+          "name": "Aerodactyl",
+          "pct": 22.73
+        },
+        {
+          "name": "Incineroar",
+          "pct": 19.32
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Basculegion",
+      "usage": 50.78,
+      "ability": "Adaptability",
+      "abilities": [
+        {
+          "name": "Adaptability",
+          "pct": 97.67
+        },
+        {
+          "name": "Swift Swim",
+          "pct": 2.33
+        }
+      ],
+      "item": "Choice Scarf",
+      "items": [
+        {
+          "name": "Choice Scarf",
+          "pct": 33.72
+        },
+        {
+          "name": "Focus Sash",
+          "pct": 31.4
+        },
+        {
+          "name": "Mystic Water",
+          "pct": 25.58
+        },
+        {
+          "name": "Sitrus Berry",
+          "pct": 8.14
+        },
+        {
+          "name": "Colbur Berry",
+          "pct": 1.16
+        },
+        {
+          "name": "Aqua Jet",
+          "pct": 100
+        },
+        {
+          "name": "Last Respects",
+          "pct": 98.84
+        },
+        {
+          "name": "Wave Crash",
+          "pct": 67.44
+        }
+      ],
+      "moves": [
+        {
+          "name": "Aqua Jet",
+          "pct": 100
+        },
+        {
+          "name": "Last Respects",
+          "pct": 98.84
+        },
+        {
+          "name": "Wave Crash",
+          "pct": 67.44
+        },
+        {
+          "name": "Protect",
+          "pct": 66.28
+        },
+        {
+          "name": "Flip Turn",
+          "pct": 33.72
+        },
+        {
+          "name": "Liquidation",
+          "pct": 30.23
+        },
+        {
+          "name": "Waterfall",
+          "pct": 2.33
+        },
+        {
+          "name": "Last Resort",
+          "pct": 1.16
+        }
+      ],
+      "partners": [
+        {
+          "name": "Kingambit",
+          "pct": 69.77
+        },
+        {
+          "name": "Garchomp",
+          "pct": 62.79
+        },
+        {
+          "name": "Charizard",
+          "pct": 47.67
+        },
+        {
+          "name": "Whimsicott",
+          "pct": 44.19
+        },
+        {
+          "name": "Eternal Flower Floette",
+          "pct": 27.91
+        },
+        {
+          "name": "Sneasler",
+          "pct": 26.74
+        },
+        {
+          "name": "Dragonite",
+          "pct": 18.6
+        },
+        {
+          "name": "Aerodactyl",
+          "pct": 17.44
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Charizard",
+      "usage": 41.14,
+      "ability": "Blaze",
+      "abilities": [
+        {
+          "name": "Blaze",
+          "pct": 79.03
+        },
+        {
+          "name": "Solar Power",
+          "pct": 19.35
+        },
+        {
+          "name": "Drought",
+          "pct": 1.61
+        }
+      ],
+      "item": "Charizardite Y",
+      "items": [
+        {
+          "name": "Charizardite Y",
+          "pct": 91.94
+        },
+        {
+          "name": "Charizardite X",
+          "pct": 8.06
+        },
+        {
+          "name": "Protect",
+          "pct": 100
+        },
+        {
+          "name": "Heat Wave",
+          "pct": 91.94
+        },
+        {
+          "name": "Solar Beam",
+          "pct": 90.32
+        },
+        {
+          "name": "Weather Ball",
+          "pct": 90.32
+        },
+        {
+          "name": "Dragon Dance",
+          "pct": 8.06
+        },
+        {
+          "name": "Dragon Claw",
+          "pct": 6.45
+        }
+      ],
+      "moves": [
+        {
+          "name": "Protect",
+          "pct": 100
+        },
+        {
+          "name": "Heat Wave",
+          "pct": 91.94
+        },
+        {
+          "name": "Solar Beam",
+          "pct": 90.32
+        },
+        {
+          "name": "Weather Ball",
+          "pct": 90.32
+        },
+        {
+          "name": "Dragon Dance",
+          "pct": 8.06
+        },
+        {
+          "name": "Dragon Claw",
+          "pct": 6.45
+        },
+        {
+          "name": "Flare Blitz",
+          "pct": 4.84
+        },
+        {
+          "name": "Temper Flare",
+          "pct": 3.23
+        }
+      ],
+      "partners": [
+        {
+          "name": "Garchomp",
+          "pct": 87.1
+        },
+        {
+          "name": "Kingambit",
+          "pct": 80.65
+        },
+        {
+          "name": "Basculegion",
+          "pct": 66.13
+        },
+        {
+          "name": "Whimsicott",
+          "pct": 54.84
+        },
+        {
+          "name": "Eternal Flower Floette",
+          "pct": 29.03
+        },
+        {
+          "name": "Aerodactyl",
+          "pct": 25.81
+        },
+        {
+          "name": "Incineroar",
+          "pct": 24.19
+        },
+        {
+          "name": "Sylveon",
+          "pct": 24.19
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Incineroar",
+      "usage": 38.45,
+      "ability": "Intimidate",
+      "abilities": [
+        {
+          "name": "Intimidate",
+          "pct": 100
+        }
+      ],
+      "item": "Sitrus Berry",
+      "items": [
+        {
+          "name": "Sitrus Berry",
+          "pct": 52.17
+        },
+        {
+          "name": "Charcoal",
+          "pct": 17.39
+        },
+        {
+          "name": "Chople Berry",
+          "pct": 13.04
+        },
+        {
+          "name": "Passho Berry",
+          "pct": 13.04
+        },
+        {
+          "name": "Shuca Berry",
+          "pct": 2.17
+        },
+        {
+          "name": "Charti Berry",
+          "pct": 2.17
+        },
+        {
+          "name": "Fake Out",
+          "pct": 100
+        },
+        {
+          "name": "Parting Shot",
+          "pct": 97.83
+        }
+      ],
+      "moves": [
+        {
+          "name": "Fake Out",
+          "pct": 100
+        },
+        {
+          "name": "Parting Shot",
+          "pct": 97.83
+        },
+        {
+          "name": "Flare Blitz",
+          "pct": 93.48
+        },
+        {
+          "name": "Throat Chop",
+          "pct": 47.83
+        },
+        {
+          "name": "Darkest Lariat",
+          "pct": 30.43
+        },
+        {
+          "name": "Helping Hand",
+          "pct": 10.87
+        },
+        {
+          "name": "Protect",
+          "pct": 8.7
+        },
+        {
+          "name": "Taunt",
+          "pct": 4.35
+        }
+      ],
+      "partners": [
+        {
+          "name": "Eternal Flower Floette",
+          "pct": 63.04
+        },
+        {
+          "name": "Sinistcha",
+          "pct": 54.35
+        },
+        {
+          "name": "Garchomp",
+          "pct": 39.13
+        },
+        {
+          "name": "Sneasler",
+          "pct": 36.96
+        },
+        {
+          "name": "Kingambit",
+          "pct": 36.96
+        },
+        {
+          "name": "Charizard",
+          "pct": 32.61
+        },
+        {
+          "name": "Aerodactyl",
+          "pct": 23.91
+        },
+        {
+          "name": "Basculegion",
+          "pct": 19.57
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Eternal Flower Floette",
+      "usage": 35.65,
+      "ability": "Flower Veil",
+      "abilities": [
+        {
+          "name": "Flower Veil",
+          "pct": 98
+        },
+        {
+          "name": "Fairy Aura",
+          "pct": 2
+        }
+      ],
+      "item": "Floettite",
+      "items": [
+        {
+          "name": "Floettite",
+          "pct": 100
+        },
+        {
+          "name": "Protect",
+          "pct": 100
+        },
+        {
+          "name": "Dazzling Gleam",
+          "pct": 90
+        },
+        {
+          "name": "Moonblast",
+          "pct": 78
+        },
+        {
+          "name": "Calm Mind",
+          "pct": 56
+        },
+        {
+          "name": "Light of Ruin",
+          "pct": 42
+        },
+        {
+          "name": "Draining Kiss",
+          "pct": 32
+        },
+        {
+          "name": "Psychic",
+          "pct": 2
+        }
+      ],
+      "moves": [
+        {
+          "name": "Protect",
+          "pct": 100
+        },
+        {
+          "name": "Dazzling Gleam",
+          "pct": 90
+        },
+        {
+          "name": "Moonblast",
+          "pct": 78
+        },
+        {
+          "name": "Calm Mind",
+          "pct": 56
+        },
+        {
+          "name": "Light of Ruin",
+          "pct": 42
+        },
+        {
+          "name": "Draining Kiss",
+          "pct": 32
+        },
+        {
+          "name": "Psychic",
+          "pct": 2
+        },
+        {
+          "name": "Flower Veil",
+          "pct": 98
+        }
+      ],
+      "partners": [
+        {
+          "name": "Incineroar",
+          "pct": 58
+        },
+        {
+          "name": "Garchomp",
+          "pct": 54
+        },
+        {
+          "name": "Kingambit",
+          "pct": 48
+        },
+        {
+          "name": "Basculegion",
+          "pct": 48
+        },
+        {
+          "name": "Sinistcha",
+          "pct": 46
+        },
+        {
+          "name": "Charizard",
+          "pct": 36
+        },
+        {
+          "name": "Sneasler",
+          "pct": 26
+        },
+        {
+          "name": "Talonflame",
+          "pct": 18
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Sneasler",
+      "usage": 33.26,
+      "ability": "Unburden",
+      "abilities": [
+        {
+          "name": "Unburden",
+          "pct": 77.5
+        },
+        {
+          "name": "Poison Touch",
+          "pct": 22.5
+        }
+      ],
+      "item": "White Herb",
+      "items": [
+        {
+          "name": "White Herb",
+          "pct": 62.5
+        },
+        {
+          "name": "Focus Sash",
+          "pct": 37.5
+        },
+        {
+          "name": "Close Combat",
+          "pct": 100
+        },
+        {
+          "name": "Fake Out",
+          "pct": 97.5
+        },
+        {
+          "name": "Dire Claw",
+          "pct": 95
+        },
+        {
+          "name": "Protect",
+          "pct": 80
+        },
+        {
+          "name": "Coaching",
+          "pct": 17.5
+        },
+        {
+          "name": "Gunk Shot",
+          "pct": 5
+        }
+      ],
+      "moves": [
+        {
+          "name": "Close Combat",
+          "pct": 100
+        },
+        {
+          "name": "Fake Out",
+          "pct": 97.5
+        },
+        {
+          "name": "Dire Claw",
+          "pct": 95
+        },
+        {
+          "name": "Protect",
+          "pct": 80
+        },
+        {
+          "name": "Coaching",
+          "pct": 17.5
+        },
+        {
+          "name": "Gunk Shot",
+          "pct": 5
+        },
+        {
+          "name": "Rock Tomb",
+          "pct": 2.5
+        },
+        {
+          "name": "Rock Slide",
+          "pct": 2.5
+        }
+      ],
+      "partners": [
+        {
+          "name": "Kingambit",
+          "pct": 80
+        },
+        {
+          "name": "Basculegion",
+          "pct": 57.5
+        },
+        {
+          "name": "Incineroar",
+          "pct": 42.5
+        },
+        {
+          "name": "Eternal Flower Floette",
+          "pct": 32.5
+        },
+        {
+          "name": "Whimsicott",
+          "pct": 30
+        },
+        {
+          "name": "Charizard",
+          "pct": 30
+        },
+        {
+          "name": "Dragonite",
+          "pct": 27.5
+        },
+        {
+          "name": "Garchomp",
+          "pct": 27.5
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Sinistcha",
+      "usage": 25.18,
+      "ability": "Hospitality",
+      "abilities": [
+        {
+          "name": "Hospitality",
+          "pct": 100
+        }
+      ],
+      "item": "Kasib Berry",
+      "items": [
+        {
+          "name": "Kasib Berry",
+          "pct": 53.13
+        },
+        {
+          "name": "Sitrus Berry",
+          "pct": 28.13
+        },
+        {
+          "name": "Mental Herb",
+          "pct": 6.25
+        },
+        {
+          "name": "Occa Berry",
+          "pct": 3.13
+        },
+        {
+          "name": "Leftovers",
+          "pct": 3.13
+        },
+        {
+          "name": "Miracle Seed",
+          "pct": 3.13
+        },
+        {
+          "name": "Focus Sash",
+          "pct": 3.13
+        },
+        {
+          "name": "Matcha Gotcha",
+          "pct": 96.88
+        }
+      ],
+      "moves": [
+        {
+          "name": "Matcha Gotcha",
+          "pct": 96.88
+        },
+        {
+          "name": "Rage Powder",
+          "pct": 96.88
+        },
+        {
+          "name": "Trick Room",
+          "pct": 68.75
+        },
+        {
+          "name": "Protect",
+          "pct": 68.75
+        },
+        {
+          "name": "Life Dew",
+          "pct": 53.13
+        },
+        {
+          "name": "Shadow Ball",
+          "pct": 9.38
+        },
+        {
+          "name": "Giga Drain",
+          "pct": 3.13
+        },
+        {
+          "name": "Strength Sap",
+          "pct": 3.13
+        }
+      ],
+      "partners": [
+        {
+          "name": "Incineroar",
+          "pct": 78.13
+        },
+        {
+          "name": "Eternal Flower Floette",
+          "pct": 71.88
+        },
+        {
+          "name": "Garchomp",
+          "pct": 43.75
+        },
+        {
+          "name": "Charizard",
+          "pct": 40.63
+        },
+        {
+          "name": "Kingambit",
+          "pct": 34.38
+        },
+        {
+          "name": "Sneasler",
+          "pct": 28.13
+        },
+        {
+          "name": "Basculegion",
+          "pct": 21.88
+        },
+        {
+          "name": "Tyranitar",
+          "pct": 15.63
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Whimsicott",
+      "usage": 23.83,
+      "ability": "Prankster",
+      "abilities": [
+        {
+          "name": "Prankster",
+          "pct": 100
+        }
+      ],
+      "item": "Focus Sash",
+      "items": [
+        {
+          "name": "Focus Sash",
+          "pct": 42.86
+        },
+        {
+          "name": "Fairy Feather",
+          "pct": 38.1
+        },
+        {
+          "name": "Kebia Berry",
+          "pct": 11.9
+        },
+        {
+          "name": "Coba Berry",
+          "pct": 4.76
+        },
+        {
+          "name": "Babiri Berry",
+          "pct": 2.38
+        },
+        {
+          "name": "Moonblast",
+          "pct": 100
+        },
+        {
+          "name": "Tailwind",
+          "pct": 100
+        },
+        {
+          "name": "Encore",
+          "pct": 100
+        }
+      ],
+      "moves": [
+        {
+          "name": "Moonblast",
+          "pct": 100
+        },
+        {
+          "name": "Tailwind",
+          "pct": 100
+        },
+        {
+          "name": "Encore",
+          "pct": 100
+        },
+        {
+          "name": "Protect",
+          "pct": 97.62
+        },
+        {
+          "name": "Light Screen",
+          "pct": 2.38
+        },
+        {
+          "name": "Prankster",
+          "pct": 100
+        }
+      ],
+      "partners": [
+        {
+          "name": "Kingambit",
+          "pct": 92.86
+        },
+        {
+          "name": "Basculegion",
+          "pct": 90.48
+        },
+        {
+          "name": "Garchomp",
+          "pct": 80.95
+        },
+        {
+          "name": "Charizard",
+          "pct": 80.95
+        },
+        {
+          "name": "Glimmora",
+          "pct": 30.95
+        },
+        {
+          "name": "Sneasler",
+          "pct": 28.57
+        },
+        {
+          "name": "Eternal Flower Floette",
+          "pct": 21.43
+        },
+        {
+          "name": "Dragonite",
+          "pct": 19.05
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Aerodactyl",
+      "usage": 19.69,
+      "ability": "Unnerve",
+      "abilities": [
+        {
+          "name": "Unnerve",
+          "pct": 100
+        }
+      ],
+      "item": "Aerodactylite",
+      "items": [
+        {
+          "name": "Aerodactylite",
+          "pct": 63.33
+        },
+        {
+          "name": "Focus Sash",
+          "pct": 36.67
+        },
+        {
+          "name": "Rock Slide",
+          "pct": 100
+        },
+        {
+          "name": "Tailwind",
+          "pct": 86.67
+        },
+        {
+          "name": "Dual Wingbeat",
+          "pct": 83.33
+        },
+        {
+          "name": "Protect",
+          "pct": 76.67
+        },
+        {
+          "name": "Wide Guard",
+          "pct": 36.67
+        },
+        {
+          "name": "Ice Fang",
+          "pct": 13.33
+        }
+      ],
+      "moves": [
+        {
+          "name": "Rock Slide",
+          "pct": 100
+        },
+        {
+          "name": "Tailwind",
+          "pct": 86.67
+        },
+        {
+          "name": "Dual Wingbeat",
+          "pct": 83.33
+        },
+        {
+          "name": "Protect",
+          "pct": 76.67
+        },
+        {
+          "name": "Wide Guard",
+          "pct": 36.67
+        },
+        {
+          "name": "Ice Fang",
+          "pct": 13.33
+        },
+        {
+          "name": "Sunny Day",
+          "pct": 3.33
+        },
+        {
+          "name": "Unnerve",
+          "pct": 100
+        }
+      ],
+      "partners": [
+        {
+          "name": "Garchomp",
+          "pct": 70
+        },
+        {
+          "name": "Kingambit",
+          "pct": 66.67
+        },
+        {
+          "name": "Sylveon",
+          "pct": 56.67
+        },
+        {
+          "name": "Charizard",
+          "pct": 53.33
+        },
+        {
+          "name": "Basculegion",
+          "pct": 50
+        },
+        {
+          "name": "Incineroar",
+          "pct": 36.67
+        },
+        {
+          "name": "Sneasler",
+          "pct": 23.33
+        },
+        {
+          "name": "Eternal Flower Floette",
+          "pct": 23.33
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Sylveon",
+      "usage": 16.68,
+      "ability": "Pixilate",
+      "abilities": [
+        {
+          "name": "Pixilate",
+          "pct": 100
+        }
+      ],
+      "item": "Fairy Feather",
+      "items": [
+        {
+          "name": "Fairy Feather",
+          "pct": 100
+        },
+        {
+          "name": "Hyper Voice",
+          "pct": 100
+        },
+        {
+          "name": "Quick Attack",
+          "pct": 95.83
+        },
+        {
+          "name": "Hyper Beam",
+          "pct": 79.17
+        },
+        {
+          "name": "Detect",
+          "pct": 70.83
+        },
+        {
+          "name": "Protect",
+          "pct": 29.17
+        },
+        {
+          "name": "Moonblast",
+          "pct": 20.83
+        },
+        {
+          "name": "Psych Up",
+          "pct": 4.17
+        }
+      ],
+      "moves": [
+        {
+          "name": "Hyper Voice",
+          "pct": 100
+        },
+        {
+          "name": "Quick Attack",
+          "pct": 95.83
+        },
+        {
+          "name": "Hyper Beam",
+          "pct": 79.17
+        },
+        {
+          "name": "Detect",
+          "pct": 70.83
+        },
+        {
+          "name": "Protect",
+          "pct": 29.17
+        },
+        {
+          "name": "Moonblast",
+          "pct": 20.83
+        },
+        {
+          "name": "Psych Up",
+          "pct": 4.17
+        },
+        {
+          "name": "Pixilate",
+          "pct": 100
+        }
+      ],
+      "partners": [
+        {
+          "name": "Garchomp",
+          "pct": 79.17
+        },
+        {
+          "name": "Aerodactyl",
+          "pct": 70.83
+        },
+        {
+          "name": "Charizard",
+          "pct": 62.5
+        },
+        {
+          "name": "Kingambit",
+          "pct": 62.5
+        },
+        {
+          "name": "Basculegion",
+          "pct": 54.17
+        },
+        {
+          "name": "Farigiraf",
+          "pct": 41.67
+        },
+        {
+          "name": "Incineroar",
+          "pct": 29.17
+        },
+        {
+          "name": "Kangaskhan",
+          "pct": 16.67
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Dragonite",
+      "usage": 14.61,
+      "ability": "Multiscale",
+      "abilities": [
+        {
+          "name": "Multiscale",
+          "pct": 85.71
+        },
+        {
+          "name": "Inner Focus",
+          "pct": 14.29
+        }
+      ],
+      "item": "Dragoninite",
+      "items": [
+        {
+          "name": "Dragoninite",
+          "pct": 85.71
+        },
+        {
+          "name": "Dragon Fang",
+          "pct": 14.29
+        },
+        {
+          "name": "Protect",
+          "pct": 95.24
+        },
+        {
+          "name": "Dragon Pulse",
+          "pct": 80.95
+        },
+        {
+          "name": "Thunderbolt",
+          "pct": 57.14
+        },
+        {
+          "name": "Extreme Speed",
+          "pct": 28.57
+        },
+        {
+          "name": "Flamethrower",
+          "pct": 23.81
+        },
+        {
+          "name": "Hurricane",
+          "pct": 23.81
+        }
+      ],
+      "moves": [
+        {
+          "name": "Protect",
+          "pct": 95.24
+        },
+        {
+          "name": "Dragon Pulse",
+          "pct": 80.95
+        },
+        {
+          "name": "Thunderbolt",
+          "pct": 57.14
+        },
+        {
+          "name": "Extreme Speed",
+          "pct": 28.57
+        },
+        {
+          "name": "Flamethrower",
+          "pct": 23.81
+        },
+        {
+          "name": "Hurricane",
+          "pct": 23.81
+        },
+        {
+          "name": "Heat Wave",
+          "pct": 23.81
+        },
+        {
+          "name": "Air Slash",
+          "pct": 14.29
+        }
+      ],
+      "partners": [
+        {
+          "name": "Kingambit",
+          "pct": 80.95
+        },
+        {
+          "name": "Basculegion",
+          "pct": 76.19
+        },
+        {
+          "name": "Garchomp",
+          "pct": 61.9
+        },
+        {
+          "name": "Sneasler",
+          "pct": 52.38
+        },
+        {
+          "name": "Whimsicott",
+          "pct": 38.1
+        },
+        {
+          "name": "Charizard",
+          "pct": 38.1
+        },
+        {
+          "name": "Archaludon",
+          "pct": 23.81
+        },
+        {
+          "name": "Pelipper",
+          "pct": 19.05
+        }
+      ]
+    }
+  ],
+  "recentResults": [
+    {
+      "player": "Arsal Puri",
+      "title": "Indianapolis Regional Champion"
+    },
+    {
+      "player": "Nielsen",
+      "title": "VR May Challenge #5 Champion"
+    },
+    {
+      "player": "Jeongso Lee",
+      "title": "Trainers Cup Champion"
+    },
+    {
+      "player": "Krittapas Augchariyajinda",
+      "title": "Singapore Master Ball League Champion"
+    }
+  ],
+  "upcomingEvents": [],
+  "movements": [
+    {
+      "slug": "garchomp",
+      "name": "Garchomp",
+      "rank": 1,
+      "usage": 57.72,
+      "move": "stable"
+    },
+    {
+      "slug": "kingambit",
+      "name": "Kingambit",
+      "rank": 2,
+      "usage": 52.95,
+      "move": "stable"
+    },
+    {
+      "slug": "basculegion",
+      "name": "Basculegion",
+      "rank": 3,
+      "usage": 50.78,
+      "move": "stable"
+    },
+    {
+      "slug": "charizard",
+      "name": "Charizard",
+      "rank": 4,
+      "usage": 41.14,
+      "move": "stable"
+    },
+    {
+      "slug": "incineroar",
+      "name": "Incineroar",
+      "rank": 5,
+      "usage": 38.45,
+      "move": "stable"
+    },
+    {
+      "slug": "floette-eternal",
+      "name": "Eternal Flower Floette",
+      "rank": 6,
+      "usage": 35.65,
+      "move": "stable"
+    },
+    {
+      "slug": "sneasler",
+      "name": "Sneasler",
+      "rank": 7,
+      "usage": 33.26,
+      "move": "stable"
+    },
+    {
+      "slug": "sinistcha",
+      "name": "Sinistcha",
+      "rank": 8,
+      "usage": 25.18,
+      "move": "stable"
+    },
+    {
+      "slug": "whimsicott",
+      "name": "Whimsicott",
+      "rank": 9,
+      "usage": 23.83,
+      "move": "stable"
+    },
+    {
+      "slug": "aerodactyl",
+      "name": "Aerodactyl",
+      "rank": 10,
+      "usage": 19.69,
+      "move": "stable"
+    },
+    {
+      "slug": "sylveon",
+      "name": "Sylveon",
+      "rank": 11,
+      "usage": 16.68,
+      "move": "stable"
+    },
+    {
+      "slug": "dragonite",
+      "name": "Dragonite",
+      "rank": 12,
+      "usage": 14.61,
+      "move": "stable"
+    }
+  ],
+  "updatedAt": "2026-06-07T05:58:53.361Z"
+}
