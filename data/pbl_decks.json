@@ -1,248 +1,1206 @@
 {
   "arci-us": {
     "j2": [
-      {"n": "Mega Steelix Wimesir", "img": "1esSz-N8OJ_hq2zbqbBdPYibHrd2ex8J7"},
-      {"n": "Deck 2", "img": "11dGaI78Rzr3q-FTa-s2v9NF1du9byswZ"},
-      {"n": "Deck 3", "img": "1dpIZZ3IWSQZq9N872P-alE0CyWkkQv8p"},
-      {"n": "Deck 4", "img": "13zFZjHjtSQ5llgSJCDsUxgBipXyl_5Rh"},
-      {"n": "Deck 5", "img": "1qrVPWJnydNp8jMIZdoWzI1FoWmU9nxRp"},
-      {"n": "Deck 6", "img": "15KBlefNL9wTCzrBR229RJxVE8UKwDsGh"}
+      {
+        "n": "Mega Steelix Wimesir",
+        "img": "1esSz-N8OJ_hq2zbqbBdPYibHrd2ex8J7"
+      },
+      {
+        "n": "Deck 2",
+        "img": "11dGaI78Rzr3q-FTa-s2v9NF1du9byswZ"
+      },
+      {
+        "n": "Deck 3",
+        "img": "1dpIZZ3IWSQZq9N872P-alE0CyWkkQv8p"
+      },
+      {
+        "n": "Deck 4",
+        "img": "13zFZjHjtSQ5llgSJCDsUxgBipXyl_5Rh"
+      },
+      {
+        "n": "Deck 5",
+        "img": "1qrVPWJnydNp8jMIZdoWzI1FoWmU9nxRp"
+      },
+      {
+        "n": "Deck 6",
+        "img": "15KBlefNL9wTCzrBR229RJxVE8UKwDsGh"
+      }
     ],
     "j3": [
-      {"n": "Magnézone EX Ogerpon EX", "img": "1EDyq-15k16qeX_MKJgzgCZSoauD9lXZB"},
-      {"n": "Méga Jungko", "img": "1SpRsf07FKEJ2pJUBal-NWK8dyIwM7a6Z"},
-      {"n": "Méga Brasegali Morphéo", "img": "17GDxH3E0A1feaIAelaS3vmfLcaTN6unY"},
-      {"n": "Méga Lucario Toudoudou", "img": "1ctAWr81Kv57VYlv0QSAHWona23Utr0_7"},
-      {"n": "Méga Altaria Toudoudou", "img": "1v20EiTub-mfTf6EXlha942QwwHrBZMZk"},
-      {"n": "Suicune Glaivodo", "img": "1NZiI6X2aSmyPhGK6xE9o0AVlJeJWvIpV"}
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1EDyq-15k16qeX_MKJgzgCZSoauD9lXZB"
+      },
+      {
+        "n": "Méga Jungko",
+        "img": "1SpRsf07FKEJ2pJUBal-NWK8dyIwM7a6Z"
+      },
+      {
+        "n": "Méga Brasegali Morphéo",
+        "img": "17GDxH3E0A1feaIAelaS3vmfLcaTN6unY"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1ctAWr81Kv57VYlv0QSAHWona23Utr0_7"
+      },
+      {
+        "n": "Méga Altaria Toudoudou",
+        "img": "1v20EiTub-mfTf6EXlha942QwwHrBZMZk"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1NZiI6X2aSmyPhGK6xE9o0AVlJeJWvIpV"
+      }
     ],
     "j4": [
-      {"n": "Méga Lucario Kapoéra", "img": "1RE-QyF3l-D7xdcVxkkveBY7Yf8Me5evH"},
-      {"n": "Méga Absol Zoroark EX", "img": "1jjdGule7Uz2WIg8CmBmfZ4s8qGulWW-U"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "1XMVL0SIn5heieImwobQWVrJT7o8f6GB7"},
-      {"n": "Méga Jungko", "img": "1d5i7WedbRiC5ulH7GFyIV4RiJTKG7Q8y"},
-      {"n": "Méga Altaria Branshitrouye", "img": "19_3QnPVkmwO76wFvRe74NYUYNIR0PMSj"},
-      {"n": "Méga Brasegali Morphéo", "img": "1v_vGGS75G_ilV2sJV6pH3403UHm_soBB"}
+      {
+        "n": "Méga Lucario Kapoéra",
+        "img": "1RE-QyF3l-D7xdcVxkkveBY7Yf8Me5evH"
+      },
+      {
+        "n": "Méga Absol Zoroark EX",
+        "img": "1jjdGule7Uz2WIg8CmBmfZ4s8qGulWW-U"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1XMVL0SIn5heieImwobQWVrJT7o8f6GB7"
+      },
+      {
+        "n": "Méga Jungko",
+        "img": "1d5i7WedbRiC5ulH7GFyIV4RiJTKG7Q8y"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "19_3QnPVkmwO76wFvRe74NYUYNIR0PMSj"
+      },
+      {
+        "n": "Méga Brasegali Morphéo",
+        "img": "1v_vGGS75G_ilV2sJV6pH3403UHm_soBB"
+      }
     ],
     "j5": [
-      {"n": "Méga Altaria Amphinobi", "img": "1Q-ct6OgtJbH6bqB7V-DXoJt3DsKGVmEN"},
-      {"n": "Méga Jungko Mucuscule", "img": "1f3hQVGxBjbGhy0hfBbTur1Buv_5UEI_r"},
-      {"n": "Méga Absol Zoroark EX", "img": "1wR_V5_nK6ehDQGY0TnQjIZ90x0VW1qDL"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "15xzN2GiSzpvY8WsirYudugxPqt-vMHhk"},
-      {"n": "Méga Brasegali Morphéo", "img": "1QIsEvVrVv52_RG_e6MO4XTe_K7yIAuey"},
-      {"n": "Suicune Glaivodo", "img": "1SztGdi--gS9yo9LnZyM2CrPzSGcgguzE"}
+      {
+        "n": "Méga Altaria Amphinobi",
+        "img": "1Q-ct6OgtJbH6bqB7V-DXoJt3DsKGVmEN"
+      },
+      {
+        "n": "Méga Jungko Mucuscule",
+        "img": "1f3hQVGxBjbGhy0hfBbTur1Buv_5UEI_r"
+      },
+      {
+        "n": "Méga Absol Zoroark EX",
+        "img": "1wR_V5_nK6ehDQGY0TnQjIZ90x0VW1qDL"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "15xzN2GiSzpvY8WsirYudugxPqt-vMHhk"
+      },
+      {
+        "n": "Méga Brasegali Morphéo",
+        "img": "1QIsEvVrVv52_RG_e6MO4XTe_K7yIAuey"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1SztGdi--gS9yo9LnZyM2CrPzSGcgguzE"
+      }
     ],
     "j6": [
-      {"n": "Méga Jungko Mucuscule", "img": "1sRimbdyvSRqv-JLp5i7c9KG2wRKDpR9-"},
-      {"n": "Méga Lucario Kapoéra", "img": "1PAZTtptG6M1snV9tPd5AKrxDnYbQvCoE"},
-      {"n": "Méga Absol Zoroark EX", "img": "1damW0syxvqHLPU-PKoZSBTPgoax6qfUF"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "1sC2_DwDKxeQB_lRgTqWV4zjBGib3v0Rm"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1l9TRhn_6xvXZ6o3PokCrNegzlEqaRknX"},
-      {"n": "Suicune Glaivodo", "img": "1aMD8x3Ys2cVZMXR-dI2OZpDf1wDSSf0D"}
+      {
+        "n": "Méga Jungko Mucuscule",
+        "img": "1sRimbdyvSRqv-JLp5i7c9KG2wRKDpR9-"
+      },
+      {
+        "n": "Méga Lucario Kapoéra",
+        "img": "1PAZTtptG6M1snV9tPd5AKrxDnYbQvCoE"
+      },
+      {
+        "n": "Méga Absol Zoroark EX",
+        "img": "1damW0syxvqHLPU-PKoZSBTPgoax6qfUF"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1sC2_DwDKxeQB_lRgTqWV4zjBGib3v0Rm"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1l9TRhn_6xvXZ6o3PokCrNegzlEqaRknX"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1aMD8x3Ys2cVZMXR-dI2OZpDf1wDSSf0D"
+      }
     ],
     "j7": [
-      {"n": "Suicune Glaivodo", "img": "1_d-X79Lmyn7HmL5EMlPv7plxviV2ayCE"},
-      {"n": "Magnézone Miraidon EX", "img": "1CV5OfD2BF990OWxhdvLNifNQ5yfe9OYv"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "1IEkEgU9ftDilTCgWfBZb7QVll6OVCQ9_"},
-      {"n": "Méga Lucario Kapoéra", "img": "1j1ClLpCwyjGvR0vcnz8JchHFBK83iQfs"},
-      {"n": "Méga Juncko Mucuscule", "img": "1mISqn-elLAIqGIxmVKJ2eHLZQiiZb6kA"},
-      {"n": "Méga Altaria Toudoudou", "img": "1LPvq3766eeakydLAZSBdFG14EY0CO-9F"}
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1_d-X79Lmyn7HmL5EMlPv7plxviV2ayCE"
+      },
+      {
+        "n": "Magnézone Miraidon EX",
+        "img": "1CV5OfD2BF990OWxhdvLNifNQ5yfe9OYv"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1IEkEgU9ftDilTCgWfBZb7QVll6OVCQ9_"
+      },
+      {
+        "n": "Méga Lucario Kapoéra",
+        "img": "1j1ClLpCwyjGvR0vcnz8JchHFBK83iQfs"
+      },
+      {
+        "n": "Méga Juncko Mucuscule",
+        "img": "1mISqn-elLAIqGIxmVKJ2eHLZQiiZb6kA"
+      },
+      {
+        "n": "Méga Altaria Toudoudou",
+        "img": "1LPvq3766eeakydLAZSBdFG14EY0CO-9F"
+      }
     ]
   },
   "team-speed-millenium": {
     "j2": [
-      {"n": "Deck 1", "img": "1F2HB0ygJMYf30DGm-VRMPtiAD5v2Zk98"},
-      {"n": "Deck 2", "img": "1IwbqEs05Ve-jwl8UGHmlYCyQbpQA2zFW"},
-      {"n": "Deck 3", "img": "1RdYuLYwmf83kNkGsJlSLOeHhpaWkpYVw"},
-      {"n": "Deck 4", "img": "1gdb3HBLeiCnIWxcDmqvazhYZ-m5qdVcN"},
-      {"n": "Deck 5", "img": "1iw4cxQFU8xSXjDuov16dZcqybOAAbBGG"},
-      {"n": "Deck 6", "img": "1jpJBOiNVBlybjlL0IrqTJaE_HlOXmCpW"}
+      {
+        "n": "Deck 1",
+        "img": "1F2HB0ygJMYf30DGm-VRMPtiAD5v2Zk98"
+      },
+      {
+        "n": "Deck 2",
+        "img": "1IwbqEs05Ve-jwl8UGHmlYCyQbpQA2zFW"
+      },
+      {
+        "n": "Deck 3",
+        "img": "1RdYuLYwmf83kNkGsJlSLOeHhpaWkpYVw"
+      },
+      {
+        "n": "Deck 4",
+        "img": "1gdb3HBLeiCnIWxcDmqvazhYZ-m5qdVcN"
+      },
+      {
+        "n": "Deck 5",
+        "img": "1iw4cxQFU8xSXjDuov16dZcqybOAAbBGG"
+      },
+      {
+        "n": "Deck 6",
+        "img": "1jpJBOiNVBlybjlL0IrqTJaE_HlOXmCpW"
+      }
     ],
     "j3": [
-      {"n": "Méga Absol Trioxyde", "img": "1iEsetru2wFfY__TB-PtJa--wOJQqzFle"},
-      {"n": "Magnézone Ogerpon EX", "img": "1i_1C1A_0nN6Le64TDakimCOWv0uZc5N_"},
-      {"n": "Méga Elecsprint Zéraora", "img": "1nI8DwejW_v1_S0wPgBZR08YgOW9jHFtc"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1C-BrhMGqBaPm8FUDcjWzu1dqtVskrjll"},
-      {"n": "Méga Lucario Toudoudou", "img": "1CJrli2n4gYOzwNhOiQZxFrOnwHYvquRQ"},
-      {"n": "Méga Juncko", "img": "1df6ywm9wje92wsr5gAuHeMeMgP2c5XyN"}
+      {
+        "n": "Méga Absol Trioxyde",
+        "img": "1iEsetru2wFfY__TB-PtJa--wOJQqzFle"
+      },
+      {
+        "n": "Magnézone Ogerpon EX",
+        "img": "1i_1C1A_0nN6Le64TDakimCOWv0uZc5N_"
+      },
+      {
+        "n": "Méga Elecsprint Zéraora",
+        "img": "1nI8DwejW_v1_S0wPgBZR08YgOW9jHFtc"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1C-BrhMGqBaPm8FUDcjWzu1dqtVskrjll"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1CJrli2n4gYOzwNhOiQZxFrOnwHYvquRQ"
+      },
+      {
+        "n": "Méga Juncko",
+        "img": "1df6ywm9wje92wsr5gAuHeMeMgP2c5XyN"
+      }
     ],
     "j5": [
-      {"n": "Suicune Glaivodo", "img": "1JFMuf0PFoIeJtstx6CgtRGaqKFtY3voG"},
-      {"n": "Méga Absol Trioxyde", "img": "1wqB9fRw7Hi5B8K8j8_D7rZv_5oi23wCA"},
-      {"n": "Méga Lucario Toudoudou", "img": "1YHwZYxN0sJYtIlRQpEjQWH6mdrLwjPeo"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "1tF85_N-AJDMuyipjq4nHqMIgGoOK28Uc"},
-      {"n": "Méga Jungko Korillon", "img": "1kRxjzyZpaSPyc58nhv0OzJVXlinPys0M"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1HFGC3Maf_uYhNsaCCnYjELsJt6Wo8pwp"}
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1JFMuf0PFoIeJtstx6CgtRGaqKFtY3voG"
+      },
+      {
+        "n": "Méga Absol Trioxyde",
+        "img": "1wqB9fRw7Hi5B8K8j8_D7rZv_5oi23wCA"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1YHwZYxN0sJYtIlRQpEjQWH6mdrLwjPeo"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1tF85_N-AJDMuyipjq4nHqMIgGoOK28Uc"
+      },
+      {
+        "n": "Méga Jungko Korillon",
+        "img": "1kRxjzyZpaSPyc58nhv0OzJVXlinPys0M"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1HFGC3Maf_uYhNsaCCnYjELsJt6Wo8pwp"
+      }
     ],
     "j7": [
-      {"n": "Méga Jungko Korillon", "img": "1yz9nnc9H6FeQuwGpqQv9K02nKgW1u3Nk"},
-      {"n": "Méga Altaria Branshitrouye", "img": "13VI_clNw2rA82HsbD4lUgSqJJEoXITOu"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "12pSfXxoLlZ2L_ZVKYQs2LeBC1OiEI2ov"},
-      {"n": "Suicune Glaivodo", "img": "1B4S_c8SmVYQxjC84EhzyiWU4XYUYuaTJ"},
-      {"n": "Miraidon EX Magnézone", "img": "1yDFs_T54Vh6kh28t9FZZQ0UwZ8LxJ-DJ"},
-      {"n": "Méga Brasegali Amphinobi", "img": "1U5Ecrkj-ZbMn8t4Ka_jzXk7KP-Iz6x7o"}
+      {
+        "n": "Méga Jungko Korillon",
+        "img": "1yz9nnc9H6FeQuwGpqQv9K02nKgW1u3Nk"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "13VI_clNw2rA82HsbD4lUgSqJJEoXITOu"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "12pSfXxoLlZ2L_ZVKYQs2LeBC1OiEI2ov"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1B4S_c8SmVYQxjC84EhzyiWU4XYUYuaTJ"
+      },
+      {
+        "n": "Miraidon EX Magnézone",
+        "img": "1yDFs_T54Vh6kh28t9FZZQ0UwZ8LxJ-DJ"
+      },
+      {
+        "n": "Méga Brasegali Amphinobi",
+        "img": "1U5Ecrkj-ZbMn8t4Ka_jzXk7KP-Iz6x7o"
+      }
     ]
   },
   "imperium-alpha": {
     "j2": [
-      {"n": "Deck 1", "img": "18dhEF0z36J7ZeKtSExfhLgP1vjhj9iS9"},
-      {"n": "Deck 2", "img": "1iYa8Lf8Lg3iS1IE39KN8iMA1jXFYkq10"},
-      {"n": "Deck 3", "img": "1bFQE2ekuDARkrfWd2ccyuDpN5-R3INjH"},
-      {"n": "Deck 4", "img": "1IayJxL9Tpx5QnVcNGfP3j-J0YHUWewFz"},
-      {"n": "Deck 5", "img": "1nH5tbJw2LMfgZw5Fv5EsYI1zG_kwZPj6"},
-      {"n": "Deck 6", "img": "1jboFoBL0j-hYtc-FMi_slFvnA1ExYGVz"}
+      {
+        "n": "Deck 1",
+        "img": "18dhEF0z36J7ZeKtSExfhLgP1vjhj9iS9"
+      },
+      {
+        "n": "Deck 2",
+        "img": "1iYa8Lf8Lg3iS1IE39KN8iMA1jXFYkq10"
+      },
+      {
+        "n": "Deck 3",
+        "img": "1bFQE2ekuDARkrfWd2ccyuDpN5-R3INjH"
+      },
+      {
+        "n": "Deck 4",
+        "img": "1IayJxL9Tpx5QnVcNGfP3j-J0YHUWewFz"
+      },
+      {
+        "n": "Deck 5",
+        "img": "1nH5tbJw2LMfgZw5Fv5EsYI1zG_kwZPj6"
+      },
+      {
+        "n": "Deck 6",
+        "img": "1jboFoBL0j-hYtc-FMi_slFvnA1ExYGVz"
+      }
     ],
     "j3": [
-      {"n": "Magnézone EX Ogerpon EX", "img": "1pBkxyAZBSIOk9ZSp3I0k0SLCC0IiyO_W"},
-      {"n": "Méga Lucario Toudoudou", "img": "1Pb3aKYHOJQ88BVyVxXlpZVRREoD76MMh"},
-      {"n": "Méga Jungko", "img": "1LkH1DPRRqSjs2sy9wn0z0j5cvOpGMIE7"},
-      {"n": "Méga Absol Trioxyde", "img": "12dRzQL6yid7eKlrBzhb6GXMOlJ6JQv-B"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1Gnos8En39lg0RhsT5ZyZTcJREQbCCzJ1"},
-      {"n": "Méga Brasegali Morphéo", "img": "1rDWwCWgonCwTcNrds4rhRdkxtveF0yVA"}
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1pBkxyAZBSIOk9ZSp3I0k0SLCC0IiyO_W"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1Pb3aKYHOJQ88BVyVxXlpZVRREoD76MMh"
+      },
+      {
+        "n": "Méga Jungko",
+        "img": "1LkH1DPRRqSjs2sy9wn0z0j5cvOpGMIE7"
+      },
+      {
+        "n": "Méga Absol Trioxyde",
+        "img": "12dRzQL6yid7eKlrBzhb6GXMOlJ6JQv-B"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1Gnos8En39lg0RhsT5ZyZTcJREQbCCzJ1"
+      },
+      {
+        "n": "Méga Brasegali Morphéo",
+        "img": "1rDWwCWgonCwTcNrds4rhRdkxtveF0yVA"
+      }
     ],
     "j4": [
-      {"n": "Magnézone EX Ogerpon EX", "img": "1vSPow8eHaJZJs3gGJEuwX-WWbTiddY3r"},
-      {"n": "Méga Lucario Toudoudou", "img": "1bJQhszLM2U1VKRxPRTzeBaW8A9DqnLMY"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1JzAS4FCxYOWrsFb5aur-C6t75E8g2MR0"},
-      {"n": "Méga Jungko", "img": "1xRJjI5UfjgYdZPY-d41k7VInqxGoSlyX"},
-      {"n": "Méga Absol Trioxyde", "img": "1j-cp9sOqIaQc14hbCsV8nIPVE08MC5nV"},
-      {"n": "Darkrai EX Giratina EX", "img": "1PXURLBtzbFe2DofwAZihSGXoYd_mt-wm"}
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1vSPow8eHaJZJs3gGJEuwX-WWbTiddY3r"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1bJQhszLM2U1VKRxPRTzeBaW8A9DqnLMY"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1JzAS4FCxYOWrsFb5aur-C6t75E8g2MR0"
+      },
+      {
+        "n": "Méga Jungko",
+        "img": "1xRJjI5UfjgYdZPY-d41k7VInqxGoSlyX"
+      },
+      {
+        "n": "Méga Absol Trioxyde",
+        "img": "1j-cp9sOqIaQc14hbCsV8nIPVE08MC5nV"
+      },
+      {
+        "n": "Darkrai EX Giratina EX",
+        "img": "1PXURLBtzbFe2DofwAZihSGXoYd_mt-wm"
+      }
     ],
     "j5": [
-      {"n": "Magnézone EX Ogerpon EX", "img": "10UuA3kHbDShNS6RHRliB9LCeaZ2wIWqy"},
-      {"n": "Méga Lucario Toudoudou", "img": "1vgqyufeqzPDrAD3_og4Sois0lQbQIpS2"},
-      {"n": "Méga Jungko Mucuscule", "img": "1Bj3zMOquQIu5stfv2A_-oUcYyIlKsavs"},
-      {"n": "Méga Altaria Branshitrouye", "img": "10rI8HaOz7X0M7yU5LIyA9qCyatEcboxO"},
-      {"n": "Méga Absol Zoroark EX", "img": "16jAGey_Ee4dyMAWQTlFmSJkKnxPWmNCF"},
-      {"n": "Suicune Glaivodo", "img": "1UjOnokkrEEOr3rhsfLbc78kWiOAv5Nfe"}
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "10UuA3kHbDShNS6RHRliB9LCeaZ2wIWqy"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1vgqyufeqzPDrAD3_og4Sois0lQbQIpS2"
+      },
+      {
+        "n": "Méga Jungko Mucuscule",
+        "img": "1Bj3zMOquQIu5stfv2A_-oUcYyIlKsavs"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "10rI8HaOz7X0M7yU5LIyA9qCyatEcboxO"
+      },
+      {
+        "n": "Méga Absol Zoroark EX",
+        "img": "16jAGey_Ee4dyMAWQTlFmSJkKnxPWmNCF"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1UjOnokkrEEOr3rhsfLbc78kWiOAv5Nfe"
+      }
     ],
     "j6": [
-      {"n": "Méga Jungko", "img": "1Zi-oXL9xO-yqrWoiMxWBfSPpZasZ9b-_"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "12j3VUy2nOTtA2N9TbLlK3A7c189uzM7P"},
-      {"n": "Méga Lucario Toudoudou", "img": "1M2SGLVYG-1ojytqnMmjhwBeW_37sPiRB"},
-      {"n": "Méga Absol Trioxyde", "img": "16110VaHsGbO8jk03v9ObSzMg5Bsh_1et"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1xJnIWGVqSzboPe2sM17TYH5PLDy9J6dd"},
-      {"n": "Suicune Glaivodo", "img": "1U4ulzq8eHWuqEr3jbFm5wlxh1go5xmZn"}
+      {
+        "n": "Méga Jungko",
+        "img": "1Zi-oXL9xO-yqrWoiMxWBfSPpZasZ9b-_"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "12j3VUy2nOTtA2N9TbLlK3A7c189uzM7P"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1M2SGLVYG-1ojytqnMmjhwBeW_37sPiRB"
+      },
+      {
+        "n": "Méga Absol Trioxyde",
+        "img": "16110VaHsGbO8jk03v9ObSzMg5Bsh_1et"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1xJnIWGVqSzboPe2sM17TYH5PLDy9J6dd"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1U4ulzq8eHWuqEr3jbFm5wlxh1go5xmZn"
+      }
     ],
     "j7": [
-      {"n": "Magnézone EX Ogerpon EX", "img": "1sFcVB4739SRQUGPLHMVF0T-uD7smnQbL"},
-      {"n": "Miraidon EX Magnézone", "img": "1jTgwZFhRKg8x9dwX1dNne_w2iVX9mPY2"},
-      {"n": "Suicune Glaivodo", "img": "1ZUjkwuJPxgiiyA53xGgH8-Y7b2LsZO4Q"},
-      {"n": "Méga Brasegali Morphéo", "img": "1RSJDVDGv2zm_gTbQvZWT1hMiSXwPQOEX"},
-      {"n": "Méga Absol Trioxyde", "img": "1-de6uYs60Y46PG7G_J6tWjIEYoySj_oq"},
-      {"n": "Méga Altaria Toudoudou", "img": "1FuV1q7qURbMx_q9USaLNjI_MZSP5qXph"}
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1sFcVB4739SRQUGPLHMVF0T-uD7smnQbL"
+      },
+      {
+        "n": "Miraidon EX Magnézone",
+        "img": "1jTgwZFhRKg8x9dwX1dNne_w2iVX9mPY2"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1ZUjkwuJPxgiiyA53xGgH8-Y7b2LsZO4Q"
+      },
+      {
+        "n": "Méga Brasegali Morphéo",
+        "img": "1RSJDVDGv2zm_gTbQvZWT1hMiSXwPQOEX"
+      },
+      {
+        "n": "Méga Absol Trioxyde",
+        "img": "1-de6uYs60Y46PG7G_J6tWjIEYoySj_oq"
+      },
+      {
+        "n": "Méga Altaria Toudoudou",
+        "img": "1FuV1q7qURbMx_q9USaLNjI_MZSP5qXph"
+      }
     ]
   },
   "tier-baguette": {
     "j2": [
-      {"n": "Deck 1", "img": "1BHWI7h7gmJEY7RMmNtQzuVS-2t1DDt-A"},
-      {"n": "Deck 2", "img": "19OXu2g1QEr8Raxa0egw_w_aflz-kaw6H"},
-      {"n": "Deck 3", "img": "13A1B5LVyDvwtnfR0OdHSKSVKasnCD5SX"},
-      {"n": "Deck 4", "img": "1Hl9Sj5vdOa7RaSDkS3oJF1Hj77WxeE0n"},
-      {"n": "Deck 5", "img": "16Pm2C9jyBaisbr90FfU4yxCAMfskn-9B"},
-      {"n": "Deck 6", "img": "1G3VwkPK1Sa5A-T2u5E_fWJ44bwyXFQty"}
+      {
+        "n": "Deck 1",
+        "img": "1BHWI7h7gmJEY7RMmNtQzuVS-2t1DDt-A"
+      },
+      {
+        "n": "Deck 2",
+        "img": "19OXu2g1QEr8Raxa0egw_w_aflz-kaw6H"
+      },
+      {
+        "n": "Deck 3",
+        "img": "13A1B5LVyDvwtnfR0OdHSKSVKasnCD5SX"
+      },
+      {
+        "n": "Deck 4",
+        "img": "1Hl9Sj5vdOa7RaSDkS3oJF1Hj77WxeE0n"
+      },
+      {
+        "n": "Deck 5",
+        "img": "16Pm2C9jyBaisbr90FfU4yxCAMfskn-9B"
+      },
+      {
+        "n": "Deck 6",
+        "img": "1G3VwkPK1Sa5A-T2u5E_fWJ44bwyXFQty"
+      }
     ],
     "j3": [
-      {"n": "Suicune Glaivodo", "img": "17UEgO6b5zLgiMmUr9YR34TPDMg-hGDXW"},
-      {"n": "Méga Steelix Wimesir EX", "img": "10CnZGjPdhSFUptRmQLjhIOlkfwgICQdq"},
-      {"n": "Méga Jungko", "img": "1PCZuwB5jv5GSTTXNOXQHT_CnjAXNIOVC"},
-      {"n": "Méga Brasegali Morphéo", "img": "1cB-zgohSpwIjveisnsIGc-kXBkQf2b7P"},
-      {"n": "Méga Lucario Toudoudou", "img": "1iU-k-EYX2V2VJJvd7Wfup-5PwiVapfhv"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "1u0-de44Uy86Raz_N4cRysNFkfXzSoYCM"}
+      {
+        "n": "Suicune Glaivodo",
+        "img": "17UEgO6b5zLgiMmUr9YR34TPDMg-hGDXW"
+      },
+      {
+        "n": "Méga Steelix Wimesir EX",
+        "img": "10CnZGjPdhSFUptRmQLjhIOlkfwgICQdq"
+      },
+      {
+        "n": "Méga Jungko",
+        "img": "1PCZuwB5jv5GSTTXNOXQHT_CnjAXNIOVC"
+      },
+      {
+        "n": "Méga Brasegali Morphéo",
+        "img": "1cB-zgohSpwIjveisnsIGc-kXBkQf2b7P"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1iU-k-EYX2V2VJJvd7Wfup-5PwiVapfhv"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1u0-de44Uy86Raz_N4cRysNFkfXzSoYCM"
+      }
     ],
     "j4": [
-      {"n": "Suicune Glaivodo", "img": "1AQIWOTC6ZAaUG4XusOINnfybY52o3_QT"},
-      {"n": "Méga Steelix Wimesir EX", "img": "1c6nwAuYT_QDs2NL_KuPqmxG5xJxSq5FB"},
-      {"n": "Méga Jungko", "img": "1hDwL3VXbgU61J1A48yZ1KeFlVkQ5c6D5"},
-      {"n": "Méga Lucario Toudoudou", "img": "16gIU9QPK5cM5i5XcXMg7Jr-gpA8EZGeX"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "14ZgfE4g0rkXajLbaqpQLPkT3dfb-auOW"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1b4jD-k_hz-70ul5RZcPqnFQpGRylNrU_"}
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1AQIWOTC6ZAaUG4XusOINnfybY52o3_QT"
+      },
+      {
+        "n": "Méga Steelix Wimesir EX",
+        "img": "1c6nwAuYT_QDs2NL_KuPqmxG5xJxSq5FB"
+      },
+      {
+        "n": "Méga Jungko",
+        "img": "1hDwL3VXbgU61J1A48yZ1KeFlVkQ5c6D5"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "16gIU9QPK5cM5i5XcXMg7Jr-gpA8EZGeX"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "14ZgfE4g0rkXajLbaqpQLPkT3dfb-auOW"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1b4jD-k_hz-70ul5RZcPqnFQpGRylNrU_"
+      }
     ],
     "j5": [
-      {"n": "Méga Elecsprint Zéraora", "img": "1IRIHyowDEA0LmfcD4KLCwxReP5NP9hH0"},
-      {"n": "Suicune Glaivodo", "img": "1GSDFcwS1uUC1yMzFjy3hxcm9G-g2Fdkf"},
-      {"n": "Méga Jungko Mucuscule", "img": "18qTcwKOaavsJCgNkT2RnV_e1bceyYI0R"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "1VHcx84sH1ByP7MHzUk7EKGUqxJ2L_yDb"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1Vd_JRKqY9C6CBZJDYaGouHvAd663uMRB"},
-      {"n": "Méga Lucario Kapoéra", "img": "14Mqq_h8W8WEsnQfISZ2FLGtiahRZuiNl"}
+      {
+        "n": "Méga Elecsprint Zéraora",
+        "img": "1IRIHyowDEA0LmfcD4KLCwxReP5NP9hH0"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1GSDFcwS1uUC1yMzFjy3hxcm9G-g2Fdkf"
+      },
+      {
+        "n": "Méga Jungko Mucuscule",
+        "img": "18qTcwKOaavsJCgNkT2RnV_e1bceyYI0R"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1VHcx84sH1ByP7MHzUk7EKGUqxJ2L_yDb"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1Vd_JRKqY9C6CBZJDYaGouHvAd663uMRB"
+      },
+      {
+        "n": "Méga Lucario Kapoéra",
+        "img": "14Mqq_h8W8WEsnQfISZ2FLGtiahRZuiNl"
+      }
     ],
     "j6": [
-      {"n": "Méga Elecsprint Zeraora", "img": "1TNcHcFD5zri9wvOiVz6uy6QRR8PnvDIK"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1S3e2GdDxZsJY8SVljL3Dx3D5J0AX6XKR"},
-      {"n": "Méga Lucario Zygarde", "img": "1FNoTkzySPBfPCyI6NyQiQ_GsLYsrhjik"},
-      {"n": "Méga Jungko Korillon", "img": "1atOasMUAprySisbo194WXVRclS3n3V6A"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "1eKNjolepaPtkWcHDdkhWjq0UenyPSrey"},
-      {"n": "Suicune Glaivodo", "img": "1Y3a3hBygHHcx01KplXSiZuQuzvg-ku0R"}
+      {
+        "n": "Méga Elecsprint Zeraora",
+        "img": "1TNcHcFD5zri9wvOiVz6uy6QRR8PnvDIK"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1S3e2GdDxZsJY8SVljL3Dx3D5J0AX6XKR"
+      },
+      {
+        "n": "Méga Lucario Zygarde",
+        "img": "1FNoTkzySPBfPCyI6NyQiQ_GsLYsrhjik"
+      },
+      {
+        "n": "Méga Jungko Korillon",
+        "img": "1atOasMUAprySisbo194WXVRclS3n3V6A"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1eKNjolepaPtkWcHDdkhWjq0UenyPSrey"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1Y3a3hBygHHcx01KplXSiZuQuzvg-ku0R"
+      }
     ],
     "j7": [
-      {"n": "Suicune Glaivodo", "img": "1Dg8h1XI5pdg6d7y2fgMQmExJjKGaOc1F"},
-      {"n": "Méga Altaria Branshitrouye", "img": "10Fc0XEWsFCnl54AA6gr_RxTndFfoadbX"},
-      {"n": "L'équipe de FER", "img": "1Qo5ZEjhQZzAsgcOCINphZ2BKACQxVZHU"},
-      {"n": "Méga Absol Zoroark EX", "img": "1ZWr6-xeFmNwIYibphvm9lGd52wOdV-I1"},
-      {"n": "Méga Jungko Ogerpon EX", "img": "1rdSDgK8pDCuEnNU22GBXWtnqTukBs_fS"},
-      {"n": "Miraidon EX Magnézone", "img": "1_wkjHnJoMI-K4EsCYUu3wRzMpDjoaVhx"}
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1Dg8h1XI5pdg6d7y2fgMQmExJjKGaOc1F"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "10Fc0XEWsFCnl54AA6gr_RxTndFfoadbX"
+      },
+      {
+        "n": "L'équipe de FER",
+        "img": "1Qo5ZEjhQZzAsgcOCINphZ2BKACQxVZHU"
+      },
+      {
+        "n": "Méga Absol Zoroark EX",
+        "img": "1ZWr6-xeFmNwIYibphvm9lGd52wOdV-I1"
+      },
+      {
+        "n": "Méga Jungko Ogerpon EX",
+        "img": "1rdSDgK8pDCuEnNU22GBXWtnqTukBs_fS"
+      },
+      {
+        "n": "Miraidon EX Magnézone",
+        "img": "1_wkjHnJoMI-K4EsCYUu3wRzMpDjoaVhx"
+      }
     ]
   },
   "frogex": {
     "j3": [
-      {"n": "Suicune Glaivodo", "img": "1KE0AE9kah-MhkUjlW7Avko4LS4ds2a4e"},
-      {"n": "Méga Jungko", "img": "18Gt7hcHvbJSmN8fu-Zl4GhHyXUletryk"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "1YyU0AAjsAo6XJ3Ba5dUKd32REPMiMB4I"},
-      {"n": "Méga Lucario Toudoudou", "img": "1xLWsQWdrXtnDYwNjK9jg1gQII_S_DbDD"},
-      {"n": "Méga Absol Trioxyde", "img": "1of5gobGdfJCR7cr2BO48ThjBT5kexExj"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1w2yH-5y3hR3tMYwEk8FmhD2xj1wt38HX"}
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1KE0AE9kah-MhkUjlW7Avko4LS4ds2a4e"
+      },
+      {
+        "n": "Méga Jungko",
+        "img": "18Gt7hcHvbJSmN8fu-Zl4GhHyXUletryk"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1YyU0AAjsAo6XJ3Ba5dUKd32REPMiMB4I"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1xLWsQWdrXtnDYwNjK9jg1gQII_S_DbDD"
+      },
+      {
+        "n": "Méga Absol Trioxyde",
+        "img": "1of5gobGdfJCR7cr2BO48ThjBT5kexExj"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1w2yH-5y3hR3tMYwEk8FmhD2xj1wt38HX"
+      }
     ],
     "j6": [
-      {"n": "Darkrai EX Giratina EX", "img": "16iZHy5nFOHDHUxZL8ED9J45nzNz4f27_"},
-      {"n": "Méga Altaria Amphinobi", "img": "1vmZMtbNZYXnqlG49zNWu5Z5kgGw8Dyna"},
-      {"n": "Suicune Glaivodo", "img": "1GhBQnarI7HGrJcxVXBLAlbouMRPb9qoH"},
-      {"n": "Méga Elecsprint Zeraora", "img": "14pw-SwxvBTptb0TsuQUn0VKUFeJR5jgK"},
-      {"n": "Magnézone EX Ogerpon EX", "img": "13qtK_ZhRwoVpBUiZiSjGJqTDVCobCfZ-"},
-      {"n": "Méga Jungko Korillon", "img": "1V9eP8Eoc75v_5yNY4PmSzx-Npho-Zg8u"}
+      {
+        "n": "Darkrai EX Giratina EX",
+        "img": "16iZHy5nFOHDHUxZL8ED9J45nzNz4f27_"
+      },
+      {
+        "n": "Méga Altaria Amphinobi",
+        "img": "1vmZMtbNZYXnqlG49zNWu5Z5kgGw8Dyna"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1GhBQnarI7HGrJcxVXBLAlbouMRPb9qoH"
+      },
+      {
+        "n": "Méga Elecsprint Zeraora",
+        "img": "14pw-SwxvBTptb0TsuQUn0VKUFeJR5jgK"
+      },
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "13qtK_ZhRwoVpBUiZiSjGJqTDVCobCfZ-"
+      },
+      {
+        "n": "Méga Jungko Korillon",
+        "img": "1V9eP8Eoc75v_5yNY4PmSzx-Npho-Zg8u"
+      }
     ]
   },
   "xtrem-platine": {
     "j3": [
-      {"n": "Méga Juncko", "img": "1ZfoUZl-UIgx3_EDYiHXgKGAsiHqgfeeE"},
-      {"n": "Méga Altaria Amphinobi", "img": "16mZ55u7lxmYhPyiFpSaxs0PnoC4kokeN"},
-      {"n": "Méga Brasegali Morphéo", "img": "1VaIzl2-plt8eDFrobULWdRLa52t7utOq"},
-      {"n": "Méga Absol Amphinobi", "img": "12aXtQB6fzmEspPw5xXWp2qZ40tL8U1Lc"},
-      {"n": "Méga Lucario Toudoudou", "img": "17aAZiWYaw-LYznQ8rML_6QnDVQ4naD2u"},
-      {"n": "Feunard D'Alola EX Colomar", "img": "1ey88IVzdbHk3mG3qOcu2ut8xUJpuO0Hd"}
+      {
+        "n": "Méga Juncko",
+        "img": "1ZfoUZl-UIgx3_EDYiHXgKGAsiHqgfeeE"
+      },
+      {
+        "n": "Méga Altaria Amphinobi",
+        "img": "16mZ55u7lxmYhPyiFpSaxs0PnoC4kokeN"
+      },
+      {
+        "n": "Méga Brasegali Morphéo",
+        "img": "1VaIzl2-plt8eDFrobULWdRLa52t7utOq"
+      },
+      {
+        "n": "Méga Absol Amphinobi",
+        "img": "12aXtQB6fzmEspPw5xXWp2qZ40tL8U1Lc"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "17aAZiWYaw-LYznQ8rML_6QnDVQ4naD2u"
+      },
+      {
+        "n": "Feunard D'Alola EX Colomar",
+        "img": "1ey88IVzdbHk3mG3qOcu2ut8xUJpuO0Hd"
+      }
     ],
     "j5": [
-      {"n": "Méga Elecsprint Zéraora", "img": "1tCUwKcbF8nWjrdJ8EsVndo6Hmxoun8mA"},
-      {"n": "Méga Lucario Amphinobi", "img": "1EXBK12_z0gCqbotXXP4RuHj6N9bDOuiE"},
-      {"n": "Méga Juncko Mucuscule", "img": "1Kwbwa7Hk2FhKK4ryMHFiPz5N4kFyP32U"},
-      {"n": "Méga Dracaufeu Y Entei", "img": "1HruGlnmzFGTBR6GZTTpm42JK_3-7PEIW"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1w4ot2CFhjJP-iugJPe6sm-2vfVgcRBHP"},
-      {"n": "Feunard D'Alola Colomar", "img": "19HvNQaVhQGGYRyAqvm315Iy_EMiKmMtv"}
+      {
+        "n": "Méga Elecsprint Zéraora",
+        "img": "1tCUwKcbF8nWjrdJ8EsVndo6Hmxoun8mA"
+      },
+      {
+        "n": "Méga Lucario Amphinobi",
+        "img": "1EXBK12_z0gCqbotXXP4RuHj6N9bDOuiE"
+      },
+      {
+        "n": "Méga Juncko Mucuscule",
+        "img": "1Kwbwa7Hk2FhKK4ryMHFiPz5N4kFyP32U"
+      },
+      {
+        "n": "Méga Dracaufeu Y Entei",
+        "img": "1HruGlnmzFGTBR6GZTTpm42JK_3-7PEIW"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1w4ot2CFhjJP-iugJPe6sm-2vfVgcRBHP"
+      },
+      {
+        "n": "Feunard D'Alola Colomar",
+        "img": "19HvNQaVhQGGYRyAqvm315Iy_EMiKmMtv"
+      }
     ],
     "j6": [
-      {"n": "Magnézone EX Ogerpon EX", "img": "1iWlu_pFaocqJb8CHzl2IauxYotwcHUYp"},
-      {"n": "Méga Lucario Toudoudou", "img": "1Ku7YQdLBrUb24CzBaT_CocjDsLvkSQNg"},
-      {"n": "Méga Elecsprint Zeraora", "img": "17TqrZ8odrcwxtet71h-ZG5dY1Rptt6Bi"},
-      {"n": "Méga Altaria Branshitrouye", "img": "1iWBdFBxTqrz4KS9pJdykNohcCEDkvbZC"},
-      {"n": "Suicune Glaivodo", "img": "1v6GkHZGUTEF5WvDvYtjyn6LU0R_XYqnq"},
-      {"n": "Méga Jungko Mucuscule", "img": "1zzUHr7gTiy-k1Q-7iIFqSaDLtgLH01r3"}
+      {
+        "n": "Magnézone EX Ogerpon EX",
+        "img": "1iWlu_pFaocqJb8CHzl2IauxYotwcHUYp"
+      },
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1Ku7YQdLBrUb24CzBaT_CocjDsLvkSQNg"
+      },
+      {
+        "n": "Méga Elecsprint Zeraora",
+        "img": "17TqrZ8odrcwxtet71h-ZG5dY1Rptt6Bi"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1iWBdFBxTqrz4KS9pJdykNohcCEDkvbZC"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1v6GkHZGUTEF5WvDvYtjyn6LU0R_XYqnq"
+      },
+      {
+        "n": "Méga Jungko Mucuscule",
+        "img": "1zzUHr7gTiy-k1Q-7iIFqSaDLtgLH01r3"
+      }
     ],
     "j7": [
-      {"n": "Méga Lucario Toudoudou", "img": "1av4v5pIeRf26IPqCY9IMDaATJwBgca5_"},
-      {"n": "Suicune Glaivodo", "img": "1nnz5CUIqecne-J3cI5OCOhPvvJ-Gw73-"},
-      {"n": "Flotte Mèche EX Amphinobi", "img": "1WcOv2lbsMjhjS2XpY3IDgAj3yFzI9eC1"},
-      {"n": "Méga Altaria Mentali", "img": "1NlC2PK6J0RXAXXHWhXjtoFntwhNPl4rh"},
-      {"n": "Magnézone Miraidon EX", "img": "1qSb20JObS4tfihM5Uw4Z9B1qLxvCkTvg"},
-      {"n": "Méga Juncko Ogerpon EX", "img": "1zMTQPTHeJjp7VNulxicrrl823ypIY7EN"}
+      {
+        "n": "Méga Lucario Toudoudou",
+        "img": "1av4v5pIeRf26IPqCY9IMDaATJwBgca5_"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1nnz5CUIqecne-J3cI5OCOhPvvJ-Gw73-"
+      },
+      {
+        "n": "Flotte Mèche EX Amphinobi",
+        "img": "1WcOv2lbsMjhjS2XpY3IDgAj3yFzI9eC1"
+      },
+      {
+        "n": "Méga Altaria Mentali",
+        "img": "1NlC2PK6J0RXAXXHWhXjtoFntwhNPl4rh"
+      },
+      {
+        "n": "Magnézone Miraidon EX",
+        "img": "1qSb20JObS4tfihM5Uw4Z9B1qLxvCkTvg"
+      },
+      {
+        "n": "Méga Juncko Ogerpon EX",
+        "img": "1zMTQPTHeJjp7VNulxicrrl823ypIY7EN"
+      }
     ]
   },
   "victory-in-progress": {
     "j7": [
-      {"n": "Suicune Glaivodo", "img": "1PeBU1vUMb1CXHfFUU17c65pZcCzwL4G_"},
-      {"n": "Méga Jungko Cancrelove", "img": "1pc0fRG_LbveMotnQ_G3pMmDkCpr5BM6l"},
-      {"n": "Méga Lucario Keekle", "img": "1U37RiKFq2FyfRgdBRbmMvGjl6HSPCc8t"},
-      {"n": "Miraidon EX Magnézone", "img": "1rvORb0V896yC8ufVOlbldqdXEqIMq36h"},
-      {"n": "Méga Dracaufeu X & Y", "img": "1Wmze1rtTr6BbiadXCE-tfsrJuT2yi28F"},
-      {"n": "Méga Altaria Mentali", "img": "1QWTzOx3-Ha_DPyb06LhlMTXOtkji1u5S"}
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1PeBU1vUMb1CXHfFUU17c65pZcCzwL4G_"
+      },
+      {
+        "n": "Méga Jungko Cancrelove",
+        "img": "1pc0fRG_LbveMotnQ_G3pMmDkCpr5BM6l"
+      },
+      {
+        "n": "Méga Lucario Keekle",
+        "img": "1U37RiKFq2FyfRgdBRbmMvGjl6HSPCc8t"
+      },
+      {
+        "n": "Miraidon EX Magnézone",
+        "img": "1rvORb0V896yC8ufVOlbldqdXEqIMq36h"
+      },
+      {
+        "n": "Méga Dracaufeu X & Y",
+        "img": "1Wmze1rtTr6BbiadXCE-tfsrJuT2yi28F"
+      },
+      {
+        "n": "Méga Altaria Mentali",
+        "img": "1QWTzOx3-Ha_DPyb06LhlMTXOtkji1u5S"
+      }
     ]
+  },
+  "artiknights": {
+    "j2": {
+      "s19": [
+        {
+          "n": "Deck 1",
+          "img": "1ZfXUejqITmjv20VFwpfqKkEoNScA9bHT"
+        },
+        {
+          "n": "Deck 2",
+          "img": "1tM-EySW6OOegTkjX4ATJ8zFw1Rw-9rGL"
+        },
+        {
+          "n": "Deck 3",
+          "img": "1djfH4y1TPzDGgSEy1efYEDoNd1YF3Gct"
+        },
+        {
+          "n": "Deck 4",
+          "img": "1UPwhjULVQFXWa5h918lp6CoQ1Ezz8MsD"
+        },
+        {
+          "n": "Deck 5",
+          "img": "1AZeCgzj0cDoRDeqXyyVCY97sgmYw2uNd"
+        },
+        {
+          "n": "Deck 6",
+          "img": "1dJusCGqFibwkn6ZczbrR0Pmq9jCWHuP6"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Deck 1",
+          "img": "1_o1Av7YLLaAzE04Cq47g2-DU_BA6Ja17"
+        },
+        {
+          "n": "Deck 2",
+          "img": "1JL347VGXoKxgv0_bJKLtGnaK658xISag"
+        },
+        {
+          "n": "Deck 3",
+          "img": "1aQZ8WYWW0D-ZvUrY5J0GhSWu3dw5aaIG"
+        },
+        {
+          "n": "Deck 4",
+          "img": "1eOuEU95hjvTSty4rHnTVZQ2EUyiRvOOM"
+        },
+        {
+          "n": "Deck 5",
+          "img": "1GeFLjyJe6sYDPK4v_YWMuqdJB7adS3en"
+        },
+        {
+          "n": "Deck 6",
+          "img": "1umkCO5sfpBsmOZmO-gOr2XPl5teVkIK0"
+        }
+      ]
+    },
+    "j3": {
+      "s19": [
+        {
+          "n": "Méga Steelix Wimesir EX",
+          "img": "11919hopQml0cITo1rRCTCGe3CvA4UDnq"
+        },
+        {
+          "n": "Méga Jungko",
+          "img": "1XoemqVnywEkYD17XRTV1XyIFbTTMOymN"
+        },
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1Qm3qL1kwCBLNcoV89fhovJ0y3t4_XXdd"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "19WkXIwp-2qcRwLEf88Mo8gHLw2GKj178"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1dRq_vBE-0UBKbtOBzj4b4yIw5GOI9-t0"
+        },
+        {
+          "n": "Méga Altaria Amphinobi",
+          "img": "1wR8ZaFTgpBNsnpY0FG24M-G1VskWPtEU"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1tgP7kLRGnTrHh-1KNcVudCjOOKh_MY3t"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "1utnbqi2j6DhT9528Qy-BvMkoSBDbHzd2"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1X_NTziasOZNnvEBn-caiSnZ2ZG34UNva"
+        },
+        {
+          "n": "Méga Altaria Amphinobi",
+          "img": "1tGriSYn9zO_xtyazpDVNPJmkrqmcvJkW"
+        },
+        {
+          "n": "Méga Absol Amphinobi",
+          "img": "1LIXzwHUXhpufg9UA0FbJR9bXo2oA_JvZ"
+        },
+        {
+          "n": "Méga Brasegali Morphéo",
+          "img": "1Oss3UD3db-DPb0gmS1EG8g9jiGGM_73f"
+        }
+      ]
+    },
+    "j4": {
+      "s19": [
+        {
+          "n": "Méga Altaria Toudoudou",
+          "img": "1IPY1X4Ub0jg5GYFUymdMpyrdYZpDBrgC"
+        },
+        {
+          "n": "Suicune Glaivodo",
+          "img": "18GBH5hHRX4IGlpkI0wg7hm3cxlyPxaLy"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1hQ8ttCCijjE3p3xAG5updKOucBxB6YtJ"
+        },
+        {
+          "n": "Méga Jungko",
+          "img": "1qnCjZu8w-F95ecICpuUPb4jUq0IySDKs"
+        },
+        {
+          "n": "Méga Dracaufeu X & Y",
+          "img": "1CWHy1xu1Xao_xaD418VrQY6wrSmK9W7u"
+        },
+        {
+          "n": "Méga Elecsprint Zéraora",
+          "img": "1X1j6bWDqaJKNv37AUNqAcYr84jWuUFe6"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Méga Altaria Toudoudou",
+          "img": "1yIuc6AxRuge_3TYelxyjix7ff7DQSFyG"
+        },
+        {
+          "n": "Suicune Glaivodo",
+          "img": "17sk_Pvsn6NWKNDUj9-_sHstHrFxpBEX8"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "18Z3QWz7SoSrwPI-vGCwNwFZL4196pw_O"
+        },
+        {
+          "n": "Méga Steelix Wimesir EX",
+          "img": "1zmgg1Qn3-5H6bSSdmoeMz9VZy2l43xWT"
+        },
+        {
+          "n": "Giratina EX Plumeline Amphinobi",
+          "img": "1lkzyZB_to7PbtjU4mVdIm3u4MWpqWCXB"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "1flDp5n3TzHACtUkynu1FKL3pzTWRqiyI"
+        }
+      ]
+    },
+    "j5": {
+      "s19": [
+        {
+          "n": "Méga Elecsprint Zeraora",
+          "img": "1aliIS4O0971INk5DsB8vSZsr2VPL9L3y"
+        },
+        {
+          "n": "Méga Altaria Toudoudou",
+          "img": "13hjQgIQZ5QEix76GIcjjf8f5oJoBLZGE"
+        },
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1fviigaQ7pmmUZMWrDgq6Rta59q0vsWqH"
+        },
+        {
+          "n": "Méga Dracaufeu X & Y",
+          "img": "12tBK-IwBWgwj0ocqhcjJkFCOjqQDMmey"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1Za_3uFxRFkk165Nw3O8Q1TFx9a91JjfZ"
+        },
+        {
+          "n": "Miascarade EX",
+          "img": "1Q-oorVrNny8VivpcDtHCCLlA4cUsMT0b"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Xatu Darkrai",
+          "img": "1paAHZRef7dJ0Ep2fV4IJVijDmul4CMFm"
+        },
+        {
+          "n": "Méga Altaria Amphinobi (variante)",
+          "img": "1aRqX47PGUjBZYCdvRmQ6TTR2A9l9FQH6"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1fInXbn4BLLRjvsK5KdYkjyl07cst-nxX"
+        },
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1_TZ42M7Gw_jNogjzNHCCdbMVM-1EkAHY"
+        },
+        {
+          "n": "Giratina EX Plumeline Amphinobi",
+          "img": "19CAILpPD3-iPMfA14TTXe2XmuxeiLTSn"
+        },
+        {
+          "n": "Méga Jungko Ogerpon EX",
+          "img": "1vWj5d4aJn_CgC47qDpCTQe4hoZIbHbT0"
+        }
+      ]
+    },
+    "j6": {
+      "s19": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1YcxkiHgCdvELM8Sak_p98DP_ICceomZ3"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "1k5IQsWst7l75Q0SqGdym5m4M2u0Xj1lt"
+        },
+        {
+          "n": "Méga Jungko Mucuscule",
+          "img": "18E7MMdrKYMQWLx9Cj9JSyOmY0SlMGniH"
+        },
+        {
+          "n": "Darkrai EX Giratina EX",
+          "img": "1E4bp9m4MPV0lb9OG-sbEDa6M3hzxVhGX"
+        },
+        {
+          "n": "Méga Lucario Kapoéra",
+          "img": "1nud-pJQQV-EASKPcKxhnM-W2qIFI5BdG"
+        },
+        {
+          "n": "Méga Altaria Toudoudou",
+          "img": "1OrcxfQ6oB0wDbwx8TxtmE21KUwKYivJY"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "16X9FRdGHczkC3Q9osQvHA7RdjDEbul7l"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "13cjj7tLGCkanwkliaHGT0iaeB4089bK1"
+        },
+        {
+          "n": "Méga Jungko Mucuscule",
+          "img": "1viTAkNtQiVfdjiaaXPWpX2U1PzIFf1hx"
+        },
+        {
+          "n": "Méga Lucario Kapoéra",
+          "img": "191CksmNemXY6qM3D699UvLGA5C3TqcGw"
+        },
+        {
+          "n": "Méga Altaria Branshitrouye",
+          "img": "1RRhTdJrelHeOkHftrvtA9JHhipDgmU1d"
+        },
+        {
+          "n": "Méga Steelix Wimesir EX",
+          "img": "143Y5fXbCf_9ZVUgZeyCLW_z9UlCDUu2O"
+        }
+      ]
+    },
+    "j7": {
+      "s19": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1onfmexnFOKOWApmXSQGL9ZRsVw5ZuwCp"
+        },
+        {
+          "n": "Darkrai EX Giratina EX",
+          "img": "12cneoQlHnP5jSxh1GyeCCZtDQr888FO5"
+        },
+        {
+          "n": "Miraidon EX Magnézone",
+          "img": "1wgGDAnlOVTjLrFuH-ZgAq82MaQX3ylA5"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1b9Zpt5eTOwdu9Vp0PQpGpZjAr6Kvr7w8"
+        },
+        {
+          "n": "Méga Altaria Branshitrouye",
+          "img": "1qZ4OrGFemJs_37F72pvoodG-RUb2jYU6"
+        },
+        {
+          "n": "Magnézone EX Ogerpon",
+          "img": "1Sk_FmkGqGSYdSAJlajlYxvPkr6WVLLHF"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1VWiWtYT69B1PvpvTLfF8ulOj0I581kBg"
+        },
+        {
+          "n": "Darkrai EX Giratina EX",
+          "img": "1WHPylWEI2Z4ap6cwBcBmW3gG5Gd77s6q"
+        },
+        {
+          "n": "Miraidon EX Magnézone",
+          "img": "1vIv5zRFhbjurTD2xV9OqgzxOW2ZNClvR"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "10tA4oYwtq2fhDv0mUjcW5dEOJZGoIooS"
+        },
+        {
+          "n": "Méga Altaria Amphinobi",
+          "img": "12Lt2jqnW_V-Ark_XbHDfHi-uSoQYpAPw"
+        },
+        {
+          "n": "Méga Jungko Mucuscule",
+          "img": "1i2C8XVY7BlDlw9Y1sl4_yowxWegtM2CX"
+        }
+      ]
+    }
+  },
+  "ragnarok": {
+    "j2": {
+      "s19": [
+        {
+          "n": "Melmetan",
+          "img": "1i99UCOHUH5h7-5iM9_qfMmKVkEX5dU4-"
+        },
+        {
+          "n": "Mega Brasegali Afflamanoir",
+          "img": "19-zXx0BdQAldExd0HjYnr5I3KNGTybY7"
+        },
+        {
+          "n": "Mega Léviator Léviator",
+          "img": "1IWVwDCBR28v3xLxzRlfN9QvNJ-kgI301"
+        },
+        {
+          "n": "Wailord",
+          "img": "1-T2_TOYvyBOKP-eEQcQp_Tsi-DWGNGPH"
+        },
+        {
+          "n": "Tranchodon",
+          "img": "1LzV9mHvLr3FLnenO9ngZcxyy1U5Y48tN"
+        },
+        {
+          "n": "Suicune Bao",
+          "img": "1XfMxbJdobRY3MYadw7xhPDDPA1xbfVlG"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Mega Elecsprint Magnézone",
+          "img": "1ooxei4wURxyJobrVVfzL_qLe_-9kYib4"
+        },
+        {
+          "n": "Arceus Nostenfer",
+          "img": "18OzCGsUPYEdydV3nYwpBwR3t4kxb2qbI"
+        },
+        {
+          "n": "Mega Dracaufeu Y Entei",
+          "img": "1MDTN4Etqm7VikJahBk3xRyt9wHUYlZ9F"
+        },
+        {
+          "n": "Suicune Bao",
+          "img": "1Hhmq4tpDxGKh5CdDSB1zuceUzLUsLyD8"
+        },
+        {
+          "n": "Tranchodon",
+          "img": "10TrjB5GEifi4TKY8EU3lsulZD7WjOVQy"
+        },
+        {
+          "n": "Wailord",
+          "img": "1rTHwRk279cYMOsauoTKeVdUEKvEqP0er"
+        }
+      ]
+    },
+    "j3": {
+      "s19": [
+        {
+          "n": "Pikachu EX Plumeline",
+          "img": "1YeQY2eYK1tittFuKgpwEsmiVSBMIpVNE"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1lGOX4fLLczBh8Fdd7AyR7-GiATgMfQwM"
+        },
+        {
+          "n": "Méga Léviathor Amphinobi",
+          "img": "1fuiUZyOV6OYFDoHJ-Y_Uu5b4G71D9Axt"
+        },
+        {
+          "n": "Méga Brasegali Entei",
+          "img": "1P7kDRNFHlmRtid3mdFsPYxRV-HkcLv_m"
+        },
+        {
+          "n": "Méga Jungko",
+          "img": "1GCcE2Gm4rIlzr-66-pXs6B4i09c5OU5f"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "1T6nGO6yoqxY6fpl8Wkv8X9tqxVGpGnHW"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Méga Elecsprint Magnézone",
+          "img": "1LXX7wiqatpi2AejQhcA8LtFNm3S8QBNP"
+        },
+        {
+          "n": "Libegon EX Darkrai",
+          "img": "1ahr2UlojPjN_9MzmU48J9qNUxOqb8KZM"
+        },
+        {
+          "n": "Méga Jungko Ogerpon EX",
+          "img": "1YrmhRgGzlz65smhzsgFgBPAEcdy-FvhI"
+        },
+        {
+          "n": "Méga Absol Zoroark EX",
+          "img": "1lyHwl6ugWBF2VABWtClo_e-bwb6xOiCl"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1GYmM_jaz2yf2m_nwhZZA9FPTm1I3zRuS"
+        },
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1QOc8mtixgVfbw7L1Cqtp4CzHZDFH6yW_"
+        }
+      ]
+    }
   }
 }
