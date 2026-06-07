@@ -225,6 +225,7 @@
       if(!p) return;
       try{
         if(typeof pblTeamDecks==='undefined') return;
+        if(!pblTeamDecks['victory-in-progress']) pblTeamDecks['victory-in-progress']={name:'Victory In Progress',badge:'VIP',badgeClass:'t-imperium',record:'0 pt · remplaçant (vise les playoffs)',serverDays:{}};
         Object.keys(p).forEach(function(teamId){
           if(!pblTeamDecks[teamId]) return;
           if(!pblTeamDecks[teamId].serverDays) pblTeamDecks[teamId].serverDays={};
@@ -252,6 +253,22 @@
     }catch(e){}
   }
 
+  function injectPblTeams(){
+    try{
+      var grid=document.querySelector('.pbl-teams-grid'); if(!grid) return;
+      // Marquer Ragnarok éliminé
+      var rag=grid.querySelector('[data-pbl-team="ragnarok"]');
+      if(rag){ var rec=rag.querySelector('.ptc-record'); if(rec) rec.textContent='Éliminé · fautes répétées';
+        var st=rag.querySelector('.ptc-status'); if(st){ st.textContent='⛔ Disqualifié (remplacé par Victory In Progress)'; st.className='ptc-status diff'; } }
+      // Ajouter Victory In Progress
+      if(!grid.querySelector('[data-pbl-team="victory-in-progress"]')){
+        var c=document.createElement('div'); c.className='pbl-team-card'; c.setAttribute('data-pbl-team','victory-in-progress');
+        c.innerHTML='<div class="ptc-badge t-imperium">VIP</div><div class="ptc-content"><div class="ptc-name">Victory In Progress</div><div class="ptc-record">0 pt · remplaçant de Ragnarok</div><div class="ptc-status diff">🎯 Vise la remontée via les playoffs</div></div><div class="ptc-arrow">→</div>';
+        grid.appendChild(c);
+      }
+    }catch(e){}
+  }
+
   function run(){
     Promise.all([J('tcgp_data.json'),J('classic_data.json'),J('vgc_data.json'),J('unite_data.json')])
     .then(function(r){
@@ -263,6 +280,7 @@
     });
     mergePbl();
     injectReglement();
+    injectPblTeams();
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){ setTimeout(run, 200); });
   else setTimeout(run, 200);
