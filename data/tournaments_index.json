@@ -1,0 +1,634 @@
+{
+  "updatedAt": "2026-06-04T12:00:22.595146Z",
+  "tournaments": [
+    {
+      "id": "pbl-s1",
+      "name": "Pocket Battle League — Saison 1",
+      "game": "tcgp",
+      "status": "en cours",
+      "format": "Ligue par équipes",
+      "reglement": {
+        "title": "Règlement Pocket Battle League",
+        "docId": "12x92KS7v5IGxydmZUEogstvcINMV70C6zEzsJbaWNRE",
+        "points": "Victoire 3 pts · Nul 1 · Défaite 0 · Pénalité non-diffusion -1",
+        "format": "Ligue (aller), équipes 3-6 joueurs, playoffs BO5 simple élimination, barrages BO3"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "FrogEX",
+          "j": 14,
+          "v": 6,
+          "n": 7,
+          "d": 1,
+          "f": 0,
+          "sp": 36,
+          "sc": 20,
+          "diff": 16,
+          "pts": 36
+        },
+        {
+          "rank": 2,
+          "team": "Arci",
+          "j": 14,
+          "v": 6,
+          "n": 6,
+          "d": 2,
+          "f": 0,
+          "sp": 36,
+          "sc": 20,
+          "diff": 16,
+          "pts": 36
+        },
+        {
+          "rank": 3,
+          "team": "Tier Baguette",
+          "j": 14,
+          "v": 6,
+          "n": 4,
+          "d": 4,
+          "f": 0,
+          "sp": 33,
+          "sc": 23,
+          "diff": 10,
+          "pts": 33
+        },
+        {
+          "rank": 4,
+          "team": "Imperium Alpha",
+          "j": 14,
+          "v": 5,
+          "n": 7,
+          "d": 2,
+          "f": 0,
+          "sp": 32,
+          "sc": 24,
+          "diff": 8,
+          "pts": 32
+        },
+        {
+          "rank": 5,
+          "team": "Xtrem Platine",
+          "j": 14,
+          "v": 7,
+          "n": 2,
+          "d": 5,
+          "f": 0,
+          "sp": 31,
+          "sc": 25,
+          "diff": 6,
+          "pts": 31
+        },
+        {
+          "rank": 6,
+          "team": "Artiknights",
+          "j": 14,
+          "v": 4,
+          "n": 4,
+          "d": 6,
+          "f": 0,
+          "sp": 27,
+          "sc": 29,
+          "diff": -2,
+          "pts": 27
+        },
+        {
+          "rank": 7,
+          "team": "Team Speed Millenium",
+          "j": 14,
+          "v": 4,
+          "n": 6,
+          "d": 3,
+          "f": 1,
+          "sp": 29,
+          "sc": 27,
+          "diff": 2,
+          "pts": 26
+        },
+        {
+          "rank": 8,
+          "team": "Victory In Progress",
+          "j": 14,
+          "v": 0,
+          "n": 0,
+          "d": 14,
+          "f": 0,
+          "sp": 0,
+          "sc": 56,
+          "diff": -56,
+          "pts": 0
+        }
+      ],
+      "journees": [
+        {
+          "jour": 1,
+          "label": "1er Jour",
+          "teams": [
+            {
+              "team": "Artiknights",
+              "folderId": "1ZcBf58TnZgdw3EczdFyYY4fRWHyx1cdB",
+              "deckImages": []
+            },
+            {
+              "team": "Team Speed Millenium",
+              "folderId": "1YdYDLAWoONs5YtuujowrbAXZ8SbogLaW",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/19YBF_NSZJLQxxVYt6c2zDzcaV-W4MvRZ=w1200",
+                "https://lh3.googleusercontent.com/d/1fPNPMfsWMreUumoLGjOByfNYU6w4Ct2o=w1200",
+                "https://lh3.googleusercontent.com/d/1FISvIoMVTBO3c5ZMqB6713JauuRqyyX0=w1200",
+                "https://lh3.googleusercontent.com/d/1az-KAbt2kLBASiiWaQKbCbWuW6cW9mkv=w1200",
+                "https://lh3.googleusercontent.com/d/1cVU10LVWkMMVxtZ80DBU6qSpgnv6ddrF=w1200",
+                "https://lh3.googleusercontent.com/d/1atH5pJO6WoAaYy8yYRe0ikqgKIXUq7xI=w1200"
+              ]
+            },
+            {
+              "team": "Ragnarock",
+              "folderId": "18QsABrRmFYkg7Hy7guxrzlomkoQfGFxN",
+              "deckImages": []
+            },
+            {
+              "team": "Xtrem",
+              "folderId": "1C1XaA5w0c2M6BFzoL2yRpnnSLBk7kVjs",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1GaD7MfbH7gBYiQOg1XjNuJIfy7Mdq4sq=w1200",
+                "https://lh3.googleusercontent.com/d/1oQcDHja19un90qUv-jZuXVY15ets9uFQ=w1200",
+                "https://lh3.googleusercontent.com/d/130vVUkZ6-ddqqkPb8ymDzSQlmPTsRR0Y=w1200",
+                "https://lh3.googleusercontent.com/d/1pyR-s4VcIT4TyZO2k9RY-qGie0VT1qtf=w1200",
+                "https://lh3.googleusercontent.com/d/19luB9H2U8YF4KwckF5yPoRGtGG5_hNzv=w1200",
+                "https://lh3.googleusercontent.com/d/1jaxZkyPusF3OT_hGlE_iFS8fLf_UwYKV=w1200"
+              ]
+            },
+            {
+              "team": "IMP",
+              "folderId": "14wp7zljwMCcUizBeuYLKK4dQckzxr-uV",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1UOyNkvvP67h6o0lAmWcNVUmYw2uO7POE=w1200",
+                "https://lh3.googleusercontent.com/d/1mGAYtql6oM3WaJEwgBBx_e4rQcLtSn0t=w1200",
+                "https://lh3.googleusercontent.com/d/1D4GEXawdfrZD1L7A0E_WnhsyHFgvHlCA=w1200",
+                "https://lh3.googleusercontent.com/d/1koQYafXYQrtnhT8WYc_I1OSnQhbOm3b8=w1200",
+                "https://lh3.googleusercontent.com/d/1BhK5ycTYI6QF3tLORASl0Fl-QZMQqTVo=w1200",
+                "https://lh3.googleusercontent.com/d/1QRkChScsmUcyg7w_-H57S1sJpkyCwQug=w1200",
+                "https://lh3.googleusercontent.com/d/1q1saA5ynplYCffjumEptMkDwT2eDkRpL=w1200"
+              ]
+            },
+            {
+              "team": "Arci US",
+              "folderId": "1O9UsSD519NnNRuESZ7ggGKTHoL69M2k2",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1IUEysjfhWor_U0kZjo5XZx1OHd3ONUf2=w1200",
+                "https://lh3.googleusercontent.com/d/1oIpYMtE-Rit0TW2qocPg9EisKlaGB9eI=w1200",
+                "https://lh3.googleusercontent.com/d/1cc2Ot6d0bGKmudulKjWHktDrYGZSIk6F=w1200",
+                "https://lh3.googleusercontent.com/d/1bw1IAt82rHa75mzx4o-KprQS1qWcfd8r=w1200",
+                "https://lh3.googleusercontent.com/d/1jD87ZLBvt6B-73uwH_9L4oWc-h_6NToh=w1200"
+              ]
+            },
+            {
+              "team": "TB",
+              "folderId": "1FGSDh5VPgfAxbQlBpK8FbI653H89nCUd",
+              "deckImages": []
+            },
+            {
+              "team": "Frog Ex",
+              "folderId": "1jDzkNMe-hVKEIUd0xuwh0ymJg5dMRbB_",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1sfAXJYn8jcBBDxv2ZdXBjmsakVtOL7tx=w1200",
+                "https://lh3.googleusercontent.com/d/1V24xpcTCrf6JvM0AElXz3GpJJvkpxB1G=w1200",
+                "https://lh3.googleusercontent.com/d/1ZAafk4Qhf7NhkmVHn6rC1K7VM9GS1kfD=w1200",
+                "https://lh3.googleusercontent.com/d/1-0nLyRyXtvCm1UpatBGJ95RXrY_n0CNg=w1200",
+                "https://lh3.googleusercontent.com/d/1cQqL2rcXYiAi9u2jo28fM4KSy7GY0328=w1200",
+                "https://lh3.googleusercontent.com/d/1ls-058uPWuTHF8PpcyAtudux6Snwmkop=w1200"
+              ]
+            }
+          ]
+        },
+        {
+          "jour": 2,
+          "label": "2ème Jour",
+          "teams": [
+            {
+              "team": "Arci US",
+              "folderId": "1QFZyWzmW9XnwwW8TpYRJ3ut4AL1DxiRV",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1esSz-N8OJ_hq2zbqbBdPYibHrd2ex8J7=w1200",
+                "https://lh3.googleusercontent.com/d/11dGaI78Rzr3q-FTa-s2v9NF1du9byswZ=w1200",
+                "https://lh3.googleusercontent.com/d/1dpIZZ3IWSQZq9N872P-alE0CyWkkQv8p=w1200",
+                "https://lh3.googleusercontent.com/d/13zFZjHjtSQ5llgSJCDsUxgBipXyl_5Rh=w1200",
+                "https://lh3.googleusercontent.com/d/1qrVPWJnydNp8jMIZdoWzI1FoWmU9nxRp=w1200",
+                "https://lh3.googleusercontent.com/d/15KBlefNL9wTCzrBR229RJxVE8UKwDsGh=w1200"
+              ]
+            },
+            {
+              "team": "Xtrem",
+              "folderId": "1YAAIQL8yL0e3Kdp1__SsmK1KqZ7YBdLn",
+              "deckImages": []
+            },
+            {
+              "team": "Artiknights",
+              "folderId": "16bYp8WaWQBlA1k6sNzFKV6NQRxzFwDBC",
+              "deckImages": []
+            },
+            {
+              "team": "Ragnarock",
+              "folderId": "1vVcqNhhx9qwEdbN7V6D7ebC4v_G1Scc1",
+              "deckImages": []
+            },
+            {
+              "team": "Frog Ex",
+              "folderId": "1hMdKH28d6Ici25SYhADaUAI9A1WQaxwp",
+              "deckImages": []
+            },
+            {
+              "team": "Team Speed Millenium",
+              "folderId": "1ZaiK-kLnPbA4Hz1SYGLVtLdtM7nCTtLL",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1F2HB0ygJMYf30DGm-VRMPtiAD5v2Zk98=w1200",
+                "https://lh3.googleusercontent.com/d/1IwbqEs05Ve-jwl8UGHmlYCyQbpQA2zFW=w1200",
+                "https://lh3.googleusercontent.com/d/1RdYuLYwmf83kNkGsJlSLOeHhpaWkpYVw=w1200",
+                "https://lh3.googleusercontent.com/d/1gdb3HBLeiCnIWxcDmqvazhYZ-m5qdVcN=w1200",
+                "https://lh3.googleusercontent.com/d/1iw4cxQFU8xSXjDuov16dZcqybOAAbBGG=w1200",
+                "https://lh3.googleusercontent.com/d/1jpJBOiNVBlybjlL0IrqTJaE_HlOXmCpW=w1200"
+              ]
+            },
+            {
+              "team": "IMP",
+              "folderId": "1E-7nQLcWzzgapqtj0UF9dSWXj8LohDk_",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/18dhEF0z36J7ZeKtSExfhLgP1vjhj9iS9=w1200",
+                "https://lh3.googleusercontent.com/d/1iYa8Lf8Lg3iS1IE39KN8iMA1jXFYkq10=w1200",
+                "https://lh3.googleusercontent.com/d/1bFQE2ekuDARkrfWd2ccyuDpN5-R3INjH=w1200",
+                "https://lh3.googleusercontent.com/d/1IayJxL9Tpx5QnVcNGfP3j-J0YHUWewFz=w1200",
+                "https://lh3.googleusercontent.com/d/1nH5tbJw2LMfgZw5Fv5EsYI1zG_kwZPj6=w1200",
+                "https://lh3.googleusercontent.com/d/1jboFoBL0j-hYtc-FMi_slFvnA1ExYGVz=w1200"
+              ]
+            },
+            {
+              "team": "TB",
+              "folderId": "1MpG0YkuzKbNN6C2VIm2bqfPoHIQ1KyIO",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1BHWI7h7gmJEY7RMmNtQzuVS-2t1DDt-A=w1200",
+                "https://lh3.googleusercontent.com/d/19OXu2g1QEr8Raxa0egw_w_aflz-kaw6H=w1200",
+                "https://lh3.googleusercontent.com/d/13A1B5LVyDvwtnfR0OdHSKSVKasnCD5SX=w1200",
+                "https://lh3.googleusercontent.com/d/1Hl9Sj5vdOa7RaSDkS3oJF1Hj77WxeE0n=w1200",
+                "https://lh3.googleusercontent.com/d/16Pm2C9jyBaisbr90FfU4yxCAMfskn-9B=w1200",
+                "https://lh3.googleusercontent.com/d/1G3VwkPK1Sa5A-T2u5E_fWJ44bwyXFQty=w1200"
+              ]
+            }
+          ]
+        },
+        {
+          "jour": 3,
+          "label": "3ème Jour",
+          "teams": [
+            {
+              "team": "TB",
+              "folderId": "1hFQKHZogBDFirPtZfdiz3Y1CuB-F7c5X",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1u0-de44Uy86Raz_N4cRysNFkfXzSoYCM=w1200",
+                "https://lh3.googleusercontent.com/d/1iU-k-EYX2V2VJJvd7Wfup-5PwiVapfhv=w1200",
+                "https://lh3.googleusercontent.com/d/1cB-zgohSpwIjveisnsIGc-kXBkQf2b7P=w1200",
+                "https://lh3.googleusercontent.com/d/1PCZuwB5jv5GSTTXNOXQHT_CnjAXNIOVC=w1200",
+                "https://lh3.googleusercontent.com/d/10CnZGjPdhSFUptRmQLjhIOlkfwgICQdq=w1200",
+                "https://lh3.googleusercontent.com/d/17UEgO6b5zLgiMmUr9YR34TPDMg-hGDXW=w1200"
+              ]
+            },
+            {
+              "team": "Team Speed Millenium",
+              "folderId": "1mP45ScAjzGeaBWFGPISGQMKxwCD1-Y2b",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1nI8DwejW_v1_S0wPgBZR08YgOW9jHFtc=w1200",
+                "https://lh3.googleusercontent.com/d/1iEsetru2wFfY__TB-PtJa--wOJQqzFle=w1200",
+                "https://lh3.googleusercontent.com/d/1i_1C1A_0nN6Le64TDakimCOWv0uZc5N_=w1200",
+                "https://lh3.googleusercontent.com/d/1C-BrhMGqBaPm8FUDcjWzu1dqtVskrjll=w1200",
+                "https://lh3.googleusercontent.com/d/1CJrli2n4gYOzwNhOiQZxFrOnwHYvquRQ=w1200",
+                "https://lh3.googleusercontent.com/d/1df6ywm9wje92wsr5gAuHeMeMgP2c5XyN=w1200"
+              ]
+            },
+            {
+              "team": "Frog Ex",
+              "folderId": "1y7jH-b8tQNJjUrawDDIhEJaU3h8_P3Mx",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1KE0AE9kah-MhkUjlW7Avko4LS4ds2a4e=w1200",
+                "https://lh3.googleusercontent.com/d/18Gt7hcHvbJSmN8fu-Zl4GhHyXUletryk=w1200",
+                "https://lh3.googleusercontent.com/d/1YyU0AAjsAo6XJ3Ba5dUKd32REPMiMB4I=w1200",
+                "https://lh3.googleusercontent.com/d/1w2yH-5y3hR3tMYwEk8FmhD2xj1wt38HX=w1200",
+                "https://lh3.googleusercontent.com/d/1of5gobGdfJCR7cr2BO48ThjBT5kexExj=w1200",
+                "https://lh3.googleusercontent.com/d/1xLWsQWdrXtnDYwNjK9jg1gQII_S_DbDD=w1200"
+              ]
+            },
+            {
+              "team": "IMP",
+              "folderId": "1R4Xo5_0g9UT2DUI-UeOMFvdE1KAF4Hos",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1pBkxyAZBSIOk9ZSp3I0k0SLCC0IiyO_W=w1200",
+                "https://lh3.googleusercontent.com/d/1Pb3aKYHOJQ88BVyVxXlpZVRREoD76MMh=w1200",
+                "https://lh3.googleusercontent.com/d/1LkH1DPRRqSjs2sy9wn0z0j5cvOpGMIE7=w1200",
+                "https://lh3.googleusercontent.com/d/12dRzQL6yid7eKlrBzhb6GXMOlJ6JQv-B=w1200",
+                "https://lh3.googleusercontent.com/d/1Gnos8En39lg0RhsT5ZyZTcJREQbCCzJ1=w1200",
+                "https://lh3.googleusercontent.com/d/1rDWwCWgonCwTcNrds4rhRdkxtveF0yVA=w1200"
+              ]
+            },
+            {
+              "team": "Ragnarock",
+              "folderId": "13rdrHqj4r00-UZI593yaFkl3q81h8Qrh",
+              "deckImages": []
+            },
+            {
+              "team": "Xtrem",
+              "folderId": "1fSWZPl9X78ZYiQzUyXOMScQloHcUX4vY",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1ZfoUZl-UIgx3_EDYiHXgKGAsiHqgfeeE=w1200",
+                "https://lh3.googleusercontent.com/d/16mZ55u7lxmYhPyiFpSaxs0PnoC4kokeN=w1200",
+                "https://lh3.googleusercontent.com/d/1VaIzl2-plt8eDFrobULWdRLa52t7utOq=w1200",
+                "https://lh3.googleusercontent.com/d/12aXtQB6fzmEspPw5xXWp2qZ40tL8U1Lc=w1200",
+                "https://lh3.googleusercontent.com/d/17aAZiWYaw-LYznQ8rML_6QnDVQ4naD2u=w1200",
+                "https://lh3.googleusercontent.com/d/1ey88IVzdbHk3mG3qOcu2ut8xUJpuO0Hd=w1200"
+              ]
+            },
+            {
+              "team": "Arci US",
+              "folderId": "1ZyN5UJFZN4lEubLq2GW4s_eyc6grG9yT",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1EDyq-15k16qeX_MKJgzgCZSoauD9lXZB=w1200",
+                "https://lh3.googleusercontent.com/d/1SpRsf07FKEJ2pJUBal-NWK8dyIwM7a6Z=w1200",
+                "https://lh3.googleusercontent.com/d/17GDxH3E0A1feaIAelaS3vmfLcaTN6unY=w1200",
+                "https://lh3.googleusercontent.com/d/1ctAWr81Kv57VYlv0QSAHWona23Utr0_7=w1200",
+                "https://lh3.googleusercontent.com/d/1NZiI6X2aSmyPhGK6xE9o0AVlJeJWvIpV=w1200",
+                "https://lh3.googleusercontent.com/d/1v20EiTub-mfTf6EXlha942QwwHrBZMZk=w1200"
+              ]
+            },
+            {
+              "team": "Artiknights",
+              "folderId": "1765lRMaer9kmMcfUClZ6LgXqz-c2x9-l",
+              "deckImages": []
+            }
+          ]
+        },
+        {
+          "jour": 4,
+          "label": "4ème Jour",
+          "teams": [
+            {
+              "team": "Xtrem",
+              "folderId": "1jltXY2f0yfc0VwAH_KhHLfX5TYGNO2IR",
+              "deckImages": []
+            },
+            {
+              "team": "Ragnarock",
+              "folderId": "1Slv1dqcu2uwN168cpGUR9kqAoxKqXk9R",
+              "deckImages": []
+            },
+            {
+              "team": "Team Speed Millenium",
+              "folderId": "13mbITZInGL0Wa_AQEEQDt9ngdn-QFmNJ",
+              "deckImages": []
+            },
+            {
+              "team": "Artiknights",
+              "folderId": "1C6CqdYt59bua1gl1As20YUzqOCmj62Rg",
+              "deckImages": []
+            },
+            {
+              "team": "TB",
+              "folderId": "1nF7lj6Es-vXceNxii7-_UFjJWk5heoRj",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1b4jD-k_hz-70ul5RZcPqnFQpGRylNrU_=w1200",
+                "https://lh3.googleusercontent.com/d/14ZgfE4g0rkXajLbaqpQLPkT3dfb-auOW=w1200",
+                "https://lh3.googleusercontent.com/d/16gIU9QPK5cM5i5XcXMg7Jr-gpA8EZGeX=w1200",
+                "https://lh3.googleusercontent.com/d/1hDwL3VXbgU61J1A48yZ1KeFlVkQ5c6D5=w1200",
+                "https://lh3.googleusercontent.com/d/1c6nwAuYT_QDs2NL_KuPqmxG5xJxSq5FB=w1200",
+                "https://lh3.googleusercontent.com/d/1AQIWOTC6ZAaUG4XusOINnfybY52o3_QT=w1200"
+              ]
+            },
+            {
+              "team": "Arci US",
+              "folderId": "10rif7mel5SBSE0XWv6QH-urHhZUqzL8k",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1RE-QyF3l-D7xdcVxkkveBY7Yf8Me5evH=w1200",
+                "https://lh3.googleusercontent.com/d/1jjdGule7Uz2WIg8CmBmfZ4s8qGulWW-U=w1200",
+                "https://lh3.googleusercontent.com/d/1XMVL0SIn5heieImwobQWVrJT7o8f6GB7=w1200",
+                "https://lh3.googleusercontent.com/d/1d5i7WedbRiC5ulH7GFyIV4RiJTKG7Q8y=w1200",
+                "https://lh3.googleusercontent.com/d/19_3QnPVkmwO76wFvRe74NYUYNIR0PMSj=w1200",
+                "https://lh3.googleusercontent.com/d/1v_vGGS75G_ilV2sJV6pH3403UHm_soBB=w1200"
+              ]
+            },
+            {
+              "team": "Frog Ex",
+              "folderId": "1CldA9hhHiMzQhL8AKL2ZF_-8Pt5gCYvi",
+              "deckImages": []
+            },
+            {
+              "team": "IMP",
+              "folderId": "1jOEQQajO1aNsqtwofyh2Q7-k7XaYqlE2",
+              "deckImages": [
+                "https://lh3.googleusercontent.com/d/1JzAS4FCxYOWrsFb5aur-C6t75E8g2MR0=w1200",
+                "https://lh3.googleusercontent.com/d/1xRJjI5UfjgYdZPY-d41k7VInqxGoSlyX=w1200",
+                "https://lh3.googleusercontent.com/d/1j-cp9sOqIaQc14hbCsV8nIPVE08MC5nV=w1200",
+                "https://lh3.googleusercontent.com/d/1vSPow8eHaJZJs3gGJEuwX-WWbTiddY3r=w1200",
+                "https://lh3.googleusercontent.com/d/1PXURLBtzbFe2DofwAZihSGXoYd_mt-wm=w1200",
+                "https://lh3.googleusercontent.com/d/1bJQhszLM2U1VKRxPRTzeBaW8A9DqnLMY=w1200"
+              ]
+            }
+          ]
+        },
+        {
+          "jour": 5,
+          "label": "5ème Jour",
+          "teams": [
+            {
+              "team": "Artiknights",
+              "folderId": "1Hmz1a5DANRIdb501fVvYE_7t5xbzl7hE",
+              "deckImages": []
+            },
+            {
+              "team": "TB",
+              "folderId": "1oN7ZGHaVtg5OZZNImb_7X2iAoJyr_D7z",
+              "deckImages": []
+            },
+            {
+              "team": "Arci US",
+              "folderId": "18Tvzku75TVCcjVRQPtrE7fBaI4-WqeVj",
+              "deckImages": []
+            },
+            {
+              "team": "Frog Ex",
+              "folderId": "14EjYYaAJ1dRbaqQdEKoaqrxUn7l-YoDT",
+              "deckImages": []
+            },
+            {
+              "team": "IMP",
+              "folderId": "14h2g2VXBviMErRCnZo5vYanthkjInE-p",
+              "deckImages": []
+            },
+            {
+              "team": "Victory In Progress",
+              "folderId": "1ARzQQB_Iw0LLs-K4Rk856rosr4rBzOds",
+              "deckImages": []
+            },
+            {
+              "team": "Xtrem",
+              "folderId": "1HGqFHCJ17REtEurL_N7bZc1rjy3lsWx-",
+              "deckImages": []
+            },
+            {
+              "team": "Team Speed Millenium",
+              "folderId": "1XJm3sJes9fXII95FlpgCdD8_hwGZOlXA",
+              "deckImages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imperium-s1",
+      "name": "Imperium Championship — Saison 1",
+      "game": "tcgp",
+      "status": "en cours",
+      "format": "Poule MB1 (12 joueurs)",
+      "reglement": {
+        "title": "Règlement Officiel de l'Imperium Championship",
+        "pdfId": "12ihK0MwHw5S8pLFEUMKFHdAq1HQtxUoV",
+        "points": "Victoire 3 pts · Nul 1 · Défaite 0",
+        "format": "Poule de 12, BO5 (3 victoires), aller simple, top 2 promus / bottom 2 relégués",
+        "saison": "04/05 → 25/05 (S1), S2 en juin"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "player": "Luffy",
+          "w": 5,
+          "l": 0,
+          "t": 0,
+          "rw": 15,
+          "rl": 4,
+          "diff": 11,
+          "pts": 15,
+          "zone": "promotion"
+        },
+        {
+          "rank": 2,
+          "player": "Eccho",
+          "w": 3,
+          "l": 2,
+          "t": 0,
+          "rw": 13,
+          "rl": 7,
+          "diff": 6,
+          "pts": 9,
+          "zone": "promotion"
+        },
+        {
+          "rank": 3,
+          "player": "Hasalf",
+          "w": 3,
+          "l": 2,
+          "t": 0,
+          "rw": 12,
+          "rl": 10,
+          "diff": 2,
+          "pts": 9
+        },
+        {
+          "rank": 4,
+          "player": "Wooz7yy",
+          "w": 3,
+          "l": 2,
+          "t": 0,
+          "rw": 11,
+          "rl": 9,
+          "diff": 2,
+          "pts": 9
+        },
+        {
+          "rank": 5,
+          "player": "Frozen",
+          "w": 3,
+          "l": 2,
+          "t": 0,
+          "rw": 11,
+          "rl": 11,
+          "diff": 0,
+          "pts": 9
+        },
+        {
+          "rank": 6,
+          "player": "Xmate",
+          "w": 3,
+          "l": 2,
+          "t": 0,
+          "rw": 10,
+          "rl": 10,
+          "diff": 0,
+          "pts": 9
+        },
+        {
+          "rank": 7,
+          "player": "Brendon",
+          "w": 3,
+          "l": 2,
+          "t": 0,
+          "rw": 11,
+          "rl": 12,
+          "diff": -1,
+          "pts": 9
+        },
+        {
+          "rank": 8,
+          "player": "Azelma",
+          "w": 2,
+          "l": 3,
+          "t": 0,
+          "rw": 11,
+          "rl": 10,
+          "diff": 1,
+          "pts": 6
+        },
+        {
+          "rank": 9,
+          "player": "Aghnar",
+          "w": 2,
+          "l": 3,
+          "t": 0,
+          "rw": 9,
+          "rl": 11,
+          "diff": -2,
+          "pts": 6
+        },
+        {
+          "rank": 10,
+          "player": "Chapeaufusée",
+          "w": 2,
+          "l": 3,
+          "t": 0,
+          "rw": 8,
+          "rl": 10,
+          "diff": -2,
+          "pts": 6
+        },
+        {
+          "rank": 11,
+          "player": "Zeublai",
+          "w": 1,
+          "l": 4,
+          "t": 0,
+          "rw": 7,
+          "rl": 12,
+          "diff": -5,
+          "pts": 3,
+          "zone": "relegation"
+        },
+        {
+          "rank": 12,
+          "player": "Vegegras",
+          "w": 0,
+          "l": 5,
+          "t": 0,
+          "rw": 3,
+          "rl": 15,
+          "diff": -12,
+          "pts": 0,
+          "zone": "relegation"
+        }
+      ]
+    }
+  ]
+}
