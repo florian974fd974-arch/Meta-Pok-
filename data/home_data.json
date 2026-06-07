@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "tag": "Hub Competitif Pokemon",
+    "title": "L'actu competitive en un seul endroit."
+  },
+  "news": [
+    {
+      "game": "tcgp",
+      "title": "Mega Altaria ex Espeon en tete du meta Pocket",
+      "desc": "Le métagame Paradox Drive s'est cristallisé autour de trois pôles dominants : Mega Altaria ex (14,38% d'usage cumulé) qui règne en maître malgré un winrate mitigé, les variantes Magnezone/Miraidon ex (15,84% cumulés) qui saturent l'échelle compétitive sans jamais vraiment exploser, et une constellation de decks agressifs (Mega Blaziken ex/Greninja, Suicune ex/Baxcalibur) qui excellent en winrate mais peinent à convertir en parts de marché. L'absence totale de mouvement aujourd'hui signale un méta verrouillé où les joueurs attendent la prochaine secousse : aucun deck n'entre ni ne sort du top, témoignant d'un équilibre précaire mais stable. Les Pokémon Paradoxes (Miraidon ex notamment) structurent toujours les archetypes les plus joués, confirmant l'identité du set B3a.",
+      "when": "TCG Pocket",
+      "badgeText": "META",
+      "badgeStyle": "tcgp",
+      "clickAction": "tcgp"
+    },
+    {
+      "game": "vgc",
+      "title": "VGC — etat du format",
+      "desc": "La méta Regulation M-A s'articule autour d'un core central ultra-dominant : Garchomp-Kingambit-Basculegion forme le triangle de fer présent dans plus de 50% des équipes, chacun ayant plus de 50% d'usage. Cette stabilité cache une évolution tactique subtile : l'émergence de Floette Éternelle (35,65%) comme pivot défensif méga-évolutif bouleverse les calculs classiques, tandis que Charizard Mega-Y (41,14%) impose un tempo offensif solaire. Le format se divise en deux philosophies : les compositions hyper-offensives Tailwind (Whimsicott/Aerodactyl + sweepers) qui cherchent à écraser rapidement, et les setups Trick Room (Sinistcha + Floette) qui inversent le tempo. Les derniers résultats majeurs montrent que la flexibilité l'emporte : les champions combinent contrôle de vitesse, redistribution de Fake Out (Incineroar/Sneasler), et capacité à pivoter entre modes offensif et défensif.",
+      "when": "Regulation Set M-A",
+      "badgeText": "VGC",
+      "badgeStyle": "vgc",
+      "clickAction": "vgc"
+    },
+    {
+      "game": "unite",
+      "title": "Unite — Patch 1.23.3.2 — bugfixes and Meganium (2026-05-28)",
+      "desc": "Patch 1.23.3.2 — Alcremie (A+) en tête.",
+      "when": "Pokémon Unite",
+      "badgeText": "UNITE",
+      "badgeStyle": "unite",
+      "clickAction": "unite"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Pocket Battle League — Saison 1",
+      "desc": "tcgp",
+      "game": "tcgp"
+    },
+    {
+      "title": "Imperium Championship — Saison 1",
+      "desc": "tcgp",
+      "game": "tcgp"
+    }
+  ],
+  "gamePreviews": {
+    "tcgp": true,
+    "vgc": true,
+    "classic": true,
+    "unite": true
+  },
+  "updatedAt": "2026-06-07T06:00:02.373Z"
+}
