@@ -1,0 +1,328 @@
+{
+  "set": {
+    "code": "B3a",
+    "name": "B3a - Paradox Drive"
+  },
+  "metaSummary": "Le métagame Paradox Drive s'est cristallisé autour de trois pôles dominants : Mega Altaria ex (14,38% d'usage cumulé) qui règne en maître malgré un winrate mitigé, les variantes Magnezone/Miraidon ex (15,84% cumulés) qui saturent l'échelle compétitive sans jamais vraiment exploser, et une constellation de decks agressifs (Mega Blaziken ex/Greninja, Suicune ex/Baxcalibur) qui excellent en winrate mais peinent à convertir en parts de marché. L'absence totale de mouvement aujourd'hui signale un méta verrouillé où les joueurs attendent la prochaine secousse : aucun deck n'entre ni ne sort du top, témoignant d'un équilibre précaire mais stable. Les Pokémon Paradoxes (Miraidon ex notamment) structurent toujours les archetypes les plus joués, confirmant l'identité du set B3a.",
+  "analysis": {
+    "entering": "Aucun archétype n'a percé le top usage ou winrate aujourd'hui. Le métagame demeure figé dans ses positions établies, suggérant que les innovations se font rares à ce stade avancé du format Paradox Drive. Les joueurs semblent privilégier l'optimisation des listes existantes plutôt que l'exploration de nouvelles pistes, en attendant probablement les prochains événements majeurs ou l'annonce d'un nouveau set pour bouleverser la donne.",
+    "leaving": "Aucune sortie enregistrée du top 10 usage ou winrate aujourd'hui. Tous les decks maintiennent leurs positions respectives, indiquant une stagnation compétitive où même les archetypes sous-performants (Miraidon ex/Magnezone à 49,1% WR, Zoroark ex/Mega Absol ex à 49,44% WR) conservent leur popularité par inertie ou fidélité des joueurs. Cette absence d'évacuation naturelle des decks faibles pourrait préfigurer un ajustement brutal lors du prochain changement de méta.",
+    "whatToPlay": "Pour maximiser vos chances aujourd'hui, trois choix se détachent : **Mega Blaziken ex/Greninja** (53,84% WR, 4,31% usage) offre le meilleur ratio performance/popularité pour punir les decks lents, **Suicune ex/Baxcalibur** (53,43% WR, 4,04% usage) exploite brillamment le type Eau dans un méta dominé par les Électriques et Dragons, et **Mega Altaria ex/Gourgeist** (52,47% WR, 4,87% usage) combine présence solide et winrate positif pour naviguer tous les matchups. Évitez les variantes Miraidon ex/Magnezone malgré leur popularité : leur winrate sous 50% en fait des pièges statistiques."
+  },
+  "topDecks": [
+    {
+      "rank": 1,
+      "name": "Mega Altaria ex Espeon",
+      "usage": 9.51,
+      "winrate": 50.21,
+      "record": "1706-1618-74"
+    },
+    {
+      "rank": 2,
+      "name": "Miraidon ex Magnezone",
+      "usage": 6.6,
+      "winrate": 49.1,
+      "record": "1123-1096-68"
+    },
+    {
+      "rank": 3,
+      "name": "Magnezone Miraidon ex",
+      "usage": 6.18,
+      "winrate": 50.07,
+      "record": "1105-1033-69"
+    },
+    {
+      "rank": 4,
+      "name": "Mega Altaria ex Gourgeist",
+      "usage": 4.87,
+      "winrate": 52.47,
+      "record": "1000-832-74"
+    },
+    {
+      "rank": 5,
+      "name": "Mega Sceptile ex Sceptile",
+      "usage": 4.85,
+      "winrate": 50.2,
+      "record": "880-823-50"
+    },
+    {
+      "rank": 6,
+      "name": "Mega Blaziken ex Greninja",
+      "usage": 4.31,
+      "winrate": 53.84,
+      "record": "932-733-66"
+    },
+    {
+      "rank": 7,
+      "name": "Suicune ex Baxcalibur",
+      "usage": 4.04,
+      "winrate": 53.43,
+      "record": "880-710-57"
+    },
+    {
+      "rank": 8,
+      "name": "Hydreigon Mega Absol ex",
+      "usage": 3.59,
+      "winrate": 51.31,
+      "record": "667-601-32"
+    },
+    {
+      "rank": 9,
+      "name": "Magnezone ex Magnezone",
+      "usage": 3.06,
+      "winrate": 49.9,
+      "record": "498-474-26"
+    },
+    {
+      "rank": 10,
+      "name": "Zoroark ex Mega Absol ex",
+      "usage": 3.04,
+      "winrate": 49.44,
+      "record": "527-519-20"
+    }
+  ],
+  "topUsage": [
+    {
+      "rank": 1,
+      "name": "Mega Altaria ex Espeon",
+      "usage": 9.51,
+      "winrate": 50.21,
+      "record": "1706-1618-74"
+    },
+    {
+      "rank": 2,
+      "name": "Miraidon ex Magnezone",
+      "usage": 6.6,
+      "winrate": 49.1,
+      "record": "1123-1096-68"
+    },
+    {
+      "rank": 3,
+      "name": "Magnezone Miraidon ex",
+      "usage": 6.18,
+      "winrate": 50.07,
+      "record": "1105-1033-69"
+    },
+    {
+      "rank": 4,
+      "name": "Mega Altaria ex Gourgeist",
+      "usage": 4.87,
+      "winrate": 52.47,
+      "record": "1000-832-74"
+    },
+    {
+      "rank": 5,
+      "name": "Mega Sceptile ex Sceptile",
+      "usage": 4.85,
+      "winrate": 50.2,
+      "record": "880-823-50"
+    },
+    {
+      "rank": 6,
+      "name": "Mega Blaziken ex Greninja",
+      "usage": 4.31,
+      "winrate": 53.84,
+      "record": "932-733-66"
+    },
+    {
+      "rank": 7,
+      "name": "Suicune ex Baxcalibur",
+      "usage": 4.04,
+      "winrate": 53.43,
+      "record": "880-710-57"
+    },
+    {
+      "rank": 8,
+      "name": "Hydreigon Mega Absol ex",
+      "usage": 3.59,
+      "winrate": 51.31,
+      "record": "667-601-32"
+    },
+    {
+      "rank": 9,
+      "name": "Magnezone ex Magnezone",
+      "usage": 3.06,
+      "winrate": 49.9,
+      "record": "498-474-26"
+    },
+    {
+      "rank": 10,
+      "name": "Zoroark ex Mega Absol ex",
+      "usage": 3.04,
+      "winrate": 49.44,
+      "record": "527-519-20"
+    }
+  ],
+  "topWinrate": [
+    {
+      "rank": 1,
+      "name": "Mega Blaziken ex Greninja",
+      "winrate": 53.84,
+      "usage": 4.31,
+      "record": "932-733-66"
+    },
+    {
+      "rank": 2,
+      "name": "Suicune ex Baxcalibur",
+      "winrate": 53.43,
+      "usage": 4.04,
+      "record": "880-710-57"
+    },
+    {
+      "rank": 3,
+      "name": "Mega Altaria ex Gourgeist",
+      "winrate": 52.47,
+      "usage": 4.87,
+      "record": "1000-832-74"
+    },
+    {
+      "rank": 4,
+      "name": "Hydreigon Mega Absol ex",
+      "winrate": 51.31,
+      "usage": 3.59,
+      "record": "667-601-32"
+    },
+    {
+      "rank": 5,
+      "name": "Mega Altaria ex Espeon",
+      "winrate": 50.21,
+      "usage": 9.51,
+      "record": "1706-1618-74"
+    },
+    {
+      "rank": 6,
+      "name": "Mega Sceptile ex Sceptile",
+      "winrate": 50.2,
+      "usage": 4.85,
+      "record": "880-823-50"
+    },
+    {
+      "rank": 7,
+      "name": "Magnezone Miraidon ex",
+      "winrate": 50.07,
+      "usage": 6.18,
+      "record": "1105-1033-69"
+    },
+    {
+      "rank": 8,
+      "name": "Magnezone ex Magnezone",
+      "winrate": 49.9,
+      "usage": 3.06,
+      "record": "498-474-26"
+    },
+    {
+      "rank": 9,
+      "name": "Zoroark ex Mega Absol ex",
+      "winrate": 49.44,
+      "usage": 3.04,
+      "record": "527-519-20"
+    },
+    {
+      "rank": 10,
+      "name": "Miraidon ex Magnezone",
+      "winrate": 49.1,
+      "usage": 6.6,
+      "record": "1123-1096-68"
+    }
+  ],
+  "movements": [
+    {
+      "rank": 1,
+      "name": "Mega Altaria ex Espeon",
+      "usage": 9.51,
+      "winrate": 50.21,
+      "move": "stable"
+    },
+    {
+      "rank": 2,
+      "name": "Miraidon ex Magnezone",
+      "usage": 6.6,
+      "winrate": 49.1,
+      "move": "stable"
+    },
+    {
+      "rank": 3,
+      "name": "Magnezone Miraidon ex",
+      "usage": 6.18,
+      "winrate": 50.07,
+      "move": "stable"
+    },
+    {
+      "rank": 4,
+      "name": "Mega Altaria ex Gourgeist",
+      "usage": 4.87,
+      "winrate": 52.47,
+      "move": "stable"
+    },
+    {
+      "rank": 5,
+      "name": "Mega Sceptile ex Sceptile",
+      "usage": 4.85,
+      "winrate": 50.2,
+      "move": "stable"
+    },
+    {
+      "rank": 6,
+      "name": "Mega Blaziken ex Greninja",
+      "usage": 4.31,
+      "winrate": 53.84,
+      "move": "stable"
+    },
+    {
+      "rank": 7,
+      "name": "Suicune ex Baxcalibur",
+      "usage": 4.04,
+      "winrate": 53.43,
+      "move": "stable"
+    },
+    {
+      "rank": 8,
+      "name": "Hydreigon Mega Absol ex",
+      "usage": 3.59,
+      "winrate": 51.31,
+      "move": "stable"
+    },
+    {
+      "rank": 9,
+      "name": "Magnezone ex Magnezone",
+      "usage": 3.06,
+      "winrate": 49.9,
+      "move": "stable"
+    },
+    {
+      "rank": 10,
+      "name": "Zoroark ex Mega Absol ex",
+      "usage": 3.04,
+      "winrate": 49.44,
+      "move": "stable"
+    }
+  ],
+  "enteringMeta": [],
+  "leavingMeta": [],
+  "newDecks": [],
+  "upcomingEvents": [
+    {
+      "title": "Maintenance technique mensuelle",
+      "date": "2026-06-10",
+      "desc": "Maintenance programmée du serveur Pokémon TCG Pocket, possibles ajustements d'équilibrage ou correctifs mineurs sans changement de set."
+    },
+    {
+      "title": "Événement communautaire « Dragon Vault »",
+      "date": "2026-06-15",
+      "desc": "Tournoi in-game favorisant les decks Dragons avec boosters spéciaux, pourrait temporairement augmenter l'usage de Hydreigon et Mega Altaria ex."
+    },
+    {
+      "title": "Annonce présumée du set B4",
+      "date": "2026-06-25 (approximatif)",
+      "desc": "Date approximative basée sur le cycle habituel de révélations. Un teasing du prochain set majeur est attendu fin juin, susceptible de déstabiliser le méta actuel avant même sa sortie."
+    },
+    {
+      "title": "Sortie présumée du set B4",
+      "date": "2026-07-17 (approximatif)",
+      "desc": "Estimation basée sur les intervalles standards entre extensions. Le nouveau set devrait introduire de nouvelles mécaniques et archétypes, rendant obsolète une partie du méta Paradox Drive."
+    }
+  ],
+  "setChanged": false,
+  "dateFr": "dimanche 7/6/2026",
+  "updatedAt": "2026-06-07T05:58:13.673Z"
+}
