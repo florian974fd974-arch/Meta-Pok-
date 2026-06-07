@@ -261,7 +261,61 @@
         "n": "Méga Brasegali Amphinobi",
         "img": "1U5Ecrkj-ZbMn8t4Ka_jzXk7KP-Iz6x7o"
       }
-    ]
+    ],
+    "j6": {
+      "s19": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "11Kc4hrvlxxyWl7Cgn7P-k8asfSrNaj0z"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1BQzManXNzG098cL5teNUibpp6dvVOF_B"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "1ZRCMC95XQ_jRKMo6fbCo_66A8h63sWHG"
+        },
+        {
+          "n": "Méga Jungko Korillon",
+          "img": "1DYJYCx8uEVzK4ZnQGZRokqZiC07TDi7I"
+        },
+        {
+          "n": "Darkrai EX Giratina EX",
+          "img": "15avNRy1Okmhnn5BGlpogMowV3JMRG-TW"
+        },
+        {
+          "n": "Méga Altaria Branshitrouye",
+          "img": "1JrT-lmaXgKvHOayjc7n6924FyZdpVjgd"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "12v3OSiPbZ93UxnJhJsQvH7BtHnl0AWfH"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1_BqjrAgXGDbSfBeKp2rn8IlriIYNpGBa"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "10A5F6fU18s1ZdFB_j64C2W18rfeNuIvh"
+        },
+        {
+          "n": "Darkrai EX Giratina EX",
+          "img": "1U9QBTFU4Yw2wVB6FRXnII6jdS0t48tBN"
+        },
+        {
+          "n": "Méga Altaria Branshitrouye",
+          "img": "1kM7QJEu0F-Lc3HxtYQLekucvl4ztyn-w"
+        },
+        {
+          "n": "Méga Absol Trioxyde",
+          "img": "1cBl7SX1lH3XiOne4s3Bf6n65Rw_wPpxS"
+        }
+      ]
+    }
   },
   "imperium-alpha": {
     "j2": [
@@ -631,7 +685,169 @@
         "n": "Méga Jungko Korillon",
         "img": "1V9eP8Eoc75v_5yNY4PmSzx-Npho-Zg8u"
       }
-    ]
+    ],
+    "j4": {
+      "s19": [
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "1wYQDvLdG4UaEwS-5nOImQL6w4ixK18QA"
+        },
+        {
+          "n": "Méga Altaria Branshitrouye",
+          "img": "1H8yqiHcS626LdkEuhehEElB7H82-urMX"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1l4uH28B_vOFg9MRss9Lvnt_ujNc-7tot"
+        },
+        {
+          "n": "Méga Jungko",
+          "img": "14T8uEjkw3QbYb5Q-HKc4shfsIpbxXYY-"
+        },
+        {
+          "n": "Méga Absol Amphinobi",
+          "img": "13HsSHg2X1KY6kRtxO7yILbBGQ1igbLQr"
+        },
+        {
+          "n": "Méga Elecsprint Zéraora",
+          "img": "1qOCJR925633m8EfDiEG4byJMTUiC-DMU"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "1CbPPdxELQGgFihMEq6yGlPzROON06xk6"
+        },
+        {
+          "n": "Méga Altaria Branshitrouye",
+          "img": "1SC0nQFAJHNsr5JWrgpFlvMWqWuMvbHF8"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "11YUFvU74o0fKEo6JM7V0BpkX1sdF2Fxx"
+        },
+        {
+          "n": "Méga Jungko",
+          "img": "1HeZswLUt2vigFHhyGnlN5y3AQm2goK6W"
+        },
+        {
+          "n": "Méga Absol Amphinobi",
+          "img": "1RPuRwRFOy29m0JS0pAlb9zNMewtbI3A6"
+        },
+        {
+          "n": "Giratina EX Plumeline Amphinobi",
+          "img": "1xnQbLJc1MuTUZXWpynYRqMP8qjVA0T61"
+        }
+      ]
+    },
+    "j5": {
+      "s19": [
+        {
+          "n": "Méga Altaria Amphinobi",
+          "img": "1V8aoEBMlcLMu9U-0Y8jevdZq0ZpDtKcM"
+        },
+        {
+          "n": "Méga Absol Amphinobi",
+          "img": "1k6tZsYCidbj4zveJi5UtsuldKepRyXoA"
+        },
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1ImXpHmksL5JJHCrfICojwqVxkl4GkAe8"
+        },
+        {
+          "n": "Méga Elecsprint Zeraora",
+          "img": "148uRjLwFyZUiSw0HMdpoDu0i_rpwyEVW"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1nkB1RHApzi_IEdDELMljmJwrGKXYdsYN"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "1RElcHDuyD6VHG7K8q03L9jfWIfReIsMn"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Méga Absol Amphinobi",
+          "img": "1Qm89ncuUSmnx6aCtsq25QHtd08D6vSyn"
+        },
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1o5xqKJCG0kDgSxehwAyV39kuaYQ0Gp4y"
+        },
+        {
+          "n": "Méga Lucario Toudoudou",
+          "img": "1zxrpcGN-N5taPuLCmOEocFbiyht0s1EY"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "1wZianhcXDqGtTxMUBlVydFXO_hubF1ko"
+        },
+        {
+          "n": "Méga Altaria Branshitrouye",
+          "img": "17fCToMmK7vCD-S9EE8uwa2DmPWasHfNf"
+        },
+        {
+          "n": "Méga Jungko Mucuscule",
+          "img": "1Zd44iiUNvAruW73ze8Ch3WYsNz8RB1Sn"
+        }
+      ]
+    },
+    "j7": {
+      "s19": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1Dm5R28l0P_5oUc8iN9cRFGa0UY2ezFM5"
+        },
+        {
+          "n": "Magnézone EX Ogerpon EX",
+          "img": "1b5ry5225UBu6onf5wGa9jW2lm_YfAs3p"
+        },
+        {
+          "n": "Méga Altaria Mentali",
+          "img": "1HwwsIsOoGrcPGL6Pzmk7ydaOxKRiLyPd"
+        },
+        {
+          "n": "Méga Jungko Mucuscule",
+          "img": "1AM0pQuDXd_CDfeO3EUQiDukaXj03_Pqk"
+        },
+        {
+          "n": "Miraidon EX Magnézone",
+          "img": "1whN8xzzws8kF8dKhxQ3wVpobmdT7Wedv"
+        },
+        {
+          "n": "Méga Elecsprint Zeraora",
+          "img": "1RXlUWvMxPZHlg9DnZTEt9yWQy5t-OisS"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1CFZpSvdVaaKTuyS9z-_O1Ey0IennTKuu"
+        },
+        {
+          "n": "Méga Altaria Mentali",
+          "img": "1I0YcUDlmz5HfwiyWzhXVV3uz1D86qAYC"
+        },
+        {
+          "n": "Méga Jungko Mucuscule",
+          "img": "12ZrRWU61Kj35I-ubvnfNNoW1XxLS2VVM"
+        },
+        {
+          "n": "Miraidon EX Magnézone",
+          "img": "1QWvOP2GNMGFnS09HhF6vDDYHl1to7PzK"
+        },
+        {
+          "n": "Méga Cizayox",
+          "img": "1vnOLoe3D1bu3q93YNrnBCghXsEsjYkIG"
+        },
+        {
+          "n": "Méga Dracaufeu Y Entei",
+          "img": "1F6WJFLNdkRO2NxPS3G2UtAlthOplM5Up"
+        }
+      ]
+    }
   },
   "xtrem-platine": {
     "j3": [
@@ -765,7 +981,61 @@
         "n": "Méga Altaria Mentali",
         "img": "1QWTzOx3-Ha_DPyb06LhlMTXOtkji1u5S"
       }
-    ]
+    ],
+    "j6": {
+      "s19": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1ZDNCaHpxXrOPHZJ7gs-nzHAr7rUGkTgu"
+        },
+        {
+          "n": "Magnézone Branshitrouye",
+          "img": "1XK1QtFwaKOwGwDcfrQGPFNTTSLEavVaf"
+        },
+        {
+          "n": "Magnézone EX Magnézone",
+          "img": "1N9dOhRH9tVtKmFxchySQICvLKY2EWWXJ"
+        },
+        {
+          "n": "Méga Jungko Mucuscule",
+          "img": "1SuNzT3_lYyx8BMt5PkUc8oa7pH-BmuZ1"
+        },
+        {
+          "n": "Méga Lucario Kapoéra",
+          "img": "1JkTbi5O_rtIEB9IoV4WyiLGMu15y2ARE"
+        },
+        {
+          "n": "Miascarade EX",
+          "img": "1EgjzyY4udHhbj1sVF0s3tT3-lW7V78ze"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1UuZIbqKnd-WGpWRIgdF8EeT3_FAIV14n"
+        },
+        {
+          "n": "Méga Altaria Branshitrouye",
+          "img": "1ZrF_PkUpLjpzYvX7AC7M5mtTRenw5wDX"
+        },
+        {
+          "n": "Magnézone EX Magnézone",
+          "img": "1iizsftRFpulr3gOEUVYxueMi1eVCQFF0"
+        },
+        {
+          "n": "Méga Jungko Mucuscule",
+          "img": "1shZmqg5hgD3rIVG8ZhWYEb058VTCIGr1"
+        },
+        {
+          "n": "Méga Lucario Kapoéra",
+          "img": "1ytYN7mGBZON9xm90t9PGh6i39UCs_yGL"
+        },
+        {
+          "n": "Méga Elecsprint Zeraora",
+          "img": "1qP3OZ6DrGORxWCoDv-1bM6tGN6Hp1VkH"
+        }
+      ]
+    }
   },
   "artiknights": {
     "j2": {
