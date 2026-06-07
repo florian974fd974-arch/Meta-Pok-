@@ -70,7 +70,8 @@
     });
     return c;
   }
-  function chips(names, cls){ var w=el('div','mp-chips'); (names||[]).forEach(function(n){ w.appendChild(el('span','mp-chip'+(cls?' '+cls:''),esc(n))); }); return w; }
+  function chipText(n){ if(n==null) return ''; if(typeof n!=='object') return String(n); return n.name||n.label||n.title||n.deck||''; }
+  function chips(names, cls){ var w=el('div','mp-chips'); (names||[]).forEach(function(n){ var t=chipText(n); if(!t) return; w.appendChild(el('span','mp-chip'+(cls?' '+cls:''),esc(t))); }); return w; }
   function eventsCard(list){
     if(!list||!list.length) return null;
     var c=el('div','mp-card'); c.appendChild(el('h3',null,'Sorties &amp; événements à venir'));
@@ -140,7 +141,8 @@
       var g=el('div','mp-pkgrid'); g.style.marginTop='20px';
       d.topPokemon.forEach(function(p){ var c=el('div','mp-pk');
         c.appendChild(el('div','t','<b>'+esc(p.name)+'</b><span class="mp-chip">'+esc(p.tier||'')+'</span>'));
-        c.appendChild(el('div','meta','<div><b>Rôle :</b> '+esc(p.role||'')+'</div>'+(p.heldItems&&p.heldItems.length?'<div><b>Objets :</b> '+esc(p.heldItems.join(' · '))+'</div>':'')+(p.battleItem?'<div><b>Combat :</b> '+esc(p.battleItem)+'</div>':'')));
+        var hi=(p.heldItems||[]).map(chipText).filter(Boolean);
+        c.appendChild(el('div','meta','<div><b>Rôle :</b> '+esc(chipText(p.role)||p.role||'')+'</div>'+(hi.length?'<div><b>Objets :</b> '+esc(hi.join(' · '))+'</div>':'')+(p.battleItem?'<div><b>Combat :</b> '+esc(chipText(p.battleItem)||p.battleItem)+'</div>':'')));
         g.appendChild(c);
       });
       w.appendChild(g);
