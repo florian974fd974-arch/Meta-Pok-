@@ -236,6 +236,16 @@
     });
   }
 
+  function injectReglement(){
+    try{
+      if(typeof rulesData==='undefined'||!rulesData.pbl) return;
+      if(rulesData.pbl.indexOf('reglement-officiel-pdf')>=0) return;
+      var pdf='https://drive.google.com/file/d/1vO1rh-8CQp0tbIJv9X-a9PngxQyvcSYc/view';
+      var banner='<div class="reglement-officiel-pdf info-box" style="margin:0 0 20px"><div class="icon">📄</div><div><div class="title">Règlement officiel à jour</div><p style="margin:4px 0 10px">Version complète mise à jour : saison régulière, calendrier des playoffs (barrages dès le lundi 8 juin), format Grande Finale (BO7, ban de 2 decks) et restrictions Pokémon EX/Méga.</p><a class="modal-btn primary" target="_blank" href="'+pdf+'">Ouvrir le règlement complet (PDF) →</a></div></div>';
+      rulesData.pbl = banner + rulesData.pbl;
+    }catch(e){}
+  }
+
   function run(){
     Promise.all([J('tcgp_data.json'),J('classic_data.json'),J('vgc_data.json'),J('unite_data.json')])
     .then(function(r){
@@ -246,6 +256,7 @@
       if(window.MetaPoke&&window.MetaPoke.bus) window.MetaPoke.bus.emit('mp:rendered');
     });
     mergePbl();
+    injectReglement();
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){ setTimeout(run, 200); });
   else setTimeout(run, 200);
