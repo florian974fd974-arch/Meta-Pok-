@@ -197,6 +197,22 @@
     }
   }
 
+  function mergePbl(){
+    J('pbl_decks.json').then(function(p){
+      if(!p) return;
+      try{
+        if(typeof pblTeamDecks==='undefined') return;
+        Object.keys(p).forEach(function(teamId){
+          if(!pblTeamDecks[teamId]) return;
+          if(!pblTeamDecks[teamId].serverDays) pblTeamDecks[teamId].serverDays={};
+          Object.keys(p[teamId]).forEach(function(day){
+            var arr=p[teamId][day]; if(arr&&arr.length) pblTeamDecks[teamId].serverDays[day]=arr;
+          });
+        });
+      }catch(e){}
+    });
+  }
+
   function run(){
     Promise.all([J('tcgp_data.json'),J('classic_data.json'),J('vgc_data.json'),J('unite_data.json')])
     .then(function(r){
@@ -206,6 +222,7 @@
       renderUnite(r[3]);
       if(window.MetaPoke&&window.MetaPoke.bus) window.MetaPoke.bus.emit('mp:rendered');
     });
+    mergePbl();
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){ setTimeout(run, 200); });
   else setTimeout(run, 200);
