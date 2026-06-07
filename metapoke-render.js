@@ -105,9 +105,10 @@
       d.topPokemon.forEach(function(p){
         var c=el('div','mp-pk');
         c.appendChild(el('div','t','<b>'+esc(p.name)+'</b><span class="mp-pct use">'+(p.usageRate||p.usage||'—')+'%</span>'));
-        function line(lbl,arr){ return arr&&arr.length? ('<div><b>'+lbl+' :</b> '+esc(arr.slice(0,3).join(' · '))+'</div>'):''; }
+        function fmtEntry(x){ if(x==null) return ''; if(typeof x!=='object') return String(x); var n=x.name||x.label||''; var pc=(x.pct!=null?x.pct:(x.usage!=null?x.usage:(x.percent!=null?x.percent:(x.rate!=null?x.rate:null)))); return pc!=null?(n+' '+pc+'%'):String(n); }
+        function line(lbl,arr,n){ if(!arr||!arr.length) return ''; var s=arr.slice(0,n||3).map(fmtEntry).filter(Boolean).join(' · '); return s?('<div><b>'+lbl+' :</b> '+esc(s)+'</div>'):''; }
         c.appendChild(el('div','meta',
-          line('Talent', p.abilities)+line('Objet', p.items)+line('Attaques', p.moves)+line('Coéquipiers', p.partners)));
+          line('Talent', p.abilities, 2)+line('Objet', p.items, 3)+line('Attaques', p.moves, 4)+line('Coéquipiers', p.partners, 3)));
         g.appendChild(c);
       });
       w.appendChild(g);
