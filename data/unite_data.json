@@ -1,0 +1,1550 @@
+{
+  "season": "Pokémon Unite",
+  "patch": "Patch 1.23.3.2 — bugfixes and Meganium (2026-05-28)",
+  "patchVer": "1.23.3.2",
+  "patchDate": "2026-05-28",
+  "patchChanged": false,
+  "metaSummary": "Patch 1.23.3.2 — Alcremie (A+) en tête.",
+  "analysis": {
+    "whatToPlay": "",
+    "howToCounter": ""
+  },
+  "tierList": {
+    "B+": [
+      {
+        "name": "Absol",
+        "role": "Speedster",
+        "range": "Melee"
+      },
+      {
+        "name": "Cinderace",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Dhelmise",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Glaceon",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Lucario",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Machamp",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Metagross",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Mr. Mime",
+        "role": "Supporter",
+        "range": "Melee"
+      },
+      {
+        "name": "Rapidash",
+        "role": "Speedster",
+        "range": "Ranged"
+      },
+      {
+        "name": "Sableye",
+        "role": "Supporter",
+        "range": "Melee"
+      },
+      {
+        "name": "Talonflame",
+        "role": "Speedster",
+        "range": "Melee"
+      },
+      {
+        "name": "Venusaur",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Wigglytuff",
+        "role": "Supporter",
+        "range": "Melee"
+      }
+    ],
+    "B": [
+      {
+        "name": "Aegislash",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Armarouge",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Charizard",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Clefable",
+        "role": "Supporter",
+        "range": "Melee"
+      },
+      {
+        "name": "Gardevoir",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Greninja",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Ho-Oh",
+        "role": "Defender",
+        "range": "Ranged"
+      },
+      {
+        "name": "Lapras",
+        "role": "Defender",
+        "range": "Ranged"
+      },
+      {
+        "name": "Latios",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Ninetales",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Pikachu",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Scizor",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Sylveon",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Urshifu",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Zeraora",
+        "role": "Speedster",
+        "range": "Melee"
+      }
+    ],
+    "A+": [
+      {
+        "name": "Alcremie",
+        "role": "Supporter",
+        "range": "Ranged"
+      },
+      {
+        "name": "Blissey",
+        "role": "Supporter",
+        "range": "Melee"
+      },
+      {
+        "name": "Ceruledge",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Crustle",
+        "role": "Defender",
+        "range": "Melee"
+      },
+      {
+        "name": "Dodrio",
+        "role": "Speedster",
+        "range": "Melee"
+      },
+      {
+        "name": "Eldegoss",
+        "role": "Supporter",
+        "range": "Ranged"
+      },
+      {
+        "name": "Empoleon",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Gyarados",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Hoopa",
+        "role": "Supporter",
+        "range": "Ranged"
+      },
+      {
+        "name": "Latias",
+        "role": "Supporter",
+        "range": "Ranged"
+      },
+      {
+        "name": "Leafeon",
+        "role": "Speedster",
+        "range": "Melee"
+      },
+      {
+        "name": "Meowth",
+        "role": "Speedster",
+        "range": "Melee"
+      },
+      {
+        "name": "Mew",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Mega Mewtwo Y",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Scyther",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Snorlax",
+        "role": "Defender",
+        "range": "Melee"
+      },
+      {
+        "name": "Suicune",
+        "role": "All-Rounder",
+        "range": "Ranged"
+      },
+      {
+        "name": "Tsareena",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Umbreon",
+        "role": "Defender",
+        "range": "Melee"
+      }
+    ],
+    "TBD": [
+      {
+        "name": "Articuno",
+        "role": "Defender",
+        "range": "Ranged"
+      },
+      {
+        "name": "Feraligatr",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Meganium",
+        "role": "Supporter",
+        "range": "Melee"
+      },
+      {
+        "name": "Moltres",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Skeledirge",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Typhlosion",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Zapdos",
+        "role": "Attacker",
+        "range": "Ranged"
+      }
+    ],
+    "F": [
+      {
+        "name": "Azumarill",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Goodra",
+        "role": "Defender",
+        "range": "Melee"
+      }
+    ],
+    "S": [
+      {
+        "name": "Blastoise",
+        "role": "Defender",
+        "range": "Ranged"
+      },
+      {
+        "name": "Blaziken",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Mega Charizard Y",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Darkrai",
+        "role": "Speedster",
+        "range": "Melee"
+      },
+      {
+        "name": "Mega Gyarados",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Mega Lucario",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Mimikyu",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Psyduck",
+        "role": "Supporter",
+        "range": "Ranged"
+      },
+      {
+        "name": "Vaporeon",
+        "role": "Defender",
+        "range": "Ranged"
+      }
+    ],
+    "A": [
+      {
+        "name": "Buzzwole",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Mega Charizard X",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Decidueye",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Espeon",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Garchomp",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Gengar",
+        "role": "Speedster",
+        "range": "Melee"
+      },
+      {
+        "name": "Inteleon",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Mamoswine",
+        "role": "Defender",
+        "range": "Melee"
+      },
+      {
+        "name": "Mega Mewtwo X",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Miraidon",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Pawmot",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Raichu",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Sirfetch'd",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Slowbro",
+        "role": "Defender",
+        "range": "Ranged"
+      },
+      {
+        "name": "Trevenant",
+        "role": "Defender",
+        "range": "Melee"
+      },
+      {
+        "name": "Zacian",
+        "role": "All-Rounder",
+        "range": "Melee"
+      }
+    ],
+    "D": [
+      {
+        "name": "Chandelure",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Cramorant",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Duraludon",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Falinks",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Greedent",
+        "role": "Defender",
+        "range": "Melee"
+      }
+    ],
+    "C": [
+      {
+        "name": "Comfey",
+        "role": "Supporter",
+        "range": "Ranged"
+      },
+      {
+        "name": "Delphox",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Dragapult",
+        "role": "Attacker",
+        "range": "Ranged"
+      },
+      {
+        "name": "Dragonite",
+        "role": "All-Rounder",
+        "range": "Ranged"
+      },
+      {
+        "name": "Meowscarada",
+        "role": "Speedster",
+        "range": "Melee"
+      },
+      {
+        "name": "Tinkaton",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Tyranitar",
+        "role": "All-Rounder",
+        "range": "Melee"
+      },
+      {
+        "name": "Zoroark",
+        "role": "Speedster",
+        "range": "Melee"
+      }
+    ]
+  },
+  "topPokemon": [
+    {
+      "name": "Alcremie",
+      "tier": "A+",
+      "role": "Supporter",
+      "range": "Ranged",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Decorating Gleam",
+        "lane": "Path Support",
+        "heldItems": [
+          "Exp Share",
+          "Buddy Barrier",
+          "Wise Glasses"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Charm",
+          "Helping Hand",
+          "Decorate",
+          "Dazzling Gleam"
+        ]
+      }
+    },
+    {
+      "name": "Blastoise",
+      "tier": "S",
+      "role": "Defender",
+      "range": "Ranged",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Surf Pump",
+        "lane": "Path Tank",
+        "heldItems": [
+          "Focus Band",
+          "Energy Amplifier",
+          "Resonant Guard"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Water Gun",
+          "Skull Bash",
+          "Hydro Pump",
+          "Surf"
+        ]
+      }
+    },
+    {
+      "name": "Blaziken",
+      "tier": "S",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Expert",
+      "build": {
+        "name": "Chicken & Waffles",
+        "lane": "Path Damage",
+        "heldItems": [
+          "Attack Weight",
+          "Aeos Cookie",
+          "Weakness Policy"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Aerial Ace",
+          "Ember"
+        ]
+      }
+    },
+    {
+      "name": "Blissey",
+      "tier": "A+",
+      "role": "Supporter",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Soft Bomb",
+        "lane": "Path Support",
+        "heldItems": [
+          "Exp Share",
+          "Buddy Barrier",
+          "Energy Amplifier"
+        ],
+        "battleItem": "X Speed",
+        "moves": [
+          "Pound",
+          "Heal Pulse",
+          "Soft-Boiled",
+          "Egg Bomb"
+        ]
+      }
+    },
+    {
+      "name": "Buzzwole",
+      "tier": "A",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Super Smack",
+        "lane": "Path Damage",
+        "heldItems": [
+          "Attack Weight",
+          "Weakness Policy",
+          "Focus Band"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Mega Punch",
+          "Fell Stinger",
+          "Superpower",
+          "Smack Down"
+        ]
+      }
+    },
+    {
+      "name": "Ceruledge",
+      "tier": "A+",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Psycho Force",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Muscle Band",
+          "Razor Claw",
+          "Curse Bangle"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Lava Plume",
+          "Take Down",
+          "Psycho Cut",
+          "Phantom Force"
+        ]
+      }
+    },
+    {
+      "name": "Mega Charizard X",
+      "tier": "A",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Fire Blitz",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Charizardite X",
+          "Scope Lens",
+          "Attack Weight"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Flame Burst",
+          "Fire Spin",
+          "Fire Punch",
+          "Flare Blitz"
+        ]
+      }
+    },
+    {
+      "name": "Mega Charizard Y",
+      "tier": "S",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Flame Blast",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Charizardite Y",
+          "Attack Weight",
+          "Curse Bangle"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Flame Burst",
+          "Fire Spin",
+          "Flamethrower",
+          "Fire Blast"
+        ]
+      }
+    },
+    {
+      "name": "Crustle",
+      "tier": "A+",
+      "role": "Defender",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Scissor Tomb",
+        "lane": "Path Tank",
+        "heldItems": [
+          "Resonant Guard",
+          "Focus Band",
+          "Exp Share"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Rock Slide",
+          "Fury Cutter",
+          "Rock Tomb",
+          "X-Scissor"
+        ]
+      }
+    },
+    {
+      "name": "Darkrai",
+      "tier": "S",
+      "role": "Speedster",
+      "range": "Melee",
+      "difficulty": "Expert",
+      "build": {
+        "name": "Dark Plot (Opportunity Burst)",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Slick Spoon",
+          "Drive Lens",
+          "Wise Glasses"
+        ],
+        "battleItem": "Potion",
+        "moves": [
+          "Hypnosis",
+          "Calm Mind",
+          "Dark Void",
+          "Nasty Plot"
+        ]
+      }
+    },
+    {
+      "name": "Decidueye",
+      "tier": "A",
+      "role": "Attacker",
+      "range": "Ranged",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Shadow Shackle",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Muscle Band",
+          "Accel Bracer",
+          "Attack Weight"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Leafage",
+          "Astonish",
+          "Spirit Shackle",
+          "Shadow Sneak"
+        ]
+      }
+    },
+    {
+      "name": "Dodrio",
+      "tier": "A+",
+      "role": "Speedster",
+      "range": "Melee",
+      "difficulty": "Expert",
+      "build": {
+        "name": "Tri Jump",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Attack Weight",
+          "Razor Claw",
+          "Charging Charm"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Quick Attack",
+          "Peck",
+          "Tri Attack",
+          "Jump Kick"
+        ]
+      }
+    },
+    {
+      "name": "Eldegoss",
+      "tier": "A+",
+      "role": "Supporter",
+      "range": "Ranged",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Pollen Spore",
+        "lane": "Path Support",
+        "heldItems": [
+          "Buddy Barrier",
+          "Resonant Guard",
+          "Muscle Band"
+        ],
+        "battleItem": "X Speed",
+        "moves": [
+          "Leafage",
+          "Synthesis",
+          "Pollen Puff",
+          "Cotton Spore"
+        ]
+      }
+    },
+    {
+      "name": "Empoleon",
+      "tier": "A+",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Aqua Cannon",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Sp. Atk Specs",
+          "Curse Incense",
+          "Wise Glasses"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Water Gun",
+          "Peck",
+          "Aqua Jet",
+          "Hydro Cannon"
+        ]
+      }
+    },
+    {
+      "name": "Espeon",
+      "tier": "A",
+      "role": "Attacker",
+      "range": "Ranged",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Shock Beam",
+        "lane": "Center Split / Path Damage",
+        "heldItems": [
+          "Slick Spoon",
+          "Wise Glasses",
+          "Drive Lens"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Swift",
+          "Growl",
+          "Psyshock",
+          "Psybeam"
+        ]
+      }
+    },
+    {
+      "name": "Garchomp",
+      "tier": "A",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Full Dragon",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Scope Lens",
+          "Choice Scarf",
+          "Rapid Fire Scarf"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Bulldoze",
+          "Sand Attack",
+          "Dragon Rush",
+          "Dragon Claw"
+        ]
+      }
+    },
+    {
+      "name": "Gengar",
+      "tier": "A",
+      "role": "Speedster",
+      "range": "Melee",
+      "difficulty": "Expert",
+      "build": {
+        "name": "Shadow Eater",
+        "lane": "Center Damage",
+        "heldItems": [
+          "Wise Glasses",
+          "Drive Lens",
+          "Choice Specs"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Will-o-Wisp",
+          "Lick",
+          "Dream Eater",
+          "Shadow Ball"
+        ]
+      }
+    },
+    {
+      "name": "Gyarados",
+      "tier": "A+",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Bounce Breath",
+        "lane": "Path Damage",
+        "heldItems": [
+          "Attack Weight",
+          "Accel Bracer",
+          "Energy Amplifier"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Flail",
+          "Splash",
+          "Dragon Breath",
+          "Bounce"
+        ]
+      }
+    },
+    {
+      "name": "Mega Gyarados",
+      "tier": "S",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Water Breath (Hyper offense)",
+        "lane": "Path Damage",
+        "heldItems": [
+          "Gyaradosite",
+          "Attack Weight",
+          "Accel Bracer"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Flail",
+          "Splash",
+          "Dragon Breath",
+          "Water Fall"
+        ]
+      }
+    },
+    {
+      "name": "Hoopa",
+      "tier": "A+",
+      "role": "Supporter",
+      "range": "Ranged",
+      "difficulty": "Expert",
+      "build": {
+        "name": "Hyperspace Force (Item Options: READ DESCRIPTION)",
+        "lane": "Path Support",
+        "heldItems": [
+          "Resonant Guard",
+          "Muscle Band",
+          "Exp Share"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Astonish",
+          "Confusion",
+          "Hyperspace Hole",
+          "Phantom Force"
+        ]
+      }
+    },
+    {
+      "name": "Inteleon",
+      "tier": "A",
+      "role": "Attacker",
+      "range": "Ranged",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Snipe Stinger",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Choice Specs",
+          "Wise Glasses",
+          "Drive Lens"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Water Gun",
+          "Tearful Look",
+          "Fell Stinger",
+          "Snipe Shot"
+        ]
+      }
+    },
+    {
+      "name": "Latias",
+      "tier": "A+",
+      "role": "Supporter",
+      "range": "Ranged",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Mist Pulse",
+        "lane": "Path Support",
+        "heldItems": [
+          "Shell Bell",
+          "Curse Incense",
+          "Drive Lens"
+        ],
+        "battleItem": "Potion",
+        "moves": [
+          "Swift",
+          "Confusion",
+          "Dragon Pulse",
+          "Mist Ball"
+        ]
+      }
+    },
+    {
+      "name": "Leafeon",
+      "tier": "A+",
+      "role": "Speedster",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Razor Ace",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Razor Claw",
+          "Energy Amplifier",
+          "Attack Weight"
+        ],
+        "battleItem": "X Attack",
+        "moves": [
+          "Swift",
+          "Quick Attack",
+          "Razor Leaf",
+          "Aerial Ace"
+        ]
+      }
+    },
+    {
+      "name": "Mega Lucario",
+      "tier": "S",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Expert",
+      "build": {
+        "name": "Items Only",
+        "lane": "Path Damage",
+        "heldItems": [
+          "Lucarionite",
+          "Attack Weight",
+          "Weakness Policy"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Quick Attack",
+          "Meteor Mash",
+          "Power-Up Punch",
+          "Close Combat"
+        ]
+      }
+    },
+    {
+      "name": "Mamoswine",
+      "tier": "A",
+      "role": "Defender",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Ice Quake",
+        "lane": "Path Tank",
+        "heldItems": [
+          "Focus Band",
+          "Resonant Guard",
+          "Exp Share"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Ice Shard",
+          "Tackle",
+          "Ice Fang",
+          "Earthquake"
+        ]
+      }
+    },
+    {
+      "name": "Meowth",
+      "tier": "A+",
+      "role": "Speedster",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Fury Attack",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Attack Weight",
+          "Razor Claw",
+          "Accel Bracer"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Scratch",
+          "Feint",
+          "Fury Swipes",
+          "Feint Attack"
+        ]
+      }
+    },
+    {
+      "name": "Mew",
+      "tier": "A+",
+      "role": "Attacker",
+      "range": "Ranged",
+      "difficulty": "Expert",
+      "build": {
+        "name": "Items Only",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Choice Specs",
+          "Wise Glasses",
+          "Drive Lens"
+        ],
+        "battleItem": "Eject Button",
+        "moves": []
+      }
+    },
+    {
+      "name": "Mega Mewtwo X",
+      "tier": "A",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Future Recover",
+        "lane": "Path Damage",
+        "heldItems": [
+          "Mewtwonite X",
+          "Attack Weight",
+          "Weakness Policy"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Confusion",
+          "Barrier",
+          "Future Sight",
+          "Recover"
+        ]
+      }
+    },
+    {
+      "name": "Mega Mewtwo Y",
+      "tier": "A+",
+      "role": "Attacker",
+      "range": "Ranged",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Items Only",
+        "lane": "Path Damage",
+        "heldItems": [
+          "Mewtwonite Y",
+          "Muscle Band",
+          "Rapid Fire Scarf"
+        ],
+        "battleItem": "X Attack",
+        "moves": [
+          "Confusion",
+          "Barrier"
+        ]
+      }
+    },
+    {
+      "name": "Mimikyu",
+      "tier": "S",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Shadows",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Razor Claw",
+          "Muscle Band",
+          "Attack Weight"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Scratch",
+          "Astonish",
+          "Shadow Claw",
+          "Shadow Sneak"
+        ]
+      }
+    },
+    {
+      "name": "Miraidon",
+      "tier": "A",
+      "role": "Attacker",
+      "range": "Ranged",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Thunder Beam",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Curse Incense",
+          "Wise Glasses",
+          "Drive Lens"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Thunder Shock",
+          "Thunder Wave",
+          "Charge Beam",
+          "Thunder"
+        ]
+      }
+    },
+    {
+      "name": "Pawmot",
+      "tier": "A",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Items Only",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Muscle Band",
+          "Razor Claw",
+          "Weakness Policy"
+        ],
+        "battleItem": "Eject Button",
+        "moves": []
+      }
+    },
+    {
+      "name": "Psyduck",
+      "tier": "S",
+      "role": "Supporter",
+      "range": "Ranged",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Surf - READ EXPLANATION; Items - HP emphasis",
+        "lane": "Path Support",
+        "heldItems": [
+          "Resonant Guard",
+          "Buddy Barrier",
+          "Exp Share"
+        ],
+        "battleItem": "Potion",
+        "moves": [
+          "Confusion",
+          "Tail Whip",
+          "Surf"
+        ]
+      }
+    },
+    {
+      "name": "Raichu",
+      "tier": "A",
+      "role": "Attacker",
+      "range": "Ranged",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Electro Bolt",
+        "lane": "Path Damage",
+        "heldItems": [
+          "Wise Glasses",
+          "Drive Lens",
+          "Shell Bell"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Thunder Shock",
+          "Thunder Wave",
+          "Electro Ball",
+          "Thunderbolt"
+        ]
+      }
+    },
+    {
+      "name": "Scyther",
+      "tier": "A+",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Double Wingbeat",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Accel Bracer",
+          "Attack Weight",
+          "Energy Amplifier"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Quick Attack",
+          "Fury Cutter",
+          "Dual Wingbeat",
+          "Double Hit"
+        ]
+      }
+    },
+    {
+      "name": "Sirfetch'd",
+      "tier": "A",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Expert",
+      "build": {
+        "name": "Detect Blade",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Attack Weight",
+          "Scope Lens",
+          "Razor Claw"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Dual Wingbeat",
+          "Quick Attack",
+          "Leaf Blade",
+          "Detect"
+        ]
+      }
+    },
+    {
+      "name": "Slowbro",
+      "tier": "A",
+      "role": "Defender",
+      "range": "Ranged",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Surf ???",
+        "lane": "Path Tank",
+        "heldItems": [
+          "Exp Share",
+          "Resonant Guard",
+          "Focus Band"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Water Gun",
+          "Slack Off",
+          "Surf",
+          "Amnesia"
+        ]
+      }
+    },
+    {
+      "name": "Snorlax",
+      "tier": "A+",
+      "role": "Defender",
+      "range": "Melee",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Heavy Block",
+        "lane": "Path Tank",
+        "heldItems": [
+          "Exp Share",
+          "Resonant Guard",
+          "Buddy Barrier"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Tackle",
+          "Rest",
+          "Heavy Slam",
+          "Block"
+        ]
+      }
+    },
+    {
+      "name": "Suicune",
+      "tier": "A+",
+      "role": "All-Rounder",
+      "range": "Ranged",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Whirl Pool (CDR emphasis)",
+        "lane": "Path Tank / Support",
+        "heldItems": [
+          "Drive Lens",
+          "Shell Bell",
+          "Energy Amplifier"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Avalanche",
+          "Water Pulse",
+          "Whirlpool"
+        ]
+      }
+    },
+    {
+      "name": "Trevenant",
+      "tier": "A",
+      "role": "Defender",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Wood Hammer",
+        "lane": "Path Tank",
+        "heldItems": [
+          "Focus Band",
+          "Resonant Guard",
+          "Exp Share"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Will-o-Wisp",
+          "Branch Poke",
+          "Wood Hammer"
+        ]
+      }
+    },
+    {
+      "name": "Tsareena",
+      "tier": "A+",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Expert",
+      "build": {
+        "name": "Stomp (Part 1)",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Attack Weight",
+          "Razor Claw",
+          "Weakness Policy"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Razor Leaf",
+          "Rapid Spin",
+          "Stomp"
+        ]
+      }
+    },
+    {
+      "name": "Umbreon",
+      "tier": "A+",
+      "role": "Defender",
+      "range": "Melee",
+      "difficulty": "Novice",
+      "build": {
+        "name": "Foul Snarl (PLEASE READ DESCRIPTION)",
+        "lane": "Path Disrupter",
+        "heldItems": [
+          "Resonant Guard",
+          "Focus Band",
+          "Buddy Barrier"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Swift",
+          "Fake Tears",
+          "Foul Play",
+          "Snarl"
+        ]
+      }
+    },
+    {
+      "name": "Vaporeon",
+      "tier": "S",
+      "role": "Defender",
+      "range": "Ranged",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Muddy Turn (Supportive)",
+        "lane": "Path Disruption",
+        "heldItems": [
+          "Resonant Guard",
+          "Curse Incense",
+          "Buddy Barrier"
+        ],
+        "battleItem": "Eject Button",
+        "moves": [
+          "Swift",
+          "Tackle",
+          "Muddy Water",
+          "Flip Turn"
+        ]
+      }
+    },
+    {
+      "name": "Zacian",
+      "tier": "A",
+      "role": "All-Rounder",
+      "range": "Melee",
+      "difficulty": "Intermediate",
+      "build": {
+        "name": "Metal Rough",
+        "lane": "Anywhere Damage",
+        "heldItems": [
+          "Rusted Sword",
+          "Muscle Band",
+          "Rapid Fire Scarf"
+        ],
+        "battleItem": "Full Heal",
+        "moves": [
+          "Slash",
+          "Quick Attack",
+          "Metal Claw",
+          "Play Rough"
+        ]
+      }
+    }
+  ],
+  "newPokemon": [
+    {
+      "name": "Blastoise",
+      "tier": "S",
+      "role": "Defender",
+      "change": "Up"
+    },
+    {
+      "name": "Ceruledge",
+      "tier": "A+",
+      "role": "All-Rounder",
+      "change": "Up"
+    },
+    {
+      "name": "Chandelure",
+      "tier": "D",
+      "role": "Attacker",
+      "change": "Up"
+    },
+    {
+      "name": "Decidueye",
+      "tier": "A",
+      "role": "Attacker",
+      "change": "Up"
+    },
+    {
+      "name": "Duraludon",
+      "tier": "D",
+      "role": "Attacker",
+      "change": "Up"
+    },
+    {
+      "name": "Falinks",
+      "tier": "D",
+      "role": "All-Rounder",
+      "change": "Up"
+    },
+    {
+      "name": "Greedent",
+      "tier": "D",
+      "role": "Defender",
+      "change": "Up"
+    },
+    {
+      "name": "Gyarados",
+      "tier": "A+",
+      "role": "All-Rounder",
+      "change": "Up"
+    }
+  ],
+  "movements": [],
+  "updatedAt": "2026-06-07T06:00:01.893Z"
+}
