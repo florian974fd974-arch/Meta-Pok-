@@ -33,6 +33,24 @@
         +items.map(function(x){ return '<div class="decklist-item"><span class="qty">'+(x.q||1)+'×</span>'+(withSprite&&x.s?'<img src="'+SPRITE_BASE+pkSlug(x.s)+'.png" onerror="this.style.opacity=0.3">':'')+'<span class="name">'+esc(x.n||x.name||'')+'</span>'+(x.set?'<span class="set-code">'+esc(x.set)+'</span>':'')+'</div>'; }).join('')
         +'</div></div>'; }
     return sect('Pokémon', cards.pokemon, true)+sect('Dresseurs & Objets', cards.trainers, false)+sect('Énergies', cards.energy, false); }
+  function pkLine(lbl, arr, n){ if(!arr||!arr.length) return '';
+    function f(x){ if(x==null)return''; if(typeof x!=='object')return String(x); var nm=x.name||x.label||''; var pc=(x.pct!=null?x.pct:(x.usage!=null?x.usage:x.percent)); return pc!=null?(nm+' '+pc+'%'):String(nm); }
+    var s=arr.slice(0,n||6).map(f).filter(Boolean).join(' · '); if(!s) return '';
+    return '<div class="decklist-section"><div class="decklist-head"><span class="title">'+esc(lbl)+'</span></div><div style="padding:8px 0;color:var(--muted);font-size:14px;line-height:1.9">'+esc(s)+'</div></div>'; }
+  function openPokemonModal(p, ctx){
+    var modal=document.getElementById('deckModal'), mc=document.getElementById('modalContent'); if(!modal||!mc) return;
+    var us=(p.usageRate!=null?p.usageRate:p.usage), stats='';
+    if(us!=null) stats+='<div class="qstat"><div class="v">'+us+'%</div><div class="l">Usage</div></div>';
+    if(p.tier) stats+='<div class="qstat"><div class="v">'+esc(p.tier)+'</div><div class="l">Tier</div></div>';
+    if(p.role) stats+='<div class="qstat"><div class="v">'+esc(chipText(p.role)||p.role)+'</div><div class="l">Rôle</div></div>';
+    var body=pkLine('Talents',p.abilities,3)+pkLine('Objets',p.items,4)+pkLine('Attaques',p.moves,6)+pkLine('Coéquipiers',p.partners,6);
+    if(p.heldItems&&p.heldItems.length) body+=pkLine('Objets tenus',p.heldItems,3);
+    if(p.battleItem) body+=pkLine('Objet de combat',[p.battleItem],1);
+    if(!body) body='<div class="info-box" style="margin-top:0"><div class="icon">ℹ️</div><div><div class="title">Détails à venir</div><p>Les détails complets de ce Pokémon seront enrichis prochainement.</p></div></div>';
+    mc.innerHTML='<div class="modal-head"><div class="modal-tag">'+esc(ctx.label||'')+'</div><h3>'+esc(p.name)+'</h3><div class="modal-sprites">'+spriteTag(p.name,72)+'</div></div>'+(stats?'<div class="modal-quickstats">'+stats+'</div>':'')+body+'<div class="modal-cta"><button class="modal-btn secondary" id="mpModalClose">Fermer</button></div>';
+    modal.classList.add('open'); document.body.style.overflow='hidden';
+    var cb=document.getElementById('mpModalClose'); if(cb) cb.addEventListener('click', function(){ modal.classList.remove('open'); document.body.style.overflow=''; });
+  }
   function openLiveDeckModal(d, ctx){
     var modal=document.getElementById('deckModal'), mc=document.getElementById('modalContent'); if(!modal||!mc) return;
     var wr=(d.winRate!=null?d.winRate:d.winrate);
@@ -87,7 +105,8 @@
     '.mp-up{color:var(--success)}.mp-down{color:var(--danger)}.mp-stable{color:var(--dim)}',
     '.mp-sprite{object-fit:contain;vertical-align:middle;flex:0 0 auto}',
     '.mp-nm{display:flex;align-items:center;gap:8px}.mp-nm span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
-    '.mp-clk{cursor:pointer;transition:background .15s,transform .15s}.mp-clk:hover{background:var(--surface-2);transform:translateX(2px)}',
+    '.mp-clk{cursor:pointer;transition:background .15s,transform .15s,border-color .15s}.mp-row.mp-clk:hover{background:var(--surface-2);transform:translateX(2px)}',
+    '.mp-pk.mp-clk:hover{transform:translateY(-3px);border-color:var(--accent)}',
     '.mp-pkname{display:flex;align-items:center;gap:8px}',
     '.mp-chip{display:inline-flex;align-items:center}'
   ].join('');
@@ -151,8 +170,10 @@
     if(d.metaSummary) w.appendChild(el('p','mp-sub',esc(d.metaSummary)));
     if(d.topPokemon&&d.topPokemon.length){
       var g=el('div','mp-pkgrid');
+      var vctx={label:'VGC · '+esc(d.format||'')};
       d.topPokemon.forEach(function(p){
-        var c=el('div','mp-pk');
+        var c=el('div','mp-pk mp-clk');
+        c.addEventListener('click', function(){ openPokemonModal(p, vctx); });
         c.appendChild(el('div','t','<span class="mp-pkname">'+spriteTag(p.name,36)+'<b>'+esc(p.name)+'</b></span><span class="mp-pct use">'+(p.usageRate||p.usage||'—')+'%</span>'));
         function fmtEntry(x){ if(x==null) return ''; if(typeof x!=='object') return String(x); var n=x.name||x.label||''; var pc=(x.pct!=null?x.pct:(x.usage!=null?x.usage:(x.percent!=null?x.percent:(x.rate!=null?x.rate:null)))); return pc!=null?(n+' '+pc+'%'):String(n); }
         function line(lbl,arr,n){ if(!arr||!arr.length) return ''; var s=arr.slice(0,n||3).map(fmtEntry).filter(Boolean).join(' · '); return s?('<div><b>'+lbl+' :</b> '+esc(s)+'</div>'):''; }
@@ -187,7 +208,9 @@
     }
     if(d.topPokemon&&d.topPokemon.length){
       var g=el('div','mp-pkgrid'); g.style.marginTop='20px';
-      d.topPokemon.forEach(function(p){ var c=el('div','mp-pk');
+      var uctx={label:'Unite · '+esc(d.patch||'')};
+      d.topPokemon.forEach(function(p){ var c=el('div','mp-pk mp-clk');
+        c.addEventListener('click', function(){ openPokemonModal(p, uctx); });
         c.appendChild(el('div','t','<span class="mp-pkname">'+spriteTag(p.name,36)+'<b>'+esc(p.name)+'</b></span><span class="mp-chip">'+esc(p.tier||'')+'</span>'));
         var hi=(p.heldItems||[]).map(chipText).filter(Boolean);
         c.appendChild(el('div','meta','<div><b>Rôle :</b> '+esc(chipText(p.role)||p.role||'')+'</div>'+(hi.length?'<div><b>Objets :</b> '+esc(hi.join(' · '))+'</div>':'')+(p.battleItem?'<div><b>Combat :</b> '+esc(chipText(p.battleItem)||p.battleItem)+'</div>':'')));
