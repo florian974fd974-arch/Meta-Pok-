@@ -10,6 +10,47 @@
   function el(tag, cls, html){ var e=document.createElement(tag); if(cls)e.className=cls; if(html!=null)e.innerHTML=html; return e; }
   function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];}); }
 
+  // ---- Sprites (même CDN que le site) ----
+  var SPRITE_BASE='https://r2.limitlesstcg.net/pokemon/gen9/';
+  function pkSlug(name){ if(!name) return ''; var n=String(name).toLowerCase().trim();
+    n=n.replace(/^(mega|primal|alolan|galarian|hisuian|paldean)\s+/,'').replace(/^eternal flower\s+/,'');
+    n=n.replace(/\s+(x|y)$/,''); n=n.replace(/['’]/g,'');
+    n=n.replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,''); return n; }
+  function spriteTag(name, px){ var s=pkSlug(name); if(!s) return ''; px=px||28;
+    return '<img class="mp-sprite" src="'+SPRITE_BASE+s+'.png" alt="'+esc(name)+'" loading="lazy" style="width:'+px+'px;height:'+px+'px" onerror="this.style.display=\'none\'">'; }
+  function deckSlugs(deckName){ var stop={mega:1,ex:1,vmax:1,vstar:1,v:1,gx:1,prime:1,de:1,et:1,'&':1};
+    var words=String(deckName||'').split(/\s+/).map(function(w){return w.toLowerCase().replace(/['’.]/g,'');}).filter(function(w){return w&&!stop[w];});
+    var uniq=[]; words.forEach(function(w){ if(uniq.indexOf(w)<0) uniq.push(w); });
+    var picks=[]; if(uniq.length){ picks.push(uniq[0]); if(uniq.length>1) picks.push(uniq[uniq.length-1]); } return picks; }
+  function deckSpritesTag(deckName, px){ return deckSlugs(deckName).map(function(s){ return spriteTag(s,px||24); }).join(''); }
+  function limitlessUrl(deckName, game){
+    var slug=String(deckName||'').toLowerCase().replace(/['’.]/g,'').replace(/\bex\b/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+    return 'https://play.limitlesstcg.com/decks/'+slug+(game==='pocket'?'?game=POCKET':'?format=standard'); }
+  function decklistHtml(cards){
+    function sect(title, items, withSprite){ if(!items||!items.length) return '';
+      var tot=items.reduce(function(s,x){return s+(+x.q||0);},0);
+      return '<div class="decklist-section"><div class="decklist-head"><span class="title">'+esc(title)+'</span><span class="count">'+tot+' cartes</span></div><div class="decklist-items">'
+        +items.map(function(x){ return '<div class="decklist-item"><span class="qty">'+(x.q||1)+'×</span>'+(withSprite&&x.s?'<img src="'+SPRITE_BASE+pkSlug(x.s)+'.png" onerror="this.style.opacity=0.3">':'')+'<span class="name">'+esc(x.n||x.name||'')+'</span>'+(x.set?'<span class="set-code">'+esc(x.set)+'</span>':'')+'</div>'; }).join('')
+        +'</div></div>'; }
+    return sect('Pokémon', cards.pokemon, true)+sect('Dresseurs & Objets', cards.trainers, false)+sect('Énergies', cards.energy, false); }
+  function openLiveDeckModal(d, ctx){
+    var modal=document.getElementById('deckModal'), mc=document.getElementById('modalContent'); if(!modal||!mc) return;
+    var wr=(d.winRate!=null?d.winRate:d.winrate);
+    var qs='<div class="qstat"><div class="v">'+(wr!=null?wr+'%':'—')+'</div><div class="l">Win rate</div></div>'
+         +'<div class="qstat"><div class="v">'+(d.usage!=null?d.usage+'%':'—')+'</div><div class="l">Méta share</div></div>'
+         +(d.record?'<div class="qstat"><div class="v">'+esc(d.record)+'</div><div class="l">Bilan V-D-N</div></div>':'');
+    var body;
+    if(d.cards&&(d.cards.pokemon||d.cards.trainers||d.cards.energy)){
+      body=decklistHtml(d.cards)+'<div class="modal-cta"><a class="modal-btn primary" target="_blank" href="'+limitlessUrl(d.name,ctx.game)+'">Ouvrir sur Limitless →</a><button class="modal-btn secondary" id="mpModalClose">Fermer</button></div>';
+    } else {
+      body='<div class="info-box" style="margin-top:0;margin-bottom:24px"><div class="icon">📋</div><div><div class="title">Decklist détaillée</div><p>La liste de cartes complète de cet archétype est en cours d\'intégration. En attendant, retrouve les decklists des tops joueurs directement sur Limitless TCG.</p></div></div>'
+         +'<div class="modal-cta"><a class="modal-btn primary" target="_blank" href="'+limitlessUrl(d.name,ctx.game)+'">Voir les decklists sur Limitless →</a><button class="modal-btn secondary" id="mpModalClose">Fermer</button></div>';
+    }
+    mc.innerHTML='<div class="modal-head"><div class="modal-tag">'+esc(ctx.label||'')+(ctx.setName?' · '+esc(ctx.setName):'')+'</div><h3>'+esc(d.name)+'</h3><div class="modal-sprites">'+(deckSpritesTag(d.name,64)||'')+'</div></div><div class="modal-quickstats">'+qs+'</div>'+body;
+    modal.classList.add('open'); document.body.style.overflow='hidden';
+    var cb=document.getElementById('mpModalClose'); if(cb) cb.addEventListener('click', function(){ modal.classList.remove('open'); document.body.style.overflow=''; });
+  }
+
   // styles
   var css = document.createElement('style');
   css.textContent = [
@@ -43,7 +84,12 @@
     '.mp-pk .meta{font-size:12px;color:var(--muted);line-height:1.7}',
     '.mp-pk .meta b{color:var(--text);font-weight:600}',
     '.mp-pkgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}',
-    '.mp-up{color:var(--success)}.mp-down{color:var(--danger)}.mp-stable{color:var(--dim)}'
+    '.mp-up{color:var(--success)}.mp-down{color:var(--danger)}.mp-stable{color:var(--dim)}',
+    '.mp-sprite{object-fit:contain;vertical-align:middle;flex:0 0 auto}',
+    '.mp-nm{display:flex;align-items:center;gap:8px}.mp-nm span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+    '.mp-clk{cursor:pointer;transition:background .15s,transform .15s}.mp-clk:hover{background:var(--surface-2);transform:translateX(2px)}',
+    '.mp-pkname{display:flex;align-items:center;gap:8px}',
+    '.mp-chip{display:inline-flex;align-items:center}'
   ].join('');
   document.head.appendChild(css);
 
@@ -57,21 +103,22 @@
     else page.insertBefore(sec, page.firstChild);
     return wrap;
   }
-  function deckTable(title, rows, primary){
+  function deckTable(title, rows, primary, ctx){
     var c=el('div','mp-card'); c.appendChild(el('h3',null,esc(title)));
     rows.forEach(function(d){
-      var r=el('div','mp-row');
+      var r=el('div','mp-row mp-clk');
       r.appendChild(el('div','mp-rk','#'+d.rank));
-      r.appendChild(el('div','mp-nm',esc(d.name)));
+      var nm=el('div','mp-nm'); nm.innerHTML=deckSpritesTag(d.name,22)+'<span>'+esc(d.name)+'</span>'; r.appendChild(nm);
       var a=(primary==='win'?d.winRate||d.winrate:d.usage), b=(primary==='win'?d.usage:d.winRate||d.winrate);
       r.appendChild(el('div','mp-pct '+(primary==='win'?'win':'use'), (a!=null?a+'%':'—')));
       r.appendChild(el('div','mp-sec', (b!=null?b+'%':'')));
+      r.addEventListener('click', function(){ openLiveDeckModal(d, ctx||{}); });
       c.appendChild(r);
     });
     return c;
   }
   function chipText(n){ if(n==null) return ''; if(typeof n!=='object') return String(n); return n.name||n.label||n.title||n.deck||''; }
-  function chips(names, cls){ var w=el('div','mp-chips'); (names||[]).forEach(function(n){ var t=chipText(n); if(!t) return; w.appendChild(el('span','mp-chip'+(cls?' '+cls:''),esc(t))); }); return w; }
+  function chips(names, cls){ var w=el('div','mp-chips'); (names||[]).forEach(function(n){ var t=chipText(n); if(!t) return; var isPk=(n&&typeof n==='object'&&(n.role||n.range||n.tier)); var sp=isPk?spriteTag(t,18):''; var ch=el('span','mp-chip'+(cls?' '+cls:'')); ch.innerHTML=sp+(sp?' ':'')+esc(t); w.appendChild(ch); }); return w; }
   function eventsCard(list){
     if(!list||!list.length) return null;
     var c=el('div','mp-card'); c.appendChild(el('h3',null,'Sorties &amp; événements à venir'));
@@ -83,9 +130,10 @@
     if(!d) return; var w=panel(pageId,id); if(!w) return;
     w.appendChild(el('h2','mp-h', (label||'Méta')+' · '+esc((d.set&&d.set.name)||'')));
     if(d.metaSummary) w.appendChild(el('p','mp-sub',esc(d.metaSummary)));
+    var ctx={label:label||'Méta', setName:(d.set&&d.set.name)||'', game:(pageId==='page-tcgp'?'pocket':'classic')};
     var g=el('div','mp-grid2');
-    if(d.topUsage&&d.topUsage.length) g.appendChild(deckTable('Top 10 — Utilisation', d.topUsage, 'use'));
-    if(d.topWinrate&&d.topWinrate.length) g.appendChild(deckTable('Top 10 — Taux de victoire (usage ≥ 2%)', d.topWinrate, 'win'));
+    if(d.topUsage&&d.topUsage.length) g.appendChild(deckTable('Top 10 — Utilisation', d.topUsage, 'use', ctx));
+    if(d.topWinrate&&d.topWinrate.length) g.appendChild(deckTable('Top 10 — Taux de victoire (usage ≥ 2%)', d.topWinrate, 'win', ctx));
     w.appendChild(g);
     // entrées / sorties
     if((d.enteringMeta&&d.enteringMeta.length)||(d.leavingMeta&&d.leavingMeta.length)){
@@ -105,7 +153,7 @@
       var g=el('div','mp-pkgrid');
       d.topPokemon.forEach(function(p){
         var c=el('div','mp-pk');
-        c.appendChild(el('div','t','<b>'+esc(p.name)+'</b><span class="mp-pct use">'+(p.usageRate||p.usage||'—')+'%</span>'));
+        c.appendChild(el('div','t','<span class="mp-pkname">'+spriteTag(p.name,36)+'<b>'+esc(p.name)+'</b></span><span class="mp-pct use">'+(p.usageRate||p.usage||'—')+'%</span>'));
         function fmtEntry(x){ if(x==null) return ''; if(typeof x!=='object') return String(x); var n=x.name||x.label||''; var pc=(x.pct!=null?x.pct:(x.usage!=null?x.usage:(x.percent!=null?x.percent:(x.rate!=null?x.rate:null)))); return pc!=null?(n+' '+pc+'%'):String(n); }
         function line(lbl,arr,n){ if(!arr||!arr.length) return ''; var s=arr.slice(0,n||3).map(fmtEntry).filter(Boolean).join(' · '); return s?('<div><b>'+lbl+' :</b> '+esc(s)+'</div>'):''; }
         c.appendChild(el('div','meta',
@@ -140,7 +188,7 @@
     if(d.topPokemon&&d.topPokemon.length){
       var g=el('div','mp-pkgrid'); g.style.marginTop='20px';
       d.topPokemon.forEach(function(p){ var c=el('div','mp-pk');
-        c.appendChild(el('div','t','<b>'+esc(p.name)+'</b><span class="mp-chip">'+esc(p.tier||'')+'</span>'));
+        c.appendChild(el('div','t','<span class="mp-pkname">'+spriteTag(p.name,36)+'<b>'+esc(p.name)+'</b></span><span class="mp-chip">'+esc(p.tier||'')+'</span>'));
         var hi=(p.heldItems||[]).map(chipText).filter(Boolean);
         c.appendChild(el('div','meta','<div><b>Rôle :</b> '+esc(chipText(p.role)||p.role||'')+'</div>'+(hi.length?'<div><b>Objets :</b> '+esc(hi.join(' · '))+'</div>':'')+(p.battleItem?'<div><b>Combat :</b> '+esc(chipText(p.battleItem)||p.battleItem)+'</div>':'')));
         g.appendChild(c);
