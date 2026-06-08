@@ -269,6 +269,26 @@
     }catch(e){}
   }
 
+  function startCountdown(){
+    var target=new Date(2026,5,17,0,0,0).getTime(); // 17 juin 2026 — sortie mobile Pokémon Champions
+    // Corrige la date affichée dans l'accroche
+    document.querySelectorAll('.big-news .meta').forEach(function(m){ if(/6 juin/.test(m.textContent)) m.textContent=m.textContent.replace('6 juin 2026','17 juin 2026'); });
+    document.querySelectorAll('.big-news .countdown').forEach(function(cd){
+      if(cd.querySelectorAll('.count-box').length<4){
+        var b=document.createElement('div'); b.className='count-box'; b.innerHTML='<div class="n mp-sec-box">--</div><div class="l">Sec</div>'; cd.appendChild(b);
+      }
+    });
+    function tick(){
+      var diff=Math.max(0,target-Date.now());
+      var d=Math.floor(diff/86400000), h=Math.floor(diff%86400000/3600000), m=Math.floor(diff%3600000/60000), s=Math.floor(diff%60000/1000);
+      document.querySelectorAll('.big-news .countdown').forEach(function(cd){
+        var b=cd.querySelectorAll('.count-box .n');
+        if(b.length>=4){ b[0].textContent=d; b[1].textContent=String(h).padStart(2,'0'); b[2].textContent=String(m).padStart(2,'0'); b[3].textContent=String(s).padStart(2,'0'); }
+      });
+    }
+    tick(); setInterval(tick,1000);
+  }
+
   function run(){
     Promise.all([J('tcgp_data.json'),J('classic_data.json'),J('vgc_data.json'),J('unite_data.json')])
     .then(function(r){
@@ -281,6 +301,7 @@
     mergePbl();
     injectReglement();
     injectPblTeams();
+    startCountdown();
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){ setTimeout(run, 200); });
   else setTimeout(run, 200);
