@@ -1964,7 +1964,8 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
           <button class="day-tab" data-day="j4"><span class="day-tab-num">J4</span><span class="day-tab-date">12 mai</span></button>
           <button class="day-tab" data-day="j5"><span class="day-tab-num">J5</span><span class="day-tab-date">19 mai</span></button>
           <button class="day-tab upcoming" data-day="j6"><span class="day-tab-num">J6</span><span class="day-tab-date">26 mai</span></button>
-          <button class="day-tab upcoming" data-day="j7"><span class="day-tab-num">J7</span><span class="day-tab-date">2 juin</span></button>
+          <button class="day-tab" data-day="j7"><span class="day-tab-num">J7</span><span class="day-tab-date">2 juin</span></button>
+          <button class="day-tab" data-day="j8"><span class="day-tab-num">J8</span><span class="day-tab-date">Playoffs</span></button>
         </div>
 
         <!-- JOURNEE 1 -->
@@ -2753,14 +2754,29 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
         </div>
 
         <div class="day-content" id="day-j6">
-          <div class="day-placeholder upcoming"><div class="dp-icon">📅</div><h3>Journée 6 · 26 mai 2026</h3><p>Avant-dernière journée de saison régulière. Les enjeux pour les playoffs se précisent.</p></div>
+          <div class="day-placeholder"><div class="dp-icon">✅</div><h3>Journée 6 · 26 mai 2026 — jouée</h3><p>Avant-dernière journée de saison régulière. Les 6 decks soumis par chaque équipe sont consultables dans la section « Decks soumis par les équipes » ci-dessous (onglet J6). Résultats manche par manche en cours d'intégration.</p></div>
         </div>
 
         <div class="day-content" id="day-j7">
-          <div class="day-placeholder upcoming"><div class="dp-icon">🏁</div><h3>Journée 7 · 2 juin 2026</h3><p>Dernière journée de saison régulière. Détermine le classement final pour les playoffs (8-14 juin).</p></div>
+          <div class="day-placeholder"><div class="dp-icon">🏁</div><h3>Journée 7 · 2 juin 2026 — jouée</h3><p>Dernière journée de saison régulière. Le classement final fixe le seeding des playoffs. Decks soumis consultables ci-dessous (onglet J7). Résultats manche par manche en cours d'intégration.</p></div>
         </div>
 
-        <div class="info-box" style="margin:24px 0"><div class="icon">✅</div><div><div class="title">5 journées intégrées sur 7</div><p>Les <strong>Journées 1 à 5 sont complètes</strong> (40 matchs avec 160 manches détaillées). Il reste J6 (26 mai) et J7 (2 juin) à venir. Une fois jouées, partage les feuilles correspondantes et je les intègre. Les playoffs commencent le 8 juin.</p></div></div>
+        <div class="day-content" id="day-j8">
+          <div class="info-box" style="margin:0 0 20px"><div class="icon">🏆</div><div><div class="title">Playoffs · Round 1 — Barrages (lundi 8 juin, 19h)</div><p>Les équipes classées 4 à 8 jouent les barrages pour la dernière place qualificative au Top 4. Format BO5 (1ère équipe à 3 manches). Les 1ère, 2e et 3e sont qualifiées d'office (bye). Decklists soumises : section équipes ci-dessous, onglet <strong>PO</strong>.</p></div></div>
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 20px;flex-wrap:wrap;gap:8px">
+              <div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--accent);letter-spacing:.05em">19H · BARRAGE 1</div><div style="font-weight:700;margin-top:4px">Victory In Progress <span style="color:var(--muted);font-weight:400">(8e)</span> &nbsp;vs&nbsp; Team Speed Millenium <span style="color:var(--muted);font-weight:400">(7e)</span></div></div>
+              <div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--muted)">à jouer</div>
+            </div>
+            <div style="display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 20px;flex-wrap:wrap;gap:8px">
+              <div><div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--accent);letter-spacing:.05em">ENCHAÎNÉ · BARRAGE 2</div><div style="font-weight:700;margin-top:4px">Vainqueur Barrage 1 &nbsp;vs&nbsp; Artiknights <span style="color:var(--muted);font-weight:400">(6e)</span></div></div>
+              <div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--muted)">à jouer</div>
+            </div>
+          </div>
+          <p style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);margin-top:14px">Le vainqueur affronte le 5e (mardi 9 juin) pour la dernière place du Top 4. Demi-finales : sam. 13 juin · Finale & 3e place : dim. 14 juin.</p>
+        </div>
+
+        <div class="info-box" style="margin:24px 0"><div class="icon">✅</div><div><div class="title">Saison régulière terminée · Playoffs en cours</div><p>Les <strong>7 journées de saison régulière</strong> sont jouées (J1-J5 détaillées manche par manche ; J6/J7 : decks dispo, résultats en cours d'intégration). Les <strong>barrages des playoffs</strong> démarrent lundi 8 juin — decklists déjà en ligne (onglet PO des équipes).</p></div></div>
 
         <div class="section-head" style="margin:48px 0 24px"><div><div class="section-meta">— Decks soumis par les équipes</div><h2 style="font-size:32px">Quels decks ont-ils choisi ?</h2></div><div class="section-info">Chaque équipe soumet 6 decks par match. Certaines gardent la même sélection pour 19h et 21h, d'autres adaptent leur stratégie. Clique sur une équipe pour voir ses decks.</div></div>
 
