@@ -7,7 +7,7 @@
     {
       "game": "tcgp",
       "title": "Mega Altaria ex Espeon en tete du meta Pocket",
-      "desc": "Le métagame Paradox Drive s'est cristallisé autour de trois pôles dominants : Mega Altaria ex (14,38% d'usage cumulé) qui règne en maître malgré un winrate mitigé, les variantes Magnezone/Miraidon ex (15,84% cumulés) qui saturent l'échelle compétitive sans jamais vraiment exploser, et une constellation de decks agressifs (Mega Blaziken ex/Greninja, Suicune ex/Baxcalibur) qui excellent en winrate mais peinent à convertir en parts de marché. L'absence totale de mouvement aujourd'hui signale un méta verrouillé où les joueurs attendent la prochaine secousse : aucun deck n'entre ni ne sort du top, témoignant d'un équilibre précaire mais stable. Les Pokémon Paradoxes (Miraidon ex notamment) structurent toujours les archetypes les plus joués, confirmant l'identité du set B3a.",
+      "desc": "Le méta Paradox Drive se stabilise autour d'un triumvirat dominant : Mega Altaria ex (avec Espeon ou Gourgeist) capte 13,78% du format grâce à sa polyvalence, les variantes Magnezone/Miraidon maintiennent leur emprise électrique avec 15,39% d'usage cumulé, tandis que Suicune ex/Baxcalibur émerge comme le « sniper » du méta avec 53,88% de winrate malgré seulement 4,68% d'usage. L'apparition discrète de Sylveon ex/Mega Altaria ex suggère une exploration féerique en cours, mais l'équilibre reste remarquable : sept des dix decks majeurs affichent entre 50% et 54% de winrate, signant un format compétitif et ouvert.",
       "when": "TCG Pocket",
       "badgeText": "META",
       "badgeStyle": "tcgp",
@@ -16,7 +16,7 @@
     {
       "game": "vgc",
       "title": "VGC — etat du format",
-      "desc": "La méta Regulation M-A s'articule autour d'un core central ultra-dominant : Garchomp-Kingambit-Basculegion forme le triangle de fer présent dans plus de 50% des équipes, chacun ayant plus de 50% d'usage. Cette stabilité cache une évolution tactique subtile : l'émergence de Floette Éternelle (35,65%) comme pivot défensif méga-évolutif bouleverse les calculs classiques, tandis que Charizard Mega-Y (41,14%) impose un tempo offensif solaire. Le format se divise en deux philosophies : les compositions hyper-offensives Tailwind (Whimsicott/Aerodactyl + sweepers) qui cherchent à écraser rapidement, et les setups Trick Room (Sinistcha + Floette) qui inversent le tempo. Les derniers résultats majeurs montrent que la flexibilité l'emporte : les champions combinent contrôle de vitesse, redistribution de Fake Out (Incineroar/Sneasler), et capacité à pivoter entre modes offensif et défensif.",
+      "desc": "Méta Regulation Set M-A — Kingambit domine (56.21%).",
       "when": "Regulation Set M-A",
       "badgeText": "VGC",
       "badgeStyle": "vgc",
@@ -50,5 +50,5 @@
     "classic": true,
     "unite": true
   },
-  "updatedAt": "2026-06-07T06:00:02.373Z"
+  "updatedAt": "2026-06-08T06:02:29.198Z"
 }
