@@ -4792,7 +4792,7 @@ function renderPblDay(t, day) {
         <div class="pbl-decks-imgs">${t.decks21h.map(d=>pblDeckCard(d)).join('')}</div>`;
     }
   }
-  const dayLabels = {j2:'Journée 2 · 28 avril',j3:'Journée 3 · 5 mai',j4:'Journée 4 · 12 mai',j5:'Journée 5 · 19 mai',j6:'Journée 6 · 26 mai',j7:'Journée 7 · 2 juin'};
+  const dayLabels = {j2:'Journée 2 · 28 avril',j3:'Journée 3 · 5 mai',j4:'Journée 4 · 12 mai',j5:'Journée 5 · 19 mai',j6:'Journée 6 · 26 mai',j7:'Journée 7 · 2 juin',po:'Playoffs · Barrages (8 juin)'};
   const serverDecks = t.serverDays && t.serverDays[day];
   if (serverDecks && serverDecks.length) {
     return `<div class="pbl-decks-imgs">${serverDecks.map(d=>pblDeckCard(d,true)).join('')}</div>`;
@@ -4804,7 +4804,7 @@ function openPblTeamModal(teamId, day) {
   const t = pblTeamDecks[teamId];
   if (!t) return;
   const activeDay = day || 'j1';
-  const days = [['j1','J1'],['j2','J2'],['j3','J3'],['j4','J4'],['j5','J5'],['j6','J6'],['j7','J7']];
+  const days = [['j1','J1'],['j2','J2'],['j3','J3'],['j4','J4'],['j5','J5'],['j6','J6'],['j7','J7'],['po','PO']];
   const dayTabs = days.map(([d,lbl]) => `<button class="pbl-day-tab ${d===activeDay?'active':''}" data-pbl-day="${d}">${lbl}</button>`).join('');
   modalContent.innerHTML = `
     <div class="modal-head">
