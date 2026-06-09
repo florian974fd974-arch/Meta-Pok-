@@ -873,6 +873,60 @@
           "img": "1F6WJFLNdkRO2NxPS3G2UtAlthOplM5Up"
         }
       ]
+    },
+    "j2": {
+      "s19": [
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1y8F_Olrt5HzCjsFkm8kw_NkFaxtRb-OF"
+        },
+        {
+          "n": "Mega Elecsprint Zeraora",
+          "img": "1Nn9WlDHMQQGxSripg11rdE2RovAUmuNO"
+        },
+        {
+          "n": "Mega Absol Amphinobi",
+          "img": "196hjWDCr25YFc1B8FiqScGJjDIRQIqb3"
+        },
+        {
+          "n": "Deck 4",
+          "img": "1hBGaErC6CrDn-qH7cZWK94r_VrIcPSwr"
+        },
+        {
+          "n": "Deck 5",
+          "img": "1iFNvuiizsqjnXivPv-slYJRaiYoO8pJD"
+        },
+        {
+          "n": "Deck 6",
+          "img": "1OKHPr2WQghH5AwP4_b1tlsEq_D_R9mt8"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Mega Steelix Wimesir",
+          "img": "1oj0W24NxyDpOlmmpo4EJwxlEVjPEKEF8"
+        },
+        {
+          "n": "Mega Dracaufeu X et Y",
+          "img": "1TLmykeHFhn-1YETTKaOB42uJ-m9qv2yf"
+        },
+        {
+          "n": "Mega Altaria Toudoudou",
+          "img": "1rX8Neofu2EmUoslra45Oh2n3FAKN7thp"
+        },
+        {
+          "n": "Mega Absol Amphinobi",
+          "img": "1z7Ye956U911cO1OT7B_i6soyBbw91RUK"
+        },
+        {
+          "n": "Mega Elecsprint Zeraora",
+          "img": "1JomcCsPCT3m_Vx5yDQmZUnYxzddOtL_H"
+        },
+        {
+          "n": "Suicune Glaivodo",
+          "img": "1TcFyGv4Qn0xS4hb1sMUCDZ00KmEaqJWA"
+        }
+      ]
     }
   },
   "xtrem-platine": {
@@ -979,7 +1033,115 @@
         "n": "Méga Juncko Ogerpon EX",
         "img": "1zMTQPTHeJjp7VNulxicrrl823ypIY7EN"
       }
-    ]
+    ],
+    "j2": {
+      "s19": [
+        {
+          "n": "Deck 1",
+          "img": "1dnwqMJg2kyfzFP7FgJK-9i5HmzUW5H5p"
+        },
+        {
+          "n": "Deck 2",
+          "img": "14Q3O5C9gxM5zBCQ8V0Vs76z_oPuen1LG"
+        },
+        {
+          "n": "Deck 3",
+          "img": "1lOVif387nZdYP8gQOn432n6RxsMCIpP3"
+        },
+        {
+          "n": "Deck 4",
+          "img": "1l5YynSBmq1FF9Nbuq6QGRbOruapT3uWL"
+        },
+        {
+          "n": "Deck 5",
+          "img": "1eDv_o0-WCpFXzfcjUN8Ezcf7Eu34EUit"
+        },
+        {
+          "n": "Deck 6",
+          "img": "1n_yXzl_zHbb1kRXe7FalOYTC6dDB_E-m"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Deck 1",
+          "img": "1vjFM-MBeCx7365rAnQL6hQxZzd9gRWP1"
+        },
+        {
+          "n": "Deck 2",
+          "img": "1Cflq65M1kyAhKNRJYTRHU_d8twezBJ68"
+        },
+        {
+          "n": "Deck 3",
+          "img": "1I4MGRQJTnJJGW7UqHTrNjGVkDnIbJqWK"
+        },
+        {
+          "n": "Deck 4",
+          "img": "14-x_xlcZmlFfeFXA0W-eMOjZW7hWDypi"
+        },
+        {
+          "n": "Deck 5",
+          "img": "1acP_Bjqla3L7u_pckVdgkhwncAcRcM8D"
+        },
+        {
+          "n": "Deck 6",
+          "img": "1XoNCAXEcO1yZMc-n_A_n3tRqrlzjYHg0"
+        }
+      ]
+    },
+    "j4": {
+      "s19": [
+        {
+          "n": "Miascarade EX Ogerpon EX",
+          "img": "1jYcn6RImtZQDyMvq8hNaFcSlAWir1Amo"
+        },
+        {
+          "n": "Méga Altaria Branshitrouye",
+          "img": "1A-n6nQ-CAhag1AgKrm_w_5FuTy1mc6gZ"
+        },
+        {
+          "n": "Feunard D'Alola EX Colomar",
+          "img": "1q3GGYPWJ1ot8J8aB8Chy00U5xNgztEGk"
+        },
+        {
+          "n": "Méga Brasegali Amphinobi",
+          "img": "1Idmi_T0DDRVgrtw7H5GZiAaXSAYtqnWy"
+        },
+        {
+          "n": "Méga Lucario Kapoéra",
+          "img": "1iy-Nb41BGkp7AU-TK6n8C8EUdq3ABRpW"
+        },
+        {
+          "n": "Méga Elecsprint Zeraora",
+          "img": "1ZhstooUSxEXT5wQqAvVM_5lS6OSw5NcF"
+        }
+      ],
+      "s21": [
+        {
+          "n": "Miascarade EX Ogerpon EX",
+          "img": "126iWCQe_eqZKRb-8A5UR63BGgIbv86Ze"
+        },
+        {
+          "n": "Méga Altaria Branshitrouye",
+          "img": "1UzNgzWpKD4EEHarEnN3oHLbl0canHbM9"
+        },
+        {
+          "n": "Feunard D'Alola EX Colomar",
+          "img": "1TIvglFI3PHLCM_Z_pL9PmPuEvWZkfbYF"
+        },
+        {
+          "n": "Méga Elecsprint Zéraora",
+          "img": "1JUz_kFwJ7LMwbDxOanC5GXeJ_LNV-vWq"
+        },
+        {
+          "n": "Méga Lucario Miaous",
+          "img": "1JZ_ryeTPMbhLOec931wR0SpXawDM3GMz"
+        },
+        {
+          "n": "Méga Dracaufeu Y Entei",
+          "img": "1lWQ_03MMBbNmZ81VlWwsPIZYWrtA07I_"
+        }
+      ]
+    }
   },
   "victory-in-progress": {
     "j7": [
