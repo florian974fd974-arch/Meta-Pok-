@@ -499,6 +499,32 @@
         "n": "Méga Altaria Toudoudou",
         "img": "1FuV1q7qURbMx_q9USaLNjI_MZSP5qXph"
       }
+    ],
+    "j9": [
+      {
+        "n": "Méga Altaria Mentali",
+        "img": "1vi7MsD2m7fsS0bj_e4tppx14v4AInwjn"
+      },
+      {
+        "n": "Méga Jungko Korillon",
+        "img": "13DEFc8J8-b9aQrD2oReM4ooYsJj-9llr"
+      },
+      {
+        "n": "Méga Absol Trioxyde",
+        "img": "15Nl3xjqA4HMDb1lXj5i9G80M1sXmk-7z"
+      },
+      {
+        "n": "Miraidon EX Magnézone",
+        "img": "1www_euyWhpHGeSlkfi4AXqUwCjAYMIO1"
+      },
+      {
+        "n": "Suicune Glaivodo",
+        "img": "1DBE0sZij5v6FjISun3133PA8rPtaL7Oj"
+      },
+      {
+        "n": "Méga Brasegali Amphinobi",
+        "img": "1JAVAizWBSZ50VvAm78wG_k8X-de4pRJV"
+      }
     ]
   },
   "tier-baguette": {
@@ -1141,7 +1167,33 @@
           "img": "1lWQ_03MMBbNmZ81VlWwsPIZYWrtA07I_"
         }
       ]
-    }
+    },
+    "j9": [
+      {
+        "n": "Méga Lucario Kapoéra",
+        "img": "11CIQ4aXZMy4nl4qg8YVZeCg3euViJ6y6"
+      },
+      {
+        "n": "Méga Jungko Ogerpon EX",
+        "img": "1v82qIV17-jaBTs3HSpqj1IcYylrm_PKX"
+      },
+      {
+        "n": "Miraidon EX Magnézone",
+        "img": "1V6_SmIq5oHDGy1F_MTD3Uhnv6i1ktv5m"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1uRA9Rk112xgCdjfwATILDKT5GwZ0LZKL"
+      },
+      {
+        "n": "Méga Brasegali Amphinobi",
+        "img": "1ZtUR-X9yZPVWwIVbPSlDbJfPE_K_PH9d"
+      },
+      {
+        "n": "Garde de Fer Rock de Fer",
+        "img": "1SDJgn4vVo3BAcxSj7FENEJZef3DEdPm3"
+      }
+    ]
   },
   "victory-in-progress": {
     "j7": [
@@ -1626,6 +1678,32 @@
       {
         "n": "Méga Brasegali Amphinobi",
         "img": "1KiHRSIPRi1YIpu6kS0WKPRt9bG0ePQgO"
+      }
+    ],
+    "j9": [
+      {
+        "n": "Méga Brasegali Amphinobi",
+        "img": "19f6-22FkV6J1aAmmXqqTkfoc5zfQhqR5"
+      },
+      {
+        "n": "Méga Cizayox",
+        "img": "1uleUN20OsewTGlfzMmUoYNI40-9NXesD"
+      },
+      {
+        "n": "Méga Altaria Branshitrouye",
+        "img": "1Wo8AT4s1pEq69cQGaDAo8l-Dv1enrFma"
+      },
+      {
+        "n": "Méga Jungko Korillon",
+        "img": "1eDLPeJDq5_01k_-Mg6HpbQ_Gy0_lFYYF"
+      },
+      {
+        "n": "Méga Lucario Kapoéra",
+        "img": "1541aR8F9eJyxBMpcdLyjtVF3kGvP3Rhi"
+      },
+      {
+        "n": "Miraidon EX Magnézone",
+        "img": "17DhZs-Ywmr9sCCazyAhJvb6UecxwmMwY"
       }
     ]
   },
