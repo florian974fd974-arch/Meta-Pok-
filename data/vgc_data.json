@@ -1432,14 +1432,14 @@
       "name": "Kingambit",
       "rank": 1,
       "usage": 56.21,
-      "move": "+1"
+      "move": "stable"
     },
     {
       "slug": "garchomp",
       "name": "Garchomp",
       "rank": 2,
       "usage": 53.67,
-      "move": "-1"
+      "move": "stable"
     },
     {
       "slug": "basculegion",
@@ -1453,21 +1453,21 @@
       "name": "Incineroar",
       "rank": 4,
       "usage": 42.86,
-      "move": "+1"
+      "move": "stable"
     },
     {
       "slug": "floette-eternal",
       "name": "Eternal Flower Floette",
       "rank": 5,
       "usage": 42.66,
-      "move": "+1"
+      "move": "stable"
     },
     {
       "slug": "charizard",
       "name": "Charizard",
       "rank": 6,
       "usage": 41.39,
-      "move": "-2"
+      "move": "stable"
     },
     {
       "slug": "sneasler",
@@ -1512,5 +1512,5 @@
       "move": "stable"
     }
   ],
-  "updatedAt": "2026-06-08T06:01:17.538Z"
+  "updatedAt": "2026-06-09T06:01:13.236Z"
 }
