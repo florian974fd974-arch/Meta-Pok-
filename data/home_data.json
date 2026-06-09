@@ -7,7 +7,7 @@
     {
       "game": "tcgp",
       "title": "Mega Altaria ex Espeon en tete du meta Pocket",
-      "desc": "Le méta Paradox Drive se stabilise autour d'un triumvirat dominant : Mega Altaria ex (avec Espeon ou Gourgeist) capte 13,78% du format grâce à sa polyvalence, les variantes Magnezone/Miraidon maintiennent leur emprise électrique avec 15,39% d'usage cumulé, tandis que Suicune ex/Baxcalibur émerge comme le « sniper » du méta avec 53,88% de winrate malgré seulement 4,68% d'usage. L'apparition discrète de Sylveon ex/Mega Altaria ex suggère une exploration féerique en cours, mais l'équilibre reste remarquable : sept des dix decks majeurs affichent entre 50% et 54% de winrate, signant un format compétitif et ouvert.",
+      "desc": "Le métagame B3a - Paradox Drive se stabilise autour de trois piliers stratégiques distincts : les stratégies Mega Altaria ex (13,46% d'usage combiné avec Espeon et Gourgeist), les archétypes Électrik à base de Magnezone/Miraidon (14,76% cumulés), et les décks contrôle Eau menés par Suicune ex Baxcalibur qui affiche un impressionnant 53,59% de winrate. La diversité du top 10 témoigne d'un format sain où aucun deck ne domine outrageusement, bien que Mega Altaria ex Espeon reste le choix le plus populaire avec 8,84% d'usage malgré un winrate à peine positif (50,2%).",
       "when": "TCG Pocket",
       "badgeText": "META",
       "badgeStyle": "tcgp",
@@ -50,5 +50,5 @@
     "classic": true,
     "unite": true
   },
-  "updatedAt": "2026-06-08T06:02:29.198Z"
+  "updatedAt": "2026-06-09T06:02:17.848Z"
 }
