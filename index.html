@@ -736,9 +736,9 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
 .round-row{display:grid;grid-template-columns:30px 1fr 1fr 50px;gap:8px;align-items:center;padding:8px 10px;background:rgba(0,0,0,.2);border-radius:7px;font-size:11px;line-height:1.3;transition:background .2s}
 .round-row:hover{background:rgba(0,0,0,.35)}
 .round-num{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--accent);font-weight:700;letter-spacing:.05em}
-.round-winner{color:var(--text);font-weight:600}
-.round-winner em{font-style:normal;font-family:'JetBrains Mono',monospace;font-size:9px;color:#52e598;letter-spacing:.05em;text-transform:uppercase;font-weight:700;margin-left:4px}
-.round-loser{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--dim);opacity:.7}
+.round-winner{color:var(--text);font-weight:600;text-decoration:line-through;text-decoration-color:#52e598;text-decoration-thickness:1.5px}
+.round-winner em{font-style:normal;font-family:'JetBrains Mono',monospace;font-size:9px;color:#52e598;letter-spacing:.05em;text-transform:uppercase;font-weight:700;margin-left:4px;text-decoration:none}
+.round-loser{color:var(--muted)}
 .round-loser em{font-style:normal;font-family:'JetBrains Mono',monospace;font-size:9px;color:#ff8fa3;letter-spacing:.05em;text-transform:uppercase;font-weight:700;margin-left:4px;text-decoration:none;opacity:1}
 .round-score{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:11px;text-align:right;letter-spacing:.03em}
 .round-score.win{color:#52e598}
@@ -1954,7 +1954,7 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
 
         <div class="info-box" style="margin-bottom:20px"><div class="icon">📺</div><div><div class="title">Suivre les matchs en direct</div><p>Les meilleurs matchs sont streamés tous les mardis à 19h et 21h sur la chaîne Twitch de TEHLeadersheep. Les decklists des équipes ne sont pas publiques (chaque équipe soumet 6 decks confidentiels par match avec phase de ban).</p></div></div>
 
-        <div class="section-head" style="margin:48px 0 24px"><div><div class="section-meta">— Historique des matchs · Saison régulière</div><h2 style="font-size:32px">Tous les matchs détaillés</h2></div><div class="section-info">Score, decks joués et résultat manche par manche. 7 mardis × 2 sessions de 4 matchs = 56 matchs au total.</div></div>
+        <div class="section-head" style="margin:48px 0 24px"><div><div class="section-meta">— Historique des matchs · Saison régulière</div><h2 style="font-size:32px">Tous les matchs détaillés</h2></div><div class="section-info">Score, decks joués et résultat manche par manche. Le <strong style="text-decoration:line-through;text-decoration-color:#52e598">deck gagnant</strong> est retiré pour le reste du match ; le deck perdant reste rejouable.</div></div>
 
         <!-- Onglets journées -->
         <div class="days-tabs">
@@ -4813,7 +4813,7 @@ function renderPblDay(t, day) {
   if (serverDecks && serverDecks.length) {
     return `<div class="pbl-decks-imgs">${serverDecks.map(d=>pblDeckCard(d,true)).join('')}</div>`;
   }
-  return `<div class="pbl-decks-soon"><div class="pds-icon">🔜</div><div class="pds-title">${dayLabels[day]||day}</div><p>Les decklists seront disponibles une fois le site hébergé sur le serveur.</p></div>`;
+  return `<div class="pbl-decks-soon"><div class="pds-icon">🔜</div><div class="pds-title">${dayLabels[day]||day}</div><p>Pas de decklist soumise par cette équipe pour cette journée (équipe non concernée ou aucune liste fournie).</p></div>`;
 }
 
 function openPblTeamModal(teamId, day) {
@@ -4830,7 +4830,7 @@ function openPblTeamModal(teamId, day) {
     </div>
     <div class="pbl-day-tabs">${dayTabs}</div>
     <div id="pblDayContent">${renderPblDay(t, activeDay)}</div>
-    <p class="modal-note">📋 Decklists officielles soumises par l'équipe · J1 = images Drive. J2-J7 disponibles au lancement serveur.</p>
+    <p class="modal-note">📋 Decklists officielles soumises par l'équipe (J1 → playoffs). Quand une équipe joue deux sélections différentes à 19h et 21h, les deux sont affichées (· 19h / · 21h).</p>
     <div class="modal-cta"><button class="modal-btn primary" id="modalCloseBtn">Fermer</button></div>
   `;
   modal.classList.add('open');
