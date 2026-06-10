@@ -7,7 +7,7 @@
     {
       "game": "tcgp",
       "title": "Mega Altaria ex Espeon en tete du meta Pocket",
-      "desc": "Le métagame B3a - Paradox Drive se stabilise autour de trois piliers stratégiques distincts : les stratégies Mega Altaria ex (13,46% d'usage combiné avec Espeon et Gourgeist), les archétypes Électrik à base de Magnezone/Miraidon (14,76% cumulés), et les décks contrôle Eau menés par Suicune ex Baxcalibur qui affiche un impressionnant 53,59% de winrate. La diversité du top 10 témoigne d'un format sain où aucun deck ne domine outrageusement, bien que Mega Altaria ex Espeon reste le choix le plus populaire avec 8,84% d'usage malgré un winrate à peine positif (50,2%).",
+      "desc": "Le métagame Paradox Drive se cristallise autour d'un duel permanent entre vitesse et contrôle. Mega Altaria ex Espeon règne toujours en maître avec 8,53% d'usage, mais son winrate anémique à 50,25% révèle sa vulnérabilité face aux decks Water dominants. Suicune ex Baxcalibur (53,35% WR) et Mega Blaziken ex Greninja (53,12% WR) s'imposent comme les vrais prédateurs du format, exploitant la faiblesse généralisée au type Eau. Les variantes Magnezone continuent leur prolifération schizophrénique avec trois builds distincts dans le top 10, témoignant d'une recherche constante d'optimisation sans consensus clair.",
       "when": "TCG Pocket",
       "badgeText": "META",
       "badgeStyle": "tcgp",
@@ -16,7 +16,7 @@
     {
       "game": "vgc",
       "title": "VGC — etat du format",
-      "desc": "Méta Regulation Set M-A — Kingambit domine (56.21%).",
+      "desc": "La méta Regulation M-A est dominée par un trio hyper-stable : Kingambit/Garchomp/Basculegion apparaissent dans plus de 50% des équipes et forment le cœur d'un archétype Tailwind/beatdown extrêmement populaire. L'émergence d'Eternal Flower Floette (42,66%) avec sa méga-évolution Floettite crée une seconde dimension stratégique axée sur le setup et la sustain, souvent accompagnée d'Incineroar/Sinistcha pour former un core Trick Room redoutable. Les méga-évolutions (Charizard Y à 90%, Dragonite avec Dragoninite, Aerodactyl) définissent les win conditions, avec une préférence marquée pour les stratégies de speed control via Tailwind (Whimsicott, Aerodactyl) ou Trick Room (Sinistcha). Les victoires récentes de Hiroshi Onishi aux JCS confirment la viabilité d'équipes équilibrées combinant pression offensive immédiate et capacité de setup.",
       "when": "Regulation Set M-A",
       "badgeText": "VGC",
       "badgeStyle": "vgc",
@@ -50,5 +50,5 @@
     "classic": true,
     "unite": true
   },
-  "updatedAt": "2026-06-09T06:02:17.848Z"
+  "updatedAt": "2026-06-10T06:02:29.470Z"
 }
