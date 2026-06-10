@@ -1,9 +1,13 @@
 {
   "format": "Regulation Set M-A",
-  "metaSummary": "Méta Regulation Set M-A — Kingambit domine (56.21%).",
+  "metaSummary": "La méta Regulation M-A est dominée par un trio hyper-stable : Kingambit/Garchomp/Basculegion apparaissent dans plus de 50% des équipes et forment le cœur d'un archétype Tailwind/beatdown extrêmement populaire. L'émergence d'Eternal Flower Floette (42,66%) avec sa méga-évolution Floettite crée une seconde dimension stratégique axée sur le setup et la sustain, souvent accompagnée d'Incineroar/Sinistcha pour former un core Trick Room redoutable. Les méga-évolutions (Charizard Y à 90%, Dragonite avec Dragoninite, Aerodactyl) définissent les win conditions, avec une préférence marquée pour les stratégies de speed control via Tailwind (Whimsicott, Aerodactyl) ou Trick Room (Sinistcha). Les victoires récentes de Hiroshi Onishi aux JCS confirment la viabilité d'équipes équilibrées combinant pression offensive immédiate et capacité de setup.",
   "analysis": {
-    "whatToPlay": "",
-    "howToCounter": ""
+    "whatToPlay": "L'archétype **Kingambit/Garchomp/Basculegion/Whimsicott** reste le choix le plus sûr : Whimsicott pose Tailwind (100% d'usage de la move), permettant à Basculegion (Choice Scarf 33% ou Focus Sash 25%) de spammer Last Respects sous vitesse maximale, tandis que Kingambit avec Chople Berry (51%) abuse de Defiant et Sucker Punch pour punir les Intimidate et finir les sweeps. Pour contrer cette dominance, jouez **Sinistcha/Incineroar/Eternal Flower Floette** : Sinistcha pose Trick Room (75% d'usage) et Rage Powder avec Kasib Berry (55%) pour protéger Floette qui setup Calm Mind (61%) et devient inarrêtable avec Dazzling Gleam/Moonblast sous Floettite. L'archétype **Charizard Y/Garchomp** (88% de synergy) exploite le soleil pour des Heat Wave/Weather Ball dévastateurs tout en maintenant une pression Ground/Rock massive, idéal contre les équipes passives.",
+    "howToCounter": {
+      "Kingambit": "Utilisez Incineroar avec Intimidate (100%) et Fake Out + Flare Blitz pour briser sa momentum ; Charizard Y avec Heat Wave sous soleil OHKO même avec Chople Berry. Sinistcha avec Rage Powder protège vos sweepers pendant que Matcha Gotcha (98,7%) chip Kingambit qui dépend de Sucker Punch (100%) et devient prévisible. Garchomp avec Earthquake + coverage Poison Jab élimine les Floette qui tentent de wall.",
+      "Garchomp": "Eternal Flower Floette résiste Earthquake et OHKO avec Moonblast/Dazzling Gleam sous Floettite ; 75% des Garchomp n'ont pas de coverage anti-Fairy fiable. Sylveon avec Pixilate Hyper Voice (100%) et Quick Attack (94,6%) contourne la Speed et tue via STAB massif. Basculegion en mode revenge killer avec Choice Scarf + Aqua Jet (100%) garantit l'élimination si Garchomp est à portée, exploitant Adaptability.",
+      "Basculegion": "Sneasler avec Fake Out (98,8%) + Close Combat casse Focus Sash (25,6% d'usage) ou force le switch, tandis que Whimsicott avec Encore (100%) lock Last Respects et neutralise son impact. Aerodactyl avec Tailwind + Dual Wingbeat (89%) maintient speed control et chip avec Rock Slide, empêchant Basculegion de dominer le tempo. Incineroar avec Parting Shot (98%) réduit drastiquement Last Respects tout en pivotant pour éviter les dégâts."
+    }
   },
   "topPokemon": [
     {
@@ -1409,20 +1413,16 @@
   ],
   "recentResults": [
     {
-      "player": "Arsal Puri",
-      "title": "Indianapolis Regional Champion"
+      "player": "Hiroshi Onishi",
+      "title": "JCS Champion"
     },
     {
-      "player": "Nielsen",
-      "title": "VR May Challenge #5 Champion"
+      "player": "Marco Silva",
+      "title": "Turin SC Champion"
     },
     {
-      "player": "Jeongso Lee",
-      "title": "Trainers Cup Champion"
-    },
-    {
-      "player": "Krittapas Augchariyajinda",
-      "title": "Singapore Master Ball League Champion"
+      "player": "Hiroshi Onishi",
+      "title": "2026 JCS Champion"
     }
   ],
   "upcomingEvents": [],
@@ -1512,5 +1512,5 @@
       "move": "stable"
     }
   ],
-  "updatedAt": "2026-06-09T06:01:13.236Z"
+  "updatedAt": "2026-06-10T06:01:13.412Z"
 }
