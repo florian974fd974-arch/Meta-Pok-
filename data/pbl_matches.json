@@ -1,0 +1,128 @@
+{
+  "j6": {
+    "title": "Journée 6",
+    "date": "26 mai 2026 · Saison régulière",
+    "sessions": [
+      {
+        "label": "🕖 19h",
+        "matches": [
+          {"a": "TSM", "b": "EX", "rounds": [
+            {"m": "M1", "wd": "Mega Manectric ex Zeraora", "wt": "EX", "ld": "Suicune ex Baxcalibur", "lt": "TSM", "sc": "0-1"},
+            {"m": "M2", "wd": "Mega Sceptile", "wt": "TSM", "ld": "Giratina ex Darkrai ex", "lt": "EX", "sc": "1-1"},
+            {"m": "M3", "wd": "Magnezone ex Magnezone", "wt": "TSM", "ld": "Suicune ex Baxcalibur", "lt": "EX", "sc": "2-1"},
+            {"m": "M4", "wd": "Giratina Darkrai", "wt": "EX", "ld": "Mega Lucario ex Igglybuff", "lt": "TSM", "sc": "2-2"}
+          ]},
+          {"a": "IMP", "b": "XTRP", "rounds": [
+            {"m": "M1", "wd": "Sceptile Sceptile", "wt": "IMP", "ld": "Suicune Baxcalibur", "lt": "XTRP", "sc": "1-0"},
+            {"m": "M2", "wd": "Altaria Gourgeist", "wt": "XTRP", "ld": "Lucario Sleep", "lt": "IMP", "sc": "1-1"},
+            {"m": "M3", "wd": "Suicune Baxcalibur", "wt": "IMP", "ld": "Sceptile", "lt": "XTRP", "sc": "2-1"},
+            {"m": "M4", "wd": "Lucario Sleep", "wt": "XTRP", "ld": "Lucario Sleep", "lt": "IMP", "sc": "2-2"}
+          ]}
+        ]
+      },
+      {
+        "label": "🕘 21h",
+        "matches": [
+          {"a": "VIP", "b": "EX", "rounds": [
+            {"m": "M1", "wd": "Magnezone ex Magnezone", "wt": "VIP", "ld": "Suicune ex Baxcalibur", "lt": "EX", "sc": "1-0"},
+            {"m": "M2", "wd": "Magnezone ex Magnezone", "wt": "EX", "ld": "Mega Sceptile ex Sceptile", "lt": "VIP", "sc": "1-1"},
+            {"m": "M3", "wd": "Suicune Baxcalibur", "wt": "EX", "ld": "Lucario ex Igglybuff", "lt": "VIP", "sc": "1-2"},
+            {"m": "M4", "wd": "Mega Sceptile ex Sceptile", "wt": "EX", "ld": "Suicune ex Baxcalibur", "lt": "VIP", "sc": "1-3"}
+          ]},
+          {"a": "US", "b": "VIP", "rounds": [
+            {"m": "M1", "wd": "Mega Lucario ex Hitmontop", "wt": "US", "ld": "Suicune ex Baxcalibur", "lt": "VIP", "sc": "1-0"},
+            {"m": "M2", "wd": "Mega Lucario ex Igglybuff", "wt": "VIP", "ld": "Suicune ex Baxcalibur", "lt": "US", "sc": "1-1"},
+            {"m": "M3", "wd": "Suicune Baxcalibur", "wt": "US", "ld": "Mega Sceptile ex Sceptile", "lt": "VIP", "sc": "2-1"},
+            {"m": "M4", "wd": "Mega Sceptile Sceptile", "wt": "US", "ld": "Zoroark ex Mega Absol ex", "lt": "VIP", "sc": "3-1"}
+          ]},
+          {"a": "IMP", "b": "AKS", "rounds": [
+            {"m": "M1", "wd": "Gourgeist Altaria", "wt": "AKS", "ld": "Lucario Dodo", "lt": "IMP", "sc": "0-1"},
+            {"m": "M2", "wd": "Sceptile ex Sceptile", "wt": "AKS", "ld": "Suicune Bao", "lt": "IMP", "sc": "0-2"},
+            {"m": "M3", "wd": "Magnezone ex Magnezone", "wt": "IMP", "ld": "Suicune Baxcalibur", "lt": "AKS", "sc": "1-2"},
+            {"m": "M4", "wd": "Lucario Sleep", "wt": "IMP", "ld": "Steelix Indeedee", "lt": "AKS", "sc": "2-2"}
+          ]},
+          {"a": "TSM", "b": "XTRP", "rounds": [
+            {"m": "M1", "wd": "Suicune Bao", "wt": "XTRP", "ld": "Darkrai Giratina", "lt": "TSM", "sc": "0-1"},
+            {"m": "M2", "wd": "Suicune Bao", "wt": "TSM", "ld": "Altaria Gourgeist", "lt": "XTRP", "sc": "1-1"},
+            {"m": "M3", "wd": "Blaziken Greninja", "wt": "XTRP", "ld": "Hydreigon", "lt": "TSM", "sc": "1-2"}
+          ]},
+          {"a": "US", "b": "TB", "rounds": [
+            {"m": "M1", "wd": "Mega Manectric", "wt": "TB", "ld": "Mega Sceptile ex Sceptile", "lt": "US", "sc": "0-1"},
+            {"m": "M2", "wd": "Suicune Baxcalibur", "wt": "TB", "ld": "Magnezone ex Magnezone", "lt": "US", "sc": "0-2"},
+            {"m": "M3", "wd": "Lucario", "wt": "TB", "ld": "Gourgeist", "lt": "US", "sc": "0-3"},
+            {"m": "M4", "wd": "Magnezone ex Magnezone", "wt": "TB", "ld": "Mega Altaria ex Gourgeist", "lt": "US", "sc": "0-4"}
+          ]},
+          {"a": "AKS", "b": "TB", "rounds": [
+            {"m": "M1", "wd": "Sceptile", "wt": "TB", "ld": "Lucario Hitmontop", "lt": "AKS", "sc": "0-1"},
+            {"m": "M2", "wd": "Suicune", "wt": "TB", "ld": "Lucario Hitmontop", "lt": "AKS", "sc": "0-2"},
+            {"m": "M3", "wd": "Mega Manectric", "wt": "TB", "ld": "Sceptile", "lt": "AKS", "sc": "0-3"},
+            {"m": "M4", "wd": "Sceptile ex Sceptile", "wt": "AKS", "ld": "Lucario", "lt": "TB", "sc": "1-3"}
+          ]}
+        ]
+      }
+    ]
+  },
+  "j7": {
+    "title": "Journée 7",
+    "date": "2 juin 2026 · Dernière journée saison régulière",
+    "sessions": [
+      {
+        "label": "🕖 19h",
+        "matches": [
+          {"a": "XTRP", "b": "US", "rounds": [
+            {"m": "M1", "wd": "Flutter Mane Greninja", "wt": "US", "ld": "Sceptile ex Sceptile", "lt": "XTRP", "sc": "0-1"},
+            {"m": "M2", "wd": "Magnezone ex Ogerpon", "wt": "US", "ld": "Suicune Baxcalibur", "lt": "XTRP", "sc": "0-2"},
+            {"m": "M3", "wd": "Miraidon ex Magnézone", "wt": "US", "ld": "Mega Altaria Espeon", "lt": "XTRP", "sc": "0-3"},
+            {"m": "M4", "wd": "Mega Lucario Kapoera", "wt": "US", "ld": "Mega Altaria Espeon", "lt": "XTRP", "sc": "0-4"}
+          ]},
+          {"a": "TB", "b": "IMP", "rounds": [
+            {"m": "M1", "wd": "Blaziken ex Castform", "wt": "IMP", "ld": "Magnezone Oricorio", "lt": "TB", "sc": "0-1"},
+            {"m": "M2", "wd": "Mega Absol Hydreigon", "wt": "IMP", "ld": "Mega Sceptile ex", "lt": "TB", "sc": "0-2"},
+            {"m": "M3", "wd": "Iron Boulder Iron Crown", "wt": "TB", "ld": "Magnezone Oricorio", "lt": "IMP", "sc": "1-2"},
+            {"m": "M4", "wd": "Magnezone Oricorio", "wt": "IMP", "ld": "Mega Sceptile ex", "lt": "TB", "sc": "1-3"}
+          ]}
+        ]
+      },
+      {
+        "label": "🕘 21h",
+        "matches": [
+          {"a": "VIP", "b": "TSM", "rounds": [
+            {"m": "M1", "wd": "Mega Lucario", "wt": "VIP", "ld": "Mega Sceptile", "lt": "TSM", "sc": "1-0"},
+            {"m": "M2", "wd": "Miraidon", "wt": "TSM", "ld": "Miraidon", "lt": "VIP", "sc": "1-1"},
+            {"m": "M3", "wd": "Miraidon", "wt": "VIP", "ld": "Suicune", "lt": "TSM", "sc": "2-1"},
+            {"m": "M4", "wd": "Mega Sceptile", "wt": "VIP", "ld": "Flutter Mane", "lt": "TSM", "sc": "3-1"}
+          ]},
+          {"a": "AKS", "b": "EX", "rounds": [
+            {"m": "M1", "wd": "Mega Altaria ex Espeon", "wt": "EX", "ld": "Mega Altaria ex Gourgeist", "lt": "AKS", "sc": "0-1"},
+            {"m": "M2", "wd": "Suicune ex Baxcalibur", "wt": "AKS", "ld": "Mega Sceptile ex Sceptile", "lt": "EX", "sc": "1-1"},
+            {"m": "M3", "wd": "Magnezone ex Magnezone", "wt": "EX", "ld": "Mega Lucario ex Igglybuff", "lt": "AKS", "sc": "1-2"}
+          ]},
+          {"a": "AKS", "b": "US", "rounds": [
+            {"m": "M1", "wd": "Darkrai Giratina", "wt": "AKS", "ld": "Mega Sceptile Sceptile", "lt": "US", "sc": "1-0"},
+            {"m": "M2", "wd": "Sceptile", "wt": "US", "ld": "Altaria Greninja", "lt": "AKS", "sc": "1-1"},
+            {"m": "M3", "wd": "Altaria Espeon", "wt": "US", "ld": "Miraidon Magnezone", "lt": "AKS", "sc": "1-2"},
+            {"m": "M4", "wd": "Magnezone Ogerpon", "wt": "US", "ld": "Magnezone Miraidon", "lt": "AKS", "sc": "1-3"}
+          ]},
+          {"a": "VIP", "b": "TSM", "rounds": [
+            {"m": "M1", "wd": "Mega Sceptile ex Sceptile", "wt": "VIP", "ld": "Mega Sceptile Chingling", "lt": "TSM", "sc": "1-0"},
+            {"m": "M2", "wd": "Mega Sceptile ex Chingling", "wt": "TSM", "ld": "Suicune", "lt": "VIP", "sc": "1-1"},
+            {"m": "M3", "wd": "Magnezone ex Magnezone", "wt": "TSM", "ld": "Mega Lucario", "lt": "VIP", "sc": "1-2"},
+            {"m": "M4", "wd": "Mega Blaziken", "wt": "TSM", "ld": "Suicune", "lt": "VIP", "sc": "1-3"}
+          ]},
+          {"a": "IMP", "b": "EX", "rounds": [
+            {"m": "M1", "wd": "Scizor", "wt": "EX", "ld": "Magnezone Oricorio", "lt": "IMP", "sc": "0-1"},
+            {"m": "M2", "wd": "Altaria Espeon", "wt": "EX", "ld": "Magnezone Oricorio", "lt": "IMP", "sc": "0-2"},
+            {"m": "M3", "wd": "Magnezone Miraidon", "wt": "EX", "ld": "Altaria Espeon", "lt": "IMP", "sc": "0-3"},
+            {"m": "M4", "wd": "Blaziken", "wt": "IMP", "ld": "Sceptile", "lt": "EX", "sc": "1-3"}
+          ]},
+          {"a": "TB", "b": "TSM", "rounds": [
+            {"m": "M1", "wd": "Sceptile", "wt": "TB", "ld": "Magnezone ex Magnezone", "lt": "TSM", "sc": "1-0"},
+            {"m": "M2", "wd": "Altaria Gourgeist", "wt": "TB", "ld": "Suicune", "lt": "TSM", "sc": "2-0"},
+            {"m": "M3", "wd": "Suicune", "wt": "TSM", "ld": "Iron Boulder", "lt": "TB", "sc": "2-1"},
+            {"m": "M4", "wd": "Iron Boulder", "wt": "TB", "ld": "Miraidon", "lt": "TSM", "sc": "3-1"}
+          ]}
+        ]
+      }
+    ]
+  }
+}
