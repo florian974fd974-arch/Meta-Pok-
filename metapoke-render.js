@@ -298,10 +298,11 @@
       +'</div><div class="match-score-block"><div class="match-score">'+a+' — '+b+'</div><div class="match-result-label">'+esc(label)+'</div></div></div>'
       +'<div class="match-rounds">';
     rounds.forEach(function(r){
-      var cls=(r.wt===m.a)?'win':'loss';
+      var aWon=(r.wt===m.a), cls=aWon?'win':'loss';
+      var winSpan='<span class="round-winner">'+esc(r.wd)+' <em>'+esc(r.wt)+'</em></span>';
+      var loseSpan='<span class="round-loser">'+esc(r.ld)+' <em>'+esc(r.lt)+'</em></span>';
       html+='<div class="round-row"><span class="round-num">'+esc(r.m)+'</span>'
-        +'<span class="round-winner">'+esc(r.wd)+' <em>'+esc(r.wt)+'</em></span>'
-        +'<span class="round-loser">'+esc(r.ld)+' <em>'+esc(r.lt)+'</em></span>'
+        +(aWon? winSpan+loseSpan : loseSpan+winSpan)
         +'<span class="round-score '+cls+'">'+esc(r.sc)+'</span></div>';
     });
     return html+'</div></div>';
