@@ -344,6 +344,80 @@
     tick(); setInterval(tick,1000);
   }
 
+  // ---- i18n FR/EN (v1 : interface). D'autres langues pourront être ajoutées ici. ----
+  var I18N_EN={
+    // Navigation
+    'Accueil':'Home','Tournois':'Tournaments',
+    // Hero / stats accueil
+    'L’actu compétitive':'Competitive news',"L'actu compétitive":'Competitive news','en un seul endroit.':'all in one place.',
+    'Jeux trackés':'Tracked games','Événements actifs':'Active events','Tournois suivis':'Tracked tournaments','Équipes PBL':'PBL teams',
+    'Joueurs trackés':'Tracked players','Matchs':'Matches','Set actif':'Active set','Joueurs total':'Total players','Cartes total':'Total cards',
+    'Jours':'Days','Heures':'Hours','Disponible':'Available','Nouvelles cartes':'New cards','Révélées':'Revealed','Heure CEST':'CEST time',
+    // Sections
+    '— Choisir un tournoi':'— Pick a tournament','— Historique des matchs · Saison régulière':'— Match history · Regular season',
+    '— Decks soumis par les équipes':'— Decks submitted by teams','— L’annonce du moment':'— Breaking news',"— L'annonce du moment":'— Breaking news',
+    '— Calendrier':'— Schedule','— Timeline':'— Timeline','— Explorer':'— Explore','— Choisir la source':'— Pick a source',
+    '— Tendances · Évolution post-tournois':'— Trends · Post-tournament shifts','— Top 15 archétypes':'— Top 15 archetypes',
+    '— Les decks à connaître':'— Decks to know','— Tournois récents':'— Recent tournaments','— 15 équipes inscrites':'— 15 registered teams',
+    '— Counter picks méta':'— Meta counter picks','— Nouvelles mécaniques':'— New mechanics','— Événements liés au set':'— Set-related events',
+    'Les compétitions':'The competitions','du moment.':'happening now.','Ce qui sort':"What's coming",'tout de suite.':'right away.',
+    'Tous les matchs détaillés':'All matches in detail','Quels decks ont-ils choisi ?':'Which decks did they pick?',
+    'Équipes & rosters':'Teams & rosters','Tournois à venir':'Upcoming tournaments','Derniers résultats majeurs':'Latest major results',
+    'Decks qui performent':'Top performing decks','Qui monte, qui descend ?':"Who's rising, who's falling?",
+    'Le méta post-rotation':'The post-rotation meta','Calendrier':'Schedule',
+    // Tournois / cartes stats
+    'Équipes':'Teams','Matchs/équipe':'Matches/team','Saison':'Season','Joueurs poule':'Pool players','Format match':'Match format',
+    'Matchs/joueur':'Matches/player','Entrée/équipe':'Entry/team','Cagnotte 1er/2e':'Prize pool 1st/2nd','Joueurs':'Players',
+    'Format saison':'Season format','Système de points':'Points system','Récompenses':'Rewards','Forfaits':'Forfeits',
+    'Construction des decks':'Deck building','Condition de victoire':'Win condition','Ban list évolutive':'Evolving ban list',
+    'Promotion / Relégation':'Promotion / Relegation',
+    '📄 Lire le règlement complet':'📄 Read the full rulebook','📄 Lire le règlement complet (traduit en français)':'📄 Read the full rulebook (French translation)',
+    'Suivre les matchs en direct':'Watch the matches live',
+    // Méta / decks
+    'Méta share':'Meta share','Win rate':'Win rate','Top usage':'Top usage','Usage':'Usage','Bilan V-D-N':'W-L-D record',
+    'Top 10 — Utilisation':'Top 10 — Usage','Top 10 — Taux de victoire (usage ≥ 2%)':'Top 10 — Win rate (usage ≥ 2%)',
+    'Qui entre / qui sort':"Who's in / who's out",'↗ Entrent dans le top':'↗ Entering the top','↘ Sortent du top':'↘ Leaving the top',
+    'Sorties & événements à venir':'Upcoming releases & events','Tier list compétitive':'Competitive tier list','Résultats récents':'Recent results',
+    // PBL divers
+    'Égalité':'Draw','Demi-finales':'Semifinals','Finale':'Final','Playoffs':'Playoffs','Fermer':'Close'
+  };
+  var I18N_EN_PREFIX=[
+    ['Victoire ','Victory '],
+    ['Égalité · ','Draw · '],
+    ['Journée ','Day '],
+    ['⛔ Éliminé en barrage','⛔ Eliminated in qualifier'],
+    ['⛔ Éliminé en playoffs','⛔ Eliminated in playoffs'],
+    ['⛔ Disqualifié','⛔ Disqualified'],
+    ['✓ Mêmes decks','✓ Same decks'],
+    ['🔄 Selections différentes','🔄 Different picks'],
+    ['🔄 2 decks changés','🔄 2 decks changed']
+  ];
+  function translateNode(n){
+    var t=n.nodeValue, key=t.trim(); if(!key) return;
+    var tr=I18N_EN[key];
+    if(tr==null){ for(var i=0;i<I18N_EN_PREFIX.length;i++){ var p=I18N_EN_PREFIX[i]; if(key.indexOf(p[0])===0){ tr=p[1]+key.slice(p[0].length); break; } } }
+    if(tr!=null){ if(n.__fr==null) n.__fr=t; n.nodeValue=t.replace(key,tr); }
+  }
+  function applyLang(lang){
+    var w=document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false), n;
+    while(n=w.nextNode()){
+      if(lang==='en') translateNode(n);
+      else if(n.__fr!=null){ n.nodeValue=n.__fr; n.__fr=null; }
+    }
+    document.documentElement.lang=lang;
+    var b=document.getElementById('mpLangToggle'); if(b) b.textContent=(lang==='en'?'FR 🇫🇷':'EN 🇬🇧');
+    try{ localStorage.setItem('mp-lang',lang); }catch(e){}
+  }
+  function currentLang(){ try{ return localStorage.getItem('mp-lang')||'fr'; }catch(e){ return 'fr'; } }
+  function initLang(){
+    var tabs=document.querySelector('.nav .tabs'); if(!tabs||document.getElementById('mpLangToggle')) return;
+    var btn=document.createElement('button'); btn.className='tab'; btn.id='mpLangToggle';
+    btn.textContent='EN 🇬🇧'; btn.title='Switch language';
+    btn.addEventListener('click', function(){ applyLang(currentLang()==='fr'?'en':'fr'); });
+    tabs.appendChild(btn);
+    if(currentLang()==='en'){ setTimeout(function(){ applyLang('en'); },600); setTimeout(function(){ applyLang('en'); },2200); }
+  }
+
   function run(){
     Promise.all([J('tcgp_data.json'),J('classic_data.json'),J('vgc_data.json'),J('unite_data.json')])
     .then(function(r){
@@ -355,6 +429,7 @@
     });
     mergePbl();
     renderPblMatches();
+    initLang();
     injectReglement();
     injectPblTeams();
     startCountdown();

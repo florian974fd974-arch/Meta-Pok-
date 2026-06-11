@@ -1735,9 +1735,9 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
     <div class="wrap">
       <div class="hero-tag">Reports & Classements · Mise à jour live</div>
       <h1>Tous les tournois<br><span class="accent">communautaires.</span></h1>
-      <p>Règlements officiels, classements complets et calendriers des tournois communautaires TCG Pocket. Pocket Battle League (par équipes, Masters Clash × TEHLeadersheep) et IMP Series.</p>
+      <p>Règlements officiels, classements complets et calendriers des tournois communautaires TCG Pocket. Pocket Battle League (par équipes, Masters Clash × TEHLeadersheep), IMP Series et BBT Winds of Change (international, Blazing Exeggutor Crew).</p>
       <div class="hero-stats">
-        <div class="stat-block"><div class="num">2</div><div class="label">Tournois suivis</div></div>
+        <div class="stat-block"><div class="num">3</div><div class="label">Tournois suivis</div></div>
         <div class="stat-block"><div class="num">8</div><div class="label">Équipes PBL</div></div>
         <div class="stat-block"><div class="num">€500</div><div class="label">Cash prize PBL</div></div>
         <div class="stat-block"><div class="num">B3</div><div class="label">Set actif</div></div>
@@ -1762,6 +1762,13 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
           <span class="subtab-info">
             <span class="subtab-name">IMP Series</span>
             <span class="subtab-meta">TCG Pocket · Premier Series</span>
+          </span>
+        </button>
+        <button class="subtab" data-tournament="bbt">
+          <span class="icon">🌪️</span>
+          <span class="subtab-info">
+            <span class="subtab-name">BBT · Winds of Change</span>
+            <span class="subtab-meta">TCG Pocket · Équipes 3v3 · International</span>
           </span>
         </button>
       </div>
@@ -1967,6 +1974,8 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
           <button class="day-tab" data-day="j7"><span class="day-tab-num">J7</span><span class="day-tab-date">2 juin</span></button>
           <button class="day-tab" data-day="j8"><span class="day-tab-num">J8</span><span class="day-tab-date">Playoffs</span></button>
           <button class="day-tab" data-day="j9"><span class="day-tab-num">J9</span><span class="day-tab-date">Playoffs</span></button>
+          <button class="day-tab upcoming" data-day="j10"><span class="day-tab-num">J10</span><span class="day-tab-date">Demi-finales</span></button>
+          <button class="day-tab upcoming" data-day="j11"><span class="day-tab-num">J11</span><span class="day-tab-date">Finale</span></button>
         </div>
 
         <!-- JOURNEE 1 -->
@@ -2782,6 +2791,16 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
           <div class="day-placeholder upcoming"><div class="dp-icon">📅</div><h3>Mardi 9 juin 2026 · 19h</h3><p>Matchs à jouer. La feuille de score sera intégrée dès qu'elle sera remplie.</p></div>
         </div>
 
+        <div class="day-content" id="day-j10">
+          <div class="info-box" style="margin:0 0 20px"><div class="icon">🏆</div><div><div class="title">Playoffs · Demi-finales — samedi 13 juin 2026</div><p>Le Top 4 s'affronte en BO5. <strong>🕖 19h : FrogEX (1er) vs Imperium Alpha (4e)</strong> · <strong>🕘 21h : Arci/US (2e) vs Tier Baguette (3e)</strong>. Les vainqueurs se retrouvent en finale, les perdants jouent la 3e place dimanche.</p></div></div>
+          <div class="day-placeholder upcoming"><div class="dp-icon">⚔️</div><h3>Samedi 13 juin 2026 · 19h &amp; 21h</h3><p>Matchs à venir. Les résultats manche par manche seront intégrés dès que la feuille de score sera remplie.</p></div>
+        </div>
+
+        <div class="day-content" id="day-j11">
+          <div class="info-box" style="margin:0 0 20px"><div class="icon">👑</div><div><div class="title">Playoffs · Grande Finale &amp; 3e place — dimanche 14 juin 2026</div><p>Format <strong>BO7 avec ban de 2 decks</strong> (voir règlement). Le match pour la 3e place oppose les perdants des demi-finales, puis la Grande Finale couronne le champion de la Saison 1.</p></div></div>
+          <div class="day-placeholder upcoming"><div class="dp-icon">🏆</div><h3>Dimanche 14 juin 2026</h3><p>Finale à venir. Les résultats manche par manche seront intégrés dès que la feuille de score sera remplie.</p></div>
+        </div>
+
         <div class="info-box" style="margin:24px 0"><div class="icon">✅</div><div><div class="title">Playoffs · Top 4 connu — demi-finales samedi 13 juin</div><p>Saison régulière et barrages terminés (J1-J9 détaillés manche par manche). <strong>Top 4 : FrogEX, Arci (US), Tier Baguette et Imperium Alpha</strong> (vainqueur du dernier barrage 3-0 vs XTRP). Éliminés en playoffs : TSM, VIP, Artiknights, Xtrem Platine. Demi-finales sam. 13 juin · Finale &amp; 3e place dim. 14 juin.</p></div></div>
 
         <div class="section-head" style="margin:48px 0 24px"><div><div class="section-meta">— Decks soumis par les équipes</div><h2 style="font-size:32px">Quels decks ont-ils choisi ?</h2></div><div class="section-info">Chaque équipe soumet 6 decks par match. Certaines gardent la même sélection pour 19h et 21h, d'autres adaptent leur stratégie. Clique sur une équipe pour voir ses decks.</div></div>
@@ -3069,6 +3088,78 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
         <div class="legend-zones">
           <div class="legend-item"><span class="legend-color promo"></span>Zone de promotion (Top 2)</div>
           <div class="legend-item"><span class="legend-color releg"></span>Zone de relégation (Bottom 2)</div>
+        </div>
+      </div>
+
+      <!-- TOURNAMENT 3: BBT Winds of Change -->
+      <div class="tournament-content" id="tournament-bbt">
+        <div class="tournament-hero">
+          <div>
+            <span class="game-badge pocket">● TCG POCKET · LIGUE D'ÉQUIPES INTERNATIONALE</span>
+            <h3>Blazing Battle Tower · Winds of Change</h3>
+            <p>Ligue par équipes internationale organisée par la <strong>Blazing Exeggutor Crew (BEC)</strong>. Matchs en <strong>3v3</strong> sous 3 règlements différents, sur 10 à 14 semaines. Thème de la saison : « Vents de changement » — un format spécial avec contraintes de construction toutes les 4 semaines, et une ban list évolutive chaque semaine.</p>
+          </div>
+          <div class="tournament-stats-grid">
+            <div class="t-stat"><div class="v">15</div><div class="l">Équipes</div></div>
+            <div class="t-stat"><div class="v">3v3</div><div class="l">Format match</div></div>
+            <div class="t-stat"><div class="v">$100</div><div class="l">Entrée/équipe</div></div>
+            <div class="t-stat"><div class="v">70/30</div><div class="l">Cagnotte 1er/2e</div></div>
+          </div>
+        </div>
+
+        <div class="regulation-grid">
+          <div class="regulation-card">
+            <div class="label">Format saison</div>
+            <div class="title">8-10 matchs + playoffs</div>
+            <div class="desc">Saison régulière de 8 à 10 semaines en divisions, puis play-ins (si +10 équipes) et séries éliminatoires. Les 4 à 8 meilleures équipes gagnent une semaine de repos.</div>
+          </div>
+          <div class="regulation-card">
+            <div class="label">Construction des decks</div>
+            <div class="title">3 decks uniques + side deck</div>
+            <div class="desc">3 decks sans cartes Pokémon en commun (chaque variante compte comme une carte différente) + 4 cartes de side deck (7 en playoffs, 4e deck autorisé).</div>
+          </div>
+          <div class="regulation-card">
+            <div class="label">Condition de victoire</div>
+            <div class="title">6 pts (8 en playoffs)</div>
+            <div class="desc">Un deck est retiré après 2 victoires (3 en playoffs). 1 revanche autorisée avec un deck déjà victorieux. Égalité = 1 pt chacun et -1 vie sur les decks concernés.</div>
+          </div>
+          <div class="regulation-card">
+            <div class="label">Picks &amp; Bans</div>
+            <div class="title">4 phases alternées</div>
+            <div class="desc">Bans (3+2 par équipe) et picks (5 par équipe) en alternance. Les cartes pickées doivent être jouables dans le deck principal ou le side deck. Dresseurs bannissables mais non pickables.</div>
+          </div>
+          <div class="regulation-card">
+            <div class="label">Ban list évolutive</div>
+            <div class="title">+4 cartes / semaine</div>
+            <div class="desc">Chaque semaine, les 2 cartes les plus bannies et les plus pickées de chaque format rejoignent la ban list (12 cartes bannies dès la semaine 4, pas de reset).</div>
+          </div>
+          <div class="regulation-card">
+            <div class="label">Récompenses</div>
+            <div class="title">Cagnotte commune</div>
+            <div class="desc">🥇 1er : 70% de la cagnotte · 🥈 2e : 30% · 🥉 3e-4e : remboursement de l'inscription. Montants publics pour une transparence totale.</div>
+          </div>
+        </div>
+
+        <button class="tournament-link rules-btn" data-rules="bbt">📄 Lire le règlement complet (traduit en français)</button>
+
+        <div class="section-head" style="margin:48px 0 20px"><div><div class="section-meta">— 15 équipes inscrites</div><h2 style="font-size:32px">Équipes &amp; rosters</h2></div><div class="section-info">Jusqu'à 16 joueurs + 2 rôles non-joueurs par équipe. C = Capitaine · VC = Vice-capitaine · M = Manager</div></div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px">
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">Aether</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">14 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">Choco <strong style="color:var(--accent)">C</strong> · fedex27. <strong style="color:var(--accent)">VC</strong> · regenzzzeit <strong style="color:var(--accent)">M</strong> · _fiumba · Alecorna · HVK · StorM · sZero | Frappesdrinker · pantnic · danico_wtaer · cicciomelo · giaacomoo · .kodai2274. · chi.ca__chann</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">PTSD Purple</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">8 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">luckysage215 · CheeryDog · marcocoa · luffy0108 · ooh.ooh · Almezda · Juice · Klodde</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">Tridumb</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">10 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">Dache · HanzOe · Jin · Luna · Raigun · Saripac2 · SBS|wongtw · Scepyfox · StarGazer · Ziquan</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">PTSD Blue</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">8 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">daddydrywall <strong style="color:var(--accent)">C</strong> · gbootoxide · jac_93315 · Banjo · coolestkid555 · alecksword · ziggo77 · Axel</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">Dream Eaters</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">9 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">zegger96 <strong style="color:var(--accent)">C</strong> · zelphyr7 <strong style="color:var(--accent)">M</strong> · hasantcgpocket · haryanto_19 · einstun5059 · syrui_12 · alana_3135 · LaNora · CiJov</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">IMP Delta</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">9 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">breendoon. (IMP | Brendon) <strong style="color:var(--accent)">C</strong> · Want2die_ (IMP | PryerLorD) <strong style="color:var(--accent)">M</strong> · lbn92400 · aub2565 · Azelma · Brendon · Kazu · Nausfear · ððð | islo94</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">Dark Siders</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">8 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">Porygon3 <strong style="color:var(--accent)">C</strong> · Noobslybot <strong style="color:var(--accent)">M</strong> · moonlightshurikenvt · Richyrich · Ellie Dark · 2sick0201 · YonkDreco6th · FGR | Thunder</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">Squad Zero</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">10 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">younglotus12 <strong style="color:var(--accent)">C</strong> · elite4_aj <strong style="color:var(--accent)">M</strong> · Katsuo Nakahara · nastkon · Troop03 · griffsama · guunnz. · sZero | NunoGDM · Ace · Chemi MorningStar</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">The Breakfast Club</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">13 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">russii <strong style="color:var(--accent)">C</strong> · iplaypokemans <strong style="color:var(--accent)">VC</strong> · uahawke <strong style="color:var(--accent)">M</strong> · stick0488 · t0x1c_92 · suedehead_ · umbreon_099 · .somari. · Testichlles · TBS || J.Phenomenal · Silvie,#1 · FGR || Yizzy · FGR || Sinorci200</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">XTREM</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">9 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">*Poseidon · XTREM| BlackZama · XTREM| Puunkeed · Anthon3_3 XTR · Lamletton · Legendixo · XTREM| Isma · XTREM| Nivek77 · XTREM| KooPZerR</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">Galactic Gang</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">14 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">Captain Capslock <strong style="color:var(--accent)">C</strong> · Lore <strong style="color:var(--accent)">M</strong> · 8Duke8 · EternalNostalgia · BetterLuckyThanGucci · flocky · LeoApre · Tazzi90 · Lordy · DREAMZZ · DarKus · Dougz · St3 · Manutan</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">Magma</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">16 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">Prelux · DeSTi · Kei · Ktech · Magikarp · MashuTTV · Narumiee · Nid · R1NNEGAN · Sensicloud_ · Shubham · Ss Eisen · Super_Peace · TheViice · Tobysxe · Vega</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">Plasma</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">8 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">Eskie · FrostKing22 · Hihi · Nabrix · Nic · Reality · Soni · かいと</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">HYP$QUAD</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">6 joueurs + 1 non-joueur</div><div style="font-size:12px;color:var(--muted);line-height:1.9">thejiren_ <strong style="color:var(--accent)">C/M</strong> · z_arc_ · kaklin · smile._.3 · Acemushroom_. · YNWAily · thesinner_7 (non-joueur)</div></div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px"><div style="font-family:Syne,sans-serif;font-weight:800;font-size:16px;margin-bottom:4px">Dark Night Team</div><div style="font-size:11px;color:var(--muted);margin-bottom:10px">5 joueurs</div><div style="font-size:12px;color:var(--muted);line-height:1.9">iena_ridens <strong style="color:var(--accent)">C</strong> · isidnar <strong style="color:var(--accent)">M</strong> · lllogiccc · kiddangel999 · mambadaddy9</div></div>
         </div>
       </div>
     </div>
@@ -5113,6 +5204,104 @@ const rulesData = {
       <p>La participation au championnat implique l'acceptation complète du règlement ci-dessus.</p>
 
       <div class="info"><strong>📄 Document source :</strong> Règlement officiel Imperium Championship — IMPERIUM</div>
+    </div>
+  `,
+
+  bbt: `
+    <div class="rules-doc">
+      <h1>🌪️ Blazing Battle Tower · Winds of Change</h1>
+      <div class="org-line">Règlement officiel (traduit de l'anglais) · Blazing Exeggutor Crew (BEC)</div>
+
+      <h2><span class="num">1</span>Aperçu</h2>
+      <p>Les équipes s'affrontent en matchs <strong>3 contre 3</strong>, sous 3 règlements différents, sur une période de 10 à 14 semaines (dont 2 à 5 semaines de playoffs selon le nombre d'équipes inscrites). Le thème de la saison est <strong>« Winds of Change » (Vents de changement)</strong> : toutes les 4 semaines, un format spécial avec des contraintes de construction de deck est introduit.</p>
+
+      <h2><span class="num">2</span>Saison régulière</h2>
+      <p>La saison régulière comprend <strong>8 à 10 matchs</strong> sur 8 à 10 semaines. Chaque équipe affronte toutes les équipes de sa division, plus un certain nombre d'équipes de l'autre division selon le classement. Les 4 à 8 meilleures équipes du classement général gagnent une <strong>semaine de repos (bye)</strong> en récompense.</p>
+      <h3>Construction des decks</h3>
+      <p>Chaque équipe construit <strong>3 decks uniques</strong> : aucune carte Pokémon en commun entre les decks. Chaque variante d'une carte compte comme une carte différente (un Dracaufeu EX d'un set n'est pas le même qu'un Dracaufeu EX d'un autre set).</p>
+      <p>Annoncer son énergie n'est pas obligatoire, mais <strong>il est interdit de modifier l'énergie d'un deck après qu'il a été joué</strong> — le faire est considéré comme une tentative de triche.</p>
+      <h3>Déroulement d'un match</h3>
+      <ul>
+        <li>Une équipe gagne en marquant un total de <strong>6 points</strong> avec ses 3 decks.</li>
+        <li>Après <strong>2 victoires avec un même deck</strong>, ce deck est retiré et l'équipe doit en utiliser un autre. Chaque équipe a droit à <strong>1 revanche (replay)</strong> avec un deck déjà retiré.</li>
+        <li>Les équipes peuvent changer de deck à tout moment entre les manches.</li>
+        <li>Chaque équipe dispose d'un <strong>side deck de 4 cartes</strong>, utilisable dans tous ses decks (1 exemplaire par carte, et une carte du side deck ne peut pas déjà figurer dans un deck). Tout changement de side deck doit être annoncé, sans en préciser la nature.</li>
+        <li><strong>Égalité :</strong> chaque équipe marque 1 point et les decks concernés perdent 1 vie. Si une égalité survient sur une balle de match alors que la partie se terminerait par un nul, la manche est rejouée jusqu'à désigner un vainqueur.</li>
+        <li>Les matchs doivent être programmés avant <strong>jeudi 23h59 (PST)</strong>, au moins 48h après accord entre les équipes.</li>
+      </ul>
+
+      <h2><span class="num">3</span>Play-ins</h2>
+      <p>Si plus de 10 équipes sont inscrites, des <strong>play-ins</strong> sont organisés : les meilleures équipes se qualifient directement pour les playoffs avec une semaine de repos, les suivantes s'affrontent pour les places restantes. Le format des play-ins est identique à celui des playoffs, mais les bans des play-ins ne comptent pas pour les playoffs. Condition de victoire : identique à la saison régulière (6 points).</p>
+
+      <h2><span class="num">4</span>Playoffs</h2>
+      <ul>
+        <li>Side deck étendu à <strong>7 cartes</strong> (au lieu de 4).</li>
+        <li>Possibilité (non obligatoire) d'amener un <strong>4e deck</strong>.</li>
+        <li>Chaque deck dispose de <strong>3 vies</strong> (3 victoires possibles avant retrait).</li>
+        <li>1 replay autorisé avec un deck déjà retiré, à annoncer dans le chat d'équipe, utilisable à tout moment.</li>
+        <li>Condition de victoire : <strong>8 points</strong>.</li>
+      </ul>
+
+      <h2><span class="num">5</span>Picks &amp; Bans</h2>
+      <p>Le système se déroule en 4 phases alternées :</p>
+      <ul>
+        <li><strong>Phase 1 — Bans :</strong> A1 → B1 → B2 → A2 → B3 → A3</li>
+        <li><strong>Phase 2 — Picks :</strong> B1 → A1 → A2 → B2 → A3 → B3</li>
+        <li><strong>Phase 3 — Bans :</strong> B4 → A4 → A5 → B5</li>
+        <li><strong>Phase 4 — Picks :</strong> A4 → B4 → B5 → A5</li>
+      </ul>
+      <ul>
+        <li>Picker un Pokémon de Niveau 1 ou 2 <strong>protège un Pokémon de base</strong> correspondant : on peut bannir ses variantes s'il en existe plusieurs, mais pas toutes. S'il ne reste qu'un seul Pokémon de base disponible, il ne peut être ni banni ni pické.</li>
+        <li>Les cartes pickées doivent être intégrées au deck principal ou au side deck et rester <strong>jouables</strong> (pouvoir utiliser au moins une partie de leur effet).</li>
+        <li>Les <strong>Dresseurs</strong> peuvent être bannis mais pas pickés. Poké Ball et Recherches du Professeur ne peuvent être ni pickées ni bannies.</li>
+        <li>Si Super Bonbon est banni, un pick de Niveau 2 protège aussi au moins un Niveau 1 (un ban rendant le pick injouable est annulé et remplacé par un arbitre).</li>
+        <li>Lors d'un pick ou d'un ban, il faut préciser <strong>le set d'origine</strong> de la carte. En cas de doute, utilisez des images.</li>
+      </ul>
+
+      <h2><span class="num">6</span>Ban list évolutive</h2>
+      <p>La semaine 1 n'a pas de ban list. Ensuite, chaque semaine, <strong>les 2 cartes les plus bannies et les 2 les plus pickées de chaque format</strong> rejoignent la ban list permanente (12 cartes bannies au début de la semaine 4, sans reset en semaine 5). Les Dresseurs (sauf Poké Ball et Recherches du Professeur) peuvent aussi être bannis. Les matchs de play-ins ne comptent pas pour la ban list.</p>
+
+      <h2><span class="num">7</span>Inscription, paiement et prix</h2>
+      <ul>
+        <li><strong>Frais d'inscription : 100&nbsp;$ par équipe</strong> (montant voté par les joueurs), payables via PayPal (lien sur le Discord). L'inscription n'est validée qu'après paiement intégral.</li>
+        <li>L'intégralité des paiements alimente la <strong>cagnotte commune</strong>, dont le montant est public, ainsi que les dons éventuels.</li>
+        <li><strong>Distribution :</strong> 🥇 1er = 70% de la cagnotte · 🥈 2e = 30% · 🥉 3e-4e = remboursement de l'inscription. Exemple avec 20 équipes (2000&nbsp;$) : 1er 1260&nbsp;$, 2e 540&nbsp;$, 3e-4e 100&nbsp;$ chacun.</li>
+        <li>Inscription via le formulaire Google, close 1 semaine avant l'événement. Une fois le maximum atteint, liste d'attente premier arrivé, premier servi. Les équipes qualifiées en playoffs la saison passée peuvent garantir leur place (statut « équipe historique »).</li>
+      </ul>
+
+      <h2><span class="num">8</span>Règles des matchs</h2>
+      <h3>Soumission des decklists</h3>
+      <p>Chaque équipe soumet ses decklists (side deck inclus) <strong>24h avant le match</strong>, en précisant à quel joueur appartient chaque deck. Elles sont transmises à l'équipe adverse <strong>1h avant le premier match</strong> et ne peuvent plus être modifiées ensuite. Un deck incomplet ou illégal sera complété par un arbitre. Un remplacement de joueur doit être annoncé dans le chat VS et validé par un arbitre. Après le passage de 3 joueurs différents, n'importe quel joueur peut jouer n'importe lequel des 3 decks.</p>
+      <h3>Déroulement</h3>
+      <ul>
+        <li>Chaque équipe remplit sa feuille de match (uniquement ses propres colonnes/lignes).</li>
+        <li>Tous les matchs doivent être <strong>streamés sur Discord</strong> ; les arbitres peuvent rejoindre à tout moment.</li>
+        <li>Le premier joueur est annoncé à l'arbitre via le chat d'équipe ; les suivants (et l'usage du replay) dans le chat VS.</li>
+        <li>Équipe sans 3 joueurs disponibles au début du match : <strong>défaite automatique 0-6 / 0-8</strong>.</li>
+        <li>Abandon en cours de match : défaite, le score acquis est conservé (ex. 5-0 devient 5-6).</li>
+        <li><strong>5 minutes</strong> entre chaque manche pour planifier. Tout problème doit être signalé à un arbitre dans le canal VS.</li>
+        <li>Tolérance zéro envers le racisme et le harcèlement.</li>
+      </ul>
+      <h3>Taille des équipes</h3>
+      <p>Jusqu'à <strong>16 joueurs + 2 rôles non-joueurs</strong> (18 membres), plus 1 compte secondaire dédié au stream (hors quota). Pour limiter les risques de collusion, les équipes issues d'une même communauté sont séparées en divisions et limitées à deux.</p>
+      <h3>Recrutement et transferts</h3>
+      <p>Transferts et recrutements libres pendant les <strong>6 premières semaines</strong>, puis bloqués (seuls les départs restent possibles dans des cas précis). Un joueur qui rejoint une équipe ne peut pas en changer pendant 1 semaine (délai non négociable). Un joueur qui quitte le serveur ne fait plus partie de l'équipe et devra attendre 1 semaine pour la réintégrer.</p>
+
+      <h2><span class="num">9</span>Mesures disciplinaires</h2>
+      <h3>Forfaits et retraits</h3>
+      <ul>
+        <li>Forfait : victoire <strong>6-3</strong> pour l'adversaire. Les résultats enregistrés sont définitifs — aucun match ne peut être rejoué. Forfait en cours de match : le score courant est complété (0-3 → 0-6 ; 3-0 → 3-6).</li>
+        <li>Retrait d'équipe avant la fin de la saison : l'équipe et ses membres ne pourront pas participer à la saison suivante. Les adversaires restants gagnent 6-3.</li>
+      </ul>
+      <h3>Avertissements</h3>
+      <p><strong>3 avertissements dans un même match = défaite automatique.</strong> Cumul sur la saison (équipe) : 1-2 = avertissement verbal · 3-4 = 2 défaites de manche ajoutées · 5-7 = 2 victoires de manche retirées · 8 = disqualification. Joueurs : 1 = rien · 2-3 = suspension 1 semaine · 4 = mute serveur 2 semaines · 5 = exclusion de la saison · 6 = bannissement permanent de tous les serveurs BEC.</p>
+      <p>Motifs principaux : insultes, harcèlement, tentative de triche, contenu explicite, comportement perturbateur (joueurs) ; retard de programmation, decklist en retard, cartes illégales, match retardé, absence de stream Discord (équipes). L'exploitation de failles du règlement est sanctionnée.</p>
+      <h3>Stream et stream sniping</h3>
+      <p>Les équipes peuvent streamer leurs matchs avec un <strong>délai minimum de 5 minutes</strong>, en prévenant le staff à l'avance. Toute personne surprise à regarder le stream adverse pendant une partie sera bannie après vérification. Les soupçons de stream sniping doivent être signalés au staff uniquement via le chat d'équipe, preuves à l'appui.</p>
+      <h3>Suspensions et bannissements</h3>
+      <p>Un joueur suspendu ne peut ni changer d'équipe ni participer aux compétitions pendant sa suspension (communications coupées jusqu'à la fin de son match hebdomadaire). Un joueur banni l'est de tous les serveurs BEC ; un appel est possible, à la discrétion du staff.</p>
+
+      <div class="info"><strong>📄 Document source :</strong> BBT Winds of Change — Blazing Exeggutor Crew (traduction française par METAPOKE). Toute utilisation non autorisée du règlement original entraîne une exclusion des serveurs BEC.</div>
     </div>
   `
 };
