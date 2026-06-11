@@ -124,5 +124,62 @@
         ]
       }
     ]
+  },
+  "j8": {
+    "title": "Journée 8 · Playoffs",
+    "date": "8 juin 2026 · Barrages (BO5) — le perdant est éliminé",
+    "sessions": [
+      {
+        "label": "🕖 19h · Barrage 1",
+        "matches": [
+          {"a": "TSM", "b": "VIP", "rounds": [
+            {"m": "M1", "wd": "MElecsprint", "wt": "TSM", "ld": "MSceptile", "lt": "VIP", "sc": "1-0"},
+            {"m": "M2", "wd": "Suicune Baxca", "wt": "TSM", "ld": "MLucario Hitmontop", "lt": "VIP", "sc": "2-0"},
+            {"m": "M3", "wd": "Suicune Baxca", "wt": "VIP", "ld": "MAltaria Gourgeist", "lt": "TSM", "sc": "2-1"},
+            {"m": "M4", "wd": "MAltaria Gourgeist", "wt": "VIP", "ld": "MAltaria Gourgeist", "lt": "TSM", "sc": "2-2"},
+            {"m": "M5", "wd": "Magnezone ex Magnezone", "wt": "VIP", "ld": "MBlaziken", "lt": "TSM", "sc": "2-3"}
+          ]}
+        ]
+      },
+      {
+        "label": "🕘 21h · Barrage 2",
+        "matches": [
+          {"a": "AKS", "b": "VIP", "rounds": [
+            {"m": "M1", "wd": "MAltaria Gourgeist", "wt": "AKS", "ld": "Magnezone ex", "lt": "VIP", "sc": "1-0"},
+            {"m": "M2", "wd": "MSceptile ex", "wt": "AKS", "ld": "Miraidon", "lt": "VIP", "sc": "2-0"},
+            {"m": "M3", "wd": "MLucario", "wt": "VIP", "ld": "MScizor", "lt": "AKS", "sc": "2-1"},
+            {"m": "M4", "wd": "Magnezone ex", "wt": "VIP", "ld": "MScizor", "lt": "AKS", "sc": "2-2"},
+            {"m": "M5", "wd": "Miraidon", "wt": "AKS", "ld": "Magnezone ex", "lt": "VIP", "sc": "3-2"}
+          ]}
+        ]
+      }
+    ]
+  },
+  "j9": {
+    "title": "Journée 9 · Playoffs",
+    "date": "9 juin 2026 · Dernière place du Top 4",
+    "sessions": [
+      {
+        "label": "🕖 19h · Vainqueur barrages vs 5e",
+        "matches": [
+          {"a": "XTRP", "b": "AKS", "rounds": [
+            {"m": "M1", "wd": "Miraidon", "wt": "XTRP", "ld": "MBlaziken", "lt": "AKS", "sc": "1-0"},
+            {"m": "M2", "wd": "MAltaria Gourgeis", "wt": "XTRP", "ld": "MScizor", "lt": "AKS", "sc": "2-0"},
+            {"m": "M3", "wd": "MLucaro", "wt": "AKS", "ld": "MSceptile", "lt": "XTRP", "sc": "2-1"},
+            {"m": "M4", "wd": "Lame de la justice", "wt": "XTRP", "ld": "MBlaziken", "lt": "AKS", "sc": "3-1"}
+          ]}
+        ]
+      },
+      {
+        "label": "🕘 21h · 4e vs vainqueur — place dans le Top 4",
+        "matches": [
+          {"a": "IMP", "b": "XTRP", "rounds": [
+            {"m": "M1", "wd": "Hydreigon", "wt": "IMP", "ld": "Miraidon Magnezone", "lt": "XTRP", "sc": "1-0"},
+            {"m": "M2", "wd": "MSceptile", "wt": "IMP", "ld": "MLucario Hitmontop", "lt": "XTRP", "sc": "2-0"},
+            {"m": "M3", "wd": "MBlaziken", "wt": "IMP", "ld": "Lame de la justice", "lt": "XTRP", "sc": "3-0"}
+          ]}
+        ]
+      }
+    ]
   }
 }
