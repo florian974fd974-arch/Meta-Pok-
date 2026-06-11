@@ -263,7 +263,7 @@
       // Ajouter Victory In Progress
       if(!grid.querySelector('[data-pbl-team="victory-in-progress"]')){
         var c=document.createElement('div'); c.className='pbl-team-card'; c.setAttribute('data-pbl-team','victory-in-progress');
-        c.innerHTML='<div class="ptc-badge t-imperium">VIP</div><div class="ptc-content"><div class="ptc-name">Victory In Progress</div><div class="ptc-record">0 pt · remplaçant de Ragnarok</div><div class="ptc-status diff">🎯 Vise la remontée via les playoffs</div></div><div class="ptc-arrow">→</div>';
+        c.innerHTML='<div class="ptc-badge t-imperium">VIP</div><div class="ptc-content"><div class="ptc-name">Victory In Progress</div><div class="ptc-record">Remplaçant de Ragnarok · vainqueur du barrage 1</div><div class="ptc-status diff">⛔ Éliminé en barrage 2 (2-3 vs AKS)</div></div><div class="ptc-arrow">→</div>';
         grid.appendChild(c);
       }
     }catch(e){}
