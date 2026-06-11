@@ -269,6 +269,60 @@
     }catch(e){}
   }
 
+  // ---- PBL : matchs J6/J7 (même rendu que J1-J5, deck gagnant barré via .round-winner) ----
+  var PBL_TEAMS={
+    TSM:{badge:'SM',cls:'t-speed',name:'TSM'},
+    EX:{badge:'FE',cls:'t-frogex',name:'FrogEX'},
+    IMP:{badge:'IA',cls:'t-imperium',name:'IMP'},
+    XTRP:{badge:'XP',cls:'t-xtrem',name:'XTRP'},
+    VIP:{badge:'VIP',cls:'t-vip',name:'VIP'},
+    US:{badge:'AR',cls:'t-arci',name:'US'},
+    AKS:{badge:'AK',cls:'t-artiknights',name:'AKS'},
+    TB:{badge:'TB',cls:'t-tier',name:'TB'}
+  };
+  function pblTeam(code){ return PBL_TEAMS[code]||{badge:esc(String(code).slice(0,3)),cls:'t-imperium',name:esc(code)}; }
+  function pblTeamHtml(code, isWinner){
+    var t=pblTeam(code);
+    return '<div class="match-team'+(isWinner?' winner':'')+'"><span class="team-badge '+t.cls+'">'+t.badge+'</span><span class="team-short">'+t.name+(isWinner?' ✓':'')+'</span></div>';
+  }
+  function pblMatchCard(m){
+    var rounds=m.rounds||[], last=rounds[rounds.length-1]||{};
+    var sc=String(last.sc||'0-0').split('-'), a=+sc[0]||0, b=+sc[1]||0;
+    var draw=(a===b), winCode=draw?null:(a>b?m.a:m.b);
+    var label=draw?'Égalité':('Victoire '+pblTeam(winCode).name);
+    var html='<div class="match-card '+(draw?'draw':'win-b')+'">'
+      +'<div class="match-head"><div class="match-teams">'
+      +pblTeamHtml(m.a, winCode===m.a)
+      +'<div class="match-vs">vs</div>'
+      +pblTeamHtml(m.b, winCode===m.b)
+      +'</div><div class="match-score-block"><div class="match-score">'+a+' — '+b+'</div><div class="match-result-label">'+esc(label)+'</div></div></div>'
+      +'<div class="match-rounds">';
+    rounds.forEach(function(r){
+      var cls=(r.wt===m.a)?'win':'loss';
+      html+='<div class="round-row"><span class="round-num">'+esc(r.m)+'</span>'
+        +'<span class="round-winner">'+esc(r.wd)+' <em>'+esc(r.wt)+'</em></span>'
+        +'<span class="round-loser">'+esc(r.ld)+' <em>'+esc(r.lt)+'</em></span>'
+        +'<span class="round-score '+cls+'">'+esc(r.sc)+'</span></div>';
+    });
+    return html+'</div></div>';
+  }
+  function renderPblMatches(){
+    J('pbl_matches.json').then(function(data){
+      if(!data) return;
+      Object.keys(data).forEach(function(dayKey){
+        var box=document.getElementById('day-'+dayKey); if(!box) return;
+        var d=data[dayKey];
+        var html='<div class="day-block"><div class="day-header"><h3 class="day-title">'+esc(d.title||'')+'</h3><span class="day-date">'+esc(d.date||'')+'</span></div>';
+        (d.sessions||[]).forEach(function(s,i){
+          html+='<div class="session-block"><div class="session-label"><span class="session-time">'+esc(s.label||'')+'</span><span class="session-meta">Session '+(i+1)+'</span></div><div class="matches-grid">';
+          (s.matches||[]).forEach(function(m){ html+=pblMatchCard(m); });
+          html+='</div></div>';
+        });
+        box.innerHTML=html+'</div>';
+      });
+    });
+  }
+
   function startCountdown(){
     var target=new Date(2026,5,17,0,0,0).getTime(); // 17 juin 2026 — sortie mobile Pokémon Champions
     // Corrige la date affichée dans l'accroche
@@ -299,6 +353,7 @@
       if(window.MetaPoke&&window.MetaPoke.bus) window.MetaPoke.bus.emit('mp:rendered');
     });
     mergePbl();
+    renderPblMatches();
     injectReglement();
     injectPblTeams();
     startCountdown();
