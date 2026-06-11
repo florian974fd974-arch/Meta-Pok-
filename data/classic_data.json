@@ -3,297 +3,297 @@
     "code": "CRI",
     "name": "Chaos Rising"
   },
-  "metaSummary": "Le métagame Chaos Rising se cristallise autour d'un trio dominant : Dragapult règne en maître avec 9,29% d'usage et un winrate solide de 53,64%, confirmant sa polyvalence. Mega Greninja (6,53% d'usage) souffre d'un winrate décevant de 44,04% malgré sa popularité, signalant une sur-représentation sans résultats probants. La variante Dragapult/Blaziken émerge comme le deck le plus performant (54,81% de winrate) avec 2,6% d'usage, tandis qu'Ogerpon/Meganium/Hydrapple (53,83% WR, 3,86% usage) s'impose comme l'option Grass la plus viable. Le format reste fluide avec 10 archétypes distincts dépassant les 3% d'usage, témoignant d'une diversité exceptionnelle post-rotation.",
+  "metaSummary": "Le méta Chaos Rising reste dominé par l'écrasante présence de Dragapult qui monopolise plus de 9% du terrain avec un winrate solide de 53,47%. La variante Blaziken émerge comme la plus performante du format avec près de 55% de victoires, tandis que la version Dusknoir maintient une présence significative. Le set continue d'offrir une diversité remarquable avec Ogerpon Meganium Hydrapple qui s'impose comme le deck à battre en termes de performances pures (53,77%), et plusieurs archétypes control comme Slowking et Alakazam Dudunsparce qui maintiennent des winrates équilibrés autour des 50-51%.",
   "analysis": {
-    "entering": "Aucun nouveau deck n'entre dans le top 10 aujourd'hui, mais Dragapult/Blaziken consolide sa position comme variant premium de l'archétype Dragon (54,81% WR). Rocket's Honchkrow maintient une progression constante avec 51,45% de winrate à 2,8% d'usage, se positionnant comme tech anti-meta efficace. Slowking (5,64% usage, 51,53% WR) continue sa percée comme control de référence, punissant les decks setup dépendants. Raging Bolt/Ogerpon stabilise son statut de challenger viable (51,07% WR, 3,09% usage) grâce à sa rapidité face aux decks lents.",
-    "leaving": "Mega Greninja montre des signes inquiétants avec un effondrement de winrate à 44,04% malgré 6,53% d'usage - les joueurs persistent mais les résultats ne suivent pas, suggérant un mauvais matchup généralisé contre Dragapult et Slowking. Lucario/Hariyama recule à 47,02% de winrate (3,4% usage), peinant face aux decks Evolution stage 2 devenus dominants. Beedrill stagne dangereusement à 49,92% de winrate (4,36% usage), perdant du terrain face aux variantes Dragapult mieux optimisées. Le tag 'Other' (4,7% usage, 41,44% WR) confirme l'échec des archétypes fringe à percer le top tier actuel.",
-    "whatToPlay": "**Dragapult/Blaziken** (2,6% usage, 54,81% WR) : le meilleur ratio performance/méta-share actuel, combinant l'agressivité Dragon et l'accélération Fire pour dominer midrange et control. **Ogerpon/Meganium/Hydrapple** (3,86% usage, 53,83% WR) : deck Grass sous-représenté mais redoutable, exploitant la synergie Evolution pour des OHKOs constants contre Dragapult et Slowking. **Dragapult standard** (9,29% usage, 53,64% WR) : le safe pick universel, meta-proof avec suffisamment de flexibilité pour tech contre n'importe quel matchup difficile."
+    "entering": "Aucune entrée fracassante aujourd'hui dans le top 10, signe d'un méta qui se stabilise autour de ses piliers établis. Dragapult Blaziken continue néanmoins sa progression silencieuse avec 2,63% d'usage et le meilleur winrate des decks significatifs (54,97%), confirmant son statut de variante optimale face aux menaces actuelles. Rocket's Honchkrow se maintient juste sous le radar avec 51,61% de victoires et pourrait capitaliser sur le recul de Mega Greninja.",
+    "leaving": "Mega Greninja s'effondre littéralement avec un winrate catastrophique de 43,95% malgré ses 6,45% d'usage, indiquant que de nombreux joueurs persistent avec un deck clairement contre-performant dans le méta actuel. Les archétypes 'Other' chutent également à 41,28% de victoires, suggérant que l'innovation hors-méta peine à trouver sa place face aux stratégies éprouvées. Lucario Hariyama continue de glisser avec seulement 46,87% de winrate, visiblement dépassé par les options control plus polyvalentes.",
+    "whatToPlay": "Dragapult Blaziken reste le choix premium avec son équilibre parfait entre puissance (54,97% WR) et présence raisonnable (2,63%), évitant le surciblage dont souffre le Dragapult vanilla. Ogerpon Meganium Hydrapple s'impose comme l'alternative idéale avec 53,77% de victoires et une capacité prouvée à punir les decks control tout en tenant tête aux aggros. Pour les joueurs cherchant la sécurité, Dragapult standard demeure un pilier fiable (9,22% usage, 53,47% WR) avec des matchups équilibrés contre l'ensemble du format."
   },
   "topDecks": [
     {
       "rank": 1,
       "name": "Dragapult",
-      "usage": 9.29,
-      "winrate": 53.64,
-      "record": "2699-2223-110"
+      "usage": 9.22,
+      "winrate": 53.47,
+      "record": "2772-2300-112"
     },
     {
       "rank": 2,
       "name": "Mega Greninja",
-      "usage": 6.53,
-      "winrate": 44.04,
-      "record": "1340-1683-20"
+      "usage": 6.45,
+      "winrate": 43.95,
+      "record": "1369-1725-21"
     },
     {
       "rank": 3,
       "name": "Dragapult Dusknoir",
-      "usage": 6.04,
-      "winrate": 51.12,
-      "record": "1617-1508-38"
+      "usage": 5.95,
+      "winrate": 51.26,
+      "record": "1654-1530-43"
     },
     {
       "rank": 4,
       "name": "Slowking",
-      "usage": 5.64,
-      "winrate": 51.53,
-      "record": "1515-1382-43"
+      "usage": 5.6,
+      "winrate": 51.66,
+      "record": "1558-1412-46"
     },
     {
       "rank": 5,
       "name": "Other",
-      "usage": 4.7,
-      "winrate": 41.44,
-      "record": "893-1237-25"
+      "usage": 4.83,
+      "winrate": 41.28,
+      "record": "942-1311-29"
     },
     {
       "rank": 6,
       "name": "Beedrill",
-      "usage": 4.36,
-      "winrate": 49.92,
-      "record": "1201-1176-29"
+      "usage": 4.37,
+      "winrate": 50,
+      "record": "1252-1222-30"
     },
     {
       "rank": 7,
       "name": "N's Zoroark",
-      "usage": 3.96,
-      "winrate": 50.07,
-      "record": "1014-978-33"
+      "usage": 3.99,
+      "winrate": 50.31,
+      "record": "1065-1018-34"
     },
     {
       "rank": 8,
       "name": "Ogerpon Meganium Hydrapple",
       "usage": 3.86,
-      "winrate": 53.83,
-      "record": "1166-970-30"
+      "winrate": 53.77,
+      "record": "1204-1005-30"
     },
     {
       "rank": 9,
       "name": "Alakazam Dudunsparce",
-      "usage": 3.83,
-      "winrate": 50.7,
-      "record": "1050-964-57"
+      "usage": 3.84,
+      "winrate": 50.58,
+      "record": "1083-998-60"
     },
     {
       "rank": 10,
       "name": "Lucario Hariyama",
-      "usage": 3.4,
-      "winrate": 47.02,
-      "record": "836-919-23"
+      "usage": 3.35,
+      "winrate": 46.87,
+      "record": "847-937-23"
     }
   ],
   "topUsage": [
     {
       "rank": 1,
       "name": "Dragapult",
-      "usage": 9.29,
-      "winrate": 53.64,
-      "record": "2699-2223-110"
+      "usage": 9.22,
+      "winrate": 53.47,
+      "record": "2772-2300-112"
     },
     {
       "rank": 2,
       "name": "Mega Greninja",
-      "usage": 6.53,
-      "winrate": 44.04,
-      "record": "1340-1683-20"
+      "usage": 6.45,
+      "winrate": 43.95,
+      "record": "1369-1725-21"
     },
     {
       "rank": 3,
       "name": "Dragapult Dusknoir",
-      "usage": 6.04,
-      "winrate": 51.12,
-      "record": "1617-1508-38"
+      "usage": 5.95,
+      "winrate": 51.26,
+      "record": "1654-1530-43"
     },
     {
       "rank": 4,
       "name": "Slowking",
-      "usage": 5.64,
-      "winrate": 51.53,
-      "record": "1515-1382-43"
+      "usage": 5.6,
+      "winrate": 51.66,
+      "record": "1558-1412-46"
     },
     {
       "rank": 5,
       "name": "Other",
-      "usage": 4.7,
-      "winrate": 41.44,
-      "record": "893-1237-25"
+      "usage": 4.83,
+      "winrate": 41.28,
+      "record": "942-1311-29"
     },
     {
       "rank": 6,
       "name": "Beedrill",
-      "usage": 4.36,
-      "winrate": 49.92,
-      "record": "1201-1176-29"
+      "usage": 4.37,
+      "winrate": 50,
+      "record": "1252-1222-30"
     },
     {
       "rank": 7,
       "name": "N's Zoroark",
-      "usage": 3.96,
-      "winrate": 50.07,
-      "record": "1014-978-33"
+      "usage": 3.99,
+      "winrate": 50.31,
+      "record": "1065-1018-34"
     },
     {
       "rank": 8,
       "name": "Ogerpon Meganium Hydrapple",
       "usage": 3.86,
-      "winrate": 53.83,
-      "record": "1166-970-30"
+      "winrate": 53.77,
+      "record": "1204-1005-30"
     },
     {
       "rank": 9,
       "name": "Alakazam Dudunsparce",
-      "usage": 3.83,
-      "winrate": 50.7,
-      "record": "1050-964-57"
+      "usage": 3.84,
+      "winrate": 50.58,
+      "record": "1083-998-60"
     },
     {
       "rank": 10,
       "name": "Lucario Hariyama",
-      "usage": 3.4,
-      "winrate": 47.02,
-      "record": "836-919-23"
+      "usage": 3.35,
+      "winrate": 46.87,
+      "record": "847-937-23"
     }
   ],
   "topWinrate": [
     {
       "rank": 1,
       "name": "Dragapult Blaziken",
-      "winrate": 54.81,
-      "usage": 2.6,
-      "record": "820-630-46"
+      "winrate": 54.97,
+      "usage": 2.63,
+      "record": "863-660-47"
     },
     {
       "rank": 2,
       "name": "Ogerpon Meganium Hydrapple",
-      "winrate": 53.83,
+      "winrate": 53.77,
       "usage": 3.86,
-      "record": "1166-970-30"
+      "record": "1204-1005-30"
     },
     {
       "rank": 3,
       "name": "Dragapult",
-      "winrate": 53.64,
-      "usage": 9.29,
-      "record": "2699-2223-110"
+      "winrate": 53.47,
+      "usage": 9.22,
+      "record": "2772-2300-112"
     },
     {
       "rank": 4,
       "name": "Slowking",
-      "winrate": 51.53,
-      "usage": 5.64,
-      "record": "1515-1382-43"
+      "winrate": 51.66,
+      "usage": 5.6,
+      "record": "1558-1412-46"
     },
     {
       "rank": 5,
       "name": "Rocket's Honchkrow",
-      "winrate": 51.45,
-      "usage": 2.8,
-      "record": "780-713-23"
+      "winrate": 51.61,
+      "usage": 2.77,
+      "record": "799-725-24"
     },
     {
       "rank": 6,
       "name": "Dragapult Dusknoir",
-      "winrate": 51.12,
-      "usage": 6.04,
-      "record": "1617-1508-38"
+      "winrate": 51.26,
+      "usage": 5.95,
+      "record": "1654-1530-43"
     },
     {
       "rank": 7,
       "name": "Raging Bolt Ogerpon",
-      "winrate": 51.07,
-      "usage": 3.09,
-      "record": "810-731-45"
+      "winrate": 51.25,
+      "usage": 3.11,
+      "record": "858-770-46"
     },
     {
       "rank": 8,
       "name": "Alakazam Dudunsparce",
-      "winrate": 50.7,
-      "usage": 3.83,
-      "record": "1050-964-57"
+      "winrate": 50.58,
+      "usage": 3.84,
+      "record": "1083-998-60"
     },
     {
       "rank": 9,
       "name": "N's Zoroark",
-      "winrate": 50.07,
-      "usage": 3.96,
-      "record": "1014-978-33"
+      "winrate": 50.31,
+      "usage": 3.99,
+      "record": "1065-1018-34"
     },
     {
       "rank": 10,
       "name": "Beedrill",
-      "winrate": 49.92,
-      "usage": 4.36,
-      "record": "1201-1176-29"
+      "winrate": 50,
+      "usage": 4.37,
+      "record": "1252-1222-30"
     }
   ],
   "movements": [
     {
       "rank": 1,
       "name": "Dragapult",
-      "usage": 9.29,
-      "winrate": 53.64,
+      "usage": 9.22,
+      "winrate": 53.47,
       "move": "stable"
     },
     {
       "rank": 2,
       "name": "Mega Greninja",
-      "usage": 6.53,
-      "winrate": 44.04,
+      "usage": 6.45,
+      "winrate": 43.95,
       "move": "stable"
     },
     {
       "rank": 3,
       "name": "Dragapult Dusknoir",
-      "usage": 6.04,
-      "winrate": 51.12,
+      "usage": 5.95,
+      "winrate": 51.26,
       "move": "stable"
     },
     {
       "rank": 4,
       "name": "Slowking",
-      "usage": 5.64,
-      "winrate": 51.53,
+      "usage": 5.6,
+      "winrate": 51.66,
       "move": "stable"
     },
     {
       "rank": 5,
       "name": "Other",
-      "usage": 4.7,
-      "winrate": 41.44,
+      "usage": 4.83,
+      "winrate": 41.28,
       "move": "stable"
     },
     {
       "rank": 6,
       "name": "Beedrill",
-      "usage": 4.36,
-      "winrate": 49.92,
+      "usage": 4.37,
+      "winrate": 50,
       "move": "stable"
     },
     {
       "rank": 7,
       "name": "N's Zoroark",
-      "usage": 3.96,
-      "winrate": 50.07,
+      "usage": 3.99,
+      "winrate": 50.31,
       "move": "stable"
     },
     {
       "rank": 8,
       "name": "Ogerpon Meganium Hydrapple",
       "usage": 3.86,
-      "winrate": 53.83,
+      "winrate": 53.77,
       "move": "stable"
     },
     {
       "rank": 9,
       "name": "Alakazam Dudunsparce",
-      "usage": 3.83,
-      "winrate": 50.7,
+      "usage": 3.84,
+      "winrate": 50.58,
       "move": "stable"
     },
     {
       "rank": 10,
       "name": "Lucario Hariyama",
-      "usage": 3.4,
-      "winrate": 47.02,
+      "usage": 3.35,
+      "winrate": 46.87,
       "move": "stable"
     }
   ],
@@ -302,27 +302,22 @@
   "newDecks": [],
   "upcomingEvents": [
     {
-      "title": "Sortie de l'extension 'Stellar Crown'",
-      "date": "2026-09-13",
-      "desc": "Nouvelle extension Standard introduisant les mécaniques Stellar Tera et de nouvelles cartes Trainer ACE SPEC - impact majeur attendu sur le métagame actuel."
-    },
-    {
-      "title": "Regional Championships - Mexico City",
-      "date": "2026-06-21",
-      "desc": "Premier gros tournoi post-stabilisation Chaos Rising, test décisif pour Dragapult/Blaziken et Mega Greninja face aux meilleurs joueurs LATAM."
-    },
-    {
-      "title": "Rotation annuelle Standard 2027",
-      "date": "2027-03-20",
-      "desc": "Date approximative de la prochaine rotation Standard (généralement fin mars) - les sets Scarlet & Violet de base pourraient sortir du format."
-    },
-    {
-      "title": "International Championships - Indianapolis",
+      "title": "Sortie de l'extension 'Temporal Forces'",
       "date": "2026-07-18",
-      "desc": "Majeur NAIC attendu avec plus de 2000 joueurs, définira les archétypes Tier 0 avant la sortie de Stellar Crown en septembre."
+      "desc": "Prochaine extension majeure du format Standard, susceptible de bouleverser la domination actuelle de Dragapult avec de nouvelles mécaniques et cartes stratégiques"
+    },
+    {
+      "title": "Regional Championships - Phase Été",
+      "date": "2026-06-28",
+      "desc": "Début de la tournée estivale des Championnats Régionaux avec qualification pour les Internationaux, moment crucial pour tester les archétypes pré-rotation"
+    },
+    {
+      "title": "Rotation du format Standard",
+      "date": "2026-09-15",
+      "desc": "Date approximative de la rotation annuelle qui retirera plusieurs sets du format légal, impactant probablement les archétypes actuels dominant le méta"
     }
   ],
   "setChanged": false,
-  "dateFr": "mercredi 10/6/2026",
-  "updatedAt": "2026-06-10T06:01:50.287Z"
+  "dateFr": "jeudi 11/6/2026",
+  "updatedAt": "2026-06-11T06:01:32.205Z"
 }
