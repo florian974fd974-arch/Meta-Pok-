@@ -1,0 +1,267 @@
+{
+  "name": "METAPOKE v2 · Agent 7 — Decklists Pocket (dimanche 9h)",
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Paris"
+  },
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * 0"
+            }
+          ]
+        }
+      },
+      "id": "trig7",
+      "name": "Dimanche 9h",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -800,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/florian974fd974-arch/Meta-Pok-/main/data/tcgp_data.json",
+        "options": {}
+      },
+      "id": "veille7",
+      "name": "Veille tcgp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -580,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===== Étape 1 : liste des decks à rafraîchir (depuis tcgp_data.json) =====\nconst t = $('Veille tcgp').first().json;\nconst seen = {};\nconst decks = [];\nfor (const d of [...(t.topUsage||[]), ...(t.topWinrate||[])]) {\n  if (!d.limitless || seen[d.name]) continue;\n  seen[d.name] = true;\n  decks.push({ json: { name: d.name, slug: d.limitless } });\n}\nif (!decks.length) throw new Error('Aucun deck avec slug Limitless dans tcgp_data.json');\nreturn decks;\n"
+      },
+      "id": "list7",
+      "name": "Decks à rafraîchir",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -360,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "=https://play.limitlesstcg.com/decks/{{ $json.slug }}?game=POCKET",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "arch7",
+      "name": "Page archétype",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -140,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// ===== Étape 2 (par deck) : trouver la meilleure decklist de la semaine =====\nconst html = String($json.data || '');\nconst meta = $('Decks à rafraîchir').item.json;\nconst strip = s => String(s||'').replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim();\nlet dlUrl = null, player = '', place = '', score = '';\nfor (const tr of html.match(/<tr[\\s\\S]*?<\\/tr>/g) || []) {\n  const a = tr.match(/<a[^>]*href=\"(\\/tournament\\/[^\"]*\\/decklist)\"[^>]*>([\\s\\S]*?)<\\/a>/);\n  if (!a) continue;\n  dlUrl = 'https://play.limitlesstcg.com' + a[1];\n  player = strip(a[2]);\n  const cells = [...tr.matchAll(/<td[^>]*>([\\s\\S]*?)<\\/td>/g)].map(m=>strip(m[1]));\n  place = (cells.find(c=>/^\\d+(st|nd|rd|th) of \\d+/.test(c))||'').split(' of ')[0];\n  score = cells.find(c=>/^\\d+\\s*-\\s*\\d+\\s*-\\s*\\d+$/.test(c))||'';\n  break;\n}\nif (!dlUrl) return { json: { name: meta.name, skip: true } };\nreturn { json: { name: meta.name, dlUrl, player, place, score: score.replace(/\\s/g,'') } };\n"
+      },
+      "id": "link7",
+      "name": "Trouver la liste",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        80,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.dlUrl }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "dl7",
+      "name": "Page decklist",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        300,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// ===== Étape 3 (par deck) : parser la decklist (20 cartes) =====\nconst meta = $('Trouver la liste').item.json;\nif (meta.skip) return { json: { name: meta.name, skip: true } };\nconst html = String($json.data || '');\nconst strip = s => String(s||'').replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim();\nconst OVERRIDES = {'teal mask ogerpon':'ogerpon','castform sunny form':'castform-sunny','oricorio':'oricorio-pom-pom','chien-pao':'chien-pao','iron valiant':'iron-valiant','iron boulder':'iron-boulder','flutter mane':'flutter-mane','great tusk':'great-tusk'};\nfunction spriteSlug(name){\n  let n = String(name).replace(/\\s+ex$/i,'').trim();\n  const mega = /^Mega\\s+/i.test(n); if(mega) n = n.replace(/^Mega\\s+/i,'');\n  const low = n.toLowerCase();\n  for (const k in OVERRIDES) if (low.startsWith(k)) return OVERRIDES[k] + (mega?'-mega':'');\n  return low.replace(/['’.]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'') + (mega?'-mega':'');\n}\nconst sections = {};\nfor (const sec of html.match(/<div class=\"cards\">[\\s\\S]*?<\\/div><\\/div>|<div class=\"cards\">[\\s\\S]*?(?=<div class=\"cards\">|<\\/div><\\/div>)/g) || html.split('<div class=\"cards\">').slice(1).map(s=>'<div class=\"cards\">'+s)) {\n  const head = (sec.match(/<div class=\"heading\">([\\s\\S]*?)<\\/div>/)||[])[1];\n  if (!head) continue;\n  const cards = [...sec.matchAll(/<a[^>]*>\\s*(\\d+)\\s+([^<(]+?)(?:\\s*\\(([^)]+)\\))?\\s*<\\/a>/g)]\n    .map(m=>({ q:+m[1], n:strip(m[2]), set:m[3]||undefined }));\n  if (/Pok/i.test(head)) sections.pokemon = cards.map(c=>({q:c.q,n:c.n,s:spriteSlug(c.n)}));\n  else if (/Trainer/i.test(head)) sections.trainers = cards.map(c=>({q:c.q,n:c.n}));\n}\nif (!sections.pokemon || !sections.pokemon.length) return { json: { name: meta.name, skip: true } };\nreturn { json: { name: meta.name, cards: { pokemon: sections.pokemon, trainers: sections.trainers||[], energy: [] },\n  listBy: meta.player + (meta.place?' ('+meta.place+(meta.score?', '+meta.score:'')+')':'') } };\n"
+      },
+      "id": "parse7",
+      "name": "Parser 20 cartes",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        520,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===== Étape 4 : fusionner dans tcgp_data.json + commit =====\nconst t = $('Veille tcgp').first().json;\nconst fresh = $input.all().map(i=>i.json).filter(d=>!d.skip && d.cards);\nif (!fresh.length) throw new Error('Aucune decklist récupérée — rien à commiter');\nconst byName = {}; fresh.forEach(d=>byName[d.name]=d);\nlet updated = 0;\nfor (const list of [t.topUsage, t.topWinrate, t.topDecks]) {\n  if (!Array.isArray(list)) continue;\n  for (const d of list) {\n    const f = byName[d.name];\n    if (f) { d.cards = f.cards; d.listBy = f.listBy; updated++; }\n  }\n}\nt.updatedAt = new Date().toISOString();\nreturn [{ json: {\n  content: JSON.stringify(t, null, 2),\n  msg: 'bot(decklists) ' + new Date().toLocaleDateString('fr-FR') + ' : ' + fresh.length + ' decklists rafraîchies (' + fresh.map(d=>d.name.split(' ')[0]).slice(0,4).join(', ') + '…)'\n}}];\n"
+      },
+      "id": "merge7",
+      "name": "Fusionner + message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        740,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "edit",
+        "owner": "florian974fd974-arch",
+        "repository": "Meta-Pok-",
+        "filePath": "data/tcgp_data.json",
+        "fileContent": "={{ $json.content }}",
+        "commitMessage": "={{ $json.msg }}"
+      },
+      "id": "gh7",
+      "name": "Commit tcgp_data",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1,
+      "position": [
+        960,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Dimanche 9h": {
+      "main": [
+        [
+          {
+            "node": "Veille tcgp",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Veille tcgp": {
+      "main": [
+        [
+          {
+            "node": "Decks à rafraîchir",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Decks à rafraîchir": {
+      "main": [
+        [
+          {
+            "node": "Page archétype",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Page archétype": {
+      "main": [
+        [
+          {
+            "node": "Trouver la liste",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Trouver la liste": {
+      "main": [
+        [
+          {
+            "node": "Page decklist",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Page decklist": {
+      "main": [
+        [
+          {
+            "node": "Parser 20 cartes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parser 20 cartes": {
+      "main": [
+        [
+          {
+            "node": "Fusionner + message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fusionner + message": {
+      "main": [
+        [
+          {
+            "node": "Commit tcgp_data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
