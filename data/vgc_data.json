@@ -1,9 +1,38 @@
 {
   "format": "Regulation Set M-A",
-  "metaSummary": "Méta Regulation Set M-A — Kingambit domine (56.21%).",
+  "metaSummary": "La méta Regulation M-A se cristallise autour d'un Big 6 quasi-immuable : Kingambit, Garchomp et Basculegion forment le triptyque offensif dominant (53-56% d'usage chacun), systématiquement soutenus par Incineroar/Floette Éternelle pour le contrôle et Charizard pour la pression solaire. L'écosystème reste figé avec des mouvements « stable » partout, signalant une méta résolue où les joueurs optimisent des archétypes éprouvés plutôt que d'innover. Les victoires récentes d'Onishi aux JCS et Silva à Turin confirment la dominance des compositions hyper-offensive + support Intimidate/Parting Shot, avec Sneasler (35%) émergeant comme le wildcard Unburden le plus joué pour punir les setups passifs.",
   "analysis": {
-    "whatToPlay": "",
-    "howToCounter": ""
+    "whatToPlay": [
+      {
+        "archetype": "Kingambit + Basculegion + Whimsicott (Tailwind Offense)",
+        "raison": "Le core le plus représenté avec 94% de synergie Whimsicott-Basculegion. Tailwind + Encore neutralise les Trick Room adverses, Last Respects snowball dès le premier KO, et Kingambit cleanup sous vitesse boostée. Whimsicott Focus Sash garantit le Tailwind turn 1 même contre Fake Out."
+      },
+      {
+        "archetype": "Floette Éternelle + Incineroar + Sinistcha (Trick Room Balance)",
+        "raison": "Le counter-meta par excellence : 87% de pairage Sinistcha-Incineroar exploite Hospitality + Intimidate cycles pour survivre. Floette Calm Mind devient inarrêtable sous Trick Room avec Rage Powder redirect. Kasib Berry sur Sinistcha (56%) bloque les Shadow Ball de Floette miroir."
+      },
+      {
+        "archetype": "Charizard-Y + Garchomp + Aerodactyl (Sun Pressure)",
+        "raison": "L'archétype vitesse pure avec 87% Charizard-Garchomp synergy. Weather Ball Fire + Solar Beam coverage sous soleil, Garchomp Poison Jab pour Floette (28% d'adoption), Aerodactyl Tailwind + Wide Guard protège des Rock Slide. Charizardite Y à 90% confirme la domination sun > mega-X."
+      }
+    ],
+    "howToCounter": {
+      "Kingambit": [
+        "Incineroar Intimidate + Parting Shot cycle réduit son Attack de -3, neutralisant Sucker Punch/Kowtow Cleave même après Defiant proc",
+        "Sinistcha Trick Room inverse son jeu : Kingambit n'est pas Tera-capable ici, donc jouer des attackers lents (Floette Calm Mind, Garchomp non-scarf) qui le dépassent sous TR",
+        "Sneasler Close Combat OHKO garantie, White Herb à 63% ignore Intimidate, Fake Out empêche Protect turn 1 - l'option la plus propre si vous jouez offense"
+      ],
+      "Garchomp": [
+        "Floette Éternelle Moonblast/Dazzling Gleam avec Calm Mind setup (61% des sets) : Roseli Berry Garchomp (22%) survit un hit mais perd le trade 1v1",
+        "Sylveon Pixilate Hyper Voice sous Aerodactyl Tailwind : contrôle vitesse + OHKO sur 100% des Garchomp non-Haban (95% de la méta)",
+        "Basculegion Choice Scarf Aqua Jet finish après chip : 33% jouent scarf, priority ignore Rough Skin et tue à ~60% HP"
+      ],
+      "Basculegion": [
+        "Whimsicott Encore sur Last Respects turn 1 force un switch, annulant son snowball - c'est pourquoi 100% des Whimsicott packent Encore",
+        "Eternal Flower Floette Draining Kiss (33%) outheale Last Respects damage tout en KO progressivement, surtout si Floette a +1 SpA",
+        "Incineroar Fake Out + redirection : empêcher le premier KO = Last Respects reste faible. Parting Shot pour cycle et reset momentum"
+      ]
+    }
   },
   "topPokemon": [
     {
@@ -1415,10 +1444,6 @@
     {
       "player": "Marco Silva",
       "title": "Turin SC Champion"
-    },
-    {
-      "player": "Hiroshi Onishi",
-      "title": "2026 JCS Champion"
     }
   ],
   "upcomingEvents": [],
@@ -1508,5 +1533,5 @@
       "move": "stable"
     }
   ],
-  "updatedAt": "2026-06-11T06:01:08.963Z"
+  "updatedAt": "2026-06-12T06:01:03.999Z"
 }
