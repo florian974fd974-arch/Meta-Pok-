@@ -13,7 +13,74 @@
       "winrate": 50.58,
       "record": "2285-2132-101",
       "winRate": 50.58,
-      "share": 8.2
+      "share": 8.2,
+      "limitless": "mega-altaria-ex-b1-espeon-b3a",
+      "listBy": "MrPoseidon (1st, 11-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Swablu",
+            "s": "swablu"
+          },
+          {
+            "q": 2,
+            "n": "Mega Altaria ex",
+            "s": "altaria-mega"
+          },
+          {
+            "q": 2,
+            "n": "Eevee",
+            "s": "eevee"
+          },
+          {
+            "q": 2,
+            "n": "Espeon",
+            "s": "espeon"
+          },
+          {
+            "q": 2,
+            "n": "Darkrai",
+            "s": "darkrai"
+          },
+          {
+            "q": 2,
+            "n": "Igglybuff",
+            "s": "igglybuff"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 1,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Training Area"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 2,
@@ -22,7 +89,77 @@
       "winrate": 48.96,
       "record": "1546-1518-94",
       "winRate": 48.96,
-      "share": 5.99
+      "share": 5.99,
+      "limitless": "miraidon-ex-b3a-magnezone-b1a",
+      "listBy": "Mega Hanna EX (1st, 13-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Magnemite",
+            "s": "magnemite"
+          },
+          {
+            "q": 2,
+            "n": "Magneton",
+            "s": "magneton"
+          },
+          {
+            "q": 1,
+            "n": "Magnezone",
+            "s": "magnezone"
+          },
+          {
+            "q": 2,
+            "n": "Miraidon ex",
+            "s": "miraidon"
+          },
+          {
+            "q": 2,
+            "n": "Zeraora",
+            "s": "zeraora"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Professor Turo"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Clemont"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 3,
@@ -31,7 +168,77 @@
       "winrate": 50.64,
       "record": "1508-1380-90",
       "winRate": 50.64,
-      "share": 5.52
+      "share": 5.52,
+      "limitless": "magnezone-b1a-miraidon-ex-b3a",
+      "listBy": "LikoUnite (1st, 12-1-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Magnemite",
+            "s": "magnemite"
+          },
+          {
+            "q": 2,
+            "n": "Magneton",
+            "s": "magneton"
+          },
+          {
+            "q": 2,
+            "n": "Magnezone",
+            "s": "magnezone"
+          },
+          {
+            "q": 2,
+            "n": "Oricorio",
+            "s": "oricorio-pom-pom"
+          },
+          {
+            "q": 1,
+            "n": "Miraidon ex",
+            "s": "miraidon"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Clemont"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 1,
+            "n": "Professor Turo"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 4,
@@ -40,7 +247,68 @@
       "winrate": 52.89,
       "record": "1599-1335-89",
       "winRate": 52.89,
-      "share": 5.1
+      "share": 5.1,
+      "limitless": "suicune-ex-a4a-baxcalibur-b2a",
+      "listBy": "PA1N (1st, 11-2-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Frigibax",
+            "s": "frigibax"
+          },
+          {
+            "q": 2,
+            "n": "Baxcalibur",
+            "s": "baxcalibur"
+          },
+          {
+            "q": 2,
+            "n": "Suicune ex",
+            "s": "suicune"
+          },
+          {
+            "q": 1,
+            "n": "Chien-Pao ex",
+            "s": "chien-pao"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 2,
+            "n": "Giant Cape"
+          },
+          {
+            "q": 1,
+            "n": "Inflatable Boat"
+          },
+          {
+            "q": 1,
+            "n": "Starting Plains"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 5,
@@ -49,7 +317,79 @@
       "winrate": 50.23,
       "record": "1197-1111-75",
       "winRate": 50.23,
-      "share": 4.36
+      "share": 4.36,
+      "limitless": "mega-sceptile-ex-sceptile-b3",
+      "listBy": "Evan34 (2nd, 10-3-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Treecko",
+            "s": "treecko"
+          },
+          {
+            "q": 2,
+            "n": "Grovyle",
+            "s": "grovyle"
+          },
+          {
+            "q": 1,
+            "n": "Sceptile",
+            "s": "sceptile"
+          },
+          {
+            "q": 1,
+            "n": "Mega Sceptile ex",
+            "s": "sceptile-mega"
+          },
+          {
+            "q": 2,
+            "n": "Chingling",
+            "s": "chingling"
+          },
+          {
+            "q": 1,
+            "n": "Celebi",
+            "s": "celebi"
+          },
+          {
+            "q": 1,
+            "n": "Teal Mask Ogerpon ex",
+            "s": "ogerpon"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Erika"
+          },
+          {
+            "q": 2,
+            "n": "Quick-Grow Extract"
+          },
+          {
+            "q": 1,
+            "n": "Leaf Cape"
+          },
+          {
+            "q": 2,
+            "n": "Fragrant Forest"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 6,
@@ -58,7 +398,83 @@
       "winrate": 51.69,
       "record": "1268-1093-92",
       "winRate": 51.69,
-      "share": 4.28
+      "share": 4.28,
+      "limitless": "mega-altaria-ex-b1-gourgeist-b2",
+      "listBy": "Soadmon (1st, 11-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Pumpkaboo",
+            "s": "pumpkaboo"
+          },
+          {
+            "q": 2,
+            "n": "Gourgeist",
+            "s": "gourgeist"
+          },
+          {
+            "q": 2,
+            "n": "Swablu",
+            "s": "swablu"
+          },
+          {
+            "q": 2,
+            "n": "Mega Altaria ex",
+            "s": "altaria-mega"
+          },
+          {
+            "q": 1,
+            "n": "Jirachi",
+            "s": "jirachi"
+          },
+          {
+            "q": 1,
+            "n": "Comfey",
+            "s": "comfey"
+          },
+          {
+            "q": 1,
+            "n": "Chingling",
+            "s": "chingling"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          },
+          {
+            "q": 1,
+            "n": "Training Area"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 7,
@@ -67,7 +483,83 @@
       "winrate": 52.84,
       "record": "1292-1061-92",
       "winRate": 52.84,
-      "share": 4.15
+      "share": 4.15,
+      "limitless": "mega-blaziken-ex-b1-greninja-a1",
+      "listBy": "PGX | Zerox (1st, 9-1-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Torchic",
+            "s": "torchic"
+          },
+          {
+            "q": 1,
+            "n": "Combusken",
+            "s": "combusken"
+          },
+          {
+            "q": 1,
+            "n": "Mega Blaziken ex",
+            "s": "blaziken-mega"
+          },
+          {
+            "q": 1,
+            "n": "Froakie",
+            "s": "froakie"
+          },
+          {
+            "q": 1,
+            "n": "Greninja",
+            "s": "greninja"
+          },
+          {
+            "q": 1,
+            "n": "Castform Sunny Form",
+            "s": "castform-sunny"
+          },
+          {
+            "q": 1,
+            "n": "Heatmor",
+            "s": "heatmor"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Juliana"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Flame Patch"
+          },
+          {
+            "q": 1,
+            "n": "Hiking Trail"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 8,
@@ -76,7 +568,68 @@
       "winrate": 51.8,
       "record": "1035-910-53",
       "winRate": 51.8,
-      "share": 3.54
+      "share": 3.54,
+      "limitless": "hydreigon-mega-absol-ex-b1",
+      "listBy": "AnHz (2nd, 11-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Deino",
+            "s": "deino"
+          },
+          {
+            "q": 2,
+            "n": "Hydreigon",
+            "s": "hydreigon"
+          },
+          {
+            "q": 1,
+            "n": "Mega Absol ex",
+            "s": "absol-mega"
+          },
+          {
+            "q": 1,
+            "n": "Bombirdier",
+            "s": "bombirdier"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 2,
+            "n": "Lucky Ice Pop"
+          },
+          {
+            "q": 2,
+            "n": "Rocky Helmet"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 9,
@@ -85,7 +638,77 @@
       "winrate": 50.26,
       "record": "768-727-33",
       "winRate": 50.26,
-      "share": 2.92
+      "share": 2.92,
+      "limitless": "zoroark-ex-b3-mega-absol-ex-b1",
+      "listBy": "Artik | Buzz (1st, 8-1-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Zorua",
+            "s": "zorua"
+          },
+          {
+            "q": 2,
+            "n": "Zoroark ex",
+            "s": "zoroark"
+          },
+          {
+            "q": 1,
+            "n": "Mega Absol ex",
+            "s": "absol-mega"
+          },
+          {
+            "q": 1,
+            "n": "Darkrai ex",
+            "s": "darkrai"
+          },
+          {
+            "q": 1,
+            "n": "Bombirdier",
+            "s": "bombirdier"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Lucky Ice Pop"
+          },
+          {
+            "q": 1,
+            "n": "Field Blower"
+          },
+          {
+            "q": 2,
+            "n": "Rocky Helmet"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 10,
@@ -94,7 +717,82 @@
       "winrate": 49.56,
       "record": "676-657-31",
       "winRate": 49.56,
-      "share": 2.68
+      "share": 2.68,
+      "limitless": "magnezone-ex-b3-magnezone-b1a",
+      "listBy": "LiquidHunter (1st, 10-2-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Magnemite",
+            "s": "magnemite"
+          },
+          {
+            "q": 2,
+            "n": "Magneton",
+            "s": "magneton"
+          },
+          {
+            "q": 1,
+            "n": "Magnezone",
+            "s": "magnezone"
+          },
+          {
+            "q": 1,
+            "n": "Magnezone ex",
+            "s": "magnezone"
+          },
+          {
+            "q": 2,
+            "n": "Oricorio",
+            "s": "oricorio-pom-pom"
+          },
+          {
+            "q": 1,
+            "n": "Miraidon ex",
+            "s": "miraidon"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Clemont"
+          },
+          {
+            "q": 1,
+            "n": "Professor Turo"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          }
+        ],
+        "energy": []
+      }
     }
   ],
   "topUsage": [
@@ -105,7 +803,74 @@
       "winrate": 50.58,
       "record": "2285-2132-101",
       "winRate": 50.58,
-      "share": 8.2
+      "share": 8.2,
+      "limitless": "mega-altaria-ex-b1-espeon-b3a",
+      "listBy": "MrPoseidon (1st, 11-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Swablu",
+            "s": "swablu"
+          },
+          {
+            "q": 2,
+            "n": "Mega Altaria ex",
+            "s": "altaria-mega"
+          },
+          {
+            "q": 2,
+            "n": "Eevee",
+            "s": "eevee"
+          },
+          {
+            "q": 2,
+            "n": "Espeon",
+            "s": "espeon"
+          },
+          {
+            "q": 2,
+            "n": "Darkrai",
+            "s": "darkrai"
+          },
+          {
+            "q": 2,
+            "n": "Igglybuff",
+            "s": "igglybuff"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 1,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Training Area"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 2,
@@ -114,7 +879,77 @@
       "winrate": 48.96,
       "record": "1546-1518-94",
       "winRate": 48.96,
-      "share": 5.99
+      "share": 5.99,
+      "limitless": "miraidon-ex-b3a-magnezone-b1a",
+      "listBy": "Mega Hanna EX (1st, 13-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Magnemite",
+            "s": "magnemite"
+          },
+          {
+            "q": 2,
+            "n": "Magneton",
+            "s": "magneton"
+          },
+          {
+            "q": 1,
+            "n": "Magnezone",
+            "s": "magnezone"
+          },
+          {
+            "q": 2,
+            "n": "Miraidon ex",
+            "s": "miraidon"
+          },
+          {
+            "q": 2,
+            "n": "Zeraora",
+            "s": "zeraora"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Professor Turo"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Clemont"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 3,
@@ -123,7 +958,77 @@
       "winrate": 50.64,
       "record": "1508-1380-90",
       "winRate": 50.64,
-      "share": 5.52
+      "share": 5.52,
+      "limitless": "magnezone-b1a-miraidon-ex-b3a",
+      "listBy": "LikoUnite (1st, 12-1-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Magnemite",
+            "s": "magnemite"
+          },
+          {
+            "q": 2,
+            "n": "Magneton",
+            "s": "magneton"
+          },
+          {
+            "q": 2,
+            "n": "Magnezone",
+            "s": "magnezone"
+          },
+          {
+            "q": 2,
+            "n": "Oricorio",
+            "s": "oricorio-pom-pom"
+          },
+          {
+            "q": 1,
+            "n": "Miraidon ex",
+            "s": "miraidon"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Clemont"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 1,
+            "n": "Professor Turo"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 4,
@@ -132,7 +1037,68 @@
       "winrate": 52.89,
       "record": "1599-1335-89",
       "winRate": 52.89,
-      "share": 5.1
+      "share": 5.1,
+      "limitless": "suicune-ex-a4a-baxcalibur-b2a",
+      "listBy": "PA1N (1st, 11-2-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Frigibax",
+            "s": "frigibax"
+          },
+          {
+            "q": 2,
+            "n": "Baxcalibur",
+            "s": "baxcalibur"
+          },
+          {
+            "q": 2,
+            "n": "Suicune ex",
+            "s": "suicune"
+          },
+          {
+            "q": 1,
+            "n": "Chien-Pao ex",
+            "s": "chien-pao"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 2,
+            "n": "Giant Cape"
+          },
+          {
+            "q": 1,
+            "n": "Inflatable Boat"
+          },
+          {
+            "q": 1,
+            "n": "Starting Plains"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 5,
@@ -141,7 +1107,79 @@
       "winrate": 50.23,
       "record": "1197-1111-75",
       "winRate": 50.23,
-      "share": 4.36
+      "share": 4.36,
+      "limitless": "mega-sceptile-ex-sceptile-b3",
+      "listBy": "Evan34 (2nd, 10-3-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Treecko",
+            "s": "treecko"
+          },
+          {
+            "q": 2,
+            "n": "Grovyle",
+            "s": "grovyle"
+          },
+          {
+            "q": 1,
+            "n": "Sceptile",
+            "s": "sceptile"
+          },
+          {
+            "q": 1,
+            "n": "Mega Sceptile ex",
+            "s": "sceptile-mega"
+          },
+          {
+            "q": 2,
+            "n": "Chingling",
+            "s": "chingling"
+          },
+          {
+            "q": 1,
+            "n": "Celebi",
+            "s": "celebi"
+          },
+          {
+            "q": 1,
+            "n": "Teal Mask Ogerpon ex",
+            "s": "ogerpon"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Erika"
+          },
+          {
+            "q": 2,
+            "n": "Quick-Grow Extract"
+          },
+          {
+            "q": 1,
+            "n": "Leaf Cape"
+          },
+          {
+            "q": 2,
+            "n": "Fragrant Forest"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 6,
@@ -150,7 +1188,83 @@
       "winrate": 51.69,
       "record": "1268-1093-92",
       "winRate": 51.69,
-      "share": 4.28
+      "share": 4.28,
+      "limitless": "mega-altaria-ex-b1-gourgeist-b2",
+      "listBy": "Soadmon (1st, 11-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Pumpkaboo",
+            "s": "pumpkaboo"
+          },
+          {
+            "q": 2,
+            "n": "Gourgeist",
+            "s": "gourgeist"
+          },
+          {
+            "q": 2,
+            "n": "Swablu",
+            "s": "swablu"
+          },
+          {
+            "q": 2,
+            "n": "Mega Altaria ex",
+            "s": "altaria-mega"
+          },
+          {
+            "q": 1,
+            "n": "Jirachi",
+            "s": "jirachi"
+          },
+          {
+            "q": 1,
+            "n": "Comfey",
+            "s": "comfey"
+          },
+          {
+            "q": 1,
+            "n": "Chingling",
+            "s": "chingling"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          },
+          {
+            "q": 1,
+            "n": "Training Area"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 7,
@@ -159,7 +1273,83 @@
       "winrate": 52.84,
       "record": "1292-1061-92",
       "winRate": 52.84,
-      "share": 4.15
+      "share": 4.15,
+      "limitless": "mega-blaziken-ex-b1-greninja-a1",
+      "listBy": "PGX | Zerox (1st, 9-1-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Torchic",
+            "s": "torchic"
+          },
+          {
+            "q": 1,
+            "n": "Combusken",
+            "s": "combusken"
+          },
+          {
+            "q": 1,
+            "n": "Mega Blaziken ex",
+            "s": "blaziken-mega"
+          },
+          {
+            "q": 1,
+            "n": "Froakie",
+            "s": "froakie"
+          },
+          {
+            "q": 1,
+            "n": "Greninja",
+            "s": "greninja"
+          },
+          {
+            "q": 1,
+            "n": "Castform Sunny Form",
+            "s": "castform-sunny"
+          },
+          {
+            "q": 1,
+            "n": "Heatmor",
+            "s": "heatmor"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Juliana"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Flame Patch"
+          },
+          {
+            "q": 1,
+            "n": "Hiking Trail"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 8,
@@ -168,7 +1358,68 @@
       "winrate": 51.8,
       "record": "1035-910-53",
       "winRate": 51.8,
-      "share": 3.54
+      "share": 3.54,
+      "limitless": "hydreigon-mega-absol-ex-b1",
+      "listBy": "AnHz (2nd, 11-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Deino",
+            "s": "deino"
+          },
+          {
+            "q": 2,
+            "n": "Hydreigon",
+            "s": "hydreigon"
+          },
+          {
+            "q": 1,
+            "n": "Mega Absol ex",
+            "s": "absol-mega"
+          },
+          {
+            "q": 1,
+            "n": "Bombirdier",
+            "s": "bombirdier"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 2,
+            "n": "Lucky Ice Pop"
+          },
+          {
+            "q": 2,
+            "n": "Rocky Helmet"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 9,
@@ -177,7 +1428,77 @@
       "winrate": 50.26,
       "record": "768-727-33",
       "winRate": 50.26,
-      "share": 2.92
+      "share": 2.92,
+      "limitless": "zoroark-ex-b3-mega-absol-ex-b1",
+      "listBy": "Artik | Buzz (1st, 8-1-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Zorua",
+            "s": "zorua"
+          },
+          {
+            "q": 2,
+            "n": "Zoroark ex",
+            "s": "zoroark"
+          },
+          {
+            "q": 1,
+            "n": "Mega Absol ex",
+            "s": "absol-mega"
+          },
+          {
+            "q": 1,
+            "n": "Darkrai ex",
+            "s": "darkrai"
+          },
+          {
+            "q": 1,
+            "n": "Bombirdier",
+            "s": "bombirdier"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Lucky Ice Pop"
+          },
+          {
+            "q": 1,
+            "n": "Field Blower"
+          },
+          {
+            "q": 2,
+            "n": "Rocky Helmet"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 10,
@@ -186,7 +1507,82 @@
       "winrate": 49.56,
       "record": "676-657-31",
       "winRate": 49.56,
-      "share": 2.68
+      "share": 2.68,
+      "limitless": "magnezone-ex-b3-magnezone-b1a",
+      "listBy": "LiquidHunter (1st, 10-2-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Magnemite",
+            "s": "magnemite"
+          },
+          {
+            "q": 2,
+            "n": "Magneton",
+            "s": "magneton"
+          },
+          {
+            "q": 1,
+            "n": "Magnezone",
+            "s": "magnezone"
+          },
+          {
+            "q": 1,
+            "n": "Magnezone ex",
+            "s": "magnezone"
+          },
+          {
+            "q": 2,
+            "n": "Oricorio",
+            "s": "oricorio-pom-pom"
+          },
+          {
+            "q": 1,
+            "n": "Miraidon ex",
+            "s": "miraidon"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Clemont"
+          },
+          {
+            "q": 1,
+            "n": "Professor Turo"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          }
+        ],
+        "energy": []
+      }
     }
   ],
   "topWinrate": [
@@ -197,7 +1593,68 @@
       "usage": 5.1,
       "record": "1599-1335-89",
       "winRate": 52.89,
-      "share": 5.1
+      "share": 5.1,
+      "limitless": "suicune-ex-a4a-baxcalibur-b2a",
+      "listBy": "PA1N (1st, 11-2-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Frigibax",
+            "s": "frigibax"
+          },
+          {
+            "q": 2,
+            "n": "Baxcalibur",
+            "s": "baxcalibur"
+          },
+          {
+            "q": 2,
+            "n": "Suicune ex",
+            "s": "suicune"
+          },
+          {
+            "q": 1,
+            "n": "Chien-Pao ex",
+            "s": "chien-pao"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 2,
+            "n": "Giant Cape"
+          },
+          {
+            "q": 1,
+            "n": "Inflatable Boat"
+          },
+          {
+            "q": 1,
+            "n": "Starting Plains"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 2,
@@ -206,7 +1663,83 @@
       "usage": 4.15,
       "record": "1292-1061-92",
       "winRate": 52.84,
-      "share": 4.15
+      "share": 4.15,
+      "limitless": "mega-blaziken-ex-b1-greninja-a1",
+      "listBy": "PGX | Zerox (1st, 9-1-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Torchic",
+            "s": "torchic"
+          },
+          {
+            "q": 1,
+            "n": "Combusken",
+            "s": "combusken"
+          },
+          {
+            "q": 1,
+            "n": "Mega Blaziken ex",
+            "s": "blaziken-mega"
+          },
+          {
+            "q": 1,
+            "n": "Froakie",
+            "s": "froakie"
+          },
+          {
+            "q": 1,
+            "n": "Greninja",
+            "s": "greninja"
+          },
+          {
+            "q": 1,
+            "n": "Castform Sunny Form",
+            "s": "castform-sunny"
+          },
+          {
+            "q": 1,
+            "n": "Heatmor",
+            "s": "heatmor"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Juliana"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Flame Patch"
+          },
+          {
+            "q": 1,
+            "n": "Hiking Trail"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 3,
@@ -215,7 +1748,68 @@
       "usage": 3.54,
       "record": "1035-910-53",
       "winRate": 51.8,
-      "share": 3.54
+      "share": 3.54,
+      "limitless": "hydreigon-mega-absol-ex-b1",
+      "listBy": "AnHz (2nd, 11-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Deino",
+            "s": "deino"
+          },
+          {
+            "q": 2,
+            "n": "Hydreigon",
+            "s": "hydreigon"
+          },
+          {
+            "q": 1,
+            "n": "Mega Absol ex",
+            "s": "absol-mega"
+          },
+          {
+            "q": 1,
+            "n": "Bombirdier",
+            "s": "bombirdier"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 2,
+            "n": "Lucky Ice Pop"
+          },
+          {
+            "q": 2,
+            "n": "Rocky Helmet"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 4,
@@ -224,7 +1818,83 @@
       "usage": 4.28,
       "record": "1268-1093-92",
       "winRate": 51.69,
-      "share": 4.28
+      "share": 4.28,
+      "limitless": "mega-altaria-ex-b1-gourgeist-b2",
+      "listBy": "Soadmon (1st, 11-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Pumpkaboo",
+            "s": "pumpkaboo"
+          },
+          {
+            "q": 2,
+            "n": "Gourgeist",
+            "s": "gourgeist"
+          },
+          {
+            "q": 2,
+            "n": "Swablu",
+            "s": "swablu"
+          },
+          {
+            "q": 2,
+            "n": "Mega Altaria ex",
+            "s": "altaria-mega"
+          },
+          {
+            "q": 1,
+            "n": "Jirachi",
+            "s": "jirachi"
+          },
+          {
+            "q": 1,
+            "n": "Comfey",
+            "s": "comfey"
+          },
+          {
+            "q": 1,
+            "n": "Chingling",
+            "s": "chingling"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          },
+          {
+            "q": 1,
+            "n": "Training Area"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 5,
@@ -233,7 +1903,77 @@
       "usage": 5.52,
       "record": "1508-1380-90",
       "winRate": 50.64,
-      "share": 5.52
+      "share": 5.52,
+      "limitless": "magnezone-b1a-miraidon-ex-b3a",
+      "listBy": "LikoUnite (1st, 12-1-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Magnemite",
+            "s": "magnemite"
+          },
+          {
+            "q": 2,
+            "n": "Magneton",
+            "s": "magneton"
+          },
+          {
+            "q": 2,
+            "n": "Magnezone",
+            "s": "magnezone"
+          },
+          {
+            "q": 2,
+            "n": "Oricorio",
+            "s": "oricorio-pom-pom"
+          },
+          {
+            "q": 1,
+            "n": "Miraidon ex",
+            "s": "miraidon"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Clemont"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 1,
+            "n": "Professor Turo"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 6,
@@ -242,7 +1982,74 @@
       "usage": 8.2,
       "record": "2285-2132-101",
       "winRate": 50.58,
-      "share": 8.2
+      "share": 8.2,
+      "limitless": "mega-altaria-ex-b1-espeon-b3a",
+      "listBy": "MrPoseidon (1st, 11-3-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Swablu",
+            "s": "swablu"
+          },
+          {
+            "q": 2,
+            "n": "Mega Altaria ex",
+            "s": "altaria-mega"
+          },
+          {
+            "q": 2,
+            "n": "Eevee",
+            "s": "eevee"
+          },
+          {
+            "q": 2,
+            "n": "Espeon",
+            "s": "espeon"
+          },
+          {
+            "q": 2,
+            "n": "Darkrai",
+            "s": "darkrai"
+          },
+          {
+            "q": 2,
+            "n": "Igglybuff",
+            "s": "igglybuff"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 1,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Training Area"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 7,
@@ -251,7 +2058,77 @@
       "usage": 2.92,
       "record": "768-727-33",
       "winRate": 50.26,
-      "share": 2.92
+      "share": 2.92,
+      "limitless": "zoroark-ex-b3-mega-absol-ex-b1",
+      "listBy": "Artik | Buzz (1st, 8-1-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Zorua",
+            "s": "zorua"
+          },
+          {
+            "q": 2,
+            "n": "Zoroark ex",
+            "s": "zoroark"
+          },
+          {
+            "q": 1,
+            "n": "Mega Absol ex",
+            "s": "absol-mega"
+          },
+          {
+            "q": 1,
+            "n": "Darkrai ex",
+            "s": "darkrai"
+          },
+          {
+            "q": 1,
+            "n": "Bombirdier",
+            "s": "bombirdier"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Sabrina"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Lucky Ice Pop"
+          },
+          {
+            "q": 1,
+            "n": "Field Blower"
+          },
+          {
+            "q": 2,
+            "n": "Rocky Helmet"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 8,
@@ -260,7 +2137,79 @@
       "usage": 4.36,
       "record": "1197-1111-75",
       "winRate": 50.23,
-      "share": 4.36
+      "share": 4.36,
+      "limitless": "mega-sceptile-ex-sceptile-b3",
+      "listBy": "Evan34 (2nd, 10-3-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Treecko",
+            "s": "treecko"
+          },
+          {
+            "q": 2,
+            "n": "Grovyle",
+            "s": "grovyle"
+          },
+          {
+            "q": 1,
+            "n": "Sceptile",
+            "s": "sceptile"
+          },
+          {
+            "q": 1,
+            "n": "Mega Sceptile ex",
+            "s": "sceptile-mega"
+          },
+          {
+            "q": 2,
+            "n": "Chingling",
+            "s": "chingling"
+          },
+          {
+            "q": 1,
+            "n": "Celebi",
+            "s": "celebi"
+          },
+          {
+            "q": 1,
+            "n": "Teal Mask Ogerpon ex",
+            "s": "ogerpon"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Erika"
+          },
+          {
+            "q": 2,
+            "n": "Quick-Grow Extract"
+          },
+          {
+            "q": 1,
+            "n": "Leaf Cape"
+          },
+          {
+            "q": 2,
+            "n": "Fragrant Forest"
+          }
+        ],
+        "energy": []
+      }
     },
     {
       "rank": 9,
@@ -269,7 +2218,8 @@
       "usage": 2.14,
       "record": "560-521-45",
       "winRate": 49.73,
-      "share": 2.14
+      "share": 2.14,
+      "limitless": "greninja-a1-mega-absol-ex-b1"
     },
     {
       "rank": 10,
@@ -278,7 +2228,82 @@
       "usage": 2.68,
       "record": "676-657-31",
       "winRate": 49.56,
-      "share": 2.68
+      "share": 2.68,
+      "limitless": "magnezone-ex-b3-magnezone-b1a",
+      "listBy": "LiquidHunter (1st, 10-2-0)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Magnemite",
+            "s": "magnemite"
+          },
+          {
+            "q": 2,
+            "n": "Magneton",
+            "s": "magneton"
+          },
+          {
+            "q": 1,
+            "n": "Magnezone",
+            "s": "magnezone"
+          },
+          {
+            "q": 1,
+            "n": "Magnezone ex",
+            "s": "magnezone"
+          },
+          {
+            "q": 2,
+            "n": "Oricorio",
+            "s": "oricorio-pom-pom"
+          },
+          {
+            "q": 1,
+            "n": "Miraidon ex",
+            "s": "miraidon"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 1,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Lisia"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 1,
+            "n": "Clemont"
+          },
+          {
+            "q": 1,
+            "n": "Professor Turo"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "Giant Cape"
+          }
+        ],
+        "energy": []
+      }
     }
   ],
   "analysis": {
