@@ -7,7 +7,7 @@
     {
       "game": "tcgp",
       "title": "Mega Altaria ex Espeon en tete du meta Pocket",
-      "desc": "Le métagame Paradox Drive affiche une stabilité remarquable ce jeudi 11 juin, sans aucun mouvement dans le top 10. Mega Altaria ex / Espeon domine toujours l'usage (8,43%) mais reste coincé à un winrate équilibré (50,36%), tandis que Suicune ex / Baxcalibur conserve sa couronne de meilleur deck compétitif avec 53,35% de victoires. Les variantes électriques autour de Miraidon ex et Magnezone occupent massivement le terrain (14,37% d'usage combiné), créant un environnement où les decks Fire comme Mega Blaziken ex / Greninja (52,97% WR) trouvent des opportunités intéressantes. L'écosystème est sain mais prévisible, avec une méta figée qui attend visiblement un catalyseur externe.",
+      "desc": "Le métagame Paradox Drive reste dominé par la versatilité de Mega Altaria ex/Espeon qui conserve sa première place avec 8,22% d'usage, malgré un winrate tout juste équilibré à 50,65%. Les archetypes électriques autour de Miraidon ex et Magnezone occupent solidement le top 5, mais peinent à dépasser les 51% de victoires. En ce vendredi 12 juin, on observe une stabilité remarquable : aucun deck n'entre ni ne sort du top cette semaine, signe d'un méta mature où les joueurs maîtrisent désormais parfaitement leurs matchups.",
       "when": "TCG Pocket",
       "badgeText": "META",
       "badgeStyle": "tcgp",
@@ -16,7 +16,7 @@
     {
       "game": "vgc",
       "title": "VGC — etat du format",
-      "desc": "Méta Regulation Set M-A — Kingambit domine (56.21%).",
+      "desc": "La méta Regulation M-A se cristallise autour d'un Big 6 quasi-immuable : Kingambit, Garchomp et Basculegion forment le triptyque offensif dominant (53-56% d'usage chacun), systématiquement soutenus par Incineroar/Floette Éternelle pour le contrôle et Charizard pour la pression solaire. L'écosystème reste figé avec des mouvements « stable » partout, signalant une méta résolue où les joueurs optimisent des archétypes éprouvés plutôt que d'innover. Les victoires récentes d'Onishi aux JCS et Silva à Turin confirment la dominance des compositions hyper-offensive + support Intimidate/Parting Shot, avec Sneasler (35%) émergeant comme le wildcard Unburden le plus joué pour punir les setups passifs.",
       "when": "Regulation Set M-A",
       "badgeText": "VGC",
       "badgeStyle": "vgc",
@@ -50,5 +50,5 @@
     "classic": true,
     "unite": true
   },
-  "updatedAt": "2026-06-11T06:02:12.761Z"
+  "updatedAt": "2026-06-12T06:02:09.470Z"
 }
