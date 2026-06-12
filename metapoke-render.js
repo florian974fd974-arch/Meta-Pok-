@@ -418,6 +418,41 @@
     if(currentLang()==='en'){ setTimeout(function(){ applyLang('en'); },600); setTimeout(function(){ applyLang('en'); },2200); }
   }
 
+  // ---- Accueil : date du jour, compteur Champions, timeline enrichie ----
+  function freshenHome(){
+    try{
+      var mois=['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+      var d=new Date();
+      var tag=document.querySelector('#page-home .hero-tag');
+      if(tag) tag.textContent=tag.textContent.replace(/\d{1,2} [a-zûé]+ 20\d\d/i, d.getDate()+' '+mois[d.getMonth()]+' '+d.getFullYear());
+      document.querySelectorAll('#page-home .hero .stat-block').forEach(function(b){
+        var l=b.querySelector('.label'); if(!l||!/Champions launch/i.test(l.textContent)) return;
+        var n=b.querySelector('.num'); if(!n) return;
+        var days=Math.ceil((new Date(2026,5,17).getTime()-Date.now())/86400000);
+        n.innerHTML = days>0 ? days+'<span class="unit">j</span>' : '✅';
+        if(days<=0) l.textContent='Champions mobile dispo';
+      });
+    }catch(e){}
+  }
+  function enrichTimeline(){
+    try{
+      var tl=document.querySelector('#page-home .timeline'); if(!tl||tl.querySelector('.mp-tl')) return;
+      var items=[
+        ['13 juin · PBL ⚔️','PBL — Demi-finales playoffs','FrogEX vs Imperium Alpha (19h) · Arci/US vs Tier Baguette (21h) — BO5.','global'],
+        ['14 juin · PBL 👑','PBL — Grande Finale & 3e place','BO7 avec ban de 2 decks. Le champion de la Saison 1 sera couronné.','global'],
+        ['15 juin · TCG POCKET','Maintenance mensuelle','Maintenance technique — possibles ajustements d\'équilibrage ou correctifs.','tcgp'],
+        ['17 juin · VGC ⚡','Pokémon Champions — sortie mobile','Sortie mondiale iOS/Android. Cross-platform Switch et compatible Pokémon HOME.','vgc'],
+        ['21 juin · TCG POCKET','Événement de collection estival (estimé)','Boosters spéciaux ou défis saisonniers attendus pour le début de l\'été.','tcgp'],
+        ['~10 juillet · TCG POCKET','Mini-set B3b (estimé)','Prochain set attendu ~5 semaines après Paradox Drive — le catalyseur que la méta attend.','tcgp']
+      ];
+      items.forEach(function(it){
+        var div=document.createElement('div'); div.className='timeline-item mp-tl '+it[3];
+        div.innerHTML='<div class="timeline-date">'+esc(it[0])+'</div><div class="timeline-title">'+esc(it[1])+'</div><div class="timeline-desc">'+esc(it[2])+'</div>';
+        tl.appendChild(div);
+      });
+    }catch(e){}
+  }
+
   function run(){
     Promise.all([J('tcgp_data.json'),J('classic_data.json'),J('vgc_data.json'),J('unite_data.json')])
     .then(function(r){
@@ -430,6 +465,9 @@
     mergePbl();
     renderPblMatches();
     initLang();
+    freshenHome();
+    setTimeout(enrichTimeline, 1800);
+    setTimeout(enrichTimeline, 4500);
     injectReglement();
     injectPblTeams();
     startCountdown();
