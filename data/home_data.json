@@ -6,8 +6,8 @@
   "news": [
     {
       "game": "tcgp",
-      "title": "Mega Altaria ex Espeon en tete du meta Pocket",
-      "desc": "Le métagame Paradox Drive reste dominé par la versatilité de Mega Altaria ex/Espeon qui conserve sa première place avec 8,22% d'usage, malgré un winrate tout juste équilibré à 50,65%. Les archetypes électriques autour de Miraidon ex et Magnezone occupent solidement le top 5, mais peinent à dépasser les 51% de victoires. En ce vendredi 12 juin, on observe une stabilité remarquable : aucun deck n'entre ni ne sort du top cette semaine, signe d'un méta mature où les joueurs maîtrisent désormais parfaitement leurs matchups.",
+      "title": "Méta Pocket du jour",
+      "desc": "",
       "when": "TCG Pocket",
       "badgeText": "META",
       "badgeStyle": "tcgp",
@@ -15,17 +15,26 @@
     },
     {
       "game": "vgc",
-      "title": "VGC — etat du format",
-      "desc": "La méta Regulation M-A se cristallise autour d'un Big 6 quasi-immuable : Kingambit, Garchomp et Basculegion forment le triptyque offensif dominant (53-56% d'usage chacun), systématiquement soutenus par Incineroar/Floette Éternelle pour le contrôle et Charizard pour la pression solaire. L'écosystème reste figé avec des mouvements « stable » partout, signalant une méta résolue où les joueurs optimisent des archétypes éprouvés plutôt que d'innover. Les victoires récentes d'Onishi aux JCS et Silva à Turin confirment la dominance des compositions hyper-offensive + support Intimidate/Parting Shot, avec Sneasler (35%) émergeant comme le wildcard Unburden le plus joué pour punir les setups passifs.",
-      "when": "Regulation Set M-A",
+      "title": "VGC — état du format Champions",
+      "desc": "",
+      "when": "Pokémon Champions",
       "badgeText": "VGC",
       "badgeStyle": "vgc",
       "clickAction": "vgc"
     },
     {
+      "game": "classic",
+      "title": "TCG Classic — le point format",
+      "desc": "",
+      "when": "TCG Classic",
+      "badgeText": "CLASSIC",
+      "badgeStyle": "classic",
+      "clickAction": "classic"
+    },
+    {
       "game": "unite",
-      "title": "Unite — Patch 1.23.3.2 — bugfixes and Meganium (2026-05-28)",
-      "desc": "Patch 1.23.3.2 — Alcremie (A+) en tête.",
+      "title": "Unite — tier list du jour",
+      "desc": "",
       "when": "Pokémon Unite",
       "badgeText": "UNITE",
       "badgeStyle": "unite",
@@ -34,14 +43,16 @@
   ],
   "timeline": [
     {
-      "title": "Pocket Battle League — Saison 1",
-      "desc": "tcgp",
-      "game": "tcgp"
+      "title": "Pokémon Champions mobile",
+      "desc": "Sortie iOS/Android le 17 juin",
+      "game": "vgc",
+      "date": "17 juin · VGC"
     },
     {
-      "title": "Imperium Championship — Saison 1",
-      "desc": "tcgp",
-      "game": "tcgp"
+      "title": "Mini-set B3b (estimé)",
+      "desc": "Le prochain catalyseur de la méta Pocket",
+      "game": "tcgp",
+      "date": "~10 juillet · TCG POCKET"
     }
   ],
   "gamePreviews": {
@@ -50,5 +61,5 @@
     "classic": true,
     "unite": true
   },
-  "updatedAt": "2026-06-12T06:02:09.470Z"
+  "updatedAt": "2026-06-12T14:17:11.963Z"
 }
