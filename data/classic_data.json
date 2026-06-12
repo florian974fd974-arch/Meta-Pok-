@@ -1,323 +1,281 @@
 {
   "set": {
     "code": "CRI",
-    "name": "Chaos Rising"
+    "name": "Chaos Rising",
+    "status": "available"
   },
-  "metaSummary": "Le métagame Standard se cristallise autour de Dragapult qui domine avec 9,22% d'usage et un solide 53,44% de winrate, consolidant sa position de deck à battre. Chaos Rising continue de façonner un environnement équilibré où aucun archétype ne s'impose de manière écrasante. La stabilité du top 10 témoigne d'un méta mature : ni nouvelles entrées ni sorties aujourd'hui, mais une lutte serrée pour les places d'honneur où chaque point de pourcentage compte.",
-  "analysis": {
-    "entering": "Aucune nouvelle entrée dans le top aujourd'hui, signe d'un métagame relativement figé. Les variantes de Dragapult (classique, Dusknoir, Blaziken) occupent collectivement plus de 17% du terrain, créant un écosystème fermé difficile à percer. Mega Greninja maintient sa deuxième place en usage (6,45%) malgré un winrate décevant de 43,87%, suggérant une popularité persistante peut-être liée à l'accessibilité du deck ou à un style de jeu apprécié des joueurs.",
-    "leaving": "Aucune sortie formelle du top 10, mais Mega Greninja montre des signaux inquiétants avec le pire winrate parmi les decks populaires (43,87%). Lucario Hariyama en 10e position (3,33% usage, 46,68% winrate) frôle dangereusement la sortie du classement. Beedrill stagne à 49,5% de winrate exactement, en territoire neutre sans croissance notable, tandis que la catégorie 'Other' à 41,14% de winrate indique que les expérimentations hors-méta peinent à convaincre.",
-    "whatToPlay": "Dragapult Blaziken émerge comme le choix optimal : 54,97% de winrate avec un usage respectable de 2,63%, offrant un avantage compétitif sans être surjoué. Ogerpon Meganium Hydrapple (53,5% winrate, 3,9% usage) constitue une excellente alternative grass-type avec une consistance prouvée. Pour les joueurs cherchant puissance et popularité, Dragapult classique reste incontournable (53,44% winrate, 9,22% usage) – c'est le deck de référence qui définit le format actuel."
-  },
+  "metaSummary": "Format TEF-CRI (set Chaos Rising). Dragapult ex écrase le format avec 45,4% des points Limitless (556 pts), très loin devant Hydrapple ex (7,8%) et Slowking « Seek Inspiration » (6,7%). Classement par points de tournois — Limitless TCG, 12 juin 2026.",
   "topDecks": [
     {
       "rank": 1,
-      "name": "Dragapult",
-      "usage": 9.22,
-      "winrate": 53.44,
-      "record": "2850-2369-114"
+      "name": "Dragapult ex",
+      "usage": 45.39,
+      "winrate": null,
+      "record": "556 pts",
+      "winRate": null,
+      "share": 45.39
     },
     {
       "rank": 2,
-      "name": "Mega Greninja",
-      "usage": 6.45,
-      "winrate": 43.87,
-      "record": "1409-1782-21"
+      "name": "Hydrapple ex",
+      "usage": 7.84,
+      "winrate": null,
+      "record": "96 pts",
+      "winRate": null,
+      "share": 7.84
     },
     {
       "rank": 3,
-      "name": "Dragapult Dusknoir",
-      "usage": 5.9,
-      "winrate": 51.3,
-      "record": "1698-1566-46"
+      "name": "Slowking Seek Inspiration",
+      "usage": 6.69,
+      "winrate": null,
+      "record": "82 pts",
+      "winRate": null,
+      "share": 6.69
     },
     {
       "rank": 4,
-      "name": "Slowking",
-      "usage": 5.63,
-      "winrate": 51.89,
-      "record": "1633-1468-46"
+      "name": "Raging Bolt ex",
+      "usage": 4.57,
+      "winrate": null,
+      "record": "56 pts",
+      "winRate": null,
+      "share": 4.57
     },
     {
       "rank": 5,
-      "name": "Other",
-      "usage": 4.86,
-      "winrate": 41.14,
-      "record": "978-1370-29"
+      "name": "Alakazam Powerful Hand",
+      "usage": 4,
+      "winrate": null,
+      "record": "49 pts",
+      "winRate": null,
+      "share": 4
     },
     {
       "rank": 6,
-      "name": "Beedrill",
-      "usage": 4.4,
-      "winrate": 49.5,
-      "record": "1277-1273-30"
+      "name": "Festival Lead",
+      "usage": 3.76,
+      "winrate": null,
+      "record": "46 pts",
+      "winRate": null,
+      "share": 3.76
     },
     {
       "rank": 7,
-      "name": "N's Zoroark",
-      "usage": 3.93,
-      "winrate": 50.37,
-      "record": "1087-1037-34"
+      "name": "N's Zoroark ex",
+      "usage": 3.43,
+      "winrate": null,
+      "record": "42 pts",
+      "winRate": null,
+      "share": 3.43
     },
     {
       "rank": 8,
-      "name": "Ogerpon Meganium Hydrapple",
-      "usage": 3.9,
-      "winrate": 53.5,
-      "record": "1247-1052-32"
+      "name": "Ogerpon Box",
+      "usage": 3.02,
+      "winrate": null,
+      "record": "37 pts",
+      "winRate": null,
+      "share": 3.02
     },
     {
       "rank": 9,
-      "name": "Alakazam Dudunsparce",
-      "usage": 3.85,
-      "winrate": 50.94,
-      "record": "1133-1029-62"
+      "name": "Mega Lucario ex",
+      "usage": 2.94,
+      "winrate": null,
+      "record": "36 pts",
+      "winRate": null,
+      "share": 2.94
     },
     {
       "rank": 10,
-      "name": "Lucario Hariyama",
-      "usage": 3.33,
-      "winrate": 46.68,
-      "record": "858-957-23"
+      "name": "Crustle Mysterious Rock Inn",
+      "usage": 2.86,
+      "winrate": null,
+      "record": "35 pts",
+      "winRate": null,
+      "share": 2.86
     }
   ],
   "topUsage": [
     {
       "rank": 1,
-      "name": "Dragapult",
-      "usage": 9.22,
-      "winrate": 53.44,
-      "record": "2850-2369-114"
+      "name": "Dragapult ex",
+      "usage": 45.39,
+      "winrate": null,
+      "record": "556 pts",
+      "winRate": null,
+      "share": 45.39
     },
     {
       "rank": 2,
-      "name": "Mega Greninja",
-      "usage": 6.45,
-      "winrate": 43.87,
-      "record": "1409-1782-21"
+      "name": "Hydrapple ex",
+      "usage": 7.84,
+      "winrate": null,
+      "record": "96 pts",
+      "winRate": null,
+      "share": 7.84
     },
     {
       "rank": 3,
-      "name": "Dragapult Dusknoir",
-      "usage": 5.9,
-      "winrate": 51.3,
-      "record": "1698-1566-46"
+      "name": "Slowking Seek Inspiration",
+      "usage": 6.69,
+      "winrate": null,
+      "record": "82 pts",
+      "winRate": null,
+      "share": 6.69
     },
     {
       "rank": 4,
-      "name": "Slowking",
-      "usage": 5.63,
-      "winrate": 51.89,
-      "record": "1633-1468-46"
+      "name": "Raging Bolt ex",
+      "usage": 4.57,
+      "winrate": null,
+      "record": "56 pts",
+      "winRate": null,
+      "share": 4.57
     },
     {
       "rank": 5,
-      "name": "Other",
-      "usage": 4.86,
-      "winrate": 41.14,
-      "record": "978-1370-29"
+      "name": "Alakazam Powerful Hand",
+      "usage": 4,
+      "winrate": null,
+      "record": "49 pts",
+      "winRate": null,
+      "share": 4
     },
     {
       "rank": 6,
-      "name": "Beedrill",
-      "usage": 4.4,
-      "winrate": 49.5,
-      "record": "1277-1273-30"
+      "name": "Festival Lead",
+      "usage": 3.76,
+      "winrate": null,
+      "record": "46 pts",
+      "winRate": null,
+      "share": 3.76
     },
     {
       "rank": 7,
-      "name": "N's Zoroark",
-      "usage": 3.93,
-      "winrate": 50.37,
-      "record": "1087-1037-34"
+      "name": "N's Zoroark ex",
+      "usage": 3.43,
+      "winrate": null,
+      "record": "42 pts",
+      "winRate": null,
+      "share": 3.43
     },
     {
       "rank": 8,
-      "name": "Ogerpon Meganium Hydrapple",
-      "usage": 3.9,
-      "winrate": 53.5,
-      "record": "1247-1052-32"
+      "name": "Ogerpon Box",
+      "usage": 3.02,
+      "winrate": null,
+      "record": "37 pts",
+      "winRate": null,
+      "share": 3.02
     },
     {
       "rank": 9,
-      "name": "Alakazam Dudunsparce",
-      "usage": 3.85,
-      "winrate": 50.94,
-      "record": "1133-1029-62"
+      "name": "Mega Lucario ex",
+      "usage": 2.94,
+      "winrate": null,
+      "record": "36 pts",
+      "winRate": null,
+      "share": 2.94
     },
     {
       "rank": 10,
-      "name": "Lucario Hariyama",
-      "usage": 3.33,
-      "winrate": 46.68,
-      "record": "858-957-23"
+      "name": "Crustle Mysterious Rock Inn",
+      "usage": 2.86,
+      "winrate": null,
+      "record": "35 pts",
+      "winRate": null,
+      "share": 2.86
     }
   ],
-  "topWinrate": [
-    {
-      "rank": 1,
-      "name": "Dragapult Blaziken",
-      "winrate": 54.97,
-      "usage": 2.63,
-      "record": "891-682-48"
-    },
-    {
-      "rank": 2,
-      "name": "Ogerpon Meganium Hydrapple",
-      "winrate": 53.5,
-      "usage": 3.9,
-      "record": "1247-1052-32"
-    },
-    {
-      "rank": 3,
-      "name": "Dragapult",
-      "winrate": 53.44,
-      "usage": 9.22,
-      "record": "2850-2369-114"
-    },
-    {
-      "rank": 4,
-      "name": "Slowking",
-      "winrate": 51.89,
-      "usage": 5.63,
-      "record": "1633-1468-46"
-    },
-    {
-      "rank": 5,
-      "name": "Rocket's Honchkrow",
-      "winrate": 51.82,
-      "usage": 2.75,
-      "record": "826-741-27"
-    },
-    {
-      "rank": 6,
-      "name": "Dragapult Dusknoir",
-      "winrate": 51.3,
-      "usage": 5.9,
-      "record": "1698-1566-46"
-    },
-    {
-      "rank": 7,
-      "name": "Raging Bolt Ogerpon",
-      "winrate": 51.04,
-      "usage": 3.05,
-      "record": "860-778-47"
-    },
-    {
-      "rank": 8,
-      "name": "Alakazam Dudunsparce",
-      "winrate": 50.94,
-      "usage": 3.85,
-      "record": "1133-1029-62"
-    },
-    {
-      "rank": 9,
-      "name": "N's Zoroark",
-      "winrate": 50.37,
-      "usage": 3.93,
-      "record": "1087-1037-34"
-    },
-    {
-      "rank": 10,
-      "name": "Beedrill",
-      "winrate": 49.5,
-      "usage": 4.4,
-      "record": "1277-1273-30"
-    }
+  "topWinrate": [],
+  "analysis": {
+    "entering": "",
+    "leaving": "",
+    "whatToPlay": "Usage : Dragapult. Winrate : Ogerpon Meganium Hydrapple."
+  },
+  "enteringMeta": [
+    "Crustle Mysterious Rock Inn",
+    "Rocket's Honchkrow",
+    "Hop's Trevenant"
+  ],
+  "leavingMeta": [
+    "Tera Box",
+    "Rocket's Mewtwo ex"
   ],
   "movements": [
     {
+      "slug": "dragapult-ex",
+      "name": "Dragapult ex",
       "rank": 1,
-      "name": "Dragapult",
-      "usage": 9.22,
-      "winrate": 53.44,
+      "usage": 45.39,
       "move": "stable"
     },
     {
+      "slug": "hydrapple-ex",
+      "name": "Hydrapple ex",
       "rank": 2,
-      "name": "Mega Greninja",
-      "usage": 6.45,
-      "winrate": 43.87,
+      "usage": 7.84,
       "move": "stable"
     },
     {
+      "slug": "slowking-seek-inspiration",
+      "name": "Slowking Seek Inspiration",
       "rank": 3,
-      "name": "Dragapult Dusknoir",
-      "usage": 5.9,
-      "winrate": 51.3,
+      "usage": 6.69,
       "move": "stable"
     },
     {
+      "slug": "raging-bolt-ex",
+      "name": "Raging Bolt ex",
       "rank": 4,
-      "name": "Slowking",
-      "usage": 5.63,
-      "winrate": 51.89,
+      "usage": 4.57,
       "move": "stable"
     },
     {
+      "slug": "alakazam-powerful-hand",
+      "name": "Alakazam Powerful Hand",
       "rank": 5,
-      "name": "Other",
-      "usage": 4.86,
-      "winrate": 41.14,
+      "usage": 4,
       "move": "stable"
     },
     {
+      "slug": "festival-lead",
+      "name": "Festival Lead",
       "rank": 6,
-      "name": "Beedrill",
-      "usage": 4.4,
-      "winrate": 49.5,
+      "usage": 3.76,
       "move": "stable"
     },
     {
+      "slug": "n-s-zoroark-ex",
+      "name": "N's Zoroark ex",
       "rank": 7,
-      "name": "N's Zoroark",
-      "usage": 3.93,
-      "winrate": 50.37,
+      "usage": 3.43,
       "move": "stable"
     },
     {
+      "slug": "ogerpon-box",
+      "name": "Ogerpon Box",
       "rank": 8,
-      "name": "Ogerpon Meganium Hydrapple",
-      "usage": 3.9,
-      "winrate": 53.5,
+      "usage": 3.02,
       "move": "stable"
     },
     {
+      "slug": "mega-lucario-ex",
+      "name": "Mega Lucario ex",
       "rank": 9,
-      "name": "Alakazam Dudunsparce",
-      "usage": 3.85,
-      "winrate": 50.94,
+      "usage": 2.94,
       "move": "stable"
     },
     {
+      "slug": "crustle-mysterious-rock-inn",
+      "name": "Crustle Mysterious Rock Inn",
       "rank": 10,
-      "name": "Lucario Hariyama",
-      "usage": 3.33,
-      "winrate": 46.68,
+      "usage": 2.86,
       "move": "stable"
     }
   ],
-  "enteringMeta": [],
-  "leavingMeta": [],
-  "newDecks": [],
-  "upcomingEvents": [
-    {
-      "title": "Sortie du set Journey Together",
-      "date": "18 juillet 2026",
-      "desc": "Le prochain set majeur qui pourrait bouleverser le méta Standard actuel avec de nouvelles mécaniques et archétypes inédits"
-    },
-    {
-      "title": "Championnats Internationaux d'Amérique du Nord (NAIC)",
-      "date": "Fin juin 2026 (approximatif)",
-      "desc": "Tournoi majeur du circuit Championship où le méta actuel sera mis à l'épreuve au plus haut niveau compétitif"
-    },
-    {
-      "title": "Rotation du format Standard 2027",
-      "date": "Avril 2027 (approximatif)",
-      "desc": "Rotation annuelle qui verra probablement les sets les plus anciens quitter le format Standard, redéfinissant totalement le métagame"
-    }
-  ],
-  "setChanged": false,
-  "dateFr": "vendredi 12/6/2026",
-  "updatedAt": "2026-06-12T06:01:26.031Z"
+  "totalDecks": 50,
+  "updatedAt": "2026-06-12T12:00:00Z"
 }
