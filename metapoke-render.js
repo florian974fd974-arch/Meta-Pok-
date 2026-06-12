@@ -23,9 +23,10 @@
     var uniq=[]; words.forEach(function(w){ if(uniq.indexOf(w)<0) uniq.push(w); });
     var picks=[]; if(uniq.length){ picks.push(uniq[0]); if(uniq.length>1) picks.push(uniq[uniq.length-1]); } return picks; }
   function deckSpritesTag(deckName, px){ return deckSlugs(deckName).map(function(s){ return spriteTag(s,px||24); }).join(''); }
-  function limitlessUrl(deckName, game){
-    var slug=String(deckName||'').toLowerCase().replace(/['’.]/g,'').replace(/\bex\b/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
-    return 'https://play.limitlesstcg.com/decks/'+slug+(game==='pocket'?'?game=POCKET':'?format=standard'); }
+  function limitlessUrl(deckName, game, slugOverride){
+    if(slugOverride) return 'https://play.limitlesstcg.com/decks/'+slugOverride+'?game=POCKET';
+    if(game==='classic') return 'https://limitlesstcg.com/decks';
+    return 'https://play.limitlesstcg.com/decks?game=pocket'; }
   function decklistHtml(cards){
     function sect(title, items, withSprite){ if(!items||!items.length) return '';
       var tot=items.reduce(function(s,x){return s+(+x.q||0);},0);
@@ -59,10 +60,12 @@
          +(d.record?'<div class="qstat"><div class="v">'+esc(d.record)+'</div><div class="l">Bilan V-D-N</div></div>':'');
     var body;
     if(d.cards&&(d.cards.pokemon||d.cards.trainers||d.cards.energy)){
-      body=decklistHtml(d.cards)+'<div class="modal-cta"><a class="modal-btn primary" target="_blank" href="'+limitlessUrl(d.name,ctx.game)+'">Ouvrir sur Limitless →</a><button class="modal-btn secondary" id="mpModalClose">Fermer</button></div>';
+      body=decklistHtml(d.cards)
+        +(d.listBy?'<p style="font-family:\'JetBrains Mono\',monospace;font-size:11px;color:var(--muted);margin:12px 0 0">⚡ Decklist authentique : '+esc(d.listBy)+' · Source Limitless TCG</p>':'')
+        +'<div class="modal-cta"><a class="modal-btn primary" target="_blank" href="'+limitlessUrl(d.name,ctx.game,d.limitless)+'">Ouvrir sur Limitless →</a><button class="modal-btn secondary" id="mpModalClose">Fermer</button></div>';
     } else {
       body='<div class="info-box" style="margin-top:0;margin-bottom:24px"><div class="icon">📋</div><div><div class="title">Decklist détaillée</div><p>La liste de cartes complète de cet archétype est en cours d\'intégration. En attendant, retrouve les decklists des tops joueurs directement sur Limitless TCG.</p></div></div>'
-         +'<div class="modal-cta"><a class="modal-btn primary" target="_blank" href="'+limitlessUrl(d.name,ctx.game)+'">Voir les decklists sur Limitless →</a><button class="modal-btn secondary" id="mpModalClose">Fermer</button></div>';
+         +'<div class="modal-cta"><a class="modal-btn primary" target="_blank" href="'+limitlessUrl(d.name,ctx.game,d.limitless)+'">Voir les decklists sur Limitless →</a><button class="modal-btn secondary" id="mpModalClose">Fermer</button></div>';
     }
     mc.innerHTML='<div class="modal-head"><div class="modal-tag">'+esc(ctx.label||'')+(ctx.setName?' · '+esc(ctx.setName):'')+'</div><h3>'+esc(d.name)+'</h3><div class="modal-sprites">'+(deckSpritesTag(d.name,64)||'')+'</div></div><div class="modal-quickstats">'+qs+'</div>'+body;
     modal.classList.add('open'); document.body.style.overflow='hidden';

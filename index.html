@@ -1601,7 +1601,7 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
     <div class="wrap">
       <div class="info-box" style="margin:0 0 32px"><div class="icon">🎮</div><div><div class="title">Le circuit VGC est officiellement passé sur Pokémon Champions</div><p><strong>Nouveau règlement : Regulation Set M-A</strong> — Méga-Évolutions légales et nouvelle vague de Pokémon jouables (Mega Gengar, Mega Floette/Floette Fleur Éternelle, Mega Aerodactyl, Mega Garchomp…). Turin (6-7 juin) a été le premier majeur européen sur Champions, et le <strong>NAIC de La Nouvelle-Orléans (12-14 juin, EN COURS)</strong> est le premier International — stream TPCi. Derniers vainqueurs : <strong>Arsal Puri</strong> (Indianapolis, bat Wolfe Glick), <strong>Marco Silva</strong> (Turin, M-Gengar + M-Floette), <strong>Hiroshi Onishi</strong> (JCS Japon, M-Charizard Y + M-Floette). 🎁 Code Mystery Gift <strong>CHAMP10NSATNA1C</strong> = 500 Victory Points.</p></div></div>
 
-      <div class="section-head"><div><div class="section-meta">01 — Archive Reg I · Regional Los Angeles (9 mai)</div><h2>Les équipes qui<br>ont fini top.</h2></div><div class="section-info">Dernier grand event au format Reg I avant la bascule sur Pokémon Champions. Les tops Champions (Turin, NAIC) arriveront dès publication des teamlists complètes. Clique sur une team pour le détail.</div></div>
+      <div class="section-head"><div><div class="section-meta">01 — Special Event Turin 🇮🇹 · 6-7 juin 2026 · Pokémon Champions</div><h2>Les équipes qui<br>ont fini top.</h2></div><div class="section-info">Top 4 du premier majeur européen joué sur Pokémon Champions (Reg M-A) — Méga-Évolutions à l'honneur : M-Gengar, M-Delphox, M-Charizard Y et la nouvelle M-Floette. Clique sur une team pour les 6 Pokémon avec items, abilities et moves (source Limitless VGC).</div></div>
       <div class="decks-grid" id="topTeams"></div>
     </div>
   </section>
@@ -4110,56 +4110,48 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:60px}
 const SPRITE_BASE = 'https://r2.limitlesstcg.net/pokemon/gen9/';
 const LIMITLESS_BASE = 'https://play.limitlesstcg.com/decks/';
 
-// VRAIES données Limitless TCG (set Pulsing Aura B3, 84 tournois, 28069 matches)
+// VRAIES données Limitless TCG Pocket — set B3a Paradox Drive · 80 tournois, 9329 joueurs, 26011 matchs · decklists des meilleurs finishes (12 juin 2026)
 const decks = [
-  { id:1, slug:'hydreigon-mega-absol-ex-b1', name:'Hydreigon Mega Absol ex', sprites:['hydreigon','absol-mega'], type:'Dark · Pression constante', count:807, share:7.90, wr:49.99,
-    hasFullList:true, player:'FrogEX | Njord', flag:'FR', place:1, score:'11-1-2', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'njjord7',
-    pokemon:[{n:'Deino',q:2,s:'deino'},{n:'Hydreigon',q:2,s:'hydreigon'},{n:'Mega Absol ex',q:1,s:'absol-mega'},{n:'Bombirdier',q:1,s:'bombirdier'}],
-    trainers:[{n:"Professor's Research",q:2},{n:'Copycat',q:2},{n:'Cyrus',q:1},{n:'Sabrina',q:1},{n:'Poké Ball',q:2},{n:'Rare Candy',q:2},{n:'Lucky Ice Pop',q:2},{n:'Rocky Helmet',q:2}], energy:'Darkness' },
-  { id:2, slug:'mega-blaziken-ex-b1-castform-sunny-form-b3', name:'Mega Blaziken ex Castform Sunny', sprites:['blaziken-mega','castform-sunny'], type:'Fire · Burst damage', count:667, share:6.53, wr:48.92,
-    hasFullList:true, player:'yuki01', flag:null, place:4, score:'9-4-0', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'yuki01',
-    pokemon:[{n:'Torchic',q:2,s:'torchic'},{n:'Mega Blaziken ex',q:2,s:'blaziken-mega'},{n:'Castform Sunny Form',q:2,s:'castform-sunny'}],
-    trainers:[{n:"Professor's Research",q:2},{n:'Copycat',q:2},{n:'Cyrus',q:1},{n:'Sabrina',q:1},{n:'Poké Ball',q:2},{n:'Rare Candy',q:2},{n:'Flame Patch',q:1},{n:'Rocky Helmet',q:1},{n:'Hiking Trail',q:1},{n:'Mesagoza',q:1}], energy:'Fire' },
-  { id:3, slug:'mega-lucario-ex-b3-igglybuff-a4a', name:'Mega Lucario ex Igglybuff', sprites:['lucario-mega','igglybuff'], type:'Fighting · Tempo control', count:637, share:6.23, wr:50.85,
-    hasFullList:true, player:'Varo0', flag:'CL', place:1, score:'12-2-0', tournament:'Power⚡& The Dark Collab', date:'avril 2026', tournamentUrl:'69ee12d6f9b24b9bd5b024ee', playerSlug:'varo0',
-    pokemon:[{n:'Riolu',q:2,s:'riolu'},{n:'Mega Lucario ex',q:2,s:'lucario-mega'},{n:'Igglybuff',q:2,s:'igglybuff'},{n:'Darkrai',q:2,s:'darkrai'}],
-    trainers:[{n:'Copycat',q:2},{n:"Professor's Research",q:2},{n:'Cyrus',q:1},{n:'Sabrina',q:1},{n:'Korrina',q:1},{n:'Poké Ball',q:2},{n:'X Speed',q:2},{n:'Arena of Antiquity',q:1}], energy:'Fighting' },
-  { id:4, slug:'zoroark-ex-b3-mega-absol-ex-b1', name:'Zoroark ex Mega Absol ex', sprites:['zoroark','absol-mega'], type:'Dark · 1 energy KO', count:570, share:5.58, wr:49.88,
-    hasFullList:true, player:'Sylar33', flag:'HR', place:75, score:'4-4-0', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'sylar33',
-    pokemon:[{n:'Zorua',q:2,s:'zorua'},{n:'Zoroark ex',q:2,s:'zoroark'},{n:'Nihilego',q:1,s:'nihilego'},{n:'Absol',q:1,s:'absol'},{n:'Mega Absol ex',q:1,s:'absol-mega'},{n:'Bombirdier',q:1,s:'bombirdier'}],
-    trainers:[{n:"Professor's Research",q:2},{n:'Pokémon Center Lady',q:2},{n:'Copycat',q:2},{n:'Sabrina',q:1},{n:'Cyrus',q:1},{n:'Poké Ball',q:2},{n:'Poison Barb',q:2}], energy:'Darkness' },
-  { id:5, slug:'mega-altaria-ex-b1-gourgeist-b2', name:'Mega Altaria ex Gourgeist', sprites:['altaria-mega','gourgeist'], type:'Psychic · Stall control', count:549, share:5.37, wr:51.69,
-    hasFullList:true, player:'Hansuwe', flag:'DE', place:56, score:'5-4-0', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'hansuwe',
-    pokemon:[{n:'Pumpkaboo',q:2,s:'pumpkaboo'},{n:'Gourgeist',q:2,s:'gourgeist'},{n:'Swablu',q:2,s:'swablu'},{n:'Mega Altaria ex',q:2,s:'altaria-mega'},{n:'Chingling',q:2,s:'chingling'},{n:'Jirachi',q:1,s:'jirachi'},{n:'Comfey',q:1,s:'comfey'}],
-    trainers:[{n:"Professor's Research",q:2},{n:'Cyrus',q:1},{n:'Copycat',q:1},{n:'Lisia',q:1},{n:'Poké Ball',q:1},{n:'Peculiar Plaza',q:1},{n:'Training Area',q:1}], energy:'Psychic' },
-  { id:6, slug:'magnezone-ex-b3-magnezone-b1a', name:'Magnezone ex Magnezone', sprites:['magnezone','magnezone'], type:'Lightning · Energy chain', count:540, share:5.28, wr:51.81,
-    hasFullList:true, player:'TGA | Chronos', flag:'BR', place:2, score:'11-1-2', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'castro37',
-    pokemon:[{n:'Magnemite',q:2,s:'magnemite'},{n:'Magneton',q:2,s:'magneton'},{n:'Magnezone',q:1,s:'magnezone'},{n:'Magnezone ex',q:1,s:'magnezone'},{n:'Oricorio',q:2,s:'oricorio-pom-pom'},{n:'Teal Mask Ogerpon ex',q:1,s:'ogerpon'}],
-    trainers:[{n:"Professor's Research",q:2},{n:'Cyrus',q:2},{n:'Copycat',q:1},{n:'Clemont',q:1},{n:'Lisia',q:1},{n:'Poké Ball',q:2},{n:'Lucky Ice Pop',q:1},{n:'Protective Poncho',q:1}], energy:'Lightning' },
-  { id:7, slug:'mega-altaria-ex-b1-greninja-a1', name:'Mega Altaria ex Greninja', sprites:['altaria-mega','greninja'], type:'Psychic + Water tech', count:387, share:3.79, wr:51.97,
-    hasFullList:true, player:'Yuta0113', flag:'JP', place:5, score:'8-3-1', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'yuta0113',
-    pokemon:[{n:'Swablu',q:2,s:'swablu'},{n:'Mega Altaria ex',q:1,s:'altaria-mega'},{n:'Froakie',q:2,s:'froakie'},{n:'Greninja',q:2,s:'greninja'},{n:'Chingling',q:2,s:'chingling'}],
-    trainers:[{n:'Copycat',q:2},{n:"Professor's Research",q:2},{n:'Cyrus',q:1},{n:'Lisia',q:1},{n:'Rare Candy',q:2},{n:'Poké Ball',q:1},{n:'Lucky Egg',q:2}], energy:'Psychic' },
-  { id:8, slug:'mega-lucario-ex-b3-lucario-a2', name:'Mega Lucario ex Lucario', sprites:['lucario-mega','lucario'], type:'Fighting · Double threat', count:356, share:3.48, wr:48.54,
-    hasFullList:true, player:'PackLuckFC', flag:'AU', place:29, score:'6-4-0', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'packluckfc',
-    pokemon:[{n:'Riolu',q:2,s:'riolu'},{n:'Mega Lucario ex',q:2,s:'lucario-mega'},{n:'Lucario',q:1,s:'lucario'},{n:'Hitmontop',q:2,s:'hitmontop'}],
-    trainers:[{n:'Copycat',q:2},{n:'Korrina',q:2},{n:"Professor's Research",q:2},{n:'Sabrina',q:1},{n:'Cyrus',q:1},{n:'Pokémon Center Lady',q:1},{n:'Poké Ball',q:2},{n:'Field Blower',q:1},{n:'Arena of Antiquity',q:1}], energy:'Fighting' },
-  { id:9, slug:'mega-sceptile-ex-b3-teal-mask-ogerpon-ex-b2', name:'Mega Sceptile ex Ogerpon ex', sprites:['sceptile-mega','ogerpon'], type:'Grass · Ramp damage', count:325, share:3.18, wr:48.72,
-    hasFullList:true, player:'ssEisen', flag:'PT', place:48, score:'5-3-1', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'sseisen',
-    pokemon:[{n:'Treecko',q:2,s:'treecko'},{n:'Mega Sceptile ex',q:2,s:'sceptile-mega'},{n:'Pheromosa',q:2,s:'pheromosa'},{n:'Teal Mask Ogerpon ex',q:1,s:'ogerpon'}],
-    trainers:[{n:"Professor's Research",q:2},{n:'Copycat',q:2},{n:'Erika',q:1},{n:'Cyrus',q:1},{n:'Rare Candy',q:2},{n:'Field Blower',q:1},{n:'Leaf Cape',q:2},{n:'Fragrant Forest',q:2}], energy:'Grass' },
-  { id:10, slug:'suicune-ex-a4a-baxcalibur-b2a', name:'Suicune ex Baxcalibur', sprites:['suicune','baxcalibur'], type:'Water · Engine + finisher', count:307, share:3.00, wr:50.17,
-    hasFullList:true, player:'sZero | Easy', flag:'US', place:30, score:'6-4-0', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'iplaypokemans',
+  { id:1, slug:'mega-altaria-ex-b1-espeon-b3a', name:'Mega Altaria ex Espeon', sprites:['altaria-mega','espeon'], type:'Psychic · Le plus joué', count:765, share:8.20, wr:50.58,
+    hasFullList:true, player:'MrPoseidon', flag:null, place:1, score:'11-3-0', tournament:'Umbreon99\'s Tuesday Meltdown', date:'juin 2026', tournamentUrl:'6a1d800847f3797bf6ba8e1b', playerSlug:'mrposeidon',
+    pokemon:[{n:'Swablu',q:2,s:'swablu'},{n:'Mega Altaria ex',q:2,s:'altaria-mega'},{n:'Eevee',q:2,s:'eevee'},{n:'Espeon',q:2,s:'espeon'},{n:'Darkrai',q:2,s:'darkrai'},{n:'Igglybuff',q:2,s:'igglybuff'}],
+    trainers:[{n:'Professor\'s Research',q:2},{n:'Cyrus',q:1},{n:'Copycat',q:1},{n:'Lisia',q:1},{n:'Sabrina',q:1},{n:'Poké Ball',q:1},{n:'Training Area',q:1}], energy:'Psychic' },
+  { id:2, slug:'miraidon-ex-b3a-magnezone-b1a', name:'Miraidon ex Magnezone', sprites:['miraidon','magnezone'], type:'Lightning · Future rush', count:559, share:5.99, wr:48.96,
+    hasFullList:true, player:'𝗠𝗲𝗴𝗮 Hanna 𝗘𝗫', flag:null, place:1, score:'13-3-0', tournament:'ZGG & Umbreon99\'s Paradox Drive', date:'juin 2026', tournamentUrl:'69ef88d14f71d664893e5732', playerSlug:'hanalana',
+    pokemon:[{n:'Magnemite',q:2,s:'magnemite'},{n:'Magneton',q:2,s:'magneton'},{n:'Magnezone',q:1,s:'magnezone'},{n:'Miraidon ex',q:2,s:'miraidon'},{n:'Zeraora',q:2,s:'zeraora'}],
+    trainers:[{n:'Professor\'s Research',q:2},{n:'Professor Turo',q:1},{n:'Copycat',q:1},{n:'Cyrus',q:1},{n:'Lisia',q:1},{n:'Clemont',q:1},{n:'Sabrina',q:1},{n:'Poké Ball',q:2},{n:'Giant Cape',q:1}], energy:'Lightning' },
+  { id:3, slug:'magnezone-b1a-miraidon-ex-b3a', name:'Magnezone Miraidon ex', sprites:['magnezone','miraidon'], type:'Lightning · Energy chain', count:515, share:5.52, wr:50.64,
+    hasFullList:true, player:'LikoUnite', flag:null, place:1, score:'12-1-1', tournament:'PMPT #33 - PARADOX DRIVE', date:'juin 2026', tournamentUrl:'6a15d4598c163b8097997d53', playerSlug:'likounite',
+    pokemon:[{n:'Magnemite',q:2,s:'magnemite'},{n:'Magneton',q:2,s:'magneton'},{n:'Magnezone',q:2,s:'magnezone'},{n:'Oricorio',q:2,s:'oricorio-pom-pom'},{n:'Miraidon ex',q:1,s:'miraidon'}],
+    trainers:[{n:'Professor\'s Research',q:2},{n:'Copycat',q:1},{n:'Cyrus',q:1},{n:'Lisia',q:1},{n:'Clemont',q:1},{n:'Pokémon Center Lady',q:1},{n:'Professor Turo',q:1},{n:'Poké Ball',q:2},{n:'Giant Cape',q:1}], energy:'Lightning' },
+  { id:4, slug:'suicune-ex-a4a-baxcalibur-b2a', name:'Suicune ex Baxcalibur', sprites:['suicune','baxcalibur'], type:'Water · Meilleur WR', count:476, share:5.10, wr:52.89,
+    hasFullList:true, player:'PA1N', flag:null, place:1, score:'11-2-1', tournament:'Umbreon99\'s Thursday Smackdown', date:'juin 2026', tournamentUrl:'6a1f850b56b11a587a94711b', playerSlug:'pa1n',
     pokemon:[{n:'Frigibax',q:2,s:'frigibax'},{n:'Baxcalibur',q:2,s:'baxcalibur'},{n:'Suicune ex',q:2,s:'suicune'},{n:'Chien-Pao ex',q:1,s:'chien-pao'}],
-    trainers:[{n:"Professor's Research",q:2},{n:'Copycat',q:1},{n:'Pokémon Center Lady',q:1},{n:'Cyrus',q:1},{n:'Sabrina',q:1},{n:'Rare Candy',q:2},{n:'Poké Ball',q:2},{n:'Giant Cape',q:2},{n:'Inflatable Boat',q:1}], energy:'Water' },
-  { id:11, slug:'mega-sceptile-ex-b3-pheromosa-a3a', name:'Mega Sceptile ex Pheromosa', sprites:['sceptile-mega','pheromosa'], type:'Grass · Bench chip', count:264, share:2.58, wr:50.55,
-    hasFullList:true, player:'FGR | Tortellino69', flag:'IT', place:41, score:'5-3-1', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'tortellino69',
-    pokemon:[{n:'Treecko',q:2,s:'treecko'},{n:'Grovyle',q:1,s:'grovyle'},{n:'Mega Sceptile ex',q:2,s:'sceptile-mega'},{n:'Pheromosa',q:2,s:'pheromosa'},{n:'Nihilego',q:1,s:'nihilego'}],
-    trainers:[{n:"Professor's Research",q:2},{n:'Copycat',q:2},{n:'Cyrus',q:1},{n:'Rare Candy',q:2},{n:'Poké Ball',q:2},{n:'Poison Barb',q:2},{n:'Fragrant Forest',q:1}], energy:'Grass' },
-  { id:12, slug:'mega-altaria-ex-b1-igglybuff-a4a', name:'Mega Altaria ex Igglybuff', sprites:['altaria-mega','igglybuff'], type:'Psychic · Sleep + Darkrai', count:209, share:2.05, wr:53.28,
-    hasFullList:true, player:'kana41', flag:null, place:3, score:'10-3-0', tournament:"Umbreon99's Aura Clash", date:'29 avril 2026', tournamentUrl:'69eed19af9b24b9bd5b029fb', playerSlug:'kana41',
-    pokemon:[{n:'Swablu',q:2,s:'swablu'},{n:'Mega Altaria ex',q:2,s:'altaria-mega'},{n:'Darkrai',q:2,s:'darkrai'},{n:'Igglybuff',q:2,s:'igglybuff'}],
-    trainers:[{n:'Copycat',q:2},{n:"Professor's Research",q:2},{n:'Sabrina',q:1},{n:'Cyrus',q:1},{n:'Lisia',q:1},{n:'Pokémon Center Lady',q:1},{n:'X Speed',q:2},{n:'Poké Ball',q:2}], energy:'Psychic' }
+    trainers:[{n:'Copycat',q:2},{n:'Professor\'s Research',q:2},{n:'Pokémon Center Lady',q:1},{n:'Rare Candy',q:2},{n:'Poké Ball',q:2},{n:'Giant Cape',q:2},{n:'Inflatable Boat',q:1},{n:'Starting Plains',q:1}], energy:'Water' },
+  { id:5, slug:'mega-sceptile-ex-sceptile-b3', name:'Mega Sceptile ex Sceptile', sprites:['sceptile-mega','sceptile'], type:'Grass · Ramp', count:407, share:4.36, wr:50.23,
+    hasFullList:true, player:'Evan34', flag:null, place:2, score:'10-3-1', tournament:'Umbreon99\'s Friday Clash #12', date:'juin 2026', tournamentUrl:'69ff87ce13f957d6d4b441c1', playerSlug:'evan34',
+    pokemon:[{n:'Treecko',q:2,s:'treecko'},{n:'Grovyle',q:2,s:'grovyle'},{n:'Sceptile',q:1,s:'sceptile'},{n:'Mega Sceptile ex',q:1,s:'sceptile-mega'},{n:'Chingling',q:2,s:'chingling'},{n:'Celebi',q:1,s:'celebi'},{n:'Teal Mask Ogerpon ex',q:1,s:'ogerpon'}],
+    trainers:[{n:'Professor\'s Research',q:2},{n:'Copycat',q:1},{n:'Cyrus',q:1},{n:'Erika',q:1},{n:'Quick-Grow Extract',q:2},{n:'Leaf Cape',q:1},{n:'Fragrant Forest',q:2}], energy:'Grass' },
+  { id:6, slug:'mega-altaria-ex-b1-gourgeist-b2', name:'Mega Altaria ex Gourgeist', sprites:['altaria-mega','gourgeist'], type:'Psychic · Contrôle', count:399, share:4.28, wr:51.69,
+    hasFullList:true, player:'Soadmon', flag:null, place:1, score:'11-3-0', tournament:'Umbreon99\'s Wacky Wednesday', date:'juin 2026', tournamentUrl:'6a173ac60f6c1f08998623bd', playerSlug:'soadmon',
+    pokemon:[{n:'Pumpkaboo',q:2,s:'pumpkaboo'},{n:'Gourgeist',q:2,s:'gourgeist'},{n:'Swablu',q:2,s:'swablu'},{n:'Mega Altaria ex',q:2,s:'altaria-mega'},{n:'Jirachi',q:1,s:'jirachi'},{n:'Comfey',q:1,s:'comfey'},{n:'Chingling',q:1,s:'chingling'}],
+    trainers:[{n:'Professor\'s Research',q:2},{n:'Copycat',q:1},{n:'Sabrina',q:1},{n:'Cyrus',q:1},{n:'Lisia',q:1},{n:'Poké Ball',q:1},{n:'Giant Cape',q:1},{n:'Training Area',q:1}], energy:'Psychic' },
+  { id:7, slug:'mega-blaziken-ex-b1-greninja-a1', name:'Mega Blaziken ex Greninja', sprites:['blaziken-mega','greninja'], type:'Fire · Tier S', count:387, share:4.15, wr:52.84,
+    hasFullList:true, player:'PGX | Zerox', flag:null, place:1, score:'9-1-1', tournament:'uwu tournament ($25)', date:'juin 2026', tournamentUrl:'6a1a2d5b47f3797bf6ba6ec7', playerSlug:'zerox_9',
+    pokemon:[{n:'Torchic',q:2,s:'torchic'},{n:'Combusken',q:1,s:'combusken'},{n:'Mega Blaziken ex',q:1,s:'blaziken-mega'},{n:'Froakie',q:1,s:'froakie'},{n:'Greninja',q:1,s:'greninja'},{n:'Castform Sunny Form',q:1,s:'castform-sunny'},{n:'Heatmor',q:1,s:'heatmor'}],
+    trainers:[{n:'Professor\'s Research',q:2},{n:'Copycat',q:2},{n:'Cyrus',q:1},{n:'Juliana',q:1},{n:'Rare Candy',q:2},{n:'Poké Ball',q:2},{n:'Flame Patch',q:1},{n:'Hiking Trail',q:1}], energy:'Fire' },
+  { id:8, slug:'hydreigon-mega-absol-ex-b1', name:'Hydreigon Mega Absol ex', sprites:['hydreigon','absol-mega'], type:'Dark · Valeur sûre', count:330, share:3.54, wr:51.8,
+    hasFullList:true, player:'AnHz', flag:null, place:2, score:'11-3-0', tournament:'PMPT #34 - DEMOLITION DRIVE', date:'juin 2026', tournamentUrl:'6a1dc56756b11a587a945900', playerSlug:'anhz',
+    pokemon:[{n:'Deino',q:2,s:'deino'},{n:'Hydreigon',q:2,s:'hydreigon'},{n:'Mega Absol ex',q:1,s:'absol-mega'},{n:'Bombirdier',q:1,s:'bombirdier'}],
+    trainers:[{n:'Copycat',q:2},{n:'Professor\'s Research',q:2},{n:'Cyrus',q:1},{n:'Sabrina',q:1},{n:'Rare Candy',q:2},{n:'Poké Ball',q:2},{n:'Lucky Ice Pop',q:2},{n:'Rocky Helmet',q:2}], energy:'Darkness' },
+  { id:9, slug:'zoroark-ex-b3-mega-absol-ex-b1', name:'Zoroark ex Mega Absol ex', sprites:['zoroark','absol-mega'], type:'Dark · Tempo', count:272, share:2.92, wr:50.26,
+    hasFullList:true, player:'Artik | Buzz', flag:null, place:1, score:'8-1-1', tournament:'BRICKCITY PARADOX DRIVE', date:'juin 2026', tournamentUrl:'6a1597560f6c1f089986162f', playerSlug:'buzz2buzz',
+    pokemon:[{n:'Zorua',q:2,s:'zorua'},{n:'Zoroark ex',q:2,s:'zoroark'},{n:'Mega Absol ex',q:1,s:'absol-mega'},{n:'Darkrai ex',q:1,s:'darkrai'},{n:'Bombirdier',q:1,s:'bombirdier'}],
+    trainers:[{n:'Copycat',q:2},{n:'Professor\'s Research',q:2},{n:'Cyrus',q:1},{n:'Sabrina',q:1},{n:'Pokémon Center Lady',q:1},{n:'Poké Ball',q:2},{n:'Lucky Ice Pop',q:1},{n:'Field Blower',q:1},{n:'Rocky Helmet',q:2}], energy:'Darkness' },
+  { id:10, slug:'magnezone-ex-b3-magnezone-b1a', name:'Magnezone ex Magnezone', sprites:['magnezone','magnezone'], type:'Lightning · Mid-range', count:250, share:2.68, wr:49.56,
+    hasFullList:true, player:'LiquidHunter', flag:null, place:1, score:'10-2-0', tournament:'Power⚡League #06', date:'juin 2026', tournamentUrl:'6a177ef40f6c1f08998626da', playerSlug:'liquidhunter',
+    pokemon:[{n:'Magnemite',q:2,s:'magnemite'},{n:'Magneton',q:2,s:'magneton'},{n:'Magnezone',q:1,s:'magnezone'},{n:'Magnezone ex',q:1,s:'magnezone'},{n:'Oricorio',q:2,s:'oricorio-pom-pom'},{n:'Miraidon ex',q:1,s:'miraidon'}],
+    trainers:[{n:'Professor\'s Research',q:2},{n:'Pokémon Center Lady',q:1},{n:'Copycat',q:1},{n:'Lisia',q:1},{n:'Cyrus',q:1},{n:'Clemont',q:1},{n:'Professor Turo',q:1},{n:'Poké Ball',q:2},{n:'Giant Cape',q:1}], energy:'Lightning' }
 ];
 
 // Top 10 win rate (min 100 matches)
@@ -4310,49 +4302,49 @@ modalClose.addEventListener('click', closeModal);
 modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeModal(); closeRulesModal(); } });
 
-// VRAIES données Limitless VGC — Regional Los Angeles, CA — 9 mai 2026 — 542 joueurs · Reg I
+// VRAIES données Limitless VGC — Special Event Turin — 6-7 juin 2026 — premier majeur européen sur Pokémon Champions (Reg M-A)
 const SPRITE_SV = 'https://r2.limitlesstcg.net/sprites/home-sv/';
 const ITEM_BASE = 'https://r2.limitlesstcg.net/sprites/items/sv/';
 
 const teams = [
-  { id: 1, teamId: 6285, place: 1, score: '11-2', player: 'Emilio Forbes', flag: '🇺🇸', tournament: 'Regional Los Angeles, CA', date: '9 mai 2026', archetype: 'Ice Rider · Miraidon Balance', rentalCode: null,
+  { id: 1, teamId: 6573, place: 1, score: 'Top 1', player: 'Marco Silva', flag: '🇵🇹', tournament: 'Special Event Turin 🇮🇹 · Pokémon Champions', date: '6-7 juin 2026', archetype: 'Mega Gengar · Perish Song', rentalCode: null,
     pokemon: [
-      { name: 'Iron Bundle', slug: 'iron-bundle', item: 'Focus Sash', itemSlug: 'focus-sash', ability: 'Quark Drive', tera: 'Ghost', nature: 'Timid', evs: [4,0,0,252,0,252], moves: ['Ice Beam','Icy Wind','Encore','Protect'] },
-      { name: 'Farigiraf', slug: 'farigiraf', item: 'Electric Seed', itemSlug: 'electric-seed', ability: 'Armor Tail', tera: 'Water', nature: 'Sassy', evs: [252,0,4,0,252,0], moves: ['Foul Play','Roar','Helping Hand','Trick Room'] },
-      { name: 'Rapid Strike Urshifu', slug: 'urshifu-rapid-strike', item: 'Choice Scarf', itemSlug: 'choice-scarf', ability: 'Unseen Fist', tera: 'Water', nature: 'Jolly', evs: [4,252,0,0,0,252], moves: ['Surging Strikes','Close Combat','U-turn','Coaching'] },
-      { name: 'Ice Rider Calyrex', slug: 'calyrex-ice', item: 'Clear Amulet', itemSlug: 'clear-amulet', ability: 'As One', tera: 'Fire', nature: 'Brave', evs: [252,252,4,0,0,0], moves: ['Glacial Lance','High Horsepower','Trick Room','Protect'] },
-      { name: 'Miraidon', slug: 'miraidon', item: 'Life Orb', itemSlug: 'life-orb', ability: 'Hadron Engine', tera: 'Electric', nature: 'Modest', evs: [4,0,0,252,0,252], moves: ['Electro Drift','Draco Meteor','Volt Switch','Protect'] },
-      { name: 'Iron Hands', slug: 'iron-hands', item: 'Assault Vest', itemSlug: 'assault-vest', ability: 'Quark Drive', tera: 'Water', nature: 'Adamant', evs: [196,252,0,0,60,0], moves: ['Fake Out','Low Kick','Drain Punch','Wild Charge'] }
+      { name: 'Incineroar', slug: 'incineroar', item: 'Passho Berry', itemSlug: 'passho-berry', ability: 'Intimidate', tera: '', nature: 'Relaxed', evs: null, moves: ['Protect','Flare Blitz','Fake Out','Parting Shot'] },
+      { name: 'Eternal Flower Floette', slug: 'floette-eternal', item: 'Floettite', itemSlug: 'floettite', ability: 'Flower Veil', tera: '', nature: 'Timid', evs: null, moves: ['Light of Ruin','Dazzling Gleam','Moonblast','Protect'] },
+      { name: 'Sneasler', slug: 'sneasler', item: 'White Herb', itemSlug: 'white-herb', ability: 'Unburden', tera: '', nature: 'Adamant', evs: null, moves: ['Dire Claw','Fake Out','Close Combat','Protect'] },
+      { name: 'Kingambit', slug: 'kingambit', item: 'Black Glasses', itemSlug: 'black-glasses', ability: 'Defiant', tera: '', nature: 'Adamant', evs: null, moves: ['Kowtow Cleave','Swords Dance','Sucker Punch','Protect'] },
+      { name: 'Gengar', slug: 'gengar', item: 'Gengarite', itemSlug: 'gengarite', ability: 'Cursed Body', tera: '', nature: 'Modest', evs: null, moves: ['Shadow Ball','Perish Song','Disable','Protect'] },
+      { name: 'Kommo-o', slug: 'kommo-o', item: 'Leftovers', itemSlug: 'leftovers', ability: 'Soundproof', tera: '', nature: 'Modest', evs: null, moves: ['Clanging Scales','Aura Sphere','Clangorous Soul','Protect'] }
     ]
   },
-  { id: 2, teamId: 6286, place: 2, score: '10-3', player: 'Aaron Traylor', flag: '🇺🇸', tournament: 'Regional Los Angeles, CA', date: '9 mai 2026', archetype: 'Terapagos · Sun Control', rentalCode: null,
+  { id: 2, teamId: 6574, place: 2, score: 'Top 2', player: 'Louis Fontvieille', flag: '🇫🇷', tournament: 'Special Event Turin 🇮🇹 · Pokémon Champions', date: '6-7 juin 2026', archetype: 'Mega Delphox · Basculegion', rentalCode: null,
     pokemon: [
-      { name: 'Hearthflame Ogerpon', slug: 'ogerpon-hearthflame', item: 'Hearthflame Mask', itemSlug: 'hearthflame-mask', ability: 'Mold Breaker', tera: 'Fire', nature: 'Adamant', evs: [220,252,0,0,0,36], moves: ['Ivy Cudgel','Encore','Follow Me','Spiky Shield'] },
-      { name: 'Miraidon', slug: 'miraidon', item: 'Choice Scarf', itemSlug: 'choice-scarf', ability: 'Hadron Engine', tera: 'Electric', nature: 'Modest', evs: [4,0,0,252,0,252], moves: ['Electro Drift','Volt Switch','Draco Meteor','Snarl'] },
-      { name: 'Sinistcha', slug: 'sinistcha', item: 'Focus Sash', itemSlug: 'focus-sash', ability: 'Hospitality', tera: 'Fairy', nature: 'Bold', evs: [252,0,4,0,252,0], moves: ['Rage Powder','Shadow Ball','Trick Room','Protect'] },
-      { name: 'Incineroar', slug: 'incineroar', item: 'Rocky Helmet', itemSlug: 'rocky-helmet', ability: 'Intimidate', tera: 'Bug', nature: 'Careful', evs: [252,0,4,0,252,0], moves: ['Fake Out','Knock Off','Parting Shot','Will-O-Wisp'] },
-      { name: 'Toxapex', slug: 'toxapex', item: 'Leftovers', itemSlug: 'leftovers', ability: 'Regenerator', tera: 'Grass', nature: 'Bold', evs: [252,0,156,0,100,0], moves: ['Infestation','Toxic','Wide Guard','Baneful Bunker'] },
-      { name: 'Terapagos', slug: 'terapagos', item: 'Electric Seed', itemSlug: 'electric-seed', ability: 'Tera Shift', tera: 'Stellar', nature: 'Modest', evs: [252,0,0,252,0,4], moves: ['Tera Starstorm','Earth Power','Calm Mind','Protect'] }
+      { name: 'Delphox', slug: 'delphox', item: 'Delphoxite', itemSlug: 'delphoxite', ability: 'Blaze', tera: '', nature: 'Timid', evs: null, moves: ['Heat Wave','Psyshock','Nasty Plot','Protect'] },
+      { name: 'Sneasler', slug: 'sneasler', item: 'White Herb', itemSlug: 'white-herb', ability: 'Unburden', tera: '', nature: 'Adamant', evs: null, moves: ['Dire Claw','Close Combat','Fake Out','Protect'] },
+      { name: 'Sinistcha', slug: 'sinistcha', item: 'Kasib Berry', itemSlug: 'kasib-berry', ability: 'Hospitality', tera: '', nature: 'Bold', evs: null, moves: ['Matcha Gotcha','Rage Powder','Life Dew','Trick Room'] },
+      { name: 'Basculegion', slug: 'basculegion', item: 'Focus Sash', itemSlug: 'focus-sash', ability: 'Adaptability', tera: '', nature: 'Adamant', evs: null, moves: ['Liquidation','Last Respects','Aqua Jet','Protect'] },
+      { name: 'Incineroar', slug: 'incineroar', item: 'Sitrus Berry', itemSlug: 'sitrus-berry', ability: 'Intimidate', tera: '', nature: 'Careful', evs: null, moves: ['Flare Blitz','Throat Chop','Parting Shot','Fake Out'] },
+      { name: 'Eternal Flower Floette', slug: 'floette-eternal', item: 'Floettite', itemSlug: 'floettite', ability: 'Flower Veil', tera: '', nature: 'Modest', evs: null, moves: ['Dazzling Gleam','Draining Kiss','Calm Mind','Protect'] }
     ]
   },
-  { id: 3, teamId: 6287, place: 3, score: '10-3', player: 'Jérémy Côté', flag: '🇨🇦', tournament: 'Regional Los Angeles, CA', date: '9 mai 2026', archetype: 'Terapagos · Wellspring Ogerpon', rentalCode: null,
+  { id: 3, teamId: 6575, place: 3, score: 'Top 3', player: 'Arash Ommati', flag: '🇮🇹', tournament: 'Special Event Turin 🇮🇹 · Pokémon Champions', date: '6-7 juin 2026', archetype: 'Mega Delphox · Vivillon', rentalCode: null,
     pokemon: [
-      { name: 'Wellspring Ogerpon', slug: 'ogerpon-wellspring', item: 'Wellspring Mask', itemSlug: 'wellspring-mask', ability: 'Water Absorb', tera: 'Water', nature: 'Jolly', evs: [252,4,0,0,0,252], moves: ['Ivy Cudgel','Horn Leech','Follow Me','Spiky Shield'] },
-      { name: 'Terapagos', slug: 'terapagos', item: 'Electric Seed', itemSlug: 'electric-seed', ability: 'Tera Shift', tera: 'Stellar', nature: 'Modest', evs: [252,0,0,252,0,4], moves: ['Tera Starstorm','Earth Power','Calm Mind','Protect'] },
-      { name: 'Incineroar', slug: 'incineroar', item: 'Rocky Helmet', itemSlug: 'rocky-helmet', ability: 'Intimidate', tera: 'Bug', nature: 'Careful', evs: [252,0,4,0,252,0], moves: ['Fake Out','Flare Blitz','Will-O-Wisp','Parting Shot'] },
-      { name: 'Sinistcha', slug: 'sinistcha', item: 'Focus Sash', itemSlug: 'focus-sash', ability: 'Hospitality', tera: 'Dark', nature: 'Bold', evs: [252,0,4,0,252,0], moves: ['Rage Powder','Life Dew','Shadow Ball','Protect'] },
-      { name: 'Iron Treads', slug: 'iron-treads', item: 'Life Orb', itemSlug: 'life-orb', ability: 'Quark Drive', tera: 'Ghost', nature: 'Jolly', evs: [4,252,0,0,0,252], moves: ['High Horsepower','Steel Roller','Knock Off','Protect'] },
-      { name: 'Miraidon', slug: 'miraidon', item: 'Choice Scarf', itemSlug: 'choice-scarf', ability: 'Hadron Engine', tera: 'Electric', nature: 'Modest', evs: [4,0,0,252,0,252], moves: ['Electro Drift','Volt Switch','Draco Meteor','Snarl'] }
+      { name: 'Delphox', slug: 'delphox', item: 'Delphoxite', itemSlug: 'delphoxite', ability: 'Blaze', tera: '', nature: 'Timid', evs: null, moves: ['Heat Wave','Protect','Psyshock','Nasty Plot'] },
+      { name: 'Eternal Flower Floette', slug: 'floette-eternal', item: 'Floettite', itemSlug: 'floettite', ability: 'Flower Veil', tera: '', nature: 'Timid', evs: null, moves: ['Draining Kiss','Calm Mind','Moonblast','Protect'] },
+      { name: 'Incineroar', slug: 'incineroar', item: 'Passho Berry', itemSlug: 'passho-berry', ability: 'Intimidate', tera: '', nature: 'Careful', evs: null, moves: ['Fake Out','Parting Shot','Throat Chop','Flare Blitz'] },
+      { name: 'Vivillon', slug: 'vivillon', item: 'Choice Scarf', itemSlug: 'choice-scarf', ability: 'Compound Eyes', tera: '', nature: 'Timid', evs: null, moves: ['Sleep Powder','Rage Powder','Pollen Puff','Hurricane'] },
+      { name: 'Maushold', slug: 'maushold', item: 'Chople Berry', itemSlug: 'chople-berry', ability: 'Friend Guard', tera: '', nature: 'Impish', evs: null, moves: ['Follow Me','Super Fang','Feint','Protect'] },
+      { name: 'Sinistcha', slug: 'sinistcha', item: 'Kasib Berry', itemSlug: 'kasib-berry', ability: 'Hospitality', tera: '', nature: 'Bold', evs: null, moves: ['Matcha Gotcha','Rage Powder','Life Dew','Protect'] }
     ]
   },
-  { id: 4, teamId: 6251, place: 4, score: '10-3', player: 'Louis Markl', flag: '🇩🇪', tournament: 'Regional Los Angeles, CA', date: '9 mai 2026', archetype: 'Calyrex Shadow · Zamazenta', rentalCode: null,
+  { id: 4, teamId: 6576, place: 4, score: 'Top 4', player: 'Davide Carrer', flag: '🇮🇹', tournament: 'Special Event Turin 🇮🇹 · Pokémon Champions', date: '6-7 juin 2026', archetype: 'Mega Charizard Y · Garchomp', rentalCode: null,
     pokemon: [
-      { name: 'Incineroar', slug: 'incineroar', item: 'Rocky Helmet', itemSlug: 'rocky-helmet', ability: 'Intimidate', tera: 'Ghost', nature: 'Careful', evs: [252,0,4,0,252,0], moves: ['Fake Out','Knock Off','Parting Shot','Helping Hand'] },
-      { name: 'Rapid Strike Urshifu', slug: 'urshifu-rapid-strike', item: 'Choice Scarf', itemSlug: 'choice-scarf', ability: 'Unseen Fist', tera: 'Water', nature: 'Jolly', evs: [4,252,0,0,0,252], moves: ['Close Combat','U-turn','Surging Strikes','Aqua Jet'] },
-      { name: 'Hearthflame Ogerpon', slug: 'ogerpon-hearthflame', item: 'Hearthflame Mask', itemSlug: 'hearthflame-mask', ability: 'Mold Breaker', tera: 'Fire', nature: 'Adamant', evs: [220,252,0,0,0,36], moves: ['Spiky Shield','Ivy Cudgel','Follow Me','Grassy Glide'] },
-      { name: 'Rillaboom', slug: 'rillaboom', item: 'Assault Vest', itemSlug: 'assault-vest', ability: 'Grassy Surge', tera: 'Fire', nature: 'Adamant', evs: [244,12,0,0,252,0], moves: ['Fake Out','Grassy Glide','Wood Hammer','U-turn'] },
-      { name: 'Shadow Rider Calyrex', slug: 'calyrex-shadow', item: 'Life Orb', itemSlug: 'life-orb', ability: 'As One', tera: 'Dark', nature: 'Modest', evs: [4,0,0,252,0,252], moves: ['Protect','Psychic','Nasty Plot','Astral Barrage'] },
-      { name: 'Zamazenta', slug: 'zamazenta-crowned', item: 'Rusted Shield', itemSlug: 'rusted-shield', ability: 'Dauntless Shield', tera: 'Dragon', nature: 'Jolly', evs: [252,4,0,0,0,252], moves: ['Protect','Heavy Slam','Body Press','Wide Guard'] }
+      { name: 'Basculegion', slug: 'basculegion', item: 'Mystic Water', itemSlug: 'mystic-water', ability: 'Adaptability', tera: '', nature: 'Adamant', evs: null, moves: ['Wave Crash','Last Respects','Aqua Jet','Protect'] },
+      { name: 'Eternal Flower Floette', slug: 'floette-eternal', item: 'Floettite', itemSlug: 'floettite', ability: 'Flower Veil', tera: '', nature: 'Timid', evs: null, moves: ['Moonblast','Dazzling Gleam','Calm Mind','Protect'] },
+      { name: 'Whimsicott', slug: 'whimsicott', item: 'Focus Sash', itemSlug: 'focus-sash', ability: 'Prankster', tera: '', nature: 'Timid', evs: null, moves: ['Moonblast','Tailwind','Encore','Protect'] },
+      { name: 'Incineroar', slug: 'incineroar', item: 'Sitrus Berry', itemSlug: 'sitrus-berry', ability: 'Intimidate', tera: '', nature: 'Careful', evs: null, moves: ['Flare Blitz','Throat Chop','Fake Out','Parting Shot'] },
+      { name: 'Garchomp', slug: 'garchomp', item: 'Roseli Berry', itemSlug: 'roseli-berry', ability: 'Rough Skin', tera: '', nature: 'Jolly', evs: null, moves: ['Earthquake','Dragon Claw','Rock Slide','Poison Jab'] },
+      { name: 'Charizard', slug: 'charizard', item: 'Charizardite Y', itemSlug: 'charizardite-y', ability: 'Blaze', tera: '', nature: 'Timid', evs: null, moves: ['Heat Wave','Weather Ball','Solar Beam','Protect'] }
     ]
   }
 ];
@@ -4409,7 +4401,7 @@ function openTeamModal(teamId) {
     ${rentalBlock}
     <div class="team-grid">
       ${t.pokemon.map(p => {
-        const totalEV = p.evs.reduce((s,v)=>s+v,0);
+        const totalEV = (p.evs||[]).reduce((s,v)=>s+v,0);
         return `
         <div class="poke-card">
           <div class="poke-head">
@@ -4424,7 +4416,7 @@ function openTeamModal(teamId) {
           </div>
           <div class="poke-stats">
             <div class="row"><span class="lbl">Ability</span><span class="val">${p.ability}</span></div>
-            <div class="row"><span class="lbl">Tera</span><span class="tera-badge ${teraCls(p.tera)}">${p.tera}</span></div>
+            <div class="row"><span class="lbl">${p.tera?`Tera`:`Format`}</span><span class="tera-badge ${teraCls(p.tera||``)}">${p.tera||`Champions`}</span></div>
           </div>
           ${p.evs ? `
           <div class="poke-evs">
@@ -4445,7 +4437,7 @@ function openTeamModal(teamId) {
         </div>
       `}).join('')}
     </div>
-    <p class="modal-note">⚡ Items, abilities, Tera types et moves : 100% authentiques depuis Limitless VGC. EVs : spreads typiques de la méta (basés sur les builds standards de chaque archétype, à ajuster selon le paste exact du joueur).</p>
+    <p class="modal-note">⚡ Items, abilities, natures et moves : 100% authentiques depuis Limitless VGC (Pokémon Champions · Reg M-A). Les EVs ne sont pas publiés pour ce format.</p>
     <div class="modal-cta">
       <a class="modal-btn primary" target="_blank" href="https://limitlessvgc.com/teams/${t.teamId}">Voir sur Limitless VGC →</a>
       <button class="modal-btn secondary" id="modalCloseBtn">Fermer</button>
