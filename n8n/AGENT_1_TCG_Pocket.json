@@ -1,0 +1,142 @@
+{
+  "name": "METAPOKE v2 · Agent 1 — TCG Pocket (8h00)",
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Paris"
+  },
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "tous-les-jours-8h00",
+      "name": "Tous les jours 8h00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -600,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://play.limitlesstcg.com/decks?game=pocket",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "limitless-pocket",
+      "name": "Limitless Pocket",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -360,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/florian974fd974-arch/Meta-Pok-/main/data/tcgp_data.json",
+        "options": {}
+      },
+      "id": "veille-tcgp",
+      "name": "Veille tcgp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -120,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===== AGENT TCG POCKET — scrape + mémoire + édito variable =====\nconst h = $('Limitless Pocket').first().json.data;\nlet prev=null; try{ prev=$('Veille tcgp').first().json; }catch(e){}\nconst strip=s=>String(s||'').replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim();\nconst now=new Date(), iso=now.toISOString();\nconst jours=['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];\nconst seed=now.getDate()+now.getMonth()*31;\nconst rows=[...String(h).matchAll(/<tr[\\s\\S]*?<\\/tr>/g)].map(m=>m[0]);\nconst pocket=[];\nfor(const r of rows){\n  const a=r.match(/<a[^>]*href=\"\\/decks\\/([^\"?]+)[^\"]*\"[^>]*>([\\s\\S]*?)<\\/a>/); if(!a) continue;\n  const t=strip(r);\n  const n=t.match(/(\\d[\\d\\s]*)\\s+([\\d.]+)%\\s+(\\d+)\\s*-\\s*(\\d+)\\s*-\\s*(\\d+)\\s+([\\d.]+)%/); if(!n) continue;\n  pocket.push({name:strip(a[2]),slug:a[1],count:parseInt(n[1].replace(/\\s/g,'')),share:parseFloat(n[2]),record:n[3]+'-'+n[4]+'-'+n[5],wr:parseFloat(n[6])});\n}\nif(pocket.length<5) throw new Error('Parseur Pocket KO ('+pocket.length+') — structure Limitless changée ?');\nconst prevTop=(prev&&prev.topUsage)||[];\nconst pr={}; prevTop.forEach((d,i)=>pr[d.name]=i+1);\nconst topU=pocket.slice(0,10).map((d,i)=>Object.assign({rank:i+1,move:pr[d.name]==null?'new':(pr[d.name]>i+1?'up':(pr[d.name]<i+1?'down':'stable'))},d));\nconst eligible=pocket.filter(d=>d.share>=2);\nconst topW=eligible.slice().sort((a,b)=>b.wr-a.wr).slice(0,10);\nconst fresh=new Set(topU.map(d=>d.name));\nconst entering=prevTop.length?topU.filter(d=>!pr[d.name]).map(d=>d.name+' ('+d.wr+'% WR)'):[];\nconst leaving=prevTop.map(d=>d.name).filter(n=>!fresh.has(n));\nconst movers=topU.filter(d=>d.move==='up'||d.move==='new'), droppers=topU.filter(d=>d.move==='down');\nconst spot=topU[seed%topU.length], best=topW[0];\nconst sleeper=pocket.filter(d=>d.share<2&&d.share>0.3).sort((a,b)=>b.wr-a.wr)[0];\nconst angles=[\n ()=>\"Zoom du \"+jours[now.getDay()]+\" : \"+spot.name+\" — \"+spot.share+\"% d'usage pour \"+spot.wr+\"% de winrate (\"+spot.record+\"). \"+(spot.wr>=51?\"Un choix solide en ce moment.\":\"Populaire mais contestable : la méta a ses réponses.\"),\n ()=>\"Le deck à battre reste \"+best.name+\" (\"+best.wr+\"% WR sur \"+best.count+\" listes).\"+(sleeper?\" En embuscade : \"+sleeper.name+\" à \"+sleeper.wr+\"% WR sur petit volume.\":\"\"),\n ()=>eligible.length+\" archétypes au-dessus de 2% d'usage. L'écart entre le plus joué (\"+topU[0].name+\", \"+topU[0].share+\"%) et le plus performant (\"+best.name+\", \"+best.wr+\"%) \"+(topU[0].name===best.name?\"a disparu.\":\"reste le vrai sujet du format.\"),\n ()=>\"Stabilité du top 10 : \"+(10-movers.length-droppers.length)+\"/10 inchangés. \"+(movers.length?\"En progression : \"+movers.slice(0,2).map(d=>d.name).join(', ')+\".\":\"Le format attend son prochain catalyseur (B3b ?).\")\n];\nconst summary=(movers.length>=2||entering.length)\n ? \"Mouvement dans la méta : \"+(entering[0]||movers[0].name+\" grimpe\")+(droppers.length?\" tandis que \"+droppers[0].name+\" recule\":\"\")+\". Meilleur WR jouable : \"+best.name+\" (\"+best.wr+\"%). Le plus joué : \"+topU[0].name+\" (\"+topU[0].share+\"%).\"\n : angles[seed%angles.length]();\nconst keep=(list,n,f)=>{const o=(list||[]).find(x=>x.name===n);return o?o[f]:undefined;};\nconst out=Object.assign({},prev||{},{\n metaSummary:summary,\n topUsage:topU.map(d=>({rank:d.rank,name:d.name,usage:d.share,winrate:d.wr,record:d.record,winRate:d.wr,share:d.share,move:d.move,limitless:d.slug,cards:keep(prevTop,d.name,'cards'),listBy:keep(prevTop,d.name,'listBy')})),\n topWinrate:topW.map((d,i)=>({rank:i+1,name:d.name,winrate:d.wr,usage:d.share,record:d.record,winRate:d.wr,share:d.share,limitless:d.slug,cards:keep(prev&&prev.topWinrate,d.name,'cards'),listBy:keep(prev&&prev.topWinrate,d.name,'listBy')})),\n enteringMeta:entering.length?entering:(sleeper?[sleeper.name+' ('+sleeper.wr+'% WR, outsider)']:[]),\n leavingMeta:leaving,\n movements:topU.map(d=>({slug:d.slug,name:d.name,rank:d.rank,usage:d.share,move:d.move})),\n totalDecks:pocket.length, updatedAt:iso });\nout.topDecks=out.topUsage;\nreturn [{json:{content:JSON.stringify(out,null,2),msg:\"bot(pocket) \"+now.toLocaleDateString('fr-FR')+\" : \"+(movers.length+droppers.length)+\" mouvements\"+(entering.length?\", entrée \"+entering[0]:\"\")}}];\n"
+      },
+      "id": "parse-diff-dito",
+      "name": "Parse + Diff + Édito",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        120,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "edit",
+        "owner": "florian974fd974-arch",
+        "repository": "Meta-Pok-",
+        "filePath": "data/tcgp_data.json",
+        "fileContent": "={{ $json.content }}",
+        "commitMessage": "={{ $json.msg }}"
+      },
+      "id": "commit-tcgp-data",
+      "name": "Commit tcgp_data",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1,
+      "position": [
+        360,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Tous les jours 8h00": {
+      "main": [
+        [
+          {
+            "node": "Limitless Pocket",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limitless Pocket": {
+      "main": [
+        [
+          {
+            "node": "Veille tcgp",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Veille tcgp": {
+      "main": [
+        [
+          {
+            "node": "Parse + Diff + Édito",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse + Diff + Édito": {
+      "main": [
+        [
+          {
+            "node": "Commit tcgp_data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

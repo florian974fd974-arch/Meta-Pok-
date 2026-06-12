@@ -1,0 +1,142 @@
+{
+  "name": "METAPOKE v2 · Agent 2 — VGC Champions (8h05)",
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Paris"
+  },
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "5 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "tous-les-jours-8h05",
+      "name": "Tous les jours 8h05",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -600,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://victoryroad.pro/",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "victory-road",
+      "name": "Victory Road",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -360,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/florian974fd974-arch/Meta-Pok-/main/data/vgc_data.json",
+        "options": {}
+      },
+      "id": "veille-vgc",
+      "name": "Veille vgc",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -120,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===== AGENT VGC (Champions) =====\nconst vroad=$('Victory Road').first().json.data;\nlet prev=null; try{ prev=$('Veille vgc').first().json; }catch(e){}\nconst strip=s=>String(s||'').replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim();\nconst now=new Date(), iso=now.toISOString();\nconst seed=now.getDate()+now.getMonth()*31;\nconst news=[...String(vroad).matchAll(/<h[23][^>]*>([\\s\\S]*?)<\\/h[23]>/g)].map(m=>strip(m[1]))\n .filter(t=>/won|Champion|results|NAIC|Regional|Championships|Challenge/i.test(t)).slice(0,6);\nconst prevNews=(prev&&prev.newsFeed)||[];\nconst fresh=news.filter(n=>!prevNews.includes(n));\nconst tp=(prev&&prev.topPokemon)||[];\nconst lead=tp[0]; const spot=tp.length?tp[(seed+3)%tp.length]:null;\nconst summary=\"Regulation Set M-A (Pokémon Champions)\"+(lead?\" — \"+lead.name+\" domine (\"+(lead.usage||lead.usageRate)+\"%)\":\"\")+\". \"\n +(fresh[0]?\"🆕 \"+fresh[0].slice(0,110)+\".\":(news[0]?\"Actu : \"+news[0].slice(0,110)+\".\":\"\"))\n +(spot&&spot!==lead?\" Pokémon du jour : \"+spot.name+\" (\"+(spot.usage||spot.usageRate)+\"%).\":\"\");\nconst out=Object.assign({},prev||{},{metaSummary:summary,newsFeed:news,updatedAt:iso});\nreturn [{json:{content:JSON.stringify(out,null,2),msg:\"bot(vgc) \"+now.toLocaleDateString('fr-FR')+(fresh.length?\" : \"+fresh.length+\" nouvelle(s) actu\":\" : RAS, rotation du zoom\")}}];\n"
+      },
+      "id": "actu-dito-vgc",
+      "name": "Actu + Édito VGC",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        120,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "edit",
+        "owner": "florian974fd974-arch",
+        "repository": "Meta-Pok-",
+        "filePath": "data/vgc_data.json",
+        "fileContent": "={{ $json.content }}",
+        "commitMessage": "={{ $json.msg }}"
+      },
+      "id": "commit-vgc-data",
+      "name": "Commit vgc_data",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1,
+      "position": [
+        360,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Tous les jours 8h05": {
+      "main": [
+        [
+          {
+            "node": "Victory Road",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Victory Road": {
+      "main": [
+        [
+          {
+            "node": "Veille vgc",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Veille vgc": {
+      "main": [
+        [
+          {
+            "node": "Actu + Édito VGC",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Actu + Édito VGC": {
+      "main": [
+        [
+          {
+            "node": "Commit vgc_data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

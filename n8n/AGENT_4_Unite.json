@@ -1,0 +1,142 @@
+{
+  "name": "METAPOKE v2 · Agent 4 — Unite (8h15)",
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Paris"
+  },
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "15 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "tous-les-jours-8h15",
+      "name": "Tous les jours 8h15",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -600,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://game8.co/games/Pokemon-UNITE/archives/335997",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "game8-unite",
+      "name": "Game8 Unite",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -360,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/florian974fd974-arch/Meta-Pok-/main/data/unite_data.json",
+        "options": {}
+      },
+      "id": "veille-unite",
+      "name": "Veille unite",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -120,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===== AGENT UNITE (tier list Game8) =====\nconst h=$('Game8 Unite').first().json.data;\nlet prev=null; try{ prev=$('Veille unite').first().json; }catch(e){}\nconst strip=s=>String(s||'').replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim();\nconst now=new Date(), iso=now.toISOString();\nconst seed=now.getDate()+now.getMonth()*31;\nconst noise=/^(Top|Bot|Bottom|Jungle|boosted attacks|dash|ganking|vision|Attack|Held Items|Defenders?|Attackers?|Supporter|Speedster|All-Rounder|Sprint mechanic|objectives|Version)/i;\nconst tiers={};\nfor(const s of String(h).matchAll(/<h3[^>]*>\\s*(OP|SS|S|A|B|C) Tier\\s*<\\/h3>([\\s\\S]*?)(?=<h3|$)/g)){\n  tiers[s[1]]=[...new Set([...s[2].matchAll(/<a[^>]*>([^<]{2,24})<\\/a>/g)].map(m=>strip(m[1]))\n    .filter(n=>n&&!noise.test(n)&&/^[A-Z]/.test(n)&&!/Tier List|List$/.test(n)))];\n}\nconst sNow=[...(tiers.OP||[]),...(tiers.SS||[])];\nif(!sNow.length) throw new Error('Parseur Unite KO — structure Game8 changée ?');\nconst tPrev=(prev&&prev.tierList)||{};\nconst sPrev=tPrev.S||[];\nconst inS=sNow.filter(n=>!sPrev.includes(n)), outS=sPrev.filter(n=>!sNow.includes(n));\nconst summary=(inS.length||outS.length)\n ? \"Tier list Game8 mise à jour : \"+(inS.length?inS.join(', ')+\" rejoint le sommet\":\"\")+(inS.length&&outS.length?\" · \":\"\")+(outS.length?outS.join(', ')+\" en sort\":\"\")+\".\"\n : \"Tier list stable — \"+sNow.slice(0,5).join(', ')+\" tiennent le sommet. Zoom du jour : \"+sNow[seed%sNow.length]+\".\";\nconst out=Object.assign({},prev||{},{\n tierList:Object.assign({},tPrev,{S:sNow,'A+':tiers.S||tPrev['A+']||[],A:tiers.A||tPrev.A||[],B:tiers.B||tPrev.B||[],C:tiers.C||tPrev.C||[]}),\n metaSummary:summary, updatedAt:iso});\nreturn [{json:{content:JSON.stringify(out,null,2),msg:\"bot(unite) \"+now.toLocaleDateString('fr-FR')+\" : \"+(inS.length+outS.length?inS.length+outS.length+\" changements tier S\":\"stable, zoom \"+sNow[seed%sNow.length])}}];\n"
+      },
+      "id": "tiers-dito-unite",
+      "name": "Tiers + Édito Unite",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        120,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "edit",
+        "owner": "florian974fd974-arch",
+        "repository": "Meta-Pok-",
+        "filePath": "data/unite_data.json",
+        "fileContent": "={{ $json.content }}",
+        "commitMessage": "={{ $json.msg }}"
+      },
+      "id": "commit-unite-data",
+      "name": "Commit unite_data",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1,
+      "position": [
+        360,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Tous les jours 8h15": {
+      "main": [
+        [
+          {
+            "node": "Game8 Unite",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Game8 Unite": {
+      "main": [
+        [
+          {
+            "node": "Veille unite",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Veille unite": {
+      "main": [
+        [
+          {
+            "node": "Tiers + Édito Unite",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tiers + Édito Unite": {
+      "main": [
+        [
+          {
+            "node": "Commit unite_data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

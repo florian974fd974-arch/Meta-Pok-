@@ -1,0 +1,142 @@
+{
+  "name": "METAPOKE v2 · Agent 3 — TCG Classic (8h10)",
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Paris"
+  },
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "10 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "tous-les-jours-8h10",
+      "name": "Tous les jours 8h10",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -600,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://limitlesstcg.com/decks",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "limitless-classic",
+      "name": "Limitless Classic",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -360,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/florian974fd974-arch/Meta-Pok-/main/data/classic_data.json",
+        "options": {}
+      },
+      "id": "veille-classic",
+      "name": "Veille classic",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -120,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===== AGENT TCG CLASSIC =====\nconst h=$('Limitless Classic').first().json.data;\nlet prev=null; try{ prev=$('Veille classic').first().json; }catch(e){}\nconst strip=s=>String(s||'').replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ').trim();\nconst now=new Date(), iso=now.toISOString();\nconst seed=now.getDate()+now.getMonth()*31;\nconst rows=[...String(h).matchAll(/<tr[\\s\\S]*?<\\/tr>/g)].map(m=>m[0]);\nconst list=[];\nfor(const r of rows){\n  const a=r.match(/<a[^>]*href=\"\\/decks\\/[^\"]*\"[^>]*>([\\s\\S]*?)<\\/a>/); if(!a) continue;\n  const m=strip(r).match(/(\\d+)\\s+([\\d.]+)%\\s*$/); if(!m) continue;\n  list.push({name:strip(a[1]),points:parseInt(m[1]),share:parseFloat(m[2])});\n}\nif(list.length<5) throw new Error('Parseur Classic KO ('+list.length+')');\nconst top=list.slice(0,10);\nconst cPrev=(prev&&prev.topUsage)||[]; const cr={}; cPrev.forEach((d,i)=>cr[d.name]=i+1);\nconst withMove=top.map((d,i)=>({rank:i+1,name:d.name,usage:d.share,winrate:null,record:d.points+' pts',winRate:null,share:d.share,\n  move:cr[d.name]==null?'new':(cr[d.name]>i+1?'up':(cr[d.name]<i+1?'down':'stable'))}));\nconst movers=withMove.filter(d=>d.move!=='stable'&&d.move!=='new');\nconst spot=withMove[seed%withMove.length];\nconst summary=movers.length\n ? \"Du mouvement au classement par points : \"+movers.slice(0,2).map(d=>d.name+\" (\"+(d.move==='up'?'↑':'↓')+\")\").join(', ')+\". \"+top[0].name+\" reste en tête avec \"+top[0].share+\"% des points.\"\n : top[0].name+\" verrouille le format (\"+top[0].share+\"% des points, \"+top[0].points+\" pts). Pick du jour à étudier : \"+spot.name+\" (\"+spot.share+\"%). Données Limitless du \"+now.toLocaleDateString('fr-FR')+\".\";\nconst out=Object.assign({},prev||{},{metaSummary:summary,topUsage:withMove,topWinrate:[],\n movements:withMove.map(d=>({slug:d.name.toLowerCase().replace(/[^a-z0-9]+/g,'-'),name:d.name,rank:d.rank,usage:d.share,move:d.move})),updatedAt:iso});\nout.topDecks=out.topUsage;\nreturn [{json:{content:JSON.stringify(out,null,2),msg:\"bot(classic) \"+now.toLocaleDateString('fr-FR')+\" : \"+top[0].name+\" \"+top[0].share+\"%\"+(movers.length?\", \"+movers.length+\" mouvements\":\"\")}}];\n"
+      },
+      "id": "parse-dito-classic",
+      "name": "Parse + Édito Classic",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        120,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "edit",
+        "owner": "florian974fd974-arch",
+        "repository": "Meta-Pok-",
+        "filePath": "data/classic_data.json",
+        "fileContent": "={{ $json.content }}",
+        "commitMessage": "={{ $json.msg }}"
+      },
+      "id": "commit-classic-data",
+      "name": "Commit classic_data",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1,
+      "position": [
+        360,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Tous les jours 8h10": {
+      "main": [
+        [
+          {
+            "node": "Limitless Classic",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limitless Classic": {
+      "main": [
+        [
+          {
+            "node": "Veille classic",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Veille classic": {
+      "main": [
+        [
+          {
+            "node": "Parse + Édito Classic",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse + Édito Classic": {
+      "main": [
+        [
+          {
+            "node": "Commit classic_data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

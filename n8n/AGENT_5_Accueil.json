@@ -1,0 +1,189 @@
+{
+  "name": "METAPOKE v2 · Agent 5 — Accueil (8h30, après les autres)",
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Paris"
+  },
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "30 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "tous-les-jours-8h30",
+      "name": "Tous les jours 8h30",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -600,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/florian974fd974-arch/Meta-Pok-/main/data/tcgp_data.json",
+        "options": {}
+      },
+      "id": "frais-tcgp",
+      "name": "Frais tcgp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -380,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/florian974fd974-arch/Meta-Pok-/main/data/classic_data.json",
+        "options": {}
+      },
+      "id": "frais-classic",
+      "name": "Frais classic",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -160,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/florian974fd974-arch/Meta-Pok-/main/data/vgc_data.json",
+        "options": {}
+      },
+      "id": "frais-vgc",
+      "name": "Frais vgc",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        60,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/florian974fd974-arch/Meta-Pok-/main/data/unite_data.json",
+        "options": {}
+      },
+      "id": "frais-unite",
+      "name": "Frais unite",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        280,
+        300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===== AGENT ACCUEIL — agrège les 4 JSON frais du matin =====\nfunction get(n){ try{ return $(n).first().json; }catch(e){ return {}; } }\nconst tcgp=get('Frais tcgp'), classic=get('Frais classic'), vgc=get('Frais vgc'), unite=get('Frais unite');\nconst now=new Date(), iso=now.toISOString();\nconst jours=['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];\nconst topU=(tcgp.topUsage)||[];\nconst mover=topU.find(d=>d.move==='up'||d.move==='new');\nconst spot=topU.length?topU[(now.getDate())%topU.length]:null;\nconst cTop=(classic.topUsage||[])[0];\nconst home={\n hero:{tag:'Hub Competitif Pokemon',title:\"L'actu competitive en un seul endroit.\"},\n news:[\n  {game:'tcgp',title:(mover?mover.name+\" bouge dans la méta Pocket\":(spot?spot.name+\" — le point méta du \"+jours[now.getDay()]:\"Méta Pocket du jour\")),\n   desc:tcgp.metaSummary||'',when:'TCG Pocket',badgeText:'META',badgeStyle:'tcgp',clickAction:'tcgp'},\n  {game:'vgc',title:((vgc.newsFeed||[])[0]||'VGC — état du format Champions').slice(0,80),\n   desc:(vgc.metaSummary||'').slice(0,220),when:'Pokémon Champions',badgeText:'VGC',badgeStyle:'vgc',clickAction:'vgc'},\n  {game:'classic',title:cTop?cTop.name+\" à \"+cTop.share+\"% des points\":'TCG Classic — le point format',\n   desc:classic.metaSummary||'',when:'TCG Classic',badgeText:'CLASSIC',badgeStyle:'classic',clickAction:'classic'},\n  {game:'unite',title:'Unite — tier list du jour',\n   desc:(unite.metaSummary||'').slice(0,220),when:'Pokémon Unite',badgeText:'UNITE',badgeStyle:'unite',clickAction:'unite'}\n ],\n timeline:[\n  {title:'Pokémon Champions mobile',desc:'Sortie iOS/Android le 17 juin',game:'vgc',date:'17 juin · VGC'},\n  {title:'Mini-set B3b (estimé)',desc:'Le prochain catalyseur de la méta Pocket',game:'tcgp',date:'~10 juillet · TCG POCKET'}\n ],\n gamePreviews:{tcgp:true,vgc:true,classic:true,unite:true},\n updatedAt:iso };\nreturn [{json:{content:JSON.stringify(home,null,2),msg:\"bot(home) \"+now.toLocaleDateString('fr-FR')+\" : une = \"+home.news[0].title}}];\n"
+      },
+      "id": "une-du-jour",
+      "name": "Une du jour",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        500,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "edit",
+        "owner": "florian974fd974-arch",
+        "repository": "Meta-Pok-",
+        "filePath": "data/home_data.json",
+        "fileContent": "={{ $json.content }}",
+        "commitMessage": "={{ $json.msg }}"
+      },
+      "id": "commit-home-data",
+      "name": "Commit home_data",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1,
+      "position": [
+        720,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Tous les jours 8h30": {
+      "main": [
+        [
+          {
+            "node": "Frais tcgp",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Frais tcgp": {
+      "main": [
+        [
+          {
+            "node": "Frais classic",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Frais classic": {
+      "main": [
+        [
+          {
+            "node": "Frais vgc",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Frais vgc": {
+      "main": [
+        [
+          {
+            "node": "Frais unite",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Frais unite": {
+      "main": [
+        [
+          {
+            "node": "Une du jour",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Une du jour": {
+      "main": [
+        [
+          {
+            "node": "Commit home_data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
