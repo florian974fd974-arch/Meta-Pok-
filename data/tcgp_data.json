@@ -4,18 +4,18 @@
     "name": "Paradox Drive",
     "status": "available"
   },
-  "metaSummary": "Stabilité du top 10 : 10/10 inchangés. Le format attend son prochain catalyseur (B3b ?).",
+  "metaSummary": "Set B3a - Paradox Drive (80 tournois, 9 329 joueurs, 26 011 matchs trackés par Limitless). Mega Altaria ex Espeon domine l'usage (8,20%) mais plafonne à 50,6% de winrate. Meilleur winrate jouable (usage ≥2%) : Suicune ex Baxcalibur (52,89%), devant Mega Blaziken ex Greninja (52,84%). Les decks Koraidon, stars du Day 1, sont retombés à 45-48% de WR.",
   "topDecks": [
     {
       "rank": 1,
       "name": "Mega Altaria ex Espeon",
-      "usage": 8.19,
-      "winrate": 50.55,
-      "record": "2323-2167-105",
-      "winRate": 50.55,
-      "share": 8.19,
-      "move": "stable",
+      "usage": 8.2,
+      "winrate": 50.58,
+      "record": "2285-2132-101",
+      "winRate": 50.58,
+      "share": 8.2,
       "limitless": "mega-altaria-ex-b1-espeon-b3a",
+      "listBy": "MrPoseidon (1st, 11-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -80,19 +80,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "MrPoseidon (1st, 11-3-0)"
+      }
     },
     {
       "rank": 2,
       "name": "Miraidon ex Magnezone",
-      "usage": 6,
-      "winrate": 48.87,
-      "record": "1573-1551-95",
-      "winRate": 48.87,
-      "share": 6,
-      "move": "stable",
+      "usage": 5.99,
+      "winrate": 48.96,
+      "record": "1546-1518-94",
+      "winRate": 48.96,
+      "share": 5.99,
       "limitless": "miraidon-ex-b3a-magnezone-b1a",
+      "listBy": "𝗠𝗲𝗴𝗮 Hanna 𝗘𝗫 (1st, 13-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -160,19 +159,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Mega Hanna EX (1st, 13-3-0)"
+      }
     },
     {
       "rank": 3,
       "name": "Magnezone Miraidon ex",
-      "usage": 5.44,
+      "usage": 5.52,
       "winrate": 50.64,
-      "record": "1515-1387-90",
+      "record": "1508-1380-90",
       "winRate": 50.64,
-      "share": 5.44,
-      "move": "stable",
+      "share": 5.52,
       "limitless": "magnezone-b1a-miraidon-ex-b3a",
+      "listBy": "LikoUnite (1st, 12-1-1)",
       "cards": {
         "pokemon": [
           {
@@ -240,19 +238,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "LikoUnite (1st, 12-1-1)"
+      }
     },
     {
       "rank": 4,
       "name": "Suicune ex Baxcalibur",
-      "usage": 5.14,
-      "winrate": 52.64,
-      "record": "1624-1371-90",
-      "winRate": 52.64,
-      "share": 5.14,
-      "move": "stable",
+      "usage": 5.1,
+      "winrate": 52.89,
+      "record": "1599-1335-89",
+      "winRate": 52.89,
+      "share": 5.1,
       "limitless": "suicune-ex-a4a-baxcalibur-b2a",
+      "listBy": "PA1N (1st, 11-2-1)",
       "cards": {
         "pokemon": [
           {
@@ -311,19 +308,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "PA1N (1st, 11-2-1)"
+      }
     },
     {
       "rank": 5,
       "name": "Mega Sceptile ex Sceptile",
-      "usage": 4.37,
-      "winrate": 50.14,
-      "record": "1221-1136-78",
-      "winRate": 50.14,
-      "share": 4.37,
-      "move": "stable",
+      "usage": 4.36,
+      "winrate": 50.23,
+      "record": "1197-1111-75",
+      "winRate": 50.23,
+      "share": 4.36,
       "limitless": "mega-sceptile-ex-sceptile-b3",
+      "listBy": "Evan34 (2nd, 10-3-1)",
       "cards": {
         "pokemon": [
           {
@@ -393,19 +389,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Evan34 (2nd, 10-3-1)"
+      }
     },
     {
       "rank": 6,
       "name": "Mega Altaria ex Gourgeist",
-      "usage": 4.23,
-      "winrate": 51.68,
-      "record": "1280-1105-92",
-      "winRate": 51.68,
-      "share": 4.23,
-      "move": "stable",
+      "usage": 4.28,
+      "winrate": 51.69,
+      "record": "1268-1093-92",
+      "winRate": 51.69,
+      "share": 4.28,
       "limitless": "mega-altaria-ex-b1-gourgeist-b2",
+      "listBy": "Soadmon (1st, 11-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -479,19 +474,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Soadmon (1st, 11-3-0)"
+      }
     },
     {
       "rank": 7,
       "name": "Mega Blaziken ex Greninja",
-      "usage": 4.16,
-      "winrate": 52.88,
-      "record": "1324-1087-93",
-      "winRate": 52.88,
-      "share": 4.16,
-      "move": "stable",
+      "usage": 4.15,
+      "winrate": 52.84,
+      "record": "1292-1061-92",
+      "winRate": 52.84,
+      "share": 4.15,
       "limitless": "mega-blaziken-ex-b1-greninja-a1",
+      "listBy": "PGX | Zerox (1st, 9-1-1)",
       "cards": {
         "pokemon": [
           {
@@ -565,19 +559,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "PGX | Zerox (1st, 9-1-1)"
+      }
     },
     {
       "rank": 8,
       "name": "Hydreigon Mega Absol ex",
-      "usage": 3.58,
-      "winrate": 51.7,
-      "record": "1062-936-56",
-      "winRate": 51.7,
-      "share": 3.58,
-      "move": "stable",
+      "usage": 3.54,
+      "winrate": 51.8,
+      "record": "1035-910-53",
+      "winRate": 51.8,
+      "share": 3.54,
       "limitless": "hydreigon-mega-absol-ex-b1",
+      "listBy": "AnHz (2nd, 11-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -636,19 +629,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "AnHz (2nd, 11-3-0)"
+      }
     },
     {
       "rank": 9,
       "name": "Zoroark ex Mega Absol ex",
-      "usage": 2.88,
-      "winrate": 50.2,
-      "record": "770-731-33",
-      "winRate": 50.2,
-      "share": 2.88,
-      "move": "stable",
+      "usage": 2.92,
+      "winrate": 50.26,
+      "record": "768-727-33",
+      "winRate": 50.26,
+      "share": 2.92,
       "limitless": "zoroark-ex-b3-mega-absol-ex-b1",
+      "listBy": "Artik | Buzz (1st, 8-1-1)",
       "cards": {
         "pokemon": [
           {
@@ -716,19 +708,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Artik | Buzz (1st, 8-1-1)"
+      }
     },
     {
       "rank": 10,
       "name": "Magnezone ex Magnezone",
-      "usage": 2.72,
-      "winrate": 49.61,
-      "record": "704-683-32",
-      "winRate": 49.61,
-      "share": 2.72,
-      "move": "stable",
+      "usage": 2.68,
+      "winrate": 49.56,
+      "record": "676-657-31",
+      "winRate": 49.56,
+      "share": 2.68,
       "limitless": "magnezone-ex-b3-magnezone-b1a",
+      "listBy": "LiquidHunter (1st, 10-2-0)",
       "cards": {
         "pokemon": [
           {
@@ -801,21 +792,20 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "LiquidHunter (1st, 10-2-0)"
+      }
     }
   ],
   "topUsage": [
     {
       "rank": 1,
       "name": "Mega Altaria ex Espeon",
-      "usage": 8.19,
-      "winrate": 50.55,
-      "record": "2323-2167-105",
-      "winRate": 50.55,
-      "share": 8.19,
-      "move": "stable",
+      "usage": 8.2,
+      "winrate": 50.58,
+      "record": "2285-2132-101",
+      "winRate": 50.58,
+      "share": 8.2,
       "limitless": "mega-altaria-ex-b1-espeon-b3a",
+      "listBy": "MrPoseidon (1st, 11-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -880,19 +870,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "MrPoseidon (1st, 11-3-0)"
+      }
     },
     {
       "rank": 2,
       "name": "Miraidon ex Magnezone",
-      "usage": 6,
-      "winrate": 48.87,
-      "record": "1573-1551-95",
-      "winRate": 48.87,
-      "share": 6,
-      "move": "stable",
+      "usage": 5.99,
+      "winrate": 48.96,
+      "record": "1546-1518-94",
+      "winRate": 48.96,
+      "share": 5.99,
       "limitless": "miraidon-ex-b3a-magnezone-b1a",
+      "listBy": "𝗠𝗲𝗴𝗮 Hanna 𝗘𝗫 (1st, 13-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -960,19 +949,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Mega Hanna EX (1st, 13-3-0)"
+      }
     },
     {
       "rank": 3,
       "name": "Magnezone Miraidon ex",
-      "usage": 5.44,
+      "usage": 5.52,
       "winrate": 50.64,
-      "record": "1515-1387-90",
+      "record": "1508-1380-90",
       "winRate": 50.64,
-      "share": 5.44,
-      "move": "stable",
+      "share": 5.52,
       "limitless": "magnezone-b1a-miraidon-ex-b3a",
+      "listBy": "LikoUnite (1st, 12-1-1)",
       "cards": {
         "pokemon": [
           {
@@ -1040,19 +1028,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "LikoUnite (1st, 12-1-1)"
+      }
     },
     {
       "rank": 4,
       "name": "Suicune ex Baxcalibur",
-      "usage": 5.14,
-      "winrate": 52.64,
-      "record": "1624-1371-90",
-      "winRate": 52.64,
-      "share": 5.14,
-      "move": "stable",
+      "usage": 5.1,
+      "winrate": 52.89,
+      "record": "1599-1335-89",
+      "winRate": 52.89,
+      "share": 5.1,
       "limitless": "suicune-ex-a4a-baxcalibur-b2a",
+      "listBy": "PA1N (1st, 11-2-1)",
       "cards": {
         "pokemon": [
           {
@@ -1111,19 +1098,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "PA1N (1st, 11-2-1)"
+      }
     },
     {
       "rank": 5,
       "name": "Mega Sceptile ex Sceptile",
-      "usage": 4.37,
-      "winrate": 50.14,
-      "record": "1221-1136-78",
-      "winRate": 50.14,
-      "share": 4.37,
-      "move": "stable",
+      "usage": 4.36,
+      "winrate": 50.23,
+      "record": "1197-1111-75",
+      "winRate": 50.23,
+      "share": 4.36,
       "limitless": "mega-sceptile-ex-sceptile-b3",
+      "listBy": "Evan34 (2nd, 10-3-1)",
       "cards": {
         "pokemon": [
           {
@@ -1193,19 +1179,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Evan34 (2nd, 10-3-1)"
+      }
     },
     {
       "rank": 6,
       "name": "Mega Altaria ex Gourgeist",
-      "usage": 4.23,
-      "winrate": 51.68,
-      "record": "1280-1105-92",
-      "winRate": 51.68,
-      "share": 4.23,
-      "move": "stable",
+      "usage": 4.28,
+      "winrate": 51.69,
+      "record": "1268-1093-92",
+      "winRate": 51.69,
+      "share": 4.28,
       "limitless": "mega-altaria-ex-b1-gourgeist-b2",
+      "listBy": "Soadmon (1st, 11-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -1279,19 +1264,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Soadmon (1st, 11-3-0)"
+      }
     },
     {
       "rank": 7,
       "name": "Mega Blaziken ex Greninja",
-      "usage": 4.16,
-      "winrate": 52.88,
-      "record": "1324-1087-93",
-      "winRate": 52.88,
-      "share": 4.16,
-      "move": "stable",
+      "usage": 4.15,
+      "winrate": 52.84,
+      "record": "1292-1061-92",
+      "winRate": 52.84,
+      "share": 4.15,
       "limitless": "mega-blaziken-ex-b1-greninja-a1",
+      "listBy": "PGX | Zerox (1st, 9-1-1)",
       "cards": {
         "pokemon": [
           {
@@ -1365,19 +1349,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "PGX | Zerox (1st, 9-1-1)"
+      }
     },
     {
       "rank": 8,
       "name": "Hydreigon Mega Absol ex",
-      "usage": 3.58,
-      "winrate": 51.7,
-      "record": "1062-936-56",
-      "winRate": 51.7,
-      "share": 3.58,
-      "move": "stable",
+      "usage": 3.54,
+      "winrate": 51.8,
+      "record": "1035-910-53",
+      "winRate": 51.8,
+      "share": 3.54,
       "limitless": "hydreigon-mega-absol-ex-b1",
+      "listBy": "AnHz (2nd, 11-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -1436,19 +1419,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "AnHz (2nd, 11-3-0)"
+      }
     },
     {
       "rank": 9,
       "name": "Zoroark ex Mega Absol ex",
-      "usage": 2.88,
-      "winrate": 50.2,
-      "record": "770-731-33",
-      "winRate": 50.2,
-      "share": 2.88,
-      "move": "stable",
+      "usage": 2.92,
+      "winrate": 50.26,
+      "record": "768-727-33",
+      "winRate": 50.26,
+      "share": 2.92,
       "limitless": "zoroark-ex-b3-mega-absol-ex-b1",
+      "listBy": "Artik | Buzz (1st, 8-1-1)",
       "cards": {
         "pokemon": [
           {
@@ -1516,19 +1498,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Artik | Buzz (1st, 8-1-1)"
+      }
     },
     {
       "rank": 10,
       "name": "Magnezone ex Magnezone",
-      "usage": 2.72,
-      "winrate": 49.61,
-      "record": "704-683-32",
-      "winRate": 49.61,
-      "share": 2.72,
-      "move": "stable",
+      "usage": 2.68,
+      "winrate": 49.56,
+      "record": "676-657-31",
+      "winRate": 49.56,
+      "share": 2.68,
       "limitless": "magnezone-ex-b3-magnezone-b1a",
+      "listBy": "LiquidHunter (1st, 10-2-0)",
       "cards": {
         "pokemon": [
           {
@@ -1601,20 +1582,90 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "LiquidHunter (1st, 10-2-0)"
+      }
     }
   ],
   "topWinrate": [
     {
       "rank": 1,
+      "name": "Suicune ex Baxcalibur",
+      "winrate": 52.89,
+      "usage": 5.1,
+      "record": "1599-1335-89",
+      "winRate": 52.89,
+      "share": 5.1,
+      "limitless": "suicune-ex-a4a-baxcalibur-b2a",
+      "listBy": "PA1N (1st, 11-2-1)",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Frigibax",
+            "s": "frigibax"
+          },
+          {
+            "q": 2,
+            "n": "Baxcalibur",
+            "s": "baxcalibur"
+          },
+          {
+            "q": 2,
+            "n": "Suicune ex",
+            "s": "suicune"
+          },
+          {
+            "q": 1,
+            "n": "Chien-Pao ex",
+            "s": "chien-pao"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 1,
+            "n": "Pokémon Center Lady"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 2,
+            "n": "Giant Cape"
+          },
+          {
+            "q": 1,
+            "n": "Inflatable Boat"
+          },
+          {
+            "q": 1,
+            "n": "Starting Plains"
+          }
+        ],
+        "energy": []
+      }
+    },
+    {
+      "rank": 2,
       "name": "Mega Blaziken ex Greninja",
-      "winrate": 52.88,
-      "usage": 4.16,
-      "record": "1324-1087-93",
-      "winRate": 52.88,
-      "share": 4.16,
+      "winrate": 52.84,
+      "usage": 4.15,
+      "record": "1292-1061-92",
+      "winRate": 52.84,
+      "share": 4.15,
       "limitless": "mega-blaziken-ex-b1-greninja-a1",
+      "listBy": "PGX | Zerox (1st, 9-1-1)",
       "cards": {
         "pokemon": [
           {
@@ -1688,88 +1739,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "PGX | Zerox (1st, 9-1-1)"
-    },
-    {
-      "rank": 2,
-      "name": "Suicune ex Baxcalibur",
-      "winrate": 52.64,
-      "usage": 5.14,
-      "record": "1624-1371-90",
-      "winRate": 52.64,
-      "share": 5.14,
-      "limitless": "suicune-ex-a4a-baxcalibur-b2a",
-      "cards": {
-        "pokemon": [
-          {
-            "q": 2,
-            "n": "Frigibax",
-            "s": "frigibax"
-          },
-          {
-            "q": 2,
-            "n": "Baxcalibur",
-            "s": "baxcalibur"
-          },
-          {
-            "q": 2,
-            "n": "Suicune ex",
-            "s": "suicune"
-          },
-          {
-            "q": 1,
-            "n": "Chien-Pao ex",
-            "s": "chien-pao"
-          }
-        ],
-        "trainers": [
-          {
-            "q": 2,
-            "n": "Copycat"
-          },
-          {
-            "q": 2,
-            "n": "Professor's Research"
-          },
-          {
-            "q": 1,
-            "n": "Pokémon Center Lady"
-          },
-          {
-            "q": 2,
-            "n": "Rare Candy"
-          },
-          {
-            "q": 2,
-            "n": "Poké Ball"
-          },
-          {
-            "q": 2,
-            "n": "Giant Cape"
-          },
-          {
-            "q": 1,
-            "n": "Inflatable Boat"
-          },
-          {
-            "q": 1,
-            "n": "Starting Plains"
-          }
-        ],
-        "energy": []
-      },
-      "listBy": "PA1N (1st, 11-2-1)"
+      }
     },
     {
       "rank": 3,
       "name": "Hydreigon Mega Absol ex",
-      "winrate": 51.7,
-      "usage": 3.58,
-      "record": "1062-936-56",
-      "winRate": 51.7,
-      "share": 3.58,
+      "winrate": 51.8,
+      "usage": 3.54,
+      "record": "1035-910-53",
+      "winRate": 51.8,
+      "share": 3.54,
       "limitless": "hydreigon-mega-absol-ex-b1",
+      "listBy": "AnHz (2nd, 11-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -1828,18 +1809,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "AnHz (2nd, 11-3-0)"
+      }
     },
     {
       "rank": 4,
       "name": "Mega Altaria ex Gourgeist",
-      "winrate": 51.68,
-      "usage": 4.23,
-      "record": "1280-1105-92",
-      "winRate": 51.68,
-      "share": 4.23,
+      "winrate": 51.69,
+      "usage": 4.28,
+      "record": "1268-1093-92",
+      "winRate": 51.69,
+      "share": 4.28,
       "limitless": "mega-altaria-ex-b1-gourgeist-b2",
+      "listBy": "Soadmon (1st, 11-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -1913,18 +1894,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Soadmon (1st, 11-3-0)"
+      }
     },
     {
       "rank": 5,
       "name": "Magnezone Miraidon ex",
       "winrate": 50.64,
-      "usage": 5.44,
-      "record": "1515-1387-90",
+      "usage": 5.52,
+      "record": "1508-1380-90",
       "winRate": 50.64,
-      "share": 5.44,
+      "share": 5.52,
       "limitless": "magnezone-b1a-miraidon-ex-b3a",
+      "listBy": "LikoUnite (1st, 12-1-1)",
       "cards": {
         "pokemon": [
           {
@@ -1992,18 +1973,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "LikoUnite (1st, 12-1-1)"
+      }
     },
     {
       "rank": 6,
       "name": "Mega Altaria ex Espeon",
-      "winrate": 50.55,
-      "usage": 8.19,
-      "record": "2323-2167-105",
-      "winRate": 50.55,
-      "share": 8.19,
+      "winrate": 50.58,
+      "usage": 8.2,
+      "record": "2285-2132-101",
+      "winRate": 50.58,
+      "share": 8.2,
       "limitless": "mega-altaria-ex-b1-espeon-b3a",
+      "listBy": "MrPoseidon (1st, 11-3-0)",
       "cards": {
         "pokemon": [
           {
@@ -2068,18 +2049,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "MrPoseidon (1st, 11-3-0)"
+      }
     },
     {
       "rank": 7,
       "name": "Zoroark ex Mega Absol ex",
-      "winrate": 50.2,
-      "usage": 2.88,
-      "record": "770-731-33",
-      "winRate": 50.2,
-      "share": 2.88,
+      "winrate": 50.26,
+      "usage": 2.92,
+      "record": "768-727-33",
+      "winRate": 50.26,
+      "share": 2.92,
       "limitless": "zoroark-ex-b3-mega-absol-ex-b1",
+      "listBy": "Artik | Buzz (1st, 8-1-1)",
       "cards": {
         "pokemon": [
           {
@@ -2147,18 +2128,18 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Artik | Buzz (1st, 8-1-1)"
+      }
     },
     {
       "rank": 8,
       "name": "Mega Sceptile ex Sceptile",
-      "winrate": 50.14,
-      "usage": 4.37,
-      "record": "1221-1136-78",
-      "winRate": 50.14,
-      "share": 4.37,
+      "winrate": 50.23,
+      "usage": 4.36,
+      "record": "1197-1111-75",
+      "winRate": 50.23,
+      "share": 4.36,
       "limitless": "mega-sceptile-ex-sceptile-b3",
+      "listBy": "Evan34 (2nd, 10-3-1)",
       "cards": {
         "pokemon": [
           {
@@ -2228,28 +2209,93 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "Evan34 (2nd, 10-3-1)"
+      }
     },
     {
       "rank": 9,
       "name": "Greninja Mega Absol ex",
-      "winrate": 49.83,
-      "usage": 2.15,
-      "record": "575-533-46",
-      "winRate": 49.83,
-      "share": 2.15,
-      "limitless": "greninja-a1-mega-absol-ex-b1"
+      "winrate": 49.73,
+      "usage": 2.14,
+      "record": "560-521-45",
+      "winRate": 49.73,
+      "share": 2.14,
+      "limitless": "greninja-a1-mega-absol-ex-b1",
+      "cards": {
+        "pokemon": [
+          {
+            "q": 2,
+            "n": "Froakie",
+            "s": "froakie"
+          },
+          {
+            "q": 2,
+            "n": "Greninja",
+            "s": "greninja"
+          },
+          {
+            "q": 2,
+            "n": "Chingling",
+            "s": "chingling"
+          },
+          {
+            "q": 1,
+            "n": "Mega Absol ex",
+            "s": "absol-mega"
+          },
+          {
+            "q": 1,
+            "n": "Darkrai ex",
+            "s": "darkrai"
+          }
+        ],
+        "trainers": [
+          {
+            "q": 2,
+            "n": "Professor's Research"
+          },
+          {
+            "q": 2,
+            "n": "Copycat"
+          },
+          {
+            "q": 1,
+            "n": "Mars"
+          },
+          {
+            "q": 1,
+            "n": "Cyrus"
+          },
+          {
+            "q": 2,
+            "n": "Rare Candy"
+          },
+          {
+            "q": 2,
+            "n": "Poké Ball"
+          },
+          {
+            "q": 1,
+            "n": "X Speed"
+          },
+          {
+            "q": 1,
+            "n": "Rocky Helmet"
+          }
+        ],
+        "energy": []
+      },
+      "listBy": "FrogEX|Momo (3rd, 14-1-1)"
     },
     {
       "rank": 10,
       "name": "Magnezone ex Magnezone",
-      "winrate": 49.61,
-      "usage": 2.72,
-      "record": "704-683-32",
-      "winRate": 49.61,
-      "share": 2.72,
+      "winrate": 49.56,
+      "usage": 2.68,
+      "record": "676-657-31",
+      "winRate": 49.56,
+      "share": 2.68,
       "limitless": "magnezone-ex-b3-magnezone-b1a",
+      "listBy": "LiquidHunter (1st, 10-2-0)",
       "cards": {
         "pokemon": [
           {
@@ -2322,8 +2368,7 @@
           }
         ],
         "energy": []
-      },
-      "listBy": "LiquidHunter (1st, 10-2-0)"
+      }
     }
   ],
   "analysis": {
@@ -2332,81 +2377,87 @@
     "whatToPlay": "Usage : Mega Altaria ex Espeon. Winrate : Mega Blaziken ex Greninja."
   },
   "enteringMeta": [
-    "Jolteon ex Jolteon (53.95% WR, outsider)"
+    "Mega Charizard Y ex Entei ex (53,0% WR)",
+    "Jolteon ex Jolteon (54,8% WR)",
+    "Iron Valiant Iron Boulder (51,2% WR)"
   ],
-  "leavingMeta": [],
+  "leavingMeta": [
+    "Great Tusk Koraidon ex (47,8%)",
+    "Mega Lucario ex Koraidon ex (45,0%)",
+    "Flutter Mane ex Greninja (36,9%)"
+  ],
   "movements": [
     {
-      "slug": "mega-altaria-ex-b1-espeon-b3a",
+      "slug": "mega-altaria-ex-espeon",
       "name": "Mega Altaria ex Espeon",
       "rank": 1,
-      "usage": 8.19,
+      "usage": 8.2,
       "move": "stable"
     },
     {
-      "slug": "miraidon-ex-b3a-magnezone-b1a",
+      "slug": "miraidon-ex-magnezone",
       "name": "Miraidon ex Magnezone",
       "rank": 2,
-      "usage": 6,
+      "usage": 5.99,
       "move": "stable"
     },
     {
-      "slug": "magnezone-b1a-miraidon-ex-b3a",
+      "slug": "magnezone-miraidon-ex",
       "name": "Magnezone Miraidon ex",
       "rank": 3,
-      "usage": 5.44,
+      "usage": 5.52,
       "move": "stable"
     },
     {
-      "slug": "suicune-ex-a4a-baxcalibur-b2a",
+      "slug": "suicune-ex-baxcalibur",
       "name": "Suicune ex Baxcalibur",
       "rank": 4,
-      "usage": 5.14,
+      "usage": 5.1,
       "move": "stable"
     },
     {
-      "slug": "mega-sceptile-ex-sceptile-b3",
+      "slug": "mega-sceptile-ex-sceptile",
       "name": "Mega Sceptile ex Sceptile",
       "rank": 5,
-      "usage": 4.37,
+      "usage": 4.36,
       "move": "stable"
     },
     {
-      "slug": "mega-altaria-ex-b1-gourgeist-b2",
+      "slug": "mega-altaria-ex-gourgeist",
       "name": "Mega Altaria ex Gourgeist",
       "rank": 6,
-      "usage": 4.23,
+      "usage": 4.28,
       "move": "stable"
     },
     {
-      "slug": "mega-blaziken-ex-b1-greninja-a1",
+      "slug": "mega-blaziken-ex-greninja",
       "name": "Mega Blaziken ex Greninja",
       "rank": 7,
-      "usage": 4.16,
+      "usage": 4.15,
       "move": "stable"
     },
     {
-      "slug": "hydreigon-mega-absol-ex-b1",
+      "slug": "hydreigon-mega-absol-ex",
       "name": "Hydreigon Mega Absol ex",
       "rank": 8,
-      "usage": 3.58,
+      "usage": 3.54,
       "move": "stable"
     },
     {
-      "slug": "zoroark-ex-b3-mega-absol-ex-b1",
+      "slug": "zoroark-ex-mega-absol-ex",
       "name": "Zoroark ex Mega Absol ex",
       "rank": 9,
-      "usage": 2.88,
+      "usage": 2.92,
       "move": "stable"
     },
     {
-      "slug": "magnezone-ex-b3-magnezone-b1a",
+      "slug": "magnezone-ex-magnezone",
       "name": "Magnezone ex Magnezone",
       "rank": 10,
-      "usage": 2.72,
+      "usage": 2.68,
       "move": "stable"
     }
   ],
-  "totalDecks": 782,
-  "updatedAt": "2026-06-12T14:27:53.709Z"
+  "totalDecks": 50,
+  "updatedAt": "2026-06-12T14:28:41.379Z"
 }
