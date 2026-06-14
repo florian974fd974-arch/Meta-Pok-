@@ -541,6 +541,46 @@
     }catch(e){}
   }
 
+  // ---- Tournois génériques : tout tournoi auto:true de l'index obtient son onglet + panneau ----
+  function injectGenericTournaments(){
+    J('tournaments_index.json').then(function(idx){
+      if(!idx||!idx.tournaments) return;
+      var subtabs=document.querySelector('#page-tournaments .subtabs'); if(!subtabs) return;
+      var contentParent=document.querySelector('#page-tournaments .tournament-content');
+      contentParent=contentParent?contentParent.parentNode:null; if(!contentParent) return;
+      var statusMap={a_venir:['📅','À venir'], en_cours:['🔴','En cours'], termine:['🏁','Terminé']};
+      idx.tournaments.forEach(function(t){
+        if(!t.auto) return;
+        if(document.getElementById('tournament-'+t.id)) return; // déjà présent
+        var st=statusMap[t.status]||['•',t.status||''];
+        // onglet
+        var btn=el('button','subtab'); btn.setAttribute('data-tournament',t.id);
+        btn.innerHTML='<span class="icon">'+esc(t.icon||'🏆')+'</span><span class="subtab-info"><span class="subtab-name">'+esc(t.name)+'</span><span class="subtab-meta">'+esc(t.subtitle||'')+'</span></span>';
+        btn.addEventListener('click', function(){
+          var all=document.querySelectorAll('#page-tournaments .subtab'); for(var i=0;i<all.length;i++) all[i].classList.remove('active');
+          btn.classList.add('active');
+          var cs=document.querySelectorAll('#page-tournaments .tournament-content'); for(var j=0;j<cs.length;j++) cs[j].classList.remove('active');
+          var c=document.getElementById('tournament-'+t.id); if(c) c.classList.add('active');
+        });
+        subtabs.appendChild(btn);
+        // panneau
+        var typeLbl=(t.type==='individuel')?'CHAMPIONNAT INDIVIDUEL':'LIGUE D\'ÉQUIPES';
+        var html='<div class="tournament-hero"><div>'
+          +'<span class="game-badge pocket">● TCG POCKET · '+typeLbl+'</span>'
+          +'<h3>'+esc((t.icon?t.icon+' ':'')+t.name)+'</h3>'
+          +'<p>'+esc(t.format||'')+'</p></div>'
+          +'<div class="tournament-stats-grid"><div class="t-stat"><div class="v">'+st[0]+'</div><div class="l">'+esc(st[1])+'</div></div></div></div>';
+        var hasDays=t.journees&&t.journees.length;
+        if(t.reglement) html+='<div style="margin:0 0 20px"><a class="modal-btn primary" target="_blank" href="'+esc(t.reglement)+'">📄 Règlement officiel →</a></div>';
+        if(!hasDays){
+          html+='<div class="info-box" style="margin:20px 0"><div class="icon">🔜</div><div><div class="title">'+(t.status==='a_venir'?'Tournoi à venir':'En cours de remplissage')+'</div><p>Les équipes, le calendrier et les decklists apparaîtront ici automatiquement dès que les dossiers seront ajoutés au Drive (mise à jour quotidienne).</p></div></div>';
+        }
+        var box=el('div','tournament-content'); box.id='tournament-'+t.id; box.innerHTML=html;
+        contentParent.appendChild(box);
+      });
+    });
+  }
+
   function run(){
     Promise.all([J('tcgp_data.json'),J('classic_data.json'),J('vgc_data.json'),J('unite_data.json')])
     .then(function(r){
@@ -556,6 +596,7 @@
     setTimeout(enrichTimeline, 4500);
     injectReglement();
     injectPblTeams();
+    injectGenericTournaments();
     startCountdown();
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){ setTimeout(run, 200); });
