@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-04T12:00:22.595146Z",
+  "updatedAt": "2026-06-14T10:59:45.464Z",
   "tournaments": [
     {
       "id": "pbl-s1",
@@ -476,13 +476,15 @@
             }
           ]
         }
-      ]
+      ],
+      "type": "equipe",
+      "driveFolderId": "1f-9f4NGKgquFQaRnaP2pzGWn4_WPEg9E"
     },
     {
       "id": "imperium-s1",
       "name": "Imperium Championship — Saison 1",
       "game": "tcgp",
-      "status": "en cours",
+      "status": "termine",
       "format": "Poule MB1 (12 joueurs)",
       "reglement": {
         "title": "Règlement Officiel de l'Imperium Championship",
@@ -628,7 +630,49 @@
           "pts": 0,
           "zone": "relegation"
         }
-      ]
+      ],
+      "type": "individuel",
+      "driveFolderId": "1c8gkG18TiiJlZmbxYCCypGPOA6JI4cgM"
+    },
+    {
+      "id": "imperium-s2",
+      "name": "Imperium Championship — Saison 2",
+      "game": "pocket",
+      "type": "individuel",
+      "status": "en_cours",
+      "format": "Poule de 12 joueurs · championnat aller · BO5 · 3 pts victoire / 1 nul / 0 défaite · promotion/relégation",
+      "reglement": "https://drive.google.com/file/d/18dM4XcpMYfpf3N1729rg0_aH5xW9hQOK/view",
+      "standings": "https://drive.google.com/drive/folders/1VfthQyUof1RcKKd010sG1-5p5QWVcY95",
+      "driveFolderId": "1rcO481C4C9FQK0GNxtcMmwcVlfxNexRF",
+      "journees": []
+    },
+    {
+      "id": "bbt-woc",
+      "name": "BBT — Winds of Change",
+      "game": "pocket",
+      "type": "equipe",
+      "status": "en_cours",
+      "format": "Équipes 3v3 · 3 règlements tournants (« Vents de changement ») · 10–14 semaines · saison régulière + play-offs",
+      "reglement": "https://drive.google.com/file/d/1v_sZhYL3y6aZgpseAQM-dY3GLb5aJSC8/view",
+      "rosters": "https://drive.google.com/file/d/1yoh7qKbny_Zvx8w5mW5EX43GqYx5Z9r8/view",
+      "standings": null,
+      "driveFolderId": "1QtWwc5TAE__oZ1Jf-cY1SCmd6EdKcOuO",
+      "journees": []
+    },
+    {
+      "id": "xtrem-series",
+      "name": "XTREM Séries",
+      "game": "pocket",
+      "type": "equipe",
+      "status": "a_venir",
+      "auto": true,
+      "icon": "🔥",
+      "subtitle": "TCG Pocket · Équipes · À venir",
+      "format": "Nouveau circuit communautaire par équipes organisé par XTREM. Détails du format, calendrier et équipes à confirmer.",
+      "reglement": null,
+      "standings": null,
+      "journees": []
     }
-  ]
+  ],
+  "tournamentsRootFolderId": "1xczNCDCtJKs1zJOKdUchXCv-SVGh80Cp"
 }
