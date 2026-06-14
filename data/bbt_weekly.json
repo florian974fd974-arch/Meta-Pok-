@@ -1,31 +1,63 @@
 {
-  "updatedAt": "2026-06-14",
   "weeks": [
     {
       "name": "Weekly 1",
       "subtitle": "Saison régulière · Round Robin",
       "casts": [
         {
-          "name": "Close Combat",
-          "icon": "🔥",
-          "matches": [
-            { "a": "Squad Zero", "b": "Magma", "when": "14 juin · 13:00 GMT" },
-            { "a": "Tridumb", "b": "DNT", "when": "14 juin · 14:00 GMT" },
-            { "a": "IMP Delta", "b": "XTREM", "when": "14 juin · 15:00 GMT" },
-            { "a": "Darksiders", "b": "PTSD Blue", "when": "14 juin · 16:00 GMT" }
-          ]
-        },
-        {
           "name": "Shadow Ball",
           "icon": "🌑",
           "matches": [
-            { "a": "Dream Eaters", "b": "Plasma", "when": "12 juin · 15:00 GMT" },
-            { "a": "Aether", "b": "PTSD Purple", "when": "13 juin · 15:00 GMT" },
-            { "a": "HYP$QUAD", "b": "Rojo Fuego", "when": "14 juin · 17:00 GMT" },
-            { "a": "The Breakfast Club", "b": "Galactic Gang", "when": "14 juin · 20:00 GMT" }
+            {
+              "a": "AETHER",
+              "b": "PTSD PURPLE",
+              "when": "13 juin · 15:00 GMT"
+            },
+            {
+              "a": "THE BREAKFAST CLUB",
+              "b": "GALACTIC GANG",
+              "when": "14 juin · 20:00 GMT"
+            },
+            {
+              "a": "HYP$QUAD",
+              "b": "ROJO FUEGO",
+              "when": "14 juin · 17:00 GMT"
+            },
+            {
+              "a": "DREAM EATERS",
+              "b": "PLASMA",
+              "when": "12 juin · 15:00 GMT"
+            }
+          ]
+        },
+        {
+          "name": "Close Combat",
+          "icon": "🔥",
+          "matches": [
+            {
+              "a": "TRIDUMB",
+              "b": "DNT",
+              "when": "14 juin · 14:00 GMT"
+            },
+            {
+              "a": "DARKSIDERS",
+              "b": "PTSD BLUE",
+              "when": "14 juin · 16:00 GMT"
+            },
+            {
+              "a": "IMP DELTA",
+              "b": "XTREM",
+              "when": "14 juin · 15:00 GMT"
+            },
+            {
+              "a": "SQUAD ZERO",
+              "b": "MAGMA",
+              "when": "14 juin · 13:00 GMT"
+            }
           ]
         }
       ]
     }
-  ]
+  ],
+  "updatedAt": "2026-06-14"
 }
