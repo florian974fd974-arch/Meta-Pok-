@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T10:59:45.464Z",
+  "updatedAt": "2026-06-14T11:06:47.694Z",
   "tournaments": [
     {
       "id": "pbl-s1",
@@ -657,20 +657,6 @@
       "rosters": "https://drive.google.com/file/d/1yoh7qKbny_Zvx8w5mW5EX43GqYx5Z9r8/view",
       "standings": null,
       "driveFolderId": "1QtWwc5TAE__oZ1Jf-cY1SCmd6EdKcOuO",
-      "journees": []
-    },
-    {
-      "id": "xtrem-series",
-      "name": "XTREM Séries",
-      "game": "pocket",
-      "type": "equipe",
-      "status": "a_venir",
-      "auto": true,
-      "icon": "🔥",
-      "subtitle": "TCG Pocket · Équipes · À venir",
-      "format": "Nouveau circuit communautaire par équipes organisé par XTREM. Détails du format, calendrier et équipes à confirmer.",
-      "reglement": null,
-      "standings": null,
       "journees": []
     }
   ],
