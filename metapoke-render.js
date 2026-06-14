@@ -395,8 +395,37 @@
     'Qui entre / qui sort':"Who's in / who's out",'↗ Entrent dans le top':'↗ Entering the top','↘ Sortent du top':'↘ Leaving the top',
     'Sorties & événements à venir':'Upcoming releases & events','Tier list compétitive':'Competitive tier list','Résultats récents':'Recent results',
     // PBL divers
-    'Égalité':'Draw','Demi-finales':'Semifinals','Finale':'Final','Playoffs':'Playoffs','Fermer':'Close'
+    'Égalité':'Draw','Demi-finales':'Semifinals','Finale':'Final','Playoffs':'Playoffs','Fermer':'Close',
+    // Sous-titres de sections live
+    'Méta Pocket du jour':'Pocket meta of the day','VGC — état du format Champions':'VGC — Champions format status','Unite — tier list du jour':'Unite — tier list of the day',
+    'Le prochain catalyseur de la méta Pocket':'The next Pocket meta catalyst','Prochain event':'Next event','Prochain set':'Next set',
+    // Timeline accueil (générée)
+    'Maintenance mensuelle':'Monthly maintenance',
+    "Maintenance technique — possibles ajustements d'équilibrage ou correctifs.":'Technical maintenance — possible balance tweaks or fixes.',
+    'Pokémon Champions — sortie mobile':'Pokémon Champions — mobile release',
+    'Sortie mondiale iOS/Android. Cross-platform Switch et compatible Pokémon HOME.':'Worldwide iOS/Android release. Cross-platform with Switch, Pokémon HOME compatible.',
+    'Événement de collection estival (estimé)':'Summer collection event (estimated)',
+    "Boosters spéciaux ou défis saisonniers attendus pour le début de l'été.":'Special boosters or seasonal challenges expected for early summer.',
+    'Mini-set B3b (estimé)':'Mini-set B3b (estimated)',
+    'Prochain set attendu ~5 semaines après Paradox Drive — le catalyseur que la méta attend.':'Next set expected ~5 weeks after Paradox Drive — the catalyst the meta awaits.',
+    'BO7 avec ban de 2 decks. Le champion de la Saison 1 sera couronné.':'BO7 with 2 deck bans. The Season 1 champion will be crowned.',
+    'PBL — Demi-finales playoffs':'PBL — Playoff semifinals','PBL — Grande Finale & 3e place':'PBL — Grand Final & 3rd place',
+    'Set B4 — Annonce attendue':'Set B4 — Announcement expected',
+    // Phrases PBL calendrier / dates
+    'Saison régulière':'Regular season','Dernière journée saison régulière':'Last day of regular season','Dernière place du Top 4':'Last Top 4 spot'
   };
+  // Règles de motifs pour le texte dynamique récurrent (nombres, mois, etc.) — appliquées si aucune correspondance exacte.
+  var MOIS_EN={'janvier':'January','février':'February','mars':'March','avril':'April','mai':'May','juin':'June','juillet':'July','août':'August','septembre':'September','octobre':'October','novembre':'November','décembre':'December'};
+  var DYN_RULES=[
+    [/(\d)\s*joueurs\b/g,'$1 players'],
+    [/(\d)\s*manches?\s*max\b/gi,'$1 games max'],
+    [/Dernière journée saison régulière/gi,'Last day of regular season'],
+    [/Dernière place du Top\s*4/gi,'Last Top 4 spot'],
+    [/Saison régulière/g,'Regular season'],
+    [/saison régulière/g,'regular season'],
+    [/\b(\d{1,2})\s+(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)\s+(\d{4})\b/g,function(m,d,mo,y){return MOIS_EN[mo]+' '+d+', '+y;}]
+  ];
+  function applyDynRules(s){ var out=s; DYN_RULES.forEach(function(r){ out=out.replace(r[0],r[1]); }); return out; }
   var I18N_EN_PREFIX=[
     ['Victoire ','Victory '],
     ['Égalité · ','Draw · '],
@@ -412,6 +441,7 @@
     var t=n.nodeValue, key=t.trim(); if(!key) return;
     var tr=I18N_EN[key];
     if(tr==null){ for(var i=0;i<I18N_EN_PREFIX.length;i++){ var p=I18N_EN_PREFIX[i]; if(key.indexOf(p[0])===0){ tr=p[1]+key.slice(p[0].length); break; } } }
+    if(tr==null){ var dr=applyDynRules(key); if(dr!==key) tr=dr; }
     if(tr!=null){ if(n.__fr==null) n.__fr=t; n.nodeValue=t.replace(key,tr); }
   }
   var MP_I18N_MAP=null;
