@@ -419,6 +419,7 @@
   var DYN_RULES=[
     [/(\d)\s*joueurs\b/g,'$1 players'],
     [/(\d)\s*manches?\s*max\b/gi,'$1 games max'],
+    [/·\s*Contrôle\b/g,'· Control'],[/·\s*Le plus joué\b/g,'· Most played'],[/·\s*Aggro\b/g,'· Aggro'],
     [/Dernière journée saison régulière/gi,'Last day of regular season'],
     [/Dernière place du Top\s*4/gi,'Last Top 4 spot'],
     [/Saison régulière/g,'Regular season'],
