@@ -581,6 +581,33 @@
     });
   }
 
+  // ---- BBT : calendrier hebdomadaire (Weekly) depuis data/bbt_weekly.json ----
+  function injectBbtSchedule(){
+    J('bbt_weekly.json').then(function(d){
+      if(!d||!d.weeks||!d.weeks.length) return;
+      var host=document.getElementById('tournament-bbt'); if(!host) return;
+      if(host.querySelector('.bbt-weekly')) return;
+      var wrap=el('div','bbt-weekly'); wrap.style.marginTop='32px';
+      d.weeks.forEach(function(wk){
+        wrap.appendChild(el('div','section-meta','— Calendrier · '+esc(wk.name)));
+        var h=el('h3',null,esc(wk.name)+' <span style="color:var(--muted);font-weight:400;font-size:14px">'+esc(wk.subtitle||'')+'</span>');
+        h.style.cssText='font-size:24px;margin:6px 0 18px'; wrap.appendChild(h);
+        (wk.casts||[]).forEach(function(c){
+          var ch=el('div',null,esc((c.icon?c.icon+' ':'')+c.name));
+          ch.style.cssText="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.05em;color:var(--accent);text-transform:uppercase;margin:18px 0 10px";
+          wrap.appendChild(ch);
+          (c.matches||[]).forEach(function(m){
+            var row=el('div'); row.style.cssText='display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin-bottom:8px;flex-wrap:wrap;gap:8px';
+            row.innerHTML='<div style="font-weight:700">'+esc(m.a)+' <span style="color:var(--muted);font-weight:400">vs</span> '+esc(m.b)+'</div>'
+              +'<div style="font-family:\'JetBrains Mono\',monospace;font-size:12px;color:var(--muted)">'+esc(m.when||'')+(m.score?' · <span style="color:var(--accent)">'+esc(m.score)+'</span>':' · à jouer')+'</div>';
+            wrap.appendChild(row);
+          });
+        });
+      });
+      host.appendChild(wrap);
+    });
+  }
+
   function run(){
     Promise.all([J('tcgp_data.json'),J('classic_data.json'),J('vgc_data.json'),J('unite_data.json')])
     .then(function(r){
@@ -597,6 +624,7 @@
     injectReglement();
     injectPblTeams();
     injectGenericTournaments();
+    injectBbtSchedule();
     startCountdown();
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', function(){ setTimeout(run, 200); });
