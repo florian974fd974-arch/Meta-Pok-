@@ -451,7 +451,7 @@
     (window.MP_I18N_HTML||[]).forEach(function(p){ MP_I18N_MAP.set(p[0], p[1]); });
     return MP_I18N_MAP;
   }
-  var I18N_SELECTORS='p, li, h1, h2, h3, h4, .desc, .section-info, .lead, .when, .timeline-title, .timeline-desc, .timeline-date, .label, .title, .subtitle, .meta, .hero-tag, .day-tab-date, .t-stat .l, .stat-mini .l, .qstat .l, .badge, .cta, .op-name, .modal-tag, .ptc-record, .session-meta, .match-result-label, .legend-item, .day-date, .day-title';
+  var I18N_SELECTORS='p, li, h1, h2, h3, h4, .desc, .section-info, .lead, .when, .timeline-title, .timeline-desc, .timeline-date, .label, .title, .subtitle, .meta, .hero-tag, .day-tab-date, .t-stat .l, .stat-mini .l, .qstat .l, .badge, .cta, .op-name, .modal-tag, .ptc-record, .session-meta, .match-result-label, .legend-item, .day-date, .day-title, .pmd-desc, .mp-sec';
   function applyLangElements(lang, root){
     var map=i18nMap(); if(!map.size) return;
     var els=(root||document).querySelectorAll(I18N_SELECTORS);
