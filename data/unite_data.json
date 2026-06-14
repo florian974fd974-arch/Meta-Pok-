@@ -1,260 +1,89 @@
 {
-  "season": "Pokémon Unite",
-  "patch": "Patch 1.23.3.2 — bugfixes and Meganium (2026-05-28)",
-  "metaSummary": "Patch 1.23.3.2 (28/05) — Tier list Game8 de juin 2026 : Moltres reste LE pick dominant (OP), accompagné en tête par Alcremie, Blissey, Darkrai, Latias/Latios, Mega Charizard X, Mega Lucario, Mimikyu, Miraidon, Slowbro et Zacian. Meganium et Feraligatr viennent de monter en tier supérieur. Skeledirge et Quaquaval arrivent courant juin.",
-  "analysis": {
-    "whatToPlay": "Polyvalents méga (Charizard Y, Gyarados) en All-Rounder, Darkrai en Speedster, Blastoise en Defender.",
-    "howToCounter": "Punir les méga avant leur power-spike, dérank Darkrai (CC), pression early sur les S-tier squishy."
-  },
+  "data": "{\n  \"season\": \"Pokémon Unite\",\n  \"patch\": \"Patch 1.23.3.2 — bugfixes and Meganium (2026-05-28)\",\n  \"metaSummary\": \"Patch 1.23.3.2 (28/05) — Tier list Game8 de juin 2026 : Moltres reste LE pick dominant (OP), accompagné en tête par Alcremie, Blissey, Darkrai, Latias/Latios, Mega Charizard X, Mega Lucario, Mimikyu, Miraidon, Slowbro et Zacian. Meganium et Feraligatr viennent de monter en tier supérieur. Skeledirge et Quaquaval arrivent courant juin.\",\n  \"analysis\": {\n    \"whatToPlay\": \"Polyvalents méga (Charizard Y, Gyarados) en All-Rounder, Darkrai en Speedster, Blastoise en Defender.\",\n    \"howToCounter\": \"Punir les méga avant leur power-spike, dérank Darkrai (CC), pression early sur les S-tier squishy.\"\n  },\n  \"tierList\": {\n    \"S\": [\n      \"Moltres\",\n      \"Alcremie\",\n      \"Blissey\",\n      \"Darkrai\",\n      \"Latias\",\n      \"Latios\",\n      \"Leafeon\",\n      \"Mega Charizard X\",\n      \"Mega Lucario\",\n      \"Mimikyu\",\n      \"Miraidon\",\n      \"Slowbro\",\n      \"Zacian\"\n    ],\n    \"S+\": [],\n    \"A+\": [\n      \"Alolan Ninetales\",\n      \"Armarouge\",\n      \"Articuno\",\n      \"Blastoise\",\n      \"Blaziken\",\n      \"Buzzwole\",\n      \"Ceruledge\",\n      \"Clefable\",\n      \"Comfey\",\n      \"Crustle\",\n      \"Dragapult\",\n      \"Dhelmise\",\n      \"Espeon\",\n      \"Feraligatr\",\n      \"Gardevoir\",\n      \"Glaceon\",\n      \"Ho-oh\",\n      \"Hoopa\",\n      \"Meganium\",\n      \"Meowscarada\",\n      \"Meowth\",\n      \"Mew\",\n      \"Pawmot\",\n      \"Pikachu\",\n      \"Psyduck\",\n      \"Scizor\",\n      \"Sirfetch'd\",\n      \"Suicune\",\n      \"Trevenant\",\n      \"Typhlosion\",\n      \"Umbreon\",\n      \"Vaporeon\",\n      \"Venusaur\"\n    ],\n    \"A\": [\n      \"Absol\",\n      \"Aegislash\",\n      \"Alolan Raichu\",\n      \"Chandelure\",\n      \"Cinderace\",\n      \"Drednaw\",\n      \"Delphox\",\n      \"Dodrio\",\n      \"Eldegoss\",\n      \"Empoleon\",\n      \"Galarian Rapidash\",\n      \"Gengar\",\n      \"Goodra\",\n      \"Greninja\",\n      \"Gyarados\",\n      \"Inteleon\",\n      \"Lapras\",\n      \"Lucario\",\n      \"Mamoswine\",\n      \"Mega Mewtwo X\",\n      \"Mega Mewtwo Y\",\n      \"Metagross\",\n      \"Snorlax\",\n      \"Sylveon\",\n      \"Talonflame\",\n      \"Tinkaton\",\n      \"Tyranitar\",\n      \"Urshifu\",\n      \"Wigglytuff\",\n      \"Zeraora\"\n    ],\n    \"B+\": [],\n    \"B\": [\n      \"Azumarill\",\n      \"Charizard\",\n      \"Cramorant\",\n      \"Decidueye\",\n      \"Dragonite\",\n      \"Duraludon\",\n      \"Falinks\",\n      \"Machamp\",\n      \"Mr. Mime\",\n      \"Sableye\",\n      \"Tsareena\"\n    ],\n    \"C\": [\n      \"Garchomp\",\n      \"Greedent\"\n    ],\n    \"D\": [],\n    \"F\": [],\n    \"TBD\": [\n      \"Skeledirge (juin)\",\n      \"Quaquaval (juin)\"\n    ]\n  },\n  \"topPokemon\": [\n    {\n      \"name\": \"Blastoise\",\n      \"tier\": \"A+\",\n      \"role\": \"Defender\",\n      \"heldItems\": [\n        \"Focus Band\",\n        \"Energy Amplifier\",\n        \"Resonant Guard\"\n      ],\n      \"battleItem\": \"Eject Button\"\n    },\n    {\n      \"name\": \"Blaziken\",\n      \"tier\": \"A+\",\n      \"role\": \"All-Rounder\",\n      \"heldItems\": [\n        \"Attack Weight\",\n        \"Aeos Cookie\",\n        \"Weakness Policy\"\n      ],\n      \"battleItem\": \"Eject Button\"\n    },\n    {\n      \"name\": \"Mega Charizard Y\",\n      \"tier\": \"S\",\n      \"role\": \"All-Rounder\",\n      \"heldItems\": [\n        \"Charizardite Y\",\n        \"Attack Weight\",\n        \"Curse Bangle\"\n      ],\n      \"battleItem\": \"Full Heal\"\n    },\n    {\n      \"name\": \"Darkrai\",\n      \"tier\": \"S\",\n      \"role\": \"Speedster\",\n      \"heldItems\": [\n        \"Slick Spoon\",\n        \"Drive Lens\",\n        \"Wise Glasses\"\n      ],\n      \"battleItem\": \"Potion\"\n    },\n    {\n      \"name\": \"Mega Gyarados\",\n      \"tier\": \"S\",\n      \"role\": \"All-Rounder\",\n      \"heldItems\": [\n        \"Gyaradosite\",\n        \"Weakness Policy\",\n        \"Attack Weight\"\n      ],\n      \"battleItem\": \"Eject Button\"\n    },\n    {\n      \"name\": \"Alcremie\",\n      \"tier\": \"S\",\n      \"role\": \"Supporter\",\n      \"heldItems\": [\n        \"Exp Share\",\n        \"Buddy Barrier\",\n        \"Wise Glasses\"\n      ],\n      \"battleItem\": \"Eject Button\"\n    },\n    {\n      \"name\": \"Blissey\",\n      \"tier\": \"S\",\n      \"role\": \"Supporter\",\n      \"heldItems\": [\n        \"Exp Share\",\n        \"Buddy Barrier\",\n        \"Energy Amplifier\"\n      ],\n      \"battleItem\": \"X Speed\"\n    },\n    {\n      \"name\": \"Ceruledge\",\n      \"tier\": \"A+\",\n      \"role\": \"All-Rounder\",\n      \"heldItems\": [\n        \"Muscle Band\",\n        \"Razor Claw\",\n        \"Curse Bangle\"\n      ],\n      \"battleItem\": \"Eject Button\"\n    },\n    {\n      \"name\": \"Crustle\",\n      \"tier\": \"A+\",\n      \"role\": \"Defender\",\n      \"heldItems\": [\n        \"Resonant Guard\",\n        \"Focus Band\",\n        \"Exp Share\"\n      ],\n      \"battleItem\": \"Eject Button\"\n    },\n    {\n      \"name\": \"Decidueye\",\n      \"tier\": \"B\",\n      \"role\": \"Attacker\",\n      \"heldItems\": [\n        \"Muscle Band\",\n        \"Accel Bracer\",\n        \"Attack Weight\"\n      ],\n      \"battleItem\": \"Eject Button\"\n    },\n    {\n      \"name\": \"Dodrio\",\n      \"tier\": \"A\",\n      \"role\": \"Speedster\",\n      \"heldItems\": [\n        \"Attack Weight\",\n        \"Razor Claw\",\n        \"Charging Charm\"\n      ],\n      \"battleItem\": \"Full Heal\"\n    },\n    {\n      \"name\": \"Garchomp\",\n      \"tier\": \"C\",\n      \"role\": \"All-Rounder\",\n      \"heldItems\": [\n        \"Razor Claw\",\n        \"Scope Lens\",\n        \"Weakness Policy\"\n      ],\n      \"battleItem\": \"Eject Button\"\n    }\n  ],\n  \"newPokemon\": [\n    \"Skeledirge (juin 2026)\",\n    \"Quaquaval (juin 2026)\"\n  ],\n  \"updatedAt\": \"2026-06-12T12:00:00Z\",\n  \"patchVer\": \"1.23.3.2\",\n  \"patchDate\": \"2026-05-28\",\n  \"metaSummary_en\": \"Tier list stable — Moltres, Alcremie, Blissey, Darkrai, Latias hold the top.\"\n}",
   "tierList": {
     "S": [
-      "Moltres",
-      "Alcremie",
-      "Blissey",
-      "Darkrai",
-      "Latias",
-      "Latios",
-      "Leafeon",
-      "Mega Charizard X",
-      "Mega Lucario",
-      "Mimikyu",
-      "Miraidon",
-      "Slowbro",
-      "Zacian"
+      "Eldegoss",
+      "Telekinesis",
+      "Amnesia",
+      "Intrepid Sword",
+      "Rusted Sword"
     ],
-    "S+": [],
     "A+": [
-      "Alolan Ninetales",
-      "Armarouge",
-      "Articuno",
-      "Blastoise",
-      "Blaziken",
-      "Buzzwole",
-      "Ceruledge",
-      "Clefable",
-      "Comfey",
-      "Crustle",
-      "Dragapult",
-      "Dhelmise",
-      "Espeon",
-      "Feraligatr",
-      "Gardevoir",
-      "Glaceon",
-      "Ho-oh",
-      "Hoopa",
-      "Meganium",
-      "Meowscarada",
-      "Meowth",
-      "Mew",
-      "Pawmot",
-      "Pikachu",
-      "Psyduck",
-      "Scizor",
-      "Sirfetch'd",
-      "Suicune",
-      "Trevenant",
-      "Typhlosion",
-      "Umbreon",
-      "Vaporeon",
-      "Venusaur"
+      "Aurora Veil",
+      "Rapid Spin",
+      "Water Spout",
+      "Surf",
+      "Hydro Pump",
+      "Hydro Typhoon",
+      "Superpower",
+      "Smack Down",
+      "Beast Boost",
+      "Moonlight",
+      "Draining Kiss",
+      "Rock Tomb",
+      "Shell Smash",
+      "Energy Amplifier",
+      "Magic Bounce",
+      "Snow Cloak",
+      "Move Reset",
+      "Solar Beam",
+      "Electro Ball",
+      "Coaching",
+      "Giga Drain",
+      "Petal Dance",
+      "Illusion"
     ],
     "A": [
-      "Absol",
-      "Aegislash",
-      "Alolan Raichu",
-      "Chandelure",
-      "Cinderace",
+      "Midnight Slash",
       "Drednaw",
-      "Delphox",
-      "Dodrio",
-      "Eldegoss",
-      "Empoleon",
-      "Galarian Rapidash",
-      "Gengar",
-      "Goodra",
-      "Greninja",
-      "Gyarados",
-      "Inteleon",
-      "Lapras",
-      "Lucario",
-      "Mamoswine",
-      "Mega Mewtwo X",
-      "Mega Mewtwo Y",
-      "Metagross",
-      "Snorlax",
-      "Sylveon",
-      "Talonflame",
-      "Tinkaton",
-      "Tyranitar",
-      "Urshifu",
-      "Wigglytuff",
-      "Zeraora"
+      "Zapdos",
+      "Mystical Fire",
+      "Fire Spin",
+      "Fanciful Fireworks",
+      "Pollen Puff",
+      "Leaf Tornado",
+      "Sludge Bomb",
+      "Hex",
+      "High Horsepower",
+      "Heavy Slam",
+      "Block",
+      "Yawn",
+      "Flail",
+      "Calm Mind",
+      "Draining Kiss",
+      "Sand Stream",
+      "Ancient Power",
+      "Sand Tomb",
+      "Tyrannical Rampage",
+      "Wicked Blow",
+      "Starlight Recital",
+      "Rollout",
+      "Double Slap"
     ],
-    "B+": [],
     "B": [
-      "Azumarill",
-      "Charizard",
-      "Cramorant",
-      "Decidueye",
-      "Dragonite",
-      "Duraludon",
-      "Falinks",
-      "Machamp",
-      "Mr. Mime",
-      "Sableye",
-      "Tsareena"
+      "Huge Power",
+      "Dive",
+      "Gatling Gulp Missile",
+      "Spirit Shackle",
+      "Hyper Beam",
+      "Outrage",
+      "Draco Impact",
+      "Heavy Metal",
+      "Prankster",
+      "Trop Kick",
+      "Stomp",
+      "Queenly Majesty",
+      "Queen Ascendant"
     ],
     "C": [
-      "Garchomp",
-      "Greedent"
-    ],
-    "D": [],
-    "F": [],
-    "TBD": [
-      "Skeledirge (juin)",
-      "Quaquaval (juin)"
+      "Dragon Claw",
+      "Stomp",
+      "Covet",
+      "Belch",
+      "Bullet Seed",
+      "Berry Belly Flop"
     ]
   },
-  "topPokemon": [
-    {
-      "name": "Blastoise",
-      "tier": "A+",
-      "role": "Defender",
-      "heldItems": [
-        "Focus Band",
-        "Energy Amplifier",
-        "Resonant Guard"
-      ],
-      "battleItem": "Eject Button"
-    },
-    {
-      "name": "Blaziken",
-      "tier": "A+",
-      "role": "All-Rounder",
-      "heldItems": [
-        "Attack Weight",
-        "Aeos Cookie",
-        "Weakness Policy"
-      ],
-      "battleItem": "Eject Button"
-    },
-    {
-      "name": "Mega Charizard Y",
-      "tier": "S",
-      "role": "All-Rounder",
-      "heldItems": [
-        "Charizardite Y",
-        "Attack Weight",
-        "Curse Bangle"
-      ],
-      "battleItem": "Full Heal"
-    },
-    {
-      "name": "Darkrai",
-      "tier": "S",
-      "role": "Speedster",
-      "heldItems": [
-        "Slick Spoon",
-        "Drive Lens",
-        "Wise Glasses"
-      ],
-      "battleItem": "Potion"
-    },
-    {
-      "name": "Mega Gyarados",
-      "tier": "S",
-      "role": "All-Rounder",
-      "heldItems": [
-        "Gyaradosite",
-        "Weakness Policy",
-        "Attack Weight"
-      ],
-      "battleItem": "Eject Button"
-    },
-    {
-      "name": "Alcremie",
-      "tier": "S",
-      "role": "Supporter",
-      "heldItems": [
-        "Exp Share",
-        "Buddy Barrier",
-        "Wise Glasses"
-      ],
-      "battleItem": "Eject Button"
-    },
-    {
-      "name": "Blissey",
-      "tier": "S",
-      "role": "Supporter",
-      "heldItems": [
-        "Exp Share",
-        "Buddy Barrier",
-        "Energy Amplifier"
-      ],
-      "battleItem": "X Speed"
-    },
-    {
-      "name": "Ceruledge",
-      "tier": "A+",
-      "role": "All-Rounder",
-      "heldItems": [
-        "Muscle Band",
-        "Razor Claw",
-        "Curse Bangle"
-      ],
-      "battleItem": "Eject Button"
-    },
-    {
-      "name": "Crustle",
-      "tier": "A+",
-      "role": "Defender",
-      "heldItems": [
-        "Resonant Guard",
-        "Focus Band",
-        "Exp Share"
-      ],
-      "battleItem": "Eject Button"
-    },
-    {
-      "name": "Decidueye",
-      "tier": "B",
-      "role": "Attacker",
-      "heldItems": [
-        "Muscle Band",
-        "Accel Bracer",
-        "Attack Weight"
-      ],
-      "battleItem": "Eject Button"
-    },
-    {
-      "name": "Dodrio",
-      "tier": "A",
-      "role": "Speedster",
-      "heldItems": [
-        "Attack Weight",
-        "Razor Claw",
-        "Charging Charm"
-      ],
-      "battleItem": "Full Heal"
-    },
-    {
-      "name": "Garchomp",
-      "tier": "C",
-      "role": "All-Rounder",
-      "heldItems": [
-        "Razor Claw",
-        "Scope Lens",
-        "Weakness Policy"
-      ],
-      "battleItem": "Eject Button"
-    }
-  ],
-  "newPokemon": [
-    "Skeledirge (juin 2026)",
-    "Quaquaval (juin 2026)"
-  ],
-  "updatedAt": "2026-06-12T12:00:00Z",
-  "patchVer": "1.23.3.2",
-  "patchDate": "2026-05-28",
-  "metaSummary_en": "Tier list stable — Moltres, Alcremie, Blissey, Darkrai, Latias hold the top."
+  "metaSummary": "Tier list Game8 mise à jour : Eldegoss, Telekinesis, Amnesia, Intrepid Sword, Rusted Sword rejoint le sommet.",
+  "updatedAt": "2026-06-14T06:15:03.812Z"
 }
