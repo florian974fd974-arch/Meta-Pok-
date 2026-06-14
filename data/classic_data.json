@@ -1,182 +1,10 @@
 {
-  "data": "{\n  \"data\": \"{\\n  \\\"data\\\": \\\"{\\\\n  \\\\\\\"set\\\\\\\": {\\\\n    \\\\\\\"code\\\\\\\": \\\\\\\"CRI\\\\\\\",\\\\n    \\\\\\\"name\\\\\\\": \\\\\\\"Chaos Rising\\\\\\\",\\\\n    \\\\\\\"status\\\\\\\": \\\\\\\"available\\\\\\\"\\\\n  },\\\\n  \\\\\\\"metaSummary\\\\\\\": \\\\\\\"Format TEF-CRI (set Chaos Rising). Dragapult ex écrase le format avec 45,4% des points Limitless (556 pts), très loin devant Hydrapple ex (7,8%) et Slowking « Seek Inspiration » (6,7%). Classement par points de tournois — Limitless TCG, 12 juin 2026.\\\\\\\",\\\\n  \\\\\\\"topDecks\\\\\\\": [\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 1,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Dragapult ex\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 45.39,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"556 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 45.39\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 2,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Hydrapple ex\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 7.84,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"96 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 7.84\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 3,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Slowking Seek Inspiration\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 6.69,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"82 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 6.69\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 4,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Raging Bolt ex\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 4.57,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"56 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 4.57\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 5,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Alakazam Powerful Hand\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 4,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"49 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 4\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 6,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Festival Lead\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 3.76,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"46 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 3.76\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 7,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"N's Zoroark ex\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 3.43,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"42 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 3.43\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 8,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Ogerpon Box\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 3.02,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"37 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 3.02\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 9,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Mega Lucario ex\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 2.94,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"36 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 2.94\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 10,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Crustle Mysterious Rock Inn\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 2.86,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"35 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 2.86\\\\n    }\\\\n  ],\\\\n  \\\\\\\"topUsage\\\\\\\": [\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 1,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Dragapult ex\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 45.39,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"556 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 45.39\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 2,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Hydrapple ex\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 7.84,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"96 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 7.84\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 3,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Slowking Seek Inspiration\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 6.69,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"82 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 6.69\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 4,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Raging Bolt ex\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 4.57,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"56 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 4.57\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 5,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Alakazam Powerful Hand\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 4,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"49 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 4\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 6,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Festival Lead\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 3.76,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"46 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 3.76\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 7,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"N's Zoroark ex\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 3.43,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"42 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 3.43\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 8,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Ogerpon Box\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 3.02,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"37 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 3.02\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 9,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Mega Lucario ex\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 2.94,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"36 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 2.94\\\\n    },\\\\n    {\\\\n      \\\\\\\"rank\\\\\\\": 10,\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Crustle Mysterious Rock Inn\\\\\\\",\\\\n      \\\\\\\"usage\\\\\\\": 2.86,\\\\n      \\\\\\\"winrate\\\\\\\": null,\\\\n      \\\\\\\"record\\\\\\\": \\\\\\\"35 pts\\\\\\\",\\\\n      \\\\\\\"winRate\\\\\\\": null,\\\\n      \\\\\\\"share\\\\\\\": 2.86\\\\n    }\\\\n  ],\\\\n  \\\\\\\"topWinrate\\\\\\\": [],\\\\n  \\\\\\\"analysis\\\\\\\": {\\\\n    \\\\\\\"entering\\\\\\\": \\\\\\\"\\\\\\\",\\\\n    \\\\\\\"leaving\\\\\\\": \\\\\\\"\\\\\\\",\\\\n    \\\\\\\"whatToPlay\\\\\\\": \\\\\\\"Usage : Dragapult. Winrate : Ogerpon Meganium Hydrapple.\\\\\\\"\\\\n  },\\\\n  \\\\\\\"enteringMeta\\\\\\\": [\\\\n    \\\\\\\"Crustle Mysterious Rock Inn\\\\\\\",\\\\n    \\\\\\\"Rocket's Honchkrow\\\\\\\",\\\\n    \\\\\\\"Hop's Trevenant\\\\\\\"\\\\n  ],\\\\n  \\\\\\\"leavingMeta\\\\\\\": [\\\\n    \\\\\\\"Tera Box\\\\\\\",\\\\n    \\\\\\\"Rocket's Mewtwo ex\\\\\\\"\\\\n  ],\\\\n  \\\\\\\"movements\\\\\\\": [\\\\n    {\\\\n      \\\\\\\"slug\\\\\\\": \\\\\\\"dragapult-ex\\\\\\\",\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Dragapult ex\\\\\\\",\\\\n      \\\\\\\"rank\\\\\\\": 1,\\\\n      \\\\\\\"usage\\\\\\\": 45.39,\\\\n      \\\\\\\"move\\\\\\\": \\\\\\\"stable\\\\\\\"\\\\n    },\\\\n    {\\\\n      \\\\\\\"slug\\\\\\\": \\\\\\\"hydrapple-ex\\\\\\\",\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Hydrapple ex\\\\\\\",\\\\n      \\\\\\\"rank\\\\\\\": 2,\\\\n      \\\\\\\"usage\\\\\\\": 7.84,\\\\n      \\\\\\\"move\\\\\\\": \\\\\\\"stable\\\\\\\"\\\\n    },\\\\n    {\\\\n      \\\\\\\"slug\\\\\\\": \\\\\\\"slowking-seek-inspiration\\\\\\\",\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Slowking Seek Inspiration\\\\\\\",\\\\n      \\\\\\\"rank\\\\\\\": 3,\\\\n      \\\\\\\"usage\\\\\\\": 6.69,\\\\n      \\\\\\\"move\\\\\\\": \\\\\\\"stable\\\\\\\"\\\\n    },\\\\n    {\\\\n      \\\\\\\"slug\\\\\\\": \\\\\\\"raging-bolt-ex\\\\\\\",\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Raging Bolt ex\\\\\\\",\\\\n      \\\\\\\"rank\\\\\\\": 4,\\\\n      \\\\\\\"usage\\\\\\\": 4.57,\\\\n      \\\\\\\"move\\\\\\\": \\\\\\\"stable\\\\\\\"\\\\n    },\\\\n    {\\\\n      \\\\\\\"slug\\\\\\\": \\\\\\\"alakazam-powerful-hand\\\\\\\",\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Alakazam Powerful Hand\\\\\\\",\\\\n      \\\\\\\"rank\\\\\\\": 5,\\\\n      \\\\\\\"usage\\\\\\\": 4,\\\\n      \\\\\\\"move\\\\\\\": \\\\\\\"stable\\\\\\\"\\\\n    },\\\\n    {\\\\n      \\\\\\\"slug\\\\\\\": \\\\\\\"festival-lead\\\\\\\",\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Festival Lead\\\\\\\",\\\\n      \\\\\\\"rank\\\\\\\": 6,\\\\n      \\\\\\\"usage\\\\\\\": 3.76,\\\\n      \\\\\\\"move\\\\\\\": \\\\\\\"stable\\\\\\\"\\\\n    },\\\\n    {\\\\n      \\\\\\\"slug\\\\\\\": \\\\\\\"n-s-zoroark-ex\\\\\\\",\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"N's Zoroark ex\\\\\\\",\\\\n      \\\\\\\"rank\\\\\\\": 7,\\\\n      \\\\\\\"usage\\\\\\\": 3.43,\\\\n      \\\\\\\"move\\\\\\\": \\\\\\\"stable\\\\\\\"\\\\n    },\\\\n    {\\\\n      \\\\\\\"slug\\\\\\\": \\\\\\\"ogerpon-box\\\\\\\",\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Ogerpon Box\\\\\\\",\\\\n      \\\\\\\"rank\\\\\\\": 8,\\\\n      \\\\\\\"usage\\\\\\\": 3.02,\\\\n      \\\\\\\"move\\\\\\\": \\\\\\\"stable\\\\\\\"\\\\n    },\\\\n    {\\\\n      \\\\\\\"slug\\\\\\\": \\\\\\\"mega-lucario-ex\\\\\\\",\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Mega Lucario ex\\\\\\\",\\\\n      \\\\\\\"rank\\\\\\\": 9,\\\\n      \\\\\\\"usage\\\\\\\": 2.94,\\\\n      \\\\\\\"move\\\\\\\": \\\\\\\"stable\\\\\\\"\\\\n    },\\\\n    {\\\\n      \\\\\\\"slug\\\\\\\": \\\\\\\"crustle-mysterious-rock-inn\\\\\\\",\\\\n      \\\\\\\"name\\\\\\\": \\\\\\\"Crustle Mysterious Rock Inn\\\\\\\",\\\\n      \\\\\\\"rank\\\\\\\": 10,\\\\n      \\\\\\\"usage\\\\\\\": 2.86,\\\\n      \\\\\\\"move\\\\\\\": \\\\\\\"stable\\\\\\\"\\\\n    }\\\\n  ],\\\\n  \\\\\\\"totalDecks\\\\\\\": 50,\\\\n  \\\\\\\"updatedAt\\\\\\\": \\\\\\\"2026-06-12T12:00:00Z\\\\\\\"\\\\n}\\\",\\n  \\\"metaSummary\\\": \\\"Dragapult ex verrouille le format (45.39% des points, 556 pts). Pick du jour à étudier : Ogerpon Box (3.02%). Données Limitless du 12/06/2026.\\\",\\n  \\\"topUsage\\\": [\\n    {\\n      \\\"rank\\\": 1,\\n      \\\"name\\\": \\\"Dragapult ex\\\",\\n      \\\"usage\\\": 45.39,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"556 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 45.39,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 2,\\n      \\\"name\\\": \\\"Hydrapple ex\\\",\\n      \\\"usage\\\": 7.84,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"96 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 7.84,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 3,\\n      \\\"name\\\": \\\"Slowking Seek Inspiration\\\",\\n      \\\"usage\\\": 6.69,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"82 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 6.69,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 4,\\n      \\\"name\\\": \\\"Raging Bolt ex\\\",\\n      \\\"usage\\\": 4.57,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"56 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 4.57,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 5,\\n      \\\"name\\\": \\\"Alakazam Powerful Hand\\\",\\n      \\\"usage\\\": 4,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"49 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 4,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 6,\\n      \\\"name\\\": \\\"Festival Lead\\\",\\n      \\\"usage\\\": 3.76,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"46 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 3.76,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 7,\\n      \\\"name\\\": \\\"N's Zoroark ex\\\",\\n      \\\"usage\\\": 3.43,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"42 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 3.43,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 8,\\n      \\\"name\\\": \\\"Ogerpon Box\\\",\\n      \\\"usage\\\": 3.02,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"37 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 3.02,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 9,\\n      \\\"name\\\": \\\"Mega Lucario ex\\\",\\n      \\\"usage\\\": 2.94,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"36 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 2.94,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 10,\\n      \\\"name\\\": \\\"Crustle Mysterious Rock Inn\\\",\\n      \\\"usage\\\": 2.86,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"35 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 2.86,\\n      \\\"move\\\": \\\"new\\\"\\n    }\\n  ],\\n  \\\"topWinrate\\\": [],\\n  \\\"movements\\\": [\\n    {\\n      \\\"slug\\\": \\\"dragapult-ex\\\",\\n      \\\"name\\\": \\\"Dragapult ex\\\",\\n      \\\"rank\\\": 1,\\n      \\\"usage\\\": 45.39,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"slug\\\": \\\"hydrapple-ex\\\",\\n      \\\"name\\\": \\\"Hydrapple ex\\\",\\n      \\\"rank\\\": 2,\\n      \\\"usage\\\": 7.84,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"slug\\\": \\\"slowking-seek-inspiration\\\",\\n      \\\"name\\\": \\\"Slowking Seek Inspiration\\\",\\n      \\\"rank\\\": 3,\\n      \\\"usage\\\": 6.69,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"slug\\\": \\\"raging-bolt-ex\\\",\\n      \\\"name\\\": \\\"Raging Bolt ex\\\",\\n      \\\"rank\\\": 4,\\n      \\\"usage\\\": 4.57,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"slug\\\": \\\"alakazam-powerful-hand\\\",\\n      \\\"name\\\": \\\"Alakazam Powerful Hand\\\",\\n      \\\"rank\\\": 5,\\n      \\\"usage\\\": 4,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"slug\\\": \\\"festival-lead\\\",\\n      \\\"name\\\": \\\"Festival Lead\\\",\\n      \\\"rank\\\": 6,\\n      \\\"usage\\\": 3.76,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"slug\\\": \\\"n-s-zoroark-ex\\\",\\n      \\\"name\\\": \\\"N's Zoroark ex\\\",\\n      \\\"rank\\\": 7,\\n      \\\"usage\\\": 3.43,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"slug\\\": \\\"ogerpon-box\\\",\\n      \\\"name\\\": \\\"Ogerpon Box\\\",\\n      \\\"rank\\\": 8,\\n      \\\"usage\\\": 3.02,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"slug\\\": \\\"mega-lucario-ex\\\",\\n      \\\"name\\\": \\\"Mega Lucario ex\\\",\\n      \\\"rank\\\": 9,\\n      \\\"usage\\\": 2.94,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"slug\\\": \\\"crustle-mysterious-rock-inn\\\",\\n      \\\"name\\\": \\\"Crustle Mysterious Rock Inn\\\",\\n      \\\"rank\\\": 10,\\n      \\\"usage\\\": 2.86,\\n      \\\"move\\\": \\\"new\\\"\\n    }\\n  ],\\n  \\\"updatedAt\\\": \\\"2026-06-12T14:14:47.513Z\\\",\\n  \\\"topDecks\\\": [\\n    {\\n      \\\"rank\\\": 1,\\n      \\\"name\\\": \\\"Dragapult ex\\\",\\n      \\\"usage\\\": 45.39,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"556 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 45.39,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 2,\\n      \\\"name\\\": \\\"Hydrapple ex\\\",\\n      \\\"usage\\\": 7.84,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"96 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 7.84,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 3,\\n      \\\"name\\\": \\\"Slowking Seek Inspiration\\\",\\n      \\\"usage\\\": 6.69,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"82 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 6.69,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 4,\\n      \\\"name\\\": \\\"Raging Bolt ex\\\",\\n      \\\"usage\\\": 4.57,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"56 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 4.57,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 5,\\n      \\\"name\\\": \\\"Alakazam Powerful Hand\\\",\\n      \\\"usage\\\": 4,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"49 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 4,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 6,\\n      \\\"name\\\": \\\"Festival Lead\\\",\\n      \\\"usage\\\": 3.76,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"46 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 3.76,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 7,\\n      \\\"name\\\": \\\"N's Zoroark ex\\\",\\n      \\\"usage\\\": 3.43,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"42 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 3.43,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 8,\\n      \\\"name\\\": \\\"Ogerpon Box\\\",\\n      \\\"usage\\\": 3.02,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"37 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 3.02,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 9,\\n      \\\"name\\\": \\\"Mega Lucario ex\\\",\\n      \\\"usage\\\": 2.94,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"36 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 2.94,\\n      \\\"move\\\": \\\"new\\\"\\n    },\\n    {\\n      \\\"rank\\\": 10,\\n      \\\"name\\\": \\\"Crustle Mysterious Rock Inn\\\",\\n      \\\"usage\\\": 2.86,\\n      \\\"winrate\\\": null,\\n      \\\"record\\\": \\\"35 pts\\\",\\n      \\\"winRate\\\": null,\\n      \\\"share\\\": 2.86,\\n      \\\"move\\\": \\\"new\\\"\\n    }\\n  ]\\n}\",\n  \"metaSummary\": \"Dragapult ex verrouille le format (45.39% des points, 556 pts). Pick du jour à étudier : Mega Lucario ex (2.94%). Données Limitless du 13/06/2026.\",\n  \"topUsage\": [\n    {\n      \"rank\": 1,\n      \"name\": \"Dragapult ex\",\n      \"usage\": 45.39,\n      \"winrate\": null,\n      \"record\": \"556 pts\",\n      \"winRate\": null,\n      \"share\": 45.39,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 2,\n      \"name\": \"Hydrapple ex\",\n      \"usage\": 7.84,\n      \"winrate\": null,\n      \"record\": \"96 pts\",\n      \"winRate\": null,\n      \"share\": 7.84,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 3,\n      \"name\": \"Slowking Seek Inspiration\",\n      \"usage\": 6.69,\n      \"winrate\": null,\n      \"record\": \"82 pts\",\n      \"winRate\": null,\n      \"share\": 6.69,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 4,\n      \"name\": \"Raging Bolt ex\",\n      \"usage\": 4.57,\n      \"winrate\": null,\n      \"record\": \"56 pts\",\n      \"winRate\": null,\n      \"share\": 4.57,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 5,\n      \"name\": \"Alakazam Powerful Hand\",\n      \"usage\": 4,\n      \"winrate\": null,\n      \"record\": \"49 pts\",\n      \"winRate\": null,\n      \"share\": 4,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 6,\n      \"name\": \"Festival Lead\",\n      \"usage\": 3.76,\n      \"winrate\": null,\n      \"record\": \"46 pts\",\n      \"winRate\": null,\n      \"share\": 3.76,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 7,\n      \"name\": \"N's Zoroark ex\",\n      \"usage\": 3.43,\n      \"winrate\": null,\n      \"record\": \"42 pts\",\n      \"winRate\": null,\n      \"share\": 3.43,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 8,\n      \"name\": \"Ogerpon Box\",\n      \"usage\": 3.02,\n      \"winrate\": null,\n      \"record\": \"37 pts\",\n      \"winRate\": null,\n      \"share\": 3.02,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 9,\n      \"name\": \"Mega Lucario ex\",\n      \"usage\": 2.94,\n      \"winrate\": null,\n      \"record\": \"36 pts\",\n      \"winRate\": null,\n      \"share\": 2.94,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 10,\n      \"name\": \"Crustle Mysterious Rock Inn\",\n      \"usage\": 2.86,\n      \"winrate\": null,\n      \"record\": \"35 pts\",\n      \"winRate\": null,\n      \"share\": 2.86,\n      \"move\": \"new\"\n    }\n  ],\n  \"topWinrate\": [],\n  \"movements\": [\n    {\n      \"slug\": \"dragapult-ex\",\n      \"name\": \"Dragapult ex\",\n      \"rank\": 1,\n      \"usage\": 45.39,\n      \"move\": \"new\"\n    },\n    {\n      \"slug\": \"hydrapple-ex\",\n      \"name\": \"Hydrapple ex\",\n      \"rank\": 2,\n      \"usage\": 7.84,\n      \"move\": \"new\"\n    },\n    {\n      \"slug\": \"slowking-seek-inspiration\",\n      \"name\": \"Slowking Seek Inspiration\",\n      \"rank\": 3,\n      \"usage\": 6.69,\n      \"move\": \"new\"\n    },\n    {\n      \"slug\": \"raging-bolt-ex\",\n      \"name\": \"Raging Bolt ex\",\n      \"rank\": 4,\n      \"usage\": 4.57,\n      \"move\": \"new\"\n    },\n    {\n      \"slug\": \"alakazam-powerful-hand\",\n      \"name\": \"Alakazam Powerful Hand\",\n      \"rank\": 5,\n      \"usage\": 4,\n      \"move\": \"new\"\n    },\n    {\n      \"slug\": \"festival-lead\",\n      \"name\": \"Festival Lead\",\n      \"rank\": 6,\n      \"usage\": 3.76,\n      \"move\": \"new\"\n    },\n    {\n      \"slug\": \"n-s-zoroark-ex\",\n      \"name\": \"N's Zoroark ex\",\n      \"rank\": 7,\n      \"usage\": 3.43,\n      \"move\": \"new\"\n    },\n    {\n      \"slug\": \"ogerpon-box\",\n      \"name\": \"Ogerpon Box\",\n      \"rank\": 8,\n      \"usage\": 3.02,\n      \"move\": \"new\"\n    },\n    {\n      \"slug\": \"mega-lucario-ex\",\n      \"name\": \"Mega Lucario ex\",\n      \"rank\": 9,\n      \"usage\": 2.94,\n      \"move\": \"new\"\n    },\n    {\n      \"slug\": \"crustle-mysterious-rock-inn\",\n      \"name\": \"Crustle Mysterious Rock Inn\",\n      \"rank\": 10,\n      \"usage\": 2.86,\n      \"move\": \"new\"\n    }\n  ],\n  \"updatedAt\": \"2026-06-13T06:10:01.898Z\",\n  \"topDecks\": [\n    {\n      \"rank\": 1,\n      \"name\": \"Dragapult ex\",\n      \"usage\": 45.39,\n      \"winrate\": null,\n      \"record\": \"556 pts\",\n      \"winRate\": null,\n      \"share\": 45.39,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 2,\n      \"name\": \"Hydrapple ex\",\n      \"usage\": 7.84,\n      \"winrate\": null,\n      \"record\": \"96 pts\",\n      \"winRate\": null,\n      \"share\": 7.84,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 3,\n      \"name\": \"Slowking Seek Inspiration\",\n      \"usage\": 6.69,\n      \"winrate\": null,\n      \"record\": \"82 pts\",\n      \"winRate\": null,\n      \"share\": 6.69,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 4,\n      \"name\": \"Raging Bolt ex\",\n      \"usage\": 4.57,\n      \"winrate\": null,\n      \"record\": \"56 pts\",\n      \"winRate\": null,\n      \"share\": 4.57,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 5,\n      \"name\": \"Alakazam Powerful Hand\",\n      \"usage\": 4,\n      \"winrate\": null,\n      \"record\": \"49 pts\",\n      \"winRate\": null,\n      \"share\": 4,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 6,\n      \"name\": \"Festival Lead\",\n      \"usage\": 3.76,\n      \"winrate\": null,\n      \"record\": \"46 pts\",\n      \"winRate\": null,\n      \"share\": 3.76,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 7,\n      \"name\": \"N's Zoroark ex\",\n      \"usage\": 3.43,\n      \"winrate\": null,\n      \"record\": \"42 pts\",\n      \"winRate\": null,\n      \"share\": 3.43,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 8,\n      \"name\": \"Ogerpon Box\",\n      \"usage\": 3.02,\n      \"winrate\": null,\n      \"record\": \"37 pts\",\n      \"winRate\": null,\n      \"share\": 3.02,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 9,\n      \"name\": \"Mega Lucario ex\",\n      \"usage\": 2.94,\n      \"winrate\": null,\n      \"record\": \"36 pts\",\n      \"winRate\": null,\n      \"share\": 2.94,\n      \"move\": \"new\"\n    },\n    {\n      \"rank\": 10,\n      \"name\": \"Crustle Mysterious Rock Inn\",\n      \"usage\": 2.86,\n      \"winrate\": null,\n      \"record\": \"35 pts\",\n      \"winRate\": null,\n      \"share\": 2.86,\n      \"move\": \"new\"\n    }\n  ]\n}",
-  "metaSummary": "Dragapult ex verrouille le format (45.39% des points, 556 pts). Pick du jour à étudier : Crustle Mysterious Rock Inn (2.86%). Données Limitless du 14/06/2026.",
-  "topUsage": [
-    {
-      "rank": 1,
-      "name": "Dragapult ex",
-      "usage": 45.39,
-      "winrate": null,
-      "record": "556 pts",
-      "winRate": null,
-      "share": 45.39,
-      "move": "new"
-    },
-    {
-      "rank": 2,
-      "name": "Hydrapple ex",
-      "usage": 7.84,
-      "winrate": null,
-      "record": "96 pts",
-      "winRate": null,
-      "share": 7.84,
-      "move": "new"
-    },
-    {
-      "rank": 3,
-      "name": "Slowking Seek Inspiration",
-      "usage": 6.69,
-      "winrate": null,
-      "record": "82 pts",
-      "winRate": null,
-      "share": 6.69,
-      "move": "new"
-    },
-    {
-      "rank": 4,
-      "name": "Raging Bolt ex",
-      "usage": 4.57,
-      "winrate": null,
-      "record": "56 pts",
-      "winRate": null,
-      "share": 4.57,
-      "move": "new"
-    },
-    {
-      "rank": 5,
-      "name": "Alakazam Powerful Hand",
-      "usage": 4,
-      "winrate": null,
-      "record": "49 pts",
-      "winRate": null,
-      "share": 4,
-      "move": "new"
-    },
-    {
-      "rank": 6,
-      "name": "Festival Lead",
-      "usage": 3.76,
-      "winrate": null,
-      "record": "46 pts",
-      "winRate": null,
-      "share": 3.76,
-      "move": "new"
-    },
-    {
-      "rank": 7,
-      "name": "N's Zoroark ex",
-      "usage": 3.43,
-      "winrate": null,
-      "record": "42 pts",
-      "winRate": null,
-      "share": 3.43,
-      "move": "new"
-    },
-    {
-      "rank": 8,
-      "name": "Ogerpon Box",
-      "usage": 3.02,
-      "winrate": null,
-      "record": "37 pts",
-      "winRate": null,
-      "share": 3.02,
-      "move": "new"
-    },
-    {
-      "rank": 9,
-      "name": "Mega Lucario ex",
-      "usage": 2.94,
-      "winrate": null,
-      "record": "36 pts",
-      "winRate": null,
-      "share": 2.94,
-      "move": "new"
-    },
-    {
-      "rank": 10,
-      "name": "Crustle Mysterious Rock Inn",
-      "usage": 2.86,
-      "winrate": null,
-      "record": "35 pts",
-      "winRate": null,
-      "share": 2.86,
-      "move": "new"
-    }
-  ],
-  "topWinrate": [],
-  "movements": [
-    {
-      "slug": "dragapult-ex",
-      "name": "Dragapult ex",
-      "rank": 1,
-      "usage": 45.39,
-      "move": "new"
-    },
-    {
-      "slug": "hydrapple-ex",
-      "name": "Hydrapple ex",
-      "rank": 2,
-      "usage": 7.84,
-      "move": "new"
-    },
-    {
-      "slug": "slowking-seek-inspiration",
-      "name": "Slowking Seek Inspiration",
-      "rank": 3,
-      "usage": 6.69,
-      "move": "new"
-    },
-    {
-      "slug": "raging-bolt-ex",
-      "name": "Raging Bolt ex",
-      "rank": 4,
-      "usage": 4.57,
-      "move": "new"
-    },
-    {
-      "slug": "alakazam-powerful-hand",
-      "name": "Alakazam Powerful Hand",
-      "rank": 5,
-      "usage": 4,
-      "move": "new"
-    },
-    {
-      "slug": "festival-lead",
-      "name": "Festival Lead",
-      "rank": 6,
-      "usage": 3.76,
-      "move": "new"
-    },
-    {
-      "slug": "n-s-zoroark-ex",
-      "name": "N's Zoroark ex",
-      "rank": 7,
-      "usage": 3.43,
-      "move": "new"
-    },
-    {
-      "slug": "ogerpon-box",
-      "name": "Ogerpon Box",
-      "rank": 8,
-      "usage": 3.02,
-      "move": "new"
-    },
-    {
-      "slug": "mega-lucario-ex",
-      "name": "Mega Lucario ex",
-      "rank": 9,
-      "usage": 2.94,
-      "move": "new"
-    },
-    {
-      "slug": "crustle-mysterious-rock-inn",
-      "name": "Crustle Mysterious Rock Inn",
-      "rank": 10,
-      "usage": 2.86,
-      "move": "new"
-    }
-  ],
-  "updatedAt": "2026-06-14T06:10:04.373Z",
+  "set": {
+    "code": "CRI",
+    "name": "Chaos Rising",
+    "status": "available"
+  },
+  "metaSummary": "Format TEF-CRI (set Chaos Rising). Dragapult ex écrase le format avec 45,4% des points Limitless (556 pts), très loin devant Hydrapple ex (7,8%) et Slowking « Seek Inspiration » (6,7%). Classement par points de tournois — Limitless TCG, 12 juin 2026.",
   "topDecks": [
     {
       "rank": 1,
@@ -185,8 +13,7 @@
       "winrate": null,
       "record": "556 pts",
       "winRate": null,
-      "share": 45.39,
-      "move": "new"
+      "share": 45.39
     },
     {
       "rank": 2,
@@ -195,8 +22,7 @@
       "winrate": null,
       "record": "96 pts",
       "winRate": null,
-      "share": 7.84,
-      "move": "new"
+      "share": 7.84
     },
     {
       "rank": 3,
@@ -205,8 +31,7 @@
       "winrate": null,
       "record": "82 pts",
       "winRate": null,
-      "share": 6.69,
-      "move": "new"
+      "share": 6.69
     },
     {
       "rank": 4,
@@ -215,8 +40,7 @@
       "winrate": null,
       "record": "56 pts",
       "winRate": null,
-      "share": 4.57,
-      "move": "new"
+      "share": 4.57
     },
     {
       "rank": 5,
@@ -225,8 +49,7 @@
       "winrate": null,
       "record": "49 pts",
       "winRate": null,
-      "share": 4,
-      "move": "new"
+      "share": 4
     },
     {
       "rank": 6,
@@ -235,8 +58,7 @@
       "winrate": null,
       "record": "46 pts",
       "winRate": null,
-      "share": 3.76,
-      "move": "new"
+      "share": 3.76
     },
     {
       "rank": 7,
@@ -245,8 +67,7 @@
       "winrate": null,
       "record": "42 pts",
       "winRate": null,
-      "share": 3.43,
-      "move": "new"
+      "share": 3.43
     },
     {
       "rank": 8,
@@ -255,8 +76,7 @@
       "winrate": null,
       "record": "37 pts",
       "winRate": null,
-      "share": 3.02,
-      "move": "new"
+      "share": 3.02
     },
     {
       "rank": 9,
@@ -265,8 +85,7 @@
       "winrate": null,
       "record": "36 pts",
       "winRate": null,
-      "share": 2.94,
-      "move": "new"
+      "share": 2.94
     },
     {
       "rank": 10,
@@ -275,8 +94,189 @@
       "winrate": null,
       "record": "35 pts",
       "winRate": null,
-      "share": 2.86,
-      "move": "new"
+      "share": 2.86
     }
-  ]
+  ],
+  "topUsage": [
+    {
+      "rank": 1,
+      "name": "Dragapult ex",
+      "usage": 45.39,
+      "winrate": null,
+      "record": "556 pts",
+      "winRate": null,
+      "share": 45.39
+    },
+    {
+      "rank": 2,
+      "name": "Hydrapple ex",
+      "usage": 7.84,
+      "winrate": null,
+      "record": "96 pts",
+      "winRate": null,
+      "share": 7.84
+    },
+    {
+      "rank": 3,
+      "name": "Slowking Seek Inspiration",
+      "usage": 6.69,
+      "winrate": null,
+      "record": "82 pts",
+      "winRate": null,
+      "share": 6.69
+    },
+    {
+      "rank": 4,
+      "name": "Raging Bolt ex",
+      "usage": 4.57,
+      "winrate": null,
+      "record": "56 pts",
+      "winRate": null,
+      "share": 4.57
+    },
+    {
+      "rank": 5,
+      "name": "Alakazam Powerful Hand",
+      "usage": 4,
+      "winrate": null,
+      "record": "49 pts",
+      "winRate": null,
+      "share": 4
+    },
+    {
+      "rank": 6,
+      "name": "Festival Lead",
+      "usage": 3.76,
+      "winrate": null,
+      "record": "46 pts",
+      "winRate": null,
+      "share": 3.76
+    },
+    {
+      "rank": 7,
+      "name": "N's Zoroark ex",
+      "usage": 3.43,
+      "winrate": null,
+      "record": "42 pts",
+      "winRate": null,
+      "share": 3.43
+    },
+    {
+      "rank": 8,
+      "name": "Ogerpon Box",
+      "usage": 3.02,
+      "winrate": null,
+      "record": "37 pts",
+      "winRate": null,
+      "share": 3.02
+    },
+    {
+      "rank": 9,
+      "name": "Mega Lucario ex",
+      "usage": 2.94,
+      "winrate": null,
+      "record": "36 pts",
+      "winRate": null,
+      "share": 2.94
+    },
+    {
+      "rank": 10,
+      "name": "Crustle Mysterious Rock Inn",
+      "usage": 2.86,
+      "winrate": null,
+      "record": "35 pts",
+      "winRate": null,
+      "share": 2.86
+    }
+  ],
+  "topWinrate": [],
+  "analysis": {
+    "entering": "",
+    "leaving": "",
+    "whatToPlay": "Usage : Dragapult. Winrate : Ogerpon Meganium Hydrapple."
+  },
+  "enteringMeta": [
+    "Crustle Mysterious Rock Inn",
+    "Rocket's Honchkrow",
+    "Hop's Trevenant"
+  ],
+  "leavingMeta": [
+    "Tera Box",
+    "Rocket's Mewtwo ex"
+  ],
+  "movements": [
+    {
+      "slug": "dragapult-ex",
+      "name": "Dragapult ex",
+      "rank": 1,
+      "usage": 45.39,
+      "move": "stable"
+    },
+    {
+      "slug": "hydrapple-ex",
+      "name": "Hydrapple ex",
+      "rank": 2,
+      "usage": 7.84,
+      "move": "stable"
+    },
+    {
+      "slug": "slowking-seek-inspiration",
+      "name": "Slowking Seek Inspiration",
+      "rank": 3,
+      "usage": 6.69,
+      "move": "stable"
+    },
+    {
+      "slug": "raging-bolt-ex",
+      "name": "Raging Bolt ex",
+      "rank": 4,
+      "usage": 4.57,
+      "move": "stable"
+    },
+    {
+      "slug": "alakazam-powerful-hand",
+      "name": "Alakazam Powerful Hand",
+      "rank": 5,
+      "usage": 4,
+      "move": "stable"
+    },
+    {
+      "slug": "festival-lead",
+      "name": "Festival Lead",
+      "rank": 6,
+      "usage": 3.76,
+      "move": "stable"
+    },
+    {
+      "slug": "n-s-zoroark-ex",
+      "name": "N's Zoroark ex",
+      "rank": 7,
+      "usage": 3.43,
+      "move": "stable"
+    },
+    {
+      "slug": "ogerpon-box",
+      "name": "Ogerpon Box",
+      "rank": 8,
+      "usage": 3.02,
+      "move": "stable"
+    },
+    {
+      "slug": "mega-lucario-ex",
+      "name": "Mega Lucario ex",
+      "rank": 9,
+      "usage": 2.94,
+      "move": "stable"
+    },
+    {
+      "slug": "crustle-mysterious-rock-inn",
+      "name": "Crustle Mysterious Rock Inn",
+      "rank": 10,
+      "usage": 2.86,
+      "move": "stable"
+    }
+  ],
+  "totalDecks": 50,
+  "updatedAt": "2026-06-12T12:00:00Z",
+  "metaSummary_en": "Dragapult ex locks the format (45.39% of points). Pick of the day: Raging Bolt ex (4.57%)."
 }
