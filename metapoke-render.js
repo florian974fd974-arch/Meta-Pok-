@@ -8,6 +8,8 @@
   var DATA = (window.DATA_PATH || './data');
   function J(f){ return fetch(DATA + '/' + f + '?t=' + Date.now()).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}); }
   function el(tag, cls, html){ var e=document.createElement(tag); if(cls)e.className=cls; if(html!=null)e.innerHTML=html; return e; }
+  // Bilingue : renvoie le champ <field>_en si la langue active est EN et qu'il existe, sinon le champ FR.
+  function tr(obj, field){ try{ if(obj&&currentLang()==='en'){ var v=obj[field+'_en']; if(v!=null&&v!=='') return v; } }catch(e){} return obj?obj[field]:''; }
   function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];}); }
 
   // ---- Sprites (même CDN que le site) ----
@@ -144,14 +146,25 @@
   function eventsCard(list){
     if(!list||!list.length) return null;
     var c=el('div','mp-card'); c.appendChild(el('h3',null,'Sorties &amp; événements à venir'));
-    list.forEach(function(e){ var r=el('div','mp-evt'); r.appendChild(el('div','d',esc(e.date||''))); r.appendChild(el('div',null,'<b>'+esc(e.title||'')+'</b><br><span class="mp-sec">'+esc(e.desc||'')+'</span>')); c.appendChild(r); });
+    list.forEach(function(e){ var r=el('div','mp-evt'); r.appendChild(el('div','d',esc(e.date||''))); r.appendChild(el('div',null,'<b>'+esc(tr(e,'title')||'')+'</b><br><span class="mp-sec">'+esc(tr(e,'desc')||'')+'</span>')); c.appendChild(r); });
     return c;
   }
 
+  var MP_DATA=null;
+  // Re-rend les sections dynamiques depuis les données en cache (utilise tr() => respecte la langue active).
+  function reRenderDynamic(){
+    if(!MP_DATA) return;
+    try{
+      renderDecks(MP_DATA.tcgp,'page-tcgp','mp-dyn-tcgp','Méta Pocket');
+      renderDecks(MP_DATA.classic,'page-classic','mp-dyn-classic','Méta Standard');
+      renderVGC(MP_DATA.vgc);
+      renderUnite(MP_DATA.unite);
+    }catch(e){}
+  }
   function renderDecks(d, pageId, id, label){
     if(!d) return; var w=panel(pageId,id); if(!w) return;
     w.appendChild(el('h2','mp-h', (label||'Méta')+' · '+esc((d.set&&d.set.name)||'')));
-    if(d.metaSummary) w.appendChild(el('p','mp-sub',esc(d.metaSummary)));
+    if(d.metaSummary) w.appendChild(el('p','mp-sub',esc(tr(d,'metaSummary'))));
     var ctx={label:label||'Méta', setName:(d.set&&d.set.name)||'', game:(pageId==='page-tcgp'?'pocket':'classic')};
     var g=el('div','mp-grid2');
     if(d.topUsage&&d.topUsage.length) g.appendChild(deckTable('Top 10 — Utilisation', d.topUsage, 'use', ctx));
@@ -170,7 +183,7 @@
   function renderVGC(d){
     if(!d) return; var w=panel('page-vgc','mp-dyn-vgc'); if(!w) return;
     w.appendChild(el('h2','mp-h','VGC · '+esc(d.format||'')));
-    if(d.metaSummary) w.appendChild(el('p','mp-sub',esc(d.metaSummary)));
+    if(d.metaSummary) w.appendChild(el('p','mp-sub',esc(tr(d,'metaSummary'))));
     if(d.topPokemon&&d.topPokemon.length){
       var g=el('div','mp-pkgrid');
       var vctx={label:'VGC · '+esc(d.format||'')};
@@ -188,7 +201,7 @@
     }
     if(d.recentResults&&d.recentResults.length){
       var rc=el('div','mp-card'); rc.style.marginTop='20px'; rc.appendChild(el('h3',null,'Résultats récents'));
-      d.recentResults.forEach(function(r){ rc.appendChild(el('div','mp-evt','<div><b>'+esc(r.player||'')+'</b> — '+esc(r.title||'')+'<br><span class="mp-sec">'+esc(r.team||'')+'</span></div>')); });
+      d.recentResults.forEach(function(r){ rc.appendChild(el('div','mp-evt','<div><b>'+esc(r.player||'')+'</b> — '+esc(tr(r,'title')||'')+'<br><span class="mp-sec">'+esc(r.team||'')+'</span></div>')); });
       w.appendChild(rc);
     }
     var ev=eventsCard(d.upcomingEvents); if(ev){ ev.style.marginTop='20px'; w.appendChild(ev); }
@@ -197,7 +210,7 @@
   function renderUnite(d){
     if(!d) return; var w=panel('page-unite','mp-dyn-unite'); if(!w) return;
     w.appendChild(el('h2','mp-h','Unite · '+esc(d.patch||'')));
-    if(d.metaSummary) w.appendChild(el('p','mp-sub',esc(d.metaSummary)));
+    if(d.metaSummary) w.appendChild(el('p','mp-sub',esc(tr(d,'metaSummary'))));
     if(d.tierList){
       var c=el('div','mp-card'); c.appendChild(el('h3',null,'Tier list compétitive'));
       var order=['S','A+','A','B+','B','C','D','F','TBD'];
@@ -401,7 +414,47 @@
     if(tr==null){ for(var i=0;i<I18N_EN_PREFIX.length;i++){ var p=I18N_EN_PREFIX[i]; if(key.indexOf(p[0])===0){ tr=p[1]+key.slice(p[0].length); break; } } }
     if(tr!=null){ if(n.__fr==null) n.__fr=t; n.nodeValue=t.replace(key,tr); }
   }
+  var MP_I18N_MAP=null;
+  function i18nMap(){
+    if(MP_I18N_MAP) return MP_I18N_MAP;
+    MP_I18N_MAP=new Map();
+    (window.MP_I18N_HTML||[]).forEach(function(p){ MP_I18N_MAP.set(p[0], p[1]); });
+    return MP_I18N_MAP;
+  }
+  var I18N_SELECTORS='p, li, h1, h2, h3, h4, .desc, .section-info, .lead, .when, .timeline-title, .timeline-desc, .timeline-date, .label, .title, .subtitle, .meta, .hero-tag, .day-tab-date, .t-stat .l, .stat-mini .l, .qstat .l, .badge, .cta, .op-name, .modal-tag, .ptc-record, .session-meta, .match-result-label, .legend-item, .day-date, .day-title';
+  function applyLangElements(lang, root){
+    var map=i18nMap(); if(!map.size) return;
+    var els=(root||document).querySelectorAll(I18N_SELECTORS);
+    for(var i=0;i<els.length;i++){
+      var el=els[i];
+      if(lang==='en'){
+        if(el.__frH!=null) continue;
+        var key=el.innerHTML.trim();
+        var tr=map.get(key);
+        if(tr!=null){ el.__frH=el.innerHTML; el.innerHTML=tr; }
+      } else if(el.__frH!=null){ el.innerHTML=el.__frH; el.__frH=null; }
+    }
+  }
+  var MP_OBS=null;
+  function watchDynamic(lang){
+    if(MP_OBS){ MP_OBS.disconnect(); MP_OBS=null; }
+    if(lang!=='en') return;
+    var t=null;
+    MP_OBS=new MutationObserver(function(){
+      if(t) clearTimeout(t);
+      t=setTimeout(function(){
+        if(currentLang()!=='en') return;
+        applyLangElements('en');
+        var w=document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false), n;
+        while(n=w.nextNode()) translateNode(n);
+      },250);
+    });
+    MP_OBS.observe(document.body,{childList:true,subtree:true});
+  }
   function applyLang(lang){
+    try{ localStorage.setItem('mp-lang',lang); }catch(e){}  // avant reRenderDynamic : tr() lit currentLang()
+    reRenderDynamic();  // re-rend les sections dynamiques avec les champs _en (fallback FR)
+    applyLangElements(lang);
     var w=document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false), n;
     while(n=w.nextNode()){
       if(lang==='en') translateNode(n);
@@ -409,7 +462,7 @@
     }
     document.documentElement.lang=lang;
     var b=document.getElementById('mpLangToggle'); if(b) b.textContent=(lang==='en'?'FR 🇫🇷':'EN 🇬🇧');
-    try{ localStorage.setItem('mp-lang',lang); }catch(e){}
+    watchDynamic(lang);
   }
   function currentLang(){ try{ return localStorage.getItem('mp-lang')||'fr'; }catch(e){ return 'fr'; } }
   function initLang(){
@@ -459,10 +512,8 @@
   function run(){
     Promise.all([J('tcgp_data.json'),J('classic_data.json'),J('vgc_data.json'),J('unite_data.json')])
     .then(function(r){
-      renderDecks(r[0],'page-tcgp','mp-dyn-tcgp','Méta Pocket');
-      renderDecks(r[1],'page-classic','mp-dyn-classic','Méta Standard');
-      renderVGC(r[2]);
-      renderUnite(r[3]);
+      MP_DATA={tcgp:r[0],classic:r[1],vgc:r[2],unite:r[3]};
+      reRenderDynamic();
       if(window.MetaPoke&&window.MetaPoke.bus) window.MetaPoke.bus.emit('mp:rendered');
     });
     mergePbl();
