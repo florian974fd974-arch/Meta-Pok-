@@ -1,12 +1,107 @@
 {
-  "metaSummary": "Regulation Set M-A (Pokémon Champions). 🆕 Battles in the Monthly Challenge Series June 2026 are live. Sign-ups are still open!.",
+  "metaSummary": "Régulation M-A (Pokémon Champions). Première saison disputée sur Pokémon Champions, marquée par le retour des Méga-Évolutions. Le NAIC 2026 (Nouvelle-Orléans, 12-14 juin), premier Championnat International joué sur le jeu, a été remporté par Francesco Pio Pero devant Eric Rios et Wolfe Glick. Le métagame est dominé par les Méga-Évolutions : Mega Floette, Mega Charizard Y et Mega Froslass sont les plus jouées. La Monthly Challenge Series de juin 2026 est en cours jusqu'au 29 juin.",
+  "metaSummary_en": "Regulation Set M-A (Pokémon Champions). The first competitive season played on Pokémon Champions, marking the return of Mega Evolutions. The 2026 NAIC (New Orleans, 12-14 June), the first International Championship held on the game, was won by Francesco Pio Pero over Eric Rios and Wolfe Glick. The metagame revolves around Mega Evolutions, with Mega Floette, Mega Charizard Y and Mega Froslass leading usage. The June 2026 Monthly Challenge Series is live until 29 June.",
+  "topPokemon": [
+    { "name": "Mega Floette", "usage": "39.7%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
+    { "name": "Mega Charizard Y", "usage": "31.4%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
+    { "name": "Mega Froslass", "usage": "25.0%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
+    { "name": "Mega Scovillain", "usage": "18.6%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
+    { "name": "Mega Dragonite", "usage": "9.6%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
+    { "name": "Mega Aerodactyl", "usage": "9.6%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
+    { "name": "Mega Delphox", "usage": "9.0%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
+    { "name": "Mega Gengar", "usage": "6.4%", "note": "Usage Méga (NAIC 2026, Phase 2)" }
+  ],
+  "recentResults": [
+    {
+      "event": "North America International Championships 2026 (NAIC)",
+      "location": "Nouvelle-Orléans, USA",
+      "date": "2026-06-14",
+      "winner": "Francesco Pio Pero (CICCIOTT)",
+      "runnerUp": "Eric Rios (Riopaser)",
+      "top4": ["Francesco Pio Pero", "Eric Rios", "Wolfe Glick", "Shoma Honami"],
+      "url": "https://victoryroad.pro/2026-naic/"
+    },
+    {
+      "event": "Taiwan Master Ball League 2026",
+      "location": "Taïwan",
+      "date": "2026-06-16",
+      "winner": "Chen Yu-Wei",
+      "notable": "Équipe Mega Charizard Y + Mega Aerodactyl",
+      "url": "https://victoryroad.pro/2026-taiwan/"
+    },
+    {
+      "event": "VR June Challenge #2 (en ligne)",
+      "location": "En ligne",
+      "date": "2026-06-21",
+      "winner": "Louis Markl",
+      "url": "https://victoryroad.pro/vr-jun26-2/"
+    }
+  ],
+  "news": [
+    {
+      "title": "Championship Sunday | 2026 Pokémon North America International Championships",
+      "url": "https://www.youtube.com/watch?v=igPt0ZyyUSY",
+      "source": "Play! Pokémon (YouTube)",
+      "kind": "video",
+      "date": "2026-06-14"
+    },
+    {
+      "title": "VGC Day 2 | 2026 Pokémon North America International Championships",
+      "url": "https://www.youtube.com/watch?v=aR1lTe328yQ",
+      "source": "Play! Pokémon (YouTube)",
+      "kind": "video",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "VGC Day 1 | 2026 Pokémon North America International Championships",
+      "url": "https://www.youtube.com/watch?v=hk6BNoCzQ7w",
+      "source": "Play! Pokémon (YouTube)",
+      "kind": "video",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Teams, results and all info from the 2026 North America International Championships (NAIC)!",
+      "url": "https://victoryroad.pro/2026-naic/",
+      "source": "Victory Road",
+      "kind": "article",
+      "date": "2026-06-14"
+    },
+    {
+      "title": "Teams, results and all info from the 2026 Taiwan Master Ball League!",
+      "url": "https://victoryroad.pro/2026-taiwan/",
+      "source": "Victory Road",
+      "kind": "article",
+      "date": "2026-06-16"
+    },
+    {
+      "title": "Teams, results and all info from the VR June Challenge #2!",
+      "url": "https://victoryroad.pro/vr-jun26-2/",
+      "source": "Victory Road",
+      "kind": "article",
+      "date": "2026-06-21"
+    },
+    {
+      "title": "Battles in the Monthly Challenge Series June 2026 are live. Sign-ups are still open!",
+      "url": "https://victoryroad.pro/mcs-jun26/",
+      "source": "Victory Road",
+      "kind": "article",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "A new wave of the Hisuian Decidueye the Unrivaled 7★ Tera Raid Battle event is live!",
+      "url": "https://victoryroad.pro/sv-events/",
+      "source": "Victory Road",
+      "kind": "article",
+      "date": "2026-06-26"
+    }
+  ],
   "newsFeed": [
     "Battles in the Monthly Challenge Series June 2026 are live. Sign-ups are still open!",
-    "Teams, results and all info from the VR June Challenge #2!",
-    "The Monthly Challenge Series June 2026 has been announced, and sign-ups open on 19 June!",
-    "Sign-ups for the Monthly Challenge Series June 2026 are open!",
-    "Teams, results and all info from the 2026 Taiwan Master Ball League!",
-    "The VR June Challenge #2 has been announced, and sign-ups are open!"
+    "Teams, results and all info from the VR June Challenge #2! Louis Markl wins.",
+    "Francesco Pio Pero wins the 2026 North America International Championships (NAIC)!",
+    "Chen Yu-Wei wins the 2026 Taiwan Master Ball League with Mega Charizard Y + Mega Aerodactyl.",
+    "Watch the official 2026 NAIC VGC broadcast on the Play! Pokémon YouTube channel.",
+    "A new wave of the Hisuian Decidueye 7★ Tera Raid Battle event is live until 2 July."
   ],
-  "updatedAt": "2026-06-26T06:05:07.288Z"
+  "updatedAt": "2026-06-26T20:17:46.000Z"
 }
