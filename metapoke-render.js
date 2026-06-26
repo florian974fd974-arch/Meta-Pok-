@@ -362,7 +362,7 @@
   }
 
   function startCountdown(){
-    var target=new Date(2026,5,17,0,0,0).getTime(); // 17 juin 2026 — sortie mobile Pokémon Champions
+    document.querySelectorAll('.big-news .countdown').forEach(function(cd){cd.style.display='none';});document.querySelectorAll('#page-home .hero .stat-block').forEach(function(b){var l=b.querySelector('.label');if(l&&/Champions/i.test(l.textContent))b.style.display='none';});return;var target=new Date(2026,5,17,0,0,0).getTime(); // 17 juin 2026 — sortie mobile Pokémon Champions
     // Corrige la date affichée dans l'accroche
     document.querySelectorAll('.big-news .meta').forEach(function(m){ if(/6 juin/.test(m.textContent)) m.textContent=m.textContent.replace('6 juin 2026','17 juin 2026'); });
     document.querySelectorAll('.big-news .countdown').forEach(function(cd){
