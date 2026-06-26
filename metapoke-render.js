@@ -143,6 +143,24 @@
   }
   function chipText(n){ if(n==null) return ''; if(typeof n!=='object') return String(n); return n.name||n.label||n.title||n.deck||''; }
   function chips(names, cls){ var w=el('div','mp-chips'); (names||[]).forEach(function(n){ var t=chipText(n); if(!t) return; var isPk=(n&&typeof n==='object'&&(n.role||n.range||n.tier)); var sp=isPk?spriteTag(t,18):''; var ch=el('span','mp-chip'+(cls?' '+cls:'')); ch.innerHTML=sp+(sp?' ':'')+esc(t); w.appendChild(ch); }); return w; }
+  // Carte "Actus & vidéos officielles" — alimentée par d.news = [{title,url,source,kind,date}]
+  function newsCard(list){
+    if(!list||!list.length) return null;
+    var c=el('div','mp-card'); c.appendChild(el('h3',null,'📰 Actus &amp; vidéos officielles'));
+    list.slice(0,12).forEach(function(it){
+      var vid=/video|youtube|youtu\.be/i.test((it.kind||'')+' '+(it.url||''));
+      var url=String(it.url||'');
+      var safe=/^https?:\/\//i.test(url)?url:'#';
+      var r=el('a','mp-news'); r.href=safe; r.target='_blank'; r.rel='noopener';
+      r.style.cssText='display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--border);text-decoration:none;color:inherit';
+      r.innerHTML='<span style="font-size:16px;flex:none">'+(vid?'🎥':'📰')+'</span>'
+        +'<span style="flex:1"><span style="font-weight:600;display:block">'+esc(tr(it,'title')||it.title||'')+'</span>'
+        +'<span class="mp-sec" style="font-size:12px">'+esc(it.source||'')+(it.date?' · '+esc(it.date):'')+'</span></span>'
+        +'<span class="mp-sec" style="font-size:11px;flex:none;align-self:center">↗</span>';
+      c.appendChild(r);
+    });
+    return c;
+  }
   function eventsCard(list){
     if(!list||!list.length) return null;
     var c=el('div','mp-card'); c.appendChild(el('h3',null,'Sorties &amp; événements à venir'));
@@ -178,6 +196,7 @@
       w.appendChild(c);
     }
     var ev=eventsCard(d.upcomingEvents); if(ev){ ev.style.marginTop='20px'; w.appendChild(ev); }
+    var nc=newsCard(d.news); if(nc){ nc.style.marginTop='20px'; w.appendChild(nc); }
   }
 
   function renderVGC(d){
@@ -205,6 +224,7 @@
       w.appendChild(rc);
     }
     var ev=eventsCard(d.upcomingEvents); if(ev){ ev.style.marginTop='20px'; w.appendChild(ev); }
+    var nc=newsCard(d.news); if(nc){ nc.style.marginTop='20px'; w.appendChild(nc); }
   }
 
   function renderUnite(d){
@@ -234,6 +254,7 @@
       });
       w.appendChild(g);
     }
+    var nc=newsCard(d.news); if(nc){ nc.style.marginTop='20px'; w.appendChild(nc); }
   }
 
   function mergePbl(){
