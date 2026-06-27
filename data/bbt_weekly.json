@@ -45,6 +45,11 @@
     {
       "name": "Weekly 3",
       "subtitle": "Saison régulière · 22-28 juin",
+      "banlist": {
+        "title": "Ban list · semaine 3",
+        "image": "https://lh3.googleusercontent.com/d/1VqWavDtMe5ImEy_m72l3F8lf06MLxZZ_=w1400",
+        "cards": ["Rare Candy", "Darkrai", "Oricorio", "Entei ex", "Suicune ex", "Mega Lucario ex", "Indeedee ex", "Lucky Ice Pop", "Mega Altaria ex", "Giratina ex", "Zeraora", "Darkrai ex"]
+      },
       "casts": [
         {
           "name": "Close Combat",
