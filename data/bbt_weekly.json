@@ -2,62 +2,126 @@
   "weeks": [
     {
       "name": "Weekly 1",
-      "subtitle": "Saison régulière · Round Robin",
+      "subtitle": "Saison régulière · 8-14 juin",
       "casts": [
         {
           "name": "Shadow Ball",
           "icon": "🌑",
           "matches": [
-            {
-              "a": "Aether",
-              "b": "PTSD Purple",
-              "when": "13 juin · 15:00 GMT"
-            },
-            {
-              "a": "The Breakfast Club",
-              "b": "Galactic Gang",
-              "when": "14 juin · 20:00 GMT"
-            },
-            {
-              "a": "Hyp$quad",
-              "b": "Rojo Fuego",
-              "when": "14 juin · 17:00 GMT"
-            },
-            {
-              "a": "Dream Eaters",
-              "b": "Plasma",
-              "when": "12 juin · 15:00 GMT"
-            }
+            { "a": "Aether", "b": "PTSD Purple", "when": "13 juin · 15:00 GMT" },
+            { "a": "The Breakfast Club", "b": "Galactic Gang", "when": "14 juin · 20:00 GMT" },
+            { "a": "Hyp$quad", "b": "Rojo Fuego", "when": "14 juin · 17:00 GMT" },
+            { "a": "Dream Eaters", "b": "Plasma", "when": "12 juin · 15:00 GMT" }
           ]
         },
         {
           "name": "Close Combat",
           "icon": "🔥",
           "matches": [
-            {
-              "a": "Tridumb",
-              "b": "DNT",
-              "when": "14 juin · 14:00 GMT"
-            },
-            {
-              "a": "Darksiders",
-              "b": "PTSD Blue",
-              "when": "14 juin · 16:00 GMT"
-            },
-            {
-              "a": "IMP Delta",
-              "b": "Xtrem",
-              "when": "14 juin · 15:00 GMT"
-            },
-            {
-              "a": "Squad Zero",
-              "b": "Magma",
-              "when": "14 juin · 13:00 GMT"
-            }
+            { "a": "Tridumb", "b": "DNT", "when": "14 juin · 14:00 GMT" },
+            { "a": "Darksiders", "b": "PTSD Blue", "when": "14 juin · 16:00 GMT" },
+            { "a": "IMP Delta", "b": "Xtrem", "when": "14 juin · 15:00 GMT" },
+            { "a": "Squad Zero", "b": "Magma", "when": "14 juin · 13:00 GMT" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weekly 2",
+      "subtitle": "Saison régulière · 15-21 juin",
+      "casts": [
+        {
+          "name": "Close Combat",
+          "icon": "🔥",
+          "matches": [
+            { "a": "Tridumb", "b": "PTSD Blue", "when": "15-21 juin" },
+            { "a": "DNT", "b": "XTREM", "when": "15-21 juin" },
+            { "a": "DarkSiders", "b": "Magma", "when": "15-21 juin" },
+            { "a": "Imperium Delta", "b": "Squad Zero", "when": "15-21 juin" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weekly 3",
+      "subtitle": "Saison régulière · 22-28 juin",
+      "casts": [
+        {
+          "name": "Close Combat",
+          "icon": "🔥",
+          "matches": [
+            { "a": "Tridumb", "b": "XTREM", "when": "22-28 juin" },
+            { "a": "PTSD Blue", "b": "Magma", "when": "22-28 juin" },
+            { "a": "DNT", "b": "Squad Zero", "when": "22-28 juin" },
+            { "a": "DarkSiders", "b": "Imperium Delta", "when": "22-28 juin" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weekly 4",
+      "subtitle": "Saison régulière · 29 juin-5 juil",
+      "casts": [
+        {
+          "name": "Close Combat",
+          "icon": "🔥",
+          "matches": [
+            { "a": "Tridumb", "b": "Magma", "when": "29 juin-5 juil" },
+            { "a": "XTREM", "b": "Squad Zero", "when": "29 juin-5 juil" },
+            { "a": "PTSD Blue", "b": "Imperium Delta", "when": "29 juin-5 juil" },
+            { "a": "DNT", "b": "DarkSiders", "when": "29 juin-5 juil" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weekly 5",
+      "subtitle": "Saison régulière · 6-12 juil",
+      "casts": [
+        {
+          "name": "Close Combat",
+          "icon": "🔥",
+          "matches": [
+            { "a": "Tridumb", "b": "Squad Zero", "when": "6-12 juil" },
+            { "a": "Magma", "b": "Imperium Delta", "when": "6-12 juil" },
+            { "a": "XTREM", "b": "DarkSiders", "when": "6-12 juil" },
+            { "a": "PTSD Blue", "b": "DNT", "when": "6-12 juil" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weekly 6",
+      "subtitle": "Saison régulière · 13-19 juil",
+      "casts": [
+        {
+          "name": "Close Combat",
+          "icon": "🔥",
+          "matches": [
+            { "a": "Tridumb", "b": "Imperium Delta", "when": "13-19 juil" },
+            { "a": "Squad Zero", "b": "DarkSiders", "when": "13-19 juil" },
+            { "a": "Magma", "b": "DNT", "when": "13-19 juil" },
+            { "a": "XTREM", "b": "PTSD Blue", "when": "13-19 juil" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Weekly 7",
+      "subtitle": "Saison régulière · 20-26 juil",
+      "casts": [
+        {
+          "name": "Close Combat",
+          "icon": "🔥",
+          "matches": [
+            { "a": "Tridumb", "b": "DarkSiders", "when": "20-26 juil" },
+            { "a": "Imperium Delta", "b": "DNT", "when": "20-26 juil" },
+            { "a": "Squad Zero", "b": "PTSD Blue", "when": "20-26 juil" },
+            { "a": "Magma", "b": "XTREM", "when": "20-26 juil" }
           ]
         }
       ]
     }
   ],
-  "updatedAt": "2026-06-26"
+  "updatedAt": "2026-06-27"
 }
