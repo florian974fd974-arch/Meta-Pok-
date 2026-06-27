@@ -1,5 +1,5 @@
 {
-"metaSummary": "Mega Altaria ex Espeon reste de loin le deck le plus joué (7,58 % d'usage) mais plafonne à 50,67 % de winrate. Le meilleur winrate réellement jouable revient à Suicune ex Baxcalibur (52,08 % pour ~5 % d'usage), devant Mega Altaria ex Gourgeist (51,69 %) et Mega Blaziken ex Greninja (51,35 %). Le méta reste très stable sur 24 h, dominé par les decks Méga et les variantes Magnezone/Miraidon. À surveiller : la mini-extension Everyday Wonders (B3b) sort le 29 juin avec Mega Diancie ex en tête d'affiche, suivie de Ruler of the Skies (~30 juillet) menée par Mega Rayquaza ex.",
+"metaSummary": "Mega Altaria ex Espeon reste de loin le deck le plus joué (7,58 % d'usage) mais plafonne à 50,67 % de winrate ; le meilleur winrate réellement jouable revient à Suicune ex Baxcalibur (52,08 %), devant Mega Altaria ex Gourgeist (51,69 %). Le méta reste très stable, dominé par les decks Méga et les variantes Magnezone/Miraidon. Nouveauté officielle : la mini-extension Everyday Wonders sort le lundi 29 juin à 18 h (PDT), à l'honneur Pikachu, Piplup, Snorlax, Greedent et Sylveon (Mega Diancie ex en carte phare), avec backdrops et covers dès le 30 juin. En juillet suivront l'Emblem Event Everyday Wonders, la Community Week et le Hisuian Zorua Drop Event. Prochaine grande extension : Ruler of the Skies (~30 juillet, Mega Rayquaza ex).",
 "topUsage": [
 {
 "rank": 1,
@@ -405,13 +405,34 @@
 "limitless": "magnezone-ex-b3-magnezone-b1a"
 }
 ],
-"metaSummary_en": "Mega Altaria ex Espeon is still by far the most played deck (7.58% usage) but caps at 50.67% win rate. The best genuinely playable win rate belongs to Suicune ex Baxcalibur (52.08% at ~5% usage), ahead of Mega Altaria ex Gourgeist (51.69%) and Mega Blaziken ex Greninja (51.35%). The meta has stayed very stable over the last 24h, dominated by Mega decks and Magnezone/Miraidon variants. Watch out: the Everyday Wonders mini-expansion (B3b) drops June 29 headlined by Mega Diancie ex, followed by Ruler of the Skies (~July 30) led by Mega Rayquaza ex.",
+"metaSummary_en": "Mega Altaria ex Espeon is still by far the most played deck (7.58% usage) but caps at 50.67% win rate; the best genuinely playable win rate belongs to Suicune ex Baxcalibur (52.08%), ahead of Mega Altaria ex Gourgeist (51.69%). The meta is very stable, dominated by Mega decks and Magnezone/Miraidon variants. Official news: the Everyday Wonders mini-expansion launches Monday June 29 at 6:00 p.m. PDT, starring Pikachu, Piplup, Snorlax, Greedent and Sylveon (Mega Diancie ex as the chase card), with backdrops and covers from June 30. July brings the Everyday Wonders Emblem Event, Community Week and the Hisuian Zorua Drop Event. Next major expansion: Ruler of the Skies (~July 30, Mega Rayquaza ex).",
 "news": [
+{
+"title": "Everyday Wonders : la mini-extension arrive le 29 juin à 18 h (PDT)",
+"url": "https://www.pokemon.com/us/news/pokemon-tcg-pocket-everyday-wonders-expansion-coming-soon",
+"source": "Pokemon.com (officiel)",
+"kind": "article",
+"date": "24 juin 2026"
+},
 {
 "title": "Pokémon TCG Pocket: Everyday Wonders | Official Trailer",
 "url": "https://www.youtube.com/watch?v=fgZy2-XUmXM",
 "source": "Pokémon (YouTube officiel)",
 "kind": "video",
+"date": "24 juin 2026"
+},
+{
+"title": "Événements de juillet : Emblem Event, Community Week et Hisuian Zorua Drop Event",
+"url": "https://www.pokemon.com/us/news/pokemon-tcg-pocket-everyday-wonders-expansion-coming-soon",
+"source": "Pokemon.com (officiel)",
+"kind": "article",
+"date": "24 juin 2026"
+},
+{
+"title": "Backdrops et covers Everyday Wonders disponibles le 30 juin",
+"url": "https://www.pokemon.com/us/news/pokemon-tcg-pocket-everyday-wonders-expansion-coming-soon",
+"source": "Pokemon.com (officiel)",
+"kind": "article",
 "date": "24 juin 2026"
 },
 {
@@ -422,37 +443,16 @@
 "date": "24 juin 2026"
 },
 {
-"title": "Everyday Wonders : la mini-extension arrive le 29 juin",
-"url": "https://www.pokemon.com/us/news/pokemon-tcg-pocket-everyday-wonders-expansion-coming-soon",
-"source": "Pokemon.com",
-"kind": "article",
-"date": "24 juin 2026"
-},
-{
-"title": "Everyday Wonders (B3b) : liste complète des cartes, Mega Diancie ex en tête d'affiche",
+"title": "Everyday Wonders : liste complète des cartes, Mega Diancie ex en carte phare",
 "url": "https://www.dexerto.com/pokemon/pokemon-tcg-pocket-everyday-wonders-cards-set-3379198/",
 "source": "Dexerto",
 "kind": "article",
 "date": "juin 2026"
 },
 {
-"title": "Mega Diancie ex mène le drop Everyday Wonders du 29 juin",
-"url": "https://www.techtimes.com/articles/319048/20260625/pokemon-tcg-pocket-reveals-everyday-wonders-mega-diancie-ex-leads-june-29-drop.htm",
-"source": "TechTimes",
-"kind": "article",
-"date": "25 juin 2026"
-},
-{
 "title": "Prochaine extension : Ruler of the Skies (~30 juil, Mega Rayquaza ex)",
 "url": "https://www.dexerto.com/pokemon/next-pokemon-tcg-pocket-expansions-all-upcoming-sets-3230294/",
 "source": "Dexerto",
-"kind": "article",
-"date": "juin 2026"
-},
-{
-"title": "Toutes les cartes Everyday Wonders révélées",
-"url": "https://www.thegamer.com/pokemon-tcg-pocket-everyday-wonders-every-card/",
-"source": "TheGamer",
 "kind": "article",
 "date": "juin 2026"
 }
