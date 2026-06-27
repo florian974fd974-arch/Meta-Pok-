@@ -1,52 +1,52 @@
 {
-  "metaSummary": "Méta Standard 2026-27 (post-rotation H/I/J, ère Méga-Évolution). Dragapult ex domine le format avec 9,36% de part de méta (25753 pts sur Limitless), devant Gardevoir ex (7,79%) et Charizard ex (5,28%). Le Championnat International d'Amérique du Nord (NAIC, Nouvelle-Orléans, 12-14 juin 2026) a clôturé la saison avant les Mondiaux. Données Limitless (agrégat Standard) au 27/06/2026.",
-  "metaSummary_en": "2026-27 Standard meta (post H/I/J rotation, Mega Evolution era). Dragapult ex leads the format with a 9.36% meta share (25753 pts on Limitless), ahead of Gardevoir ex (7.79%) and Charizard ex (5.28%). The North America International Championships (NAIC, New Orleans, June 12-14, 2026) closed the season ahead of Worlds. Limitless data (Standard aggregate) as of 2026-06-27.",
-  "topUsage": [
-    { "rank": 1, "name": "Dragapult ex", "usage": 9.36, "winrate": null, "record": "25753 pts", "winRate": null, "share": 9.36, "move": "same" },
-    { "rank": 2, "name": "Gardevoir ex", "usage": 7.79, "winrate": null, "record": "21434 pts", "winRate": null, "share": 7.79, "move": "new" },
-    { "rank": 3, "name": "Charizard ex", "usage": 5.28, "winrate": null, "record": "14530 pts", "winRate": null, "share": 5.28, "move": "new" },
-    { "rank": 4, "name": "Lugia Archeops", "usage": 4.74, "winrate": null, "record": "13045 pts", "winRate": null, "share": 4.74, "move": "new" },
-    { "rank": 5, "name": "Gholdengo ex", "usage": 4.50, "winrate": null, "record": "12373 pts", "winRate": null, "share": 4.50, "move": "new" },
-    { "rank": 6, "name": "Lost Zone Box", "usage": 3.91, "winrate": null, "record": "10760 pts", "winRate": null, "share": 3.91, "move": "new" },
-    { "rank": 7, "name": "Arceus VSTAR", "usage": 3.59, "winrate": null, "record": "9894 pts", "winRate": null, "share": 3.59, "move": "new" },
-    { "rank": 8, "name": "Raging Bolt ex", "usage": 3.45, "winrate": null, "record": "9485 pts", "winRate": null, "share": 3.45, "move": "down" },
-    { "rank": 9, "name": "Mew Genesect Fusion Strike", "usage": 3.00, "winrate": null, "record": "8247 pts", "winRate": null, "share": 3.00, "move": "new" },
-    { "rank": 10, "name": "Zoroark GX", "usage": 2.57, "winrate": null, "record": "7070 pts", "winRate": null, "share": 2.57, "move": "new" }
-  ],
-  "topWinrate": [],
-  "movements": [
-    { "slug": "dragapult-ex", "name": "Dragapult ex", "rank": 1, "usage": 9.36, "move": "same" },
-    { "slug": "gardevoir-ex", "name": "Gardevoir ex", "rank": 2, "usage": 7.79, "move": "new" },
-    { "slug": "charizard-ex", "name": "Charizard ex", "rank": 3, "usage": 5.28, "move": "new" },
-    { "slug": "lugia-archeops", "name": "Lugia Archeops", "rank": 4, "usage": 4.74, "move": "new" },
-    { "slug": "gholdengo-ex", "name": "Gholdengo ex", "rank": 5, "usage": 4.50, "move": "new" },
-    { "slug": "lost-zone-box", "name": "Lost Zone Box", "rank": 6, "usage": 3.91, "move": "new" },
-    { "slug": "arceus-vstar", "name": "Arceus VSTAR", "rank": 7, "usage": 3.59, "move": "new" },
-    { "slug": "raging-bolt-ex", "name": "Raging Bolt ex", "rank": 8, "usage": 3.45, "move": "down" },
-    { "slug": "mew-genesect-fusion-strike", "name": "Mew Genesect Fusion Strike", "rank": 9, "usage": 3.00, "move": "new" },
-    { "slug": "zoroark-gx", "name": "Zoroark GX", "rank": 10, "usage": 2.57, "move": "new" }
-  ],
-  "news": [
-    { "title": "Championship Sunday — 2026 Pokémon North America International Championships (TCG)", "url": "https://www.youtube.com/watch?v=igPt0ZyyUSY", "source": "Play! Pokémon (YouTube)", "kind": "video", "date": "2026-06-14" },
-    { "title": "TCG Day 2 — 2026 Pokémon North America International Championships", "url": "https://www.youtube.com/watch?v=pz4kUF2bnl8", "source": "Play! Pokémon (YouTube)", "kind": "video", "date": "2026-06-13" },
-    { "title": "Pokémon TCG: Mega Evolution—Chaos Rising | Available Now", "url": "https://www.youtube.com/watch?v=adNied8CUfE", "source": "Pokémon (YouTube)", "kind": "video", "date": "2026-05-22" },
-    { "title": "Meet the 2026 Pokémon North America International Championships (NAIC) Winners", "url": "https://www.pokemon.com/us/pokemon-news/meet-the-2026-pokemon-north-america-international-championships-naic-winners", "source": "Pokemon.com", "kind": "article", "date": "2026-06-15" },
-    { "title": "2026 North America International Championships Pokémon TCG Power Rankings", "url": "https://www.pokemon.com/us/pokemon-news/2026-north-america-international-championships-pokemon-tcg-power-rankings", "source": "Pokemon.com", "kind": "article", "date": "2026-06-11" },
-    { "title": "Quick Attack: Top Moments from the 2026 North America International Championships", "url": "https://www.pokemon.com/us/pokemon-news/quick-attack-top-moments-from-the-2026-north-america-international-championships", "source": "Pokemon.com", "kind": "article", "date": "2026-06-15" },
-    { "title": "2026 Pokémon TCG Standard Format Rotation Announcement", "url": "https://www.pokemon.com/us/pokemon-news/2026-pokemon-tcg-standard-format-rotation-announcement", "source": "Pokemon.com", "kind": "article", "date": "2026-02-15" },
-    { "title": "Mega Evolution—Perfect Order Is Now Available in Pokémon TCG Live", "url": "https://www.pokemon.com/us/pokemon-news/mega-evolution-perfect-order-is-now-available-in-pokemon-trading-card-game-live", "source": "Pokemon.com", "kind": "article", "date": "2026-03-26" }
-  ],
-  "updatedAt": "2026-06-27T08:00:00.000Z",
-  "topDecks": [
-    { "rank": 1, "name": "Dragapult ex", "usage": 9.36, "winrate": null, "record": "25753 pts", "winRate": null, "share": 9.36, "move": "same" },
-    { "rank": 2, "name": "Gardevoir ex", "usage": 7.79, "winrate": null, "record": "21434 pts", "winRate": null, "share": 7.79, "move": "new" },
-    { "rank": 3, "name": "Charizard ex", "usage": 5.28, "winrate": null, "record": "14530 pts", "winRate": null, "share": 5.28, "move": "new" },
-    { "rank": 4, "name": "Lugia Archeops", "usage": 4.74, "winrate": null, "record": "13045 pts", "winRate": null, "share": 4.74, "move": "new" },
-    { "rank": 5, "name": "Gholdengo ex", "usage": 4.50, "winrate": null, "record": "12373 pts", "winRate": null, "share": 4.50, "move": "new" },
-    { "rank": 6, "name": "Lost Zone Box", "usage": 3.91, "winrate": null, "record": "10760 pts", "winRate": null, "share": 3.91, "move": "new" },
-    { "rank": 7, "name": "Arceus VSTAR", "usage": 3.59, "winrate": null, "record": "9894 pts", "winRate": null, "share": 3.59, "move": "new" },
-    { "rank": 8, "name": "Raging Bolt ex", "usage": 3.45, "winrate": null, "record": "9485 pts", "winRate": null, "share": 3.45, "move": "down" },
-    { "rank": 9, "name": "Mew Genesect Fusion Strike", "usage": 3.00, "winrate": null, "record": "8247 pts", "winRate": null, "share": 3.00, "move": "new" },
-    { "rank": 10, "name": "Zoroark GX", "usage": 2.57, "winrate": null, "record": "7070 pts", "winRate": null, "share": 2.57, "move": "new" }
-  ]
+"metaSummary": "Méta Standard 2026-27 (post-rotation H/I/J, ère Méga-Évolution). Dragapult ex domine le format avec 9,36% de part de méta (25753 pts sur Limitless), devant Gardevoir ex (7,79%) et Charizard ex (5,28%). Le format est stable depuis le Championnat International d'Amérique du Nord (NAIC, Nouvelle-Orléans, 12-14 juin 2026), dernier grand rendez-vous avant les Mondiaux. Données Limitless (agrégat Standard) au 28/06/2026.",
+"metaSummary_en": "2026-27 Standard meta (post H/I/J rotation, Mega Evolution era). Dragapult ex leads the format with a 9.36% meta share (25753 pts on Limitless), ahead of Gardevoir ex (7.79%) and Charizard ex (5.28%). The format has been stable since the North America International Championships (NAIC, New Orleans, June 12-14, 2026), the last major event before Worlds. Limitless data (Standard aggregate) as of 2026-06-28.",
+"topUsage": [
+{ "rank": 1, "name": "Dragapult ex", "usage": 9.36, "winrate": null, "record": "25753 pts", "winRate": null, "share": 9.36, "move": "same" },
+{ "rank": 2, "name": "Gardevoir ex", "usage": 7.79, "winrate": null, "record": "21434 pts", "winRate": null, "share": 7.79, "move": "same" },
+{ "rank": 3, "name": "Charizard ex", "usage": 5.28, "winrate": null, "record": "14530 pts", "winRate": null, "share": 5.28, "move": "same" },
+{ "rank": 4, "name": "Lugia Archeops", "usage": 4.74, "winrate": null, "record": "13045 pts", "winRate": null, "share": 4.74, "move": "same" },
+{ "rank": 5, "name": "Gholdengo ex", "usage": 4.50, "winrate": null, "record": "12373 pts", "winRate": null, "share": 4.50, "move": "same" },
+{ "rank": 6, "name": "Lost Zone Box", "usage": 3.91, "winrate": null, "record": "10760 pts", "winRate": null, "share": 3.91, "move": "same" },
+{ "rank": 7, "name": "Arceus VSTAR", "usage": 3.59, "winrate": null, "record": "9894 pts", "winRate": null, "share": 3.59, "move": "same" },
+{ "rank": 8, "name": "Raging Bolt ex", "usage": 3.45, "winrate": null, "record": "9485 pts", "winRate": null, "share": 3.45, "move": "same" },
+{ "rank": 9, "name": "Mew Genesect Fusion Strike", "usage": 3.00, "winrate": null, "record": "8247 pts", "winRate": null, "share": 3.00, "move": "same" },
+{ "rank": 10, "name": "Zoroark GX", "usage": 2.57, "winrate": null, "record": "7070 pts", "winRate": null, "share": 2.57, "move": "same" }
+],
+"topWinrate": [],
+"movements": [
+{ "slug": "dragapult-ex", "name": "Dragapult ex", "rank": 1, "usage": 9.36, "move": "same" },
+{ "slug": "gardevoir-ex", "name": "Gardevoir ex", "rank": 2, "usage": 7.79, "move": "same" },
+{ "slug": "charizard-ex", "name": "Charizard ex", "rank": 3, "usage": 5.28, "move": "same" },
+{ "slug": "lugia-archeops", "name": "Lugia Archeops", "rank": 4, "usage": 4.74, "move": "same" },
+{ "slug": "gholdengo-ex", "name": "Gholdengo ex", "rank": 5, "usage": 4.50, "move": "same" },
+{ "slug": "lost-zone-box", "name": "Lost Zone Box", "rank": 6, "usage": 3.91, "move": "same" },
+{ "slug": "arceus-vstar", "name": "Arceus VSTAR", "rank": 7, "usage": 3.59, "move": "same" },
+{ "slug": "raging-bolt-ex", "name": "Raging Bolt ex", "rank": 8, "usage": 3.45, "move": "same" },
+{ "slug": "mew-genesect-fusion-strike", "name": "Mew Genesect Fusion Strike", "rank": 9, "usage": 3.00, "move": "same" },
+{ "slug": "zoroark-gx", "name": "Zoroark GX", "rank": 10, "usage": 2.57, "move": "same" }
+],
+"news": [
+{ "title": "Championship Sunday — 2026 Pokémon North America International Championships (TCG)", "url": "https://www.youtube.com/watch?v=igPt0ZyyUSY", "source": "Play! Pokémon (YouTube)", "kind": "video", "date": "2026-06-14" },
+{ "title": "TCG Day 2 — 2026 Pokémon North America International Championships", "url": "https://www.youtube.com/watch?v=pz4kUF2bnl8", "source": "Play! Pokémon (YouTube)", "kind": "video", "date": "2026-06-13" },
+{ "title": "Pokémon TCG: Mega Evolution—Chaos Rising | Available Now", "url": "https://www.youtube.com/watch?v=adNied8CUfE", "source": "Pokémon (YouTube)", "kind": "video", "date": "2026-05-22" },
+{ "title": "Meet the 2026 Pokémon North America International Championships (NAIC) Winners", "url": "https://www.pokemon.com/us/pokemon-news/meet-the-2026-pokemon-north-america-international-championships-naic-winners", "source": "Pokemon.com", "kind": "article", "date": "2026-06-15" },
+{ "title": "2026 North America International Championships Pokémon TCG Power Rankings", "url": "https://www.pokemon.com/us/pokemon-news/2026-north-america-international-championships-pokemon-tcg-power-rankings", "source": "Pokemon.com", "kind": "article", "date": "2026-06-11" },
+{ "title": "Quick Attack: Top Moments from the 2026 North America International Championships", "url": "https://www.pokemon.com/us/pokemon-news/quick-attack-top-moments-from-the-2026-north-america-international-championships", "source": "Pokemon.com", "kind": "article", "date": "2026-06-15" },
+{ "title": "2026 Pokémon TCG Standard Format Rotation Announcement", "url": "https://www.pokemon.com/us/pokemon-news/2026-pokemon-tcg-standard-format-rotation-announcement", "source": "Pokemon.com", "kind": "article", "date": "2026-02-15" },
+{ "title": "Mega Evolution—Perfect Order Is Now Available in Pokémon TCG Live", "url": "https://www.pokemon.com/us/pokemon-news/mega-evolution-perfect-order-is-now-available-in-pokemon-trading-card-game-live", "source": "Pokemon.com", "kind": "article", "date": "2026-03-26" }
+],
+"updatedAt": "2026-06-28T08:00:00.000Z",
+"topDecks": [
+{ "rank": 1, "name": "Dragapult ex", "usage": 9.36, "winrate": null, "record": "25753 pts", "winRate": null, "share": 9.36, "move": "same" },
+{ "rank": 2, "name": "Gardevoir ex", "usage": 7.79, "winrate": null, "record": "21434 pts", "winRate": null, "share": 7.79, "move": "same" },
+{ "rank": 3, "name": "Charizard ex", "usage": 5.28, "winrate": null, "record": "14530 pts", "winRate": null, "share": 5.28, "move": "same" },
+{ "rank": 4, "name": "Lugia Archeops", "usage": 4.74, "winrate": null, "record": "13045 pts", "winRate": null, "share": 4.74, "move": "same" },
+{ "rank": 5, "name": "Gholdengo ex", "usage": 4.50, "winrate": null, "record": "12373 pts", "winRate": null, "share": 4.50, "move": "same" },
+{ "rank": 6, "name": "Lost Zone Box", "usage": 3.91, "winrate": null, "record": "10760 pts", "winRate": null, "share": 3.91, "move": "same" },
+{ "rank": 7, "name": "Arceus VSTAR", "usage": 3.59, "winrate": null, "record": "9894 pts", "winRate": null, "share": 3.59, "move": "same" },
+{ "rank": 8, "name": "Raging Bolt ex", "usage": 3.45, "winrate": null, "record": "9485 pts", "winRate": null, "share": 3.45, "move": "same" },
+{ "rank": 9, "name": "Mew Genesect Fusion Strike", "usage": 3.00, "winrate": null, "record": "8247 pts", "winRate": null, "share": 3.00, "move": "same" },
+{ "rank": 10, "name": "Zoroark GX", "usage": 2.57, "winrate": null, "record": "7070 pts", "winRate": null, "share": 2.57, "move": "same" }
+]
 }
