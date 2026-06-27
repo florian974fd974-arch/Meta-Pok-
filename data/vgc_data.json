@@ -1,16 +1,17 @@
 {
-  "metaSummary": "Régulation M-A (Pokémon Champions). Première saison disputée sur Pokémon Champions, marquée par le retour des Méga-Évolutions. Le NAIC 2026 (Nouvelle-Orléans, 12-14 juin), premier Championnat International joué sur le jeu, a été remporté par Francesco Pio Pero devant Eric Rios et Wolfe Glick. Le métagame est dominé par les Méga-Évolutions : Mega Floette, Mega Charizard Y et Mega Froslass sont les plus jouées. La Monthly Challenge Series de juin 2026 est en cours jusqu'au 29 juin.",
-  "metaSummary_en": "Regulation Set M-A (Pokémon Champions). The first competitive season played on Pokémon Champions, marking the return of Mega Evolutions. The 2026 NAIC (New Orleans, 12-14 June), the first International Championship held on the game, was won by Francesco Pio Pero over Eric Rios and Wolfe Glick. The metagame revolves around Mega Evolutions, with Mega Floette, Mega Charizard Y and Mega Froslass leading usage. The June 2026 Monthly Challenge Series is live until 29 June.",
+  "metaSummary": "Pokémon Champions — Regulation Set M-B en vigueur depuis le 16 juin 2026 (jusqu'au 1er septembre). Les Pokémon de la M-A restent jouables, rejoints par de nouvelles Méga-Évolutions : Mega Sceptile, Mega Blaziken, Mega Swampert, Mega Mawile et Mega Staraptor. Le jeu est désormais disponible sur iOS et Android, avec le lancement de la saison Ranked M-3 et d'un nouveau Battle Pass. Côté circuit officiel, le NAIC 2026 (Nouvelle-Orléans, dernier événement en Reg. M-A) a été remporté par Francesco Pio Pero. La Monthly Challenge Series de juin 2026 est en cours.",
+  "metaSummary_en": "Pokémon Champions — Regulation Set M-B is in effect from 16 June 2026 to 1 September. All Regulation M-A Pokémon remain eligible, joined by new Mega Evolutions: Mega Sceptile, Mega Blaziken, Mega Swampert, Mega Mawile and Mega Staraptor. The game is now available on iOS and Android, with Ranked Battles Season M-3 and a new Battle Pass underway. On the official circuit, the 2026 NAIC (New Orleans, the last event played under Reg. M-A) was won by Francesco Pio Pero. The June 2026 Monthly Challenge Series is live.",
   "topPokemon": [
-    { "name": "Mega Floette", "usage": "39.7%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
-    { "name": "Mega Charizard Y", "usage": "31.4%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
-    { "name": "Mega Froslass", "usage": "25.0%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
-    { "name": "Mega Scovillain", "usage": "18.6%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
-    { "name": "Mega Dragonite", "usage": "9.6%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
-    { "name": "Mega Aerodactyl", "usage": "9.6%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
-    { "name": "Mega Delphox", "usage": "9.0%", "note": "Usage Méga (NAIC 2026, Phase 2)" },
-    { "name": "Mega Gengar", "usage": "6.4%", "note": "Usage Méga (NAIC 2026, Phase 2)" }
+    { "name": "Mega Floette", "usage": "39.7%", "note": "Usage Méga, NAIC 2026 (Reg. M-A)" },
+    { "name": "Mega Charizard Y", "usage": "31.4%", "note": "Usage Méga, NAIC 2026 (Reg. M-A)" },
+    { "name": "Mega Froslass", "usage": "25.0%", "note": "Usage Méga, NAIC 2026 (Reg. M-A)" },
+    { "name": "Mega Scovillain", "usage": "18.6%", "note": "Usage Méga, NAIC 2026 (Reg. M-A)" },
+    { "name": "Mega Dragonite", "usage": "9.6%", "note": "Usage Méga, NAIC 2026 (Reg. M-A)" },
+    { "name": "Mega Aerodactyl", "usage": "9.6%", "note": "Usage Méga, NAIC 2026 (Reg. M-A)" },
+    { "name": "Mega Delphox", "usage": "9.0%", "note": "Usage Méga, NAIC 2026 (Reg. M-A)" },
+    { "name": "Mega Gengar", "usage": "6.4%", "note": "Usage Méga, NAIC 2026 (Reg. M-A)" }
   ],
+  "newMegasMB": ["Mega Sceptile", "Mega Blaziken", "Mega Swampert", "Mega Mawile", "Mega Staraptor"],
   "recentResults": [
     {
       "event": "North America International Championships 2026 (NAIC)",
@@ -19,6 +20,7 @@
       "winner": "Francesco Pio Pero (CICCIOTT)",
       "runnerUp": "Eric Rios (Riopaser)",
       "top4": ["Francesco Pio Pero", "Eric Rios", "Wolfe Glick", "Shoma Honami"],
+      "regulation": "Reg. M-A",
       "url": "https://victoryroad.pro/2026-naic/"
     },
     {
@@ -27,6 +29,7 @@
       "date": "2026-06-16",
       "winner": "Chen Yu-Wei",
       "notable": "Équipe Mega Charizard Y + Mega Aerodactyl",
+      "regulation": "Reg. M-A",
       "url": "https://victoryroad.pro/2026-taiwan/"
     },
     {
@@ -39,6 +42,48 @@
   ],
   "news": [
     {
+      "title": "Regulation Set M-B Kicks off a New Ranked Battles Season and Battle Pass in Pokémon Champions",
+      "url": "https://www.pokemon.com/us/pokemon-news/regulation-set-m-b-kicks-off-a-new-ranked-battles-season-and-battle-pass-in-pokemon-champions",
+      "source": "Pokémon Champions (officiel)",
+      "kind": "article",
+      "date": "2026-06-17"
+    },
+    {
+      "title": "Pokémon Champions Is Available Now on iOS and Android Devices",
+      "url": "https://www.pokemon.com/us/pokemon-news/pokemon-champions-is-available-now-on-ios-and-android-devices",
+      "source": "Pokémon Champions (officiel)",
+      "kind": "article",
+      "date": "2026-06-17"
+    },
+    {
+      "title": "Sign Up for the Pokémon Champions Monthly Challenge Series June 2026",
+      "url": "https://www.pokemon.com/us/pokemon-news/sign-up-for-the-pokemon-champions-monthly-challenge-series-june-2026",
+      "source": "Pokémon Champions (officiel)",
+      "kind": "article",
+      "date": "2026-06-17"
+    },
+    {
+      "title": "Relive the Eras of Pokémon VGC",
+      "url": "https://www.pokemon.com/us/pokemon-news/relive-the-eras-of-pokemon-vgc",
+      "source": "Pokémon Champions (officiel)",
+      "kind": "article",
+      "date": "2026-06-10"
+    },
+    {
+      "title": "Champion's Spotlight: Paul Chua's Consistency Reigns True",
+      "url": "https://www.pokemon.com/us/pokemon-news/champions-spotlight-paul-chuas-consistency-reigns-true",
+      "source": "Pokémon Champions (officiel)",
+      "kind": "article",
+      "date": "2026-06-09"
+    },
+    {
+      "title": "2026 North America International Championships Pokémon VGC Roundtable",
+      "url": "https://www.pokemon.com/us/pokemon-news/2026-north-america-international-championships-pokemon-vgc-roundtable",
+      "source": "Pokémon Champions (officiel)",
+      "kind": "article",
+      "date": "2026-06-05"
+    },
+    {
       "title": "Championship Sunday | 2026 Pokémon North America International Championships",
       "url": "https://www.youtube.com/watch?v=igPt0ZyyUSY",
       "source": "Play! Pokémon (YouTube)",
@@ -46,62 +91,20 @@
       "date": "2026-06-14"
     },
     {
-      "title": "VGC Day 2 | 2026 Pokémon North America International Championships",
-      "url": "https://www.youtube.com/watch?v=aR1lTe328yQ",
-      "source": "Play! Pokémon (YouTube)",
-      "kind": "video",
-      "date": "2026-06-13"
-    },
-    {
-      "title": "VGC Day 1 | 2026 Pokémon North America International Championships",
-      "url": "https://www.youtube.com/watch?v=hk6BNoCzQ7w",
-      "source": "Play! Pokémon (YouTube)",
-      "kind": "video",
-      "date": "2026-06-12"
-    },
-    {
       "title": "Teams, results and all info from the 2026 North America International Championships (NAIC)!",
       "url": "https://victoryroad.pro/2026-naic/",
       "source": "Victory Road",
       "kind": "article",
       "date": "2026-06-14"
-    },
-    {
-      "title": "Teams, results and all info from the 2026 Taiwan Master Ball League!",
-      "url": "https://victoryroad.pro/2026-taiwan/",
-      "source": "Victory Road",
-      "kind": "article",
-      "date": "2026-06-16"
-    },
-    {
-      "title": "Teams, results and all info from the VR June Challenge #2!",
-      "url": "https://victoryroad.pro/vr-jun26-2/",
-      "source": "Victory Road",
-      "kind": "article",
-      "date": "2026-06-21"
-    },
-    {
-      "title": "Battles in the Monthly Challenge Series June 2026 are live. Sign-ups are still open!",
-      "url": "https://victoryroad.pro/mcs-jun26/",
-      "source": "Victory Road",
-      "kind": "article",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "A new wave of the Hisuian Decidueye the Unrivaled 7★ Tera Raid Battle event is live!",
-      "url": "https://victoryroad.pro/sv-events/",
-      "source": "Victory Road",
-      "kind": "article",
-      "date": "2026-06-26"
     }
   ],
   "newsFeed": [
-    "Battles in the Monthly Challenge Series June 2026 are live. Sign-ups are still open!",
-    "Teams, results and all info from the VR June Challenge #2! Louis Markl wins.",
-    "Francesco Pio Pero wins the 2026 North America International Championships (NAIC)!",
-    "Chen Yu-Wei wins the 2026 Taiwan Master Ball League with Mega Charizard Y + Mega Aerodactyl.",
-    "Watch the official 2026 NAIC VGC broadcast on the Play! Pokémon YouTube channel.",
-    "A new wave of the Hisuian Decidueye 7★ Tera Raid Battle event is live until 2 July."
+    "Regulation Set M-B is live (16 June – 1 Sept 2026): new Megas including Sceptile, Blaziken, Swampert, Mawile and Staraptor.",
+    "Pokémon Champions is now available on iOS and Android.",
+    "Ranked Battles Season M-3 and a new Battle Pass have begun.",
+    "Francesco Pio Pero wins the 2026 North America International Championships (NAIC).",
+    "Sign-ups are open for the Pokémon Champions Monthly Challenge Series June 2026.",
+    "Watch the official 2026 NAIC VGC broadcast on the Play! Pokémon YouTube channel."
   ],
-  "updatedAt": "2026-06-26T20:17:46.000Z"
+  "updatedAt": "2026-06-27T08:16:11.000Z"
 }
