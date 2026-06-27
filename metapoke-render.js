@@ -612,7 +612,7 @@
       d.weeks.forEach(function(wk){
         wrap.appendChild(el('div','section-meta','— Calendrier · '+esc(wk.name)));
         var h=el('h3',null,esc(wk.name)+' <span style="color:var(--muted);font-weight:400;font-size:14px">'+esc(wk.subtitle||'')+'</span>');
-        h.style.cssText='font-size:24px;margin:6px 0 18px'; wrap.appendChild(h);
+        h.style.cssText='font-size:24px;margin:6px 0 18px'; wrap.appendChild(h); if(wk.banlist){var bl=wk.banlist;var blw=el('div');blw.style.cssText='background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 18px;margin:0 0 14px';var blt=el('div',null,esc(bl.title||('Ban list '+wk.name)));blt.style.cssText="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.05em;color:var(--danger);text-transform:uppercase;margin:0 0 10px";blw.appendChild(blt);if(bl.cards&&bl.cards.length){var bc=el('div');bc.style.cssText='display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px';bl.cards.forEach(function(cn){var bch=el('span',null,esc(cn));bch.style.cssText='background:var(--surface-2);border:1px solid var(--border);border-radius:8px;padding:4px 9px;font-size:12px;font-weight:600';bc.appendChild(bch);});blw.appendChild(bc);}if(bl.image){var ba=el('a');ba.href=bl.image;ba.target='_blank';ba.rel='noopener';var bi=el('img');bi.src=bl.image;bi.loading='lazy';bi.style.cssText='max-width:100%;border-radius:8px;display:block';ba.appendChild(bi);blw.appendChild(ba);}wrap.appendChild(blw);}
         (wk.casts||[]).forEach(function(c){
           var ch=el('div',null,esc((c.icon?c.icon+' ':'')+c.name));
           ch.style.cssText="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.05em;color:var(--accent);text-transform:uppercase;margin:18px 0 10px";
