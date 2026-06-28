@@ -6,8 +6,8 @@
   "news": [
     {
       "game": "tcgp",
-      "title": "TCG Pocket — Mega Altaria domine, Suicune ex perce",
-      "desc": "Mega Altaria ex Espeon reste le deck le plus joué (7,56 % d'usage) mais plafonne à 50,59 % de winrate. Le meilleur winrate réellement jouable revient à Suicune ex Baxcalibur (52,08 %), devant Mega Altaria ex Gourgeist (51,69 %). Méta très stable ; la mini-extension Everyday Wonders sort le 29 juin à 18 h (PDT) avec Mega Diancie ex en tête d'affiche.",
+      "title": "TCG Pocket — Everyday Wonders sort aujourd'hui, Mega Altaria toujours en tête",
+      "desc": "La mini-extension Everyday Wonders sort aujourd'hui (29 juin, 18 h PDT ; 30 juin en Asie), menée par Mega Diancie ex. Côté méta : Mega Altaria ex Espeon reste de loin le deck le plus joué (7,57 % d'usage) mais plafonne à 50,58 % de winrate. Le meilleur winrate réellement jouable revient à Suicune ex Baxcalibur (52,08 %), devant Mega Altaria ex Gourgeist (51,69 %) et Mega Blaziken ex Greninja (51,37 %). Méta très stable, sans changement dans le top 10.",
       "when": "TCG Pocket",
       "badgeText": "META",
       "badgeStyle": "tcgp",
@@ -15,8 +15,8 @@
     },
     {
       "game": "vgc",
-      "title": "VGC — Régulation M-B lancée, Pero champion du NAIC",
-      "desc": "La Régulation M-B est en vigueur depuis le 16 juin (jusqu'au 1er sept) : les Pokémon M-A restent jouables, rejoints par de nouvelles Méga-Évolutions (Sceptile, Blaziken, Swampert, Mawile, Staraptor). Pokémon Champions est désormais disponible sur iOS et Android. Francesco Pio Pero a remporté le NAIC 2026, dernier grand rendez-vous en Reg. M-A, devant Eric Rios et Wolfe Glick.",
+      "title": "VGC — Régulation M-B : Louis Markl remporte le 1er gros tournoi",
+      "desc": "La Régulation M-B est en vigueur depuis le 16 juin (jusqu'au 1er sept) : les Pokémon M-A restent jouables, rejoints par cinq nouvelles Méga-Évolutions (Sceptile, Blaziken, Swampert, Mawile, Staraptor). Au VR June Challenge #2, premier gros tournoi en M-B (174 joueurs), Louis Markl s'impose ; Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant les nouveautés Swampert (20,1 %) et Staraptor (19,0 %). Sur le circuit officiel, Francesco Pio Pero a remporté le NAIC 2026, dernier grand rendez-vous en Reg. M-A. Pokémon Champions est disponible sur iOS et Android.",
       "when": "Pokémon Champions",
       "badgeText": "VGC",
       "badgeStyle": "vgc",
@@ -25,7 +25,7 @@
     {
       "game": "classic",
       "title": "TCG Classic — Dragapult ex en tête du Standard",
-      "desc": "Méta Standard 2026-27 (post-rotation H/I/J, ère Méga-Évolution) : Dragapult ex domine avec 9,36 % de part de méta, devant Gardevoir ex (7,79 %) et Charizard ex (5,28 %). Le NAIC a clôturé la saison avant les Mondiaux.",
+      "desc": "Méta Standard 2026-27 (post-rotation H/I/J, ère Méga-Évolution), stable depuis le NAIC. Dragapult ex domine avec 9,36 % de part de méta, devant Gardevoir ex (7,79 %) et Charizard ex (5,28 %) ; Lugia Archeops, Gholdengo ex et Lost Zone Box complètent le haut du tableau. Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
       "when": "TCG Classic",
       "badgeText": "CLASSIC",
       "badgeStyle": "classic",
@@ -58,7 +58,7 @@
       "title": "Ruler of the Skies",
       "desc": "Prochaine extension Pocket, Mega Rayquaza ex en tête",
       "game": "tcgp",
-      "date": "~31 juil · TCG POCKET"
+      "date": "~30 juil · TCG POCKET"
     }
   ],
   "gamePreviews": {
@@ -67,5 +67,5 @@
     "classic": true,
     "unite": true
   },
-  "updatedAt": "2026-06-28T08:30:00.000Z"
+  "updatedAt": "2026-06-29T20:45:00.000Z"
 }
