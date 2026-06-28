@@ -1,6 +1,6 @@
 {
-"metaSummary": "Méta Standard 2026-27 (post-rotation H/I/J, ère Méga-Évolution). Dragapult ex domine le format avec 9,36% de part de méta (25753 pts sur Limitless), devant Gardevoir ex (7,79%) et Charizard ex (5,28%). Le format est stable depuis le Championnat International d'Amérique du Nord (NAIC, Nouvelle-Orléans, 12-14 juin 2026), dernier grand rendez-vous avant les Mondiaux. Données Limitless (agrégat Standard) au 28/06/2026.",
-"metaSummary_en": "2026-27 Standard meta (post H/I/J rotation, Mega Evolution era). Dragapult ex leads the format with a 9.36% meta share (25753 pts on Limitless), ahead of Gardevoir ex (7.79%) and Charizard ex (5.28%). The format has been stable since the North America International Championships (NAIC, New Orleans, June 12-14, 2026), the last major event before Worlds. Limitless data (Standard aggregate) as of 2026-06-28.",
+"metaSummary": "Méta Standard 2026-27 (post-rotation H/I/J, ère Méga-Évolution). Format stable depuis le Championnat International d'Amérique du Nord (NAIC, Nouvelle-Orléans, 12-14 juin 2026). Dragapult ex reste en tête avec 9,36% de part de méta (25753 pts sur Limitless), devant Gardevoir ex (7,79%) et Charizard ex (5,28%) ; Lugia Archeops, Gholdengo ex et Lost Zone Box complètent le haut du tableau. Côté contenu, Raging Bolt ex fait l'objet de plusieurs analyses sur la chaîne officielle Play! Pokémon. Prochain grand rendez-vous : les Championnats du Monde 2026 à San Francisco (28-30 août 2026). Données Limitless (agrégat Standard) au 29/06/2026.",
+"metaSummary_en": "2026-27 Standard meta (post H/I/J rotation, Mega Evolution era). The format has been stable since the North America International Championships (NAIC, New Orleans, June 12-14, 2026). Dragapult ex still leads with a 9.36% meta share (25753 pts on Limitless), ahead of Gardevoir ex (7.79%) and Charizard ex (5.28%); Lugia Archeops, Gholdengo ex and Lost Zone Box round out the top tier. On the content side, Raging Bolt ex is getting several deck breakdowns on the official Play! Pokémon channel. Next major event: the 2026 World Championships in San Francisco (August 28-30, 2026). Limitless data (Standard aggregate) as of 2026-06-29.",
 "topUsage": [
 { "rank": 1, "name": "Dragapult ex", "usage": 9.36, "winrate": null, "record": "25753 pts", "winRate": null, "share": 9.36, "move": "same" },
 { "rank": 2, "name": "Gardevoir ex", "usage": 7.79, "winrate": null, "record": "21434 pts", "winRate": null, "share": 7.79, "move": "same" },
@@ -27,16 +27,15 @@
 { "slug": "zoroark-gx", "name": "Zoroark GX", "rank": 10, "usage": 2.57, "move": "same" }
 ],
 "news": [
+{ "title": "Ian Robb Breaks Down the \"Best\" Pokémon TCG Deck to Play: Raging Bolt", "url": "https://www.youtube.com/watch?v=YQrS_kAYoEs", "source": "Play! Pokémon (YouTube)", "kind": "video", "date": "2026-06-23" },
+{ "title": "Is Raging Bolt Better than ALL Dragapult Decks? | Pokémon TCG", "url": "https://www.youtube.com/watch?v=8WeJizVyD_s", "source": "Play! Pokémon (YouTube)", "kind": "video", "date": "2026-06-17" },
 { "title": "Championship Sunday — 2026 Pokémon North America International Championships (TCG)", "url": "https://www.youtube.com/watch?v=igPt0ZyyUSY", "source": "Play! Pokémon (YouTube)", "kind": "video", "date": "2026-06-14" },
-{ "title": "TCG Day 2 — 2026 Pokémon North America International Championships", "url": "https://www.youtube.com/watch?v=pz4kUF2bnl8", "source": "Play! Pokémon (YouTube)", "kind": "video", "date": "2026-06-13" },
-{ "title": "Pokémon TCG: Mega Evolution—Chaos Rising | Available Now", "url": "https://www.youtube.com/watch?v=adNied8CUfE", "source": "Pokémon (YouTube)", "kind": "video", "date": "2026-05-22" },
+{ "title": "2026 Pokémon World Championships — San Francisco, 28-30 août 2026", "url": "https://worlds.pokemon.com/en-us", "source": "Pokemon.com", "kind": "article", "date": "2026-08-28" },
 { "title": "Meet the 2026 Pokémon North America International Championships (NAIC) Winners", "url": "https://www.pokemon.com/us/pokemon-news/meet-the-2026-pokemon-north-america-international-championships-naic-winners", "source": "Pokemon.com", "kind": "article", "date": "2026-06-15" },
-{ "title": "2026 North America International Championships Pokémon TCG Power Rankings", "url": "https://www.pokemon.com/us/pokemon-news/2026-north-america-international-championships-pokemon-tcg-power-rankings", "source": "Pokemon.com", "kind": "article", "date": "2026-06-11" },
-{ "title": "Quick Attack: Top Moments from the 2026 North America International Championships", "url": "https://www.pokemon.com/us/pokemon-news/quick-attack-top-moments-from-the-2026-north-america-international-championships", "source": "Pokemon.com", "kind": "article", "date": "2026-06-15" },
-{ "title": "2026 Pokémon TCG Standard Format Rotation Announcement", "url": "https://www.pokemon.com/us/pokemon-news/2026-pokemon-tcg-standard-format-rotation-announcement", "source": "Pokemon.com", "kind": "article", "date": "2026-02-15" },
-{ "title": "Mega Evolution—Perfect Order Is Now Available in Pokémon TCG Live", "url": "https://www.pokemon.com/us/pokemon-news/mega-evolution-perfect-order-is-now-available-in-pokemon-trading-card-game-live", "source": "Pokemon.com", "kind": "article", "date": "2026-03-26" }
+{ "title": "Pokémon TCG: Mega Evolution—Chaos Rising | Available Now", "url": "https://www.youtube.com/watch?v=adNied8CUfE", "source": "Pokémon (YouTube)", "kind": "video", "date": "2026-05-22" },
+{ "title": "2026 Pokémon TCG Standard Format Rotation Announcement", "url": "https://www.pokemon.com/us/pokemon-news/2026-pokemon-tcg-standard-format-rotation-announcement", "source": "Pokemon.com", "kind": "article", "date": "2026-02-15" }
 ],
-"updatedAt": "2026-06-28T08:00:00.000Z",
+"updatedAt": "2026-06-29T08:00:00.000Z",
 "topDecks": [
 { "rank": 1, "name": "Dragapult ex", "usage": 9.36, "winrate": null, "record": "25753 pts", "winRate": null, "share": 9.36, "move": "same" },
 { "rank": 2, "name": "Gardevoir ex", "usage": 7.79, "winrate": null, "record": "21434 pts", "winRate": null, "share": 7.79, "move": "same" },
