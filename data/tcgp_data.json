@@ -1,14 +1,14 @@
 {
-"metaSummary": "Mega Altaria ex Espeon reste de loin le deck le plus joué (7,56 % d'usage) mais plafonne à 50,59 % de winrate ; le meilleur winrate réellement jouable revient à Suicune ex Baxcalibur (52,08 %), devant Mega Altaria ex Gourgeist (51,69 %) et Mega Blaziken ex Greninja (51,35 %). Le méta reste très stable, dominé par les decks Méga et les variantes Magnezone/Miraidon, sans aucun mouvement majeur dans le top 10. Nouveauté officielle : la mini-extension Everyday Wonders sort le lundi 29 juin à 18 h (PDT), à l'honneur Pikachu, Piplup, Snorlax, Greedent et Sylveon (Mega Diancie ex en carte phare), avec backdrops et covers dès le 30 juin. En juillet suivront l'Emblem Event Everyday Wonders, la Community Week et le Hisuian Zorua Drop Event. Prochaine grande extension : Ruler of the Skies (~31 juillet, Mega Rayquaza ex).",
+"metaSummary": "Mega Altaria ex Espeon reste de loin le deck le plus joué (7,57 % d'usage) mais plafonne à 50,58 % de winrate ; le meilleur winrate réellement jouable revient à Suicune ex Baxcalibur (52,08 %), devant Mega Altaria ex Gourgeist (51,69 %) et Mega Blaziken ex Greninja (51,37 %). Le méta reste très stable, dominé par les decks Méga et les variantes Magnezone/Miraidon, sans aucun changement d'ordre dans le top 10. Côté outsiders à fort winrate à surveiller : Iron Valiant Iron Boulder (52,88 %), Sylveon ex Mega Altaria ex (52,87 %, boosté par le nouveau set) et Mega Charizard Y ex Entei ex (52,30 %). Actu chaude : la mini-extension Everyday Wonders sort aujourd'hui (lundi 29 juin, 18 h PDT ; 30 juin en Asie), menée par Mega Diancie ex avec Pikachu, Piplup, Snorlax, Greedent et Sylveon. Suivront en juillet l'Emblem Event Everyday Wonders, la Community Week et le Hisuian Zorua Drop Event, puis la grande extension Ruler of the Skies (~30 juillet, Mega Rayquaza ex).",
 "topUsage": [
 {
 "rank": 1,
 "name": "Mega Altaria ex Espeon",
-"usage": 7.56,
-"winrate": 50.59,
-"record": "3101-2869-160",
-"winRate": 50.59,
-"share": 7.56,
+"usage": 7.57,
+"winrate": 50.58,
+"record": "3110-2879-160",
+"winRate": 50.58,
+"share": 7.57,
 "move": "same",
 "limitless": "mega-altaria-ex-b1-espeon-b3a"
 },
@@ -16,9 +16,9 @@
 "rank": 2,
 "name": "Miraidon ex Magnezone",
 "usage": 6.42,
-"winrate": 49.49,
-"record": "2463-2344-170",
-"winRate": 49.49,
+"winrate": 49.45,
+"record": "2463-2348-170",
+"winRate": 49.45,
 "share": 6.42,
 "move": "same",
 "limitless": "miraidon-ex-b3a-magnezone-b1a"
@@ -28,7 +28,7 @@
 "name": "Suicune ex Baxcalibur",
 "usage": 4.96,
 "winrate": 52.08,
-"record": "2190-1873-142",
+"record": "2193-1876-142",
 "winRate": 52.08,
 "share": 4.96,
 "move": "same",
@@ -38,9 +38,9 @@
 "rank": 4,
 "name": "Hydreigon Mega Absol ex",
 "usage": 4.46,
-"winrate": 51.13,
-"record": "1817-1631-106",
-"winRate": 51.13,
+"winrate": 51.11,
+"record": "1819-1634-106",
+"winRate": 51.11,
 "share": 4.46,
 "move": "same",
 "limitless": "hydreigon-mega-absol-ex-b1"
@@ -48,11 +48,11 @@
 {
 "rank": 5,
 "name": "Magnezone Miraidon ex",
-"usage": 4.16,
+"usage": 4.15,
 "winrate": 50.11,
 "record": "1646-1542-97",
 "winRate": 50.11,
-"share": 4.16,
+"share": 4.15,
 "move": "same",
 "limitless": "magnezone-b1a-miraidon-ex-b3a"
 },
@@ -60,9 +60,9 @@
 "rank": 6,
 "name": "Mega Blaziken ex Greninja",
 "usage": 4.08,
-"winrate": 51.35,
-"record": "1744-1526-126",
-"winRate": 51.35,
+"winrate": 51.37,
+"record": "1748-1529-126",
+"winRate": 51.37,
 "share": 4.08,
 "move": "same",
 "limitless": "mega-blaziken-ex-b1-greninja-a1"
@@ -71,9 +71,9 @@
 "rank": 7,
 "name": "Mega Sceptile ex Sceptile",
 "usage": 4.03,
-"winrate": 49.72,
-"record": "1587-1504-101",
-"winRate": 49.72,
+"winrate": 49.80,
+"record": "1594-1506-101",
+"winRate": 49.80,
 "share": 4.03,
 "move": "same",
 "limitless": "mega-sceptile-ex-sceptile-b3"
@@ -81,33 +81,33 @@
 {
 "rank": 8,
 "name": "Mega Altaria ex Gourgeist",
-"usage": 3.86,
+"usage": 3.85,
 "winrate": 51.69,
 "record": "1668-1445-114",
 "winRate": 51.69,
-"share": 3.86,
+"share": 3.85,
 "move": "same",
 "limitless": "mega-altaria-ex-b1-gourgeist-b2"
 },
 {
 "rank": 9,
 "name": "Zoroark ex Mega Absol ex",
-"usage": 3.79,
-"winrate": 50.90,
-"record": "1472-1338-82",
-"winRate": 50.90,
-"share": 3.79,
+"usage": 3.81,
+"winrate": 50.91,
+"record": "1480-1343-84",
+"winRate": 50.91,
+"share": 3.81,
 "move": "same",
 "limitless": "zoroark-ex-b3-mega-absol-ex-b1"
 },
 {
 "rank": 10,
 "name": "Magnezone ex Magnezone",
-"usage": 2.31,
+"usage": 2.30,
 "winrate": 50.39,
 "record": "894-820-60",
 "winRate": 50.39,
-"share": 2.31,
+"share": 2.30,
 "move": "same",
 "limitless": "magnezone-ex-b3-magnezone-b1a"
 }
@@ -118,7 +118,7 @@
 "name": "Suicune ex Baxcalibur",
 "winrate": 52.08,
 "usage": 4.96,
-"record": "2190-1873-142",
+"record": "2193-1876-142",
 "winRate": 52.08,
 "share": 4.96,
 "limitless": "suicune-ex-a4a-baxcalibur-b2a"
@@ -127,80 +127,80 @@
 "rank": 2,
 "name": "Mega Altaria ex Gourgeist",
 "winrate": 51.69,
-"usage": 3.86,
+"usage": 3.85,
 "record": "1668-1445-114",
 "winRate": 51.69,
-"share": 3.86,
+"share": 3.85,
 "limitless": "mega-altaria-ex-b1-gourgeist-b2"
 },
 {
 "rank": 3,
 "name": "Mega Blaziken ex Greninja",
-"winrate": 51.35,
+"winrate": 51.37,
 "usage": 4.08,
-"record": "1744-1526-126",
-"winRate": 51.35,
+"record": "1748-1529-126",
+"winRate": 51.37,
 "share": 4.08,
 "limitless": "mega-blaziken-ex-b1-greninja-a1"
 },
 {
 "rank": 4,
 "name": "Hydreigon Mega Absol ex",
-"winrate": 51.13,
+"winrate": 51.11,
 "usage": 4.46,
-"record": "1817-1631-106",
-"winRate": 51.13,
+"record": "1819-1634-106",
+"winRate": 51.11,
 "share": 4.46,
 "limitless": "hydreigon-mega-absol-ex-b1"
 },
 {
 "rank": 5,
 "name": "Zoroark ex Mega Absol ex",
-"winrate": 50.90,
-"usage": 3.79,
-"record": "1472-1338-82",
-"winRate": 50.90,
-"share": 3.79,
+"winrate": 50.91,
+"usage": 3.81,
+"record": "1480-1343-84",
+"winRate": 50.91,
+"share": 3.81,
 "limitless": "zoroark-ex-b3-mega-absol-ex-b1"
 },
 {
 "rank": 6,
 "name": "Mega Lucario ex Greninja",
-"winrate": 50.88,
+"winrate": 50.85,
 "usage": 2.15,
-"record": "900-819-50",
-"winRate": 50.88,
+"record": "902-822-50",
+"winRate": 50.85,
 "share": 2.15,
 "limitless": "mega-lucario-ex-b3-greninja-a1"
 },
 {
 "rank": 7,
 "name": "Mega Altaria ex Espeon",
-"winrate": 50.59,
-"usage": 7.56,
-"record": "3101-2869-160",
-"winRate": 50.59,
-"share": 7.56,
+"winrate": 50.58,
+"usage": 7.57,
+"record": "3110-2879-160",
+"winRate": 50.58,
+"share": 7.57,
 "limitless": "mega-altaria-ex-b1-espeon-b3a"
 },
 {
 "rank": 8,
 "name": "Magnezone ex Magnezone",
 "winrate": 50.39,
-"usage": 2.31,
+"usage": 2.30,
 "record": "894-820-60",
 "winRate": 50.39,
-"share": 2.31,
+"share": 2.30,
 "limitless": "magnezone-ex-b3-magnezone-b1a"
 },
 {
 "rank": 9,
 "name": "Magnezone Miraidon ex",
 "winrate": 50.11,
-"usage": 4.16,
+"usage": 4.15,
 "record": "1646-1542-97",
 "winRate": 50.11,
-"share": 4.16,
+"share": 4.15,
 "limitless": "magnezone-b1a-miraidon-ex-b3a"
 },
 {
@@ -208,16 +208,17 @@
 "name": "Greninja Mega Absol ex",
 "winrate": 49.91,
 "usage": 2.18,
-"record": "856-789-70",
+"record": "859-791-71",
 "winRate": 49.91,
 "share": 2.18,
 "limitless": "greninja-a1-mega-absol-ex-b1"
 }
 ],
 "enteringMeta": [
-"Iron Valiant Iron Boulder (52.88% WR, 0.90% usage, outsider haut winrate)",
-"Mega Manectric ex Zeraora (51.90% WR, 1.96% usage)",
-"Mega Charizard Y ex Entei ex (52.38% WR, 0.91% usage)"
+"Iron Valiant Iron Boulder (52.88% WR, 0.90% usage, meilleur winrate du format)",
+"Sylveon ex Mega Altaria ex (52.87% WR, 0.40% usage, boosté par Everyday Wonders)",
+"Mega Charizard Y ex Entei ex (52.30% WR, 0.91% usage)",
+"Mega Manectric ex Zeraora (51.90% WR, 1.96% usage)"
 ],
 "leavingMeta": [],
 "movements": [
@@ -225,7 +226,7 @@
 "slug": "mega-altaria-ex-b1-espeon-b3a",
 "name": "Mega Altaria ex Espeon",
 "rank": 1,
-"usage": 7.56,
+"usage": 7.57,
 "move": "same"
 },
 {
@@ -253,7 +254,7 @@
 "slug": "magnezone-b1a-miraidon-ex-b3a",
 "name": "Magnezone Miraidon ex",
 "rank": 5,
-"usage": 4.16,
+"usage": 4.15,
 "move": "same"
 },
 {
@@ -274,35 +275,35 @@
 "slug": "mega-altaria-ex-b1-gourgeist-b2",
 "name": "Mega Altaria ex Gourgeist",
 "rank": 8,
-"usage": 3.86,
+"usage": 3.85,
 "move": "same"
 },
 {
 "slug": "zoroark-ex-b3-mega-absol-ex-b1",
 "name": "Zoroark ex Mega Absol ex",
 "rank": 9,
-"usage": 3.79,
+"usage": 3.81,
 "move": "same"
 },
 {
 "slug": "magnezone-ex-b3-magnezone-b1a",
 "name": "Magnezone ex Magnezone",
 "rank": 10,
-"usage": 2.31,
+"usage": 2.30,
 "move": "same"
 }
 ],
-"totalDecks": 14003,
-"updatedAt": "2026-06-27T20:09:35.000Z",
+"totalDecks": 14029,
+"updatedAt": "2026-06-29T20:11:00.000Z",
 "topDecks": [
 {
 "rank": 1,
 "name": "Mega Altaria ex Espeon",
-"usage": 7.56,
-"winrate": 50.59,
-"record": "3101-2869-160",
-"winRate": 50.59,
-"share": 7.56,
+"usage": 7.57,
+"winrate": 50.58,
+"record": "3110-2879-160",
+"winRate": 50.58,
+"share": 7.57,
 "move": "same",
 "limitless": "mega-altaria-ex-b1-espeon-b3a"
 },
@@ -310,9 +311,9 @@
 "rank": 2,
 "name": "Miraidon ex Magnezone",
 "usage": 6.42,
-"winrate": 49.49,
-"record": "2463-2344-170",
-"winRate": 49.49,
+"winrate": 49.45,
+"record": "2463-2348-170",
+"winRate": 49.45,
 "share": 6.42,
 "move": "same",
 "limitless": "miraidon-ex-b3a-magnezone-b1a"
@@ -322,7 +323,7 @@
 "name": "Suicune ex Baxcalibur",
 "usage": 4.96,
 "winrate": 52.08,
-"record": "2190-1873-142",
+"record": "2193-1876-142",
 "winRate": 52.08,
 "share": 4.96,
 "move": "same",
@@ -332,9 +333,9 @@
 "rank": 4,
 "name": "Hydreigon Mega Absol ex",
 "usage": 4.46,
-"winrate": 51.13,
-"record": "1817-1631-106",
-"winRate": 51.13,
+"winrate": 51.11,
+"record": "1819-1634-106",
+"winRate": 51.11,
 "share": 4.46,
 "move": "same",
 "limitless": "hydreigon-mega-absol-ex-b1"
@@ -342,11 +343,11 @@
 {
 "rank": 5,
 "name": "Magnezone Miraidon ex",
-"usage": 4.16,
+"usage": 4.15,
 "winrate": 50.11,
 "record": "1646-1542-97",
 "winRate": 50.11,
-"share": 4.16,
+"share": 4.15,
 "move": "same",
 "limitless": "magnezone-b1a-miraidon-ex-b3a"
 },
@@ -354,9 +355,9 @@
 "rank": 6,
 "name": "Mega Blaziken ex Greninja",
 "usage": 4.08,
-"winrate": 51.35,
-"record": "1744-1526-126",
-"winRate": 51.35,
+"winrate": 51.37,
+"record": "1748-1529-126",
+"winRate": 51.37,
 "share": 4.08,
 "move": "same",
 "limitless": "mega-blaziken-ex-b1-greninja-a1"
@@ -365,9 +366,9 @@
 "rank": 7,
 "name": "Mega Sceptile ex Sceptile",
 "usage": 4.03,
-"winrate": 49.72,
-"record": "1587-1504-101",
-"winRate": 49.72,
+"winrate": 49.80,
+"record": "1594-1506-101",
+"winRate": 49.80,
 "share": 4.03,
 "move": "same",
 "limitless": "mega-sceptile-ex-sceptile-b3"
@@ -375,85 +376,85 @@
 {
 "rank": 8,
 "name": "Mega Altaria ex Gourgeist",
-"usage": 3.86,
+"usage": 3.85,
 "winrate": 51.69,
 "record": "1668-1445-114",
 "winRate": 51.69,
-"share": 3.86,
+"share": 3.85,
 "move": "same",
 "limitless": "mega-altaria-ex-b1-gourgeist-b2"
 },
 {
 "rank": 9,
 "name": "Zoroark ex Mega Absol ex",
-"usage": 3.79,
-"winrate": 50.90,
-"record": "1472-1338-82",
-"winRate": 50.90,
-"share": 3.79,
+"usage": 3.81,
+"winrate": 50.91,
+"record": "1480-1343-84",
+"winRate": 50.91,
+"share": 3.81,
 "move": "same",
 "limitless": "zoroark-ex-b3-mega-absol-ex-b1"
 },
 {
 "rank": 10,
 "name": "Magnezone ex Magnezone",
-"usage": 2.31,
+"usage": 2.30,
 "winrate": 50.39,
 "record": "894-820-60",
 "winRate": 50.39,
-"share": 2.31,
+"share": 2.30,
 "move": "same",
 "limitless": "magnezone-ex-b3-magnezone-b1a"
 }
 ],
-"metaSummary_en": "Mega Altaria ex Espeon is still by far the most played deck (7.56% usage) but caps at 50.59% win rate; the best genuinely playable win rate belongs to Suicune ex Baxcalibur (52.08%), ahead of Mega Altaria ex Gourgeist (51.69%) and Mega Blaziken ex Greninja (51.35%). The meta is very stable, dominated by Mega decks and Magnezone/Miraidon variants, with no major movement in the top 10. Official news: the Everyday Wonders mini-expansion launches Monday June 29 at 6:00 p.m. PDT, starring Pikachu, Piplup, Snorlax, Greedent and Sylveon (Mega Diancie ex as the chase card), with backdrops and covers from June 30. July brings the Everyday Wonders Emblem Event, Community Week and the Hisuian Zorua Drop Event. Next major expansion: Ruler of the Skies (~July 31, Mega Rayquaza ex).",
+"metaSummary_en": "Mega Altaria ex Espeon is still by far the most played deck (7.57% usage) but caps at 50.58% win rate; the best genuinely playable win rate belongs to Suicune ex Baxcalibur (52.08%), ahead of Mega Altaria ex Gourgeist (51.69%) and Mega Blaziken ex Greninja (51.37%). The meta is very stable, dominated by Mega decks and Magnezone/Miraidon variants, with no order changes in the top 10. High-win-rate outsiders to watch: Iron Valiant Iron Boulder (52.88%), Sylveon ex Mega Altaria ex (52.87%, boosted by the new set) and Mega Charizard Y ex Entei ex (52.30%). Hot news: the Everyday Wonders mini-expansion launches today (Monday June 29, 6:00 p.m. PDT; June 30 in Asia), led by Mega Diancie ex alongside Pikachu, Piplup, Snorlax, Greedent and Sylveon. July follows with the Everyday Wonders Emblem Event, Community Week and the Hisuian Zorua Drop Event, then the major Ruler of the Skies expansion (~July 30, Mega Rayquaza ex).",
 "news": [
 {
-"title": "Everyday Wonders : la mini-extension arrive le 29 juin à 18 h (PDT)",
+"title": "Everyday Wonders : la mini-extension est disponible aujourd'hui (29 juin, 18 h PDT)",
 "url": "https://www.pokemon.com/us/news/pokemon-tcg-pocket-everyday-wonders-expansion-coming-soon",
 "source": "Pokemon.com (officiel)",
 "kind": "article",
-"date": "24 juin 2026"
+"date": "29 juin 2026"
 },
 {
 "title": "Pokémon TCG Pocket: Everyday Wonders | Official Trailer",
 "url": "https://www.youtube.com/watch?v=fgZy2-XUmXM",
-"source": "Pokémon (YouTube officiel)",
+"source": "The Official Pokémon YouTube channel",
 "kind": "video",
-"date": "24 juin 2026"
+"date": "25 juin 2026"
 },
 {
-"title": "Pokémon TCG Pocket: Everyday Wonders | Official Trailer [UK]",
-"url": "https://www.youtube.com/watch?v=hRU4AnBR2qA",
-"source": "Pokémon (YouTube officiel)",
+"title": "Pokémon TCG Pocket : Merveilles du quotidien | Bande-annonce officielle",
+"url": "https://www.youtube.com/watch?v=RGQsfOxyL9E",
+"source": "Pokémon Asia ENG (YouTube officiel)",
 "kind": "video",
-"date": "24 juin 2026"
+"date": "25 juin 2026"
+},
+{
+"title": "Mega Diancie ex en carte phare : liste complète des cartes Everyday Wonders",
+"url": "https://www.thegamer.com/pokemon-tcg-pocket-everyday-wonders-every-card/",
+"source": "TheGamer",
+"kind": "article",
+"date": "26 juin 2026"
 },
 {
 "title": "Événements de juillet : Emblem Event, Community Week et Hisuian Zorua Drop Event",
 "url": "https://www.pokemon.com/us/news/pokemon-tcg-pocket-everyday-wonders-expansion-coming-soon",
 "source": "Pokemon.com (officiel)",
 "kind": "article",
-"date": "24 juin 2026"
+"date": "29 juin 2026"
 },
 {
 "title": "Backdrops et covers Everyday Wonders disponibles le 30 juin",
 "url": "https://www.pokemon.com/us/news/pokemon-tcg-pocket-everyday-wonders-expansion-coming-soon",
 "source": "Pokemon.com (officiel)",
 "kind": "article",
-"date": "24 juin 2026"
+"date": "29 juin 2026"
 },
 {
-"title": "Ruler of the Skies teasée : Mega Rayquaza ex, sortie ~31 juillet",
+"title": "Ruler of the Skies (B4) annoncée pour le 30 juillet : Mega Rayquaza ex en vedette",
 "url": "https://www.pokebeach.com/2026/06/storm-emeralda-and-delta-reign-tcg-sets-officially-teased-along-with-pockets-ruler-of-the-skies",
 "source": "PokéBeach",
-"kind": "article",
-"date": "juin 2026"
-},
-{
-"title": "Everyday Wonders : liste complète des cartes, Mega Diancie ex en carte phare",
-"url": "https://www.thegamer.com/pokemon-tcg-pocket-everyday-wonders-every-card/",
-"source": "TheGamer",
 "kind": "article",
 "date": "juin 2026"
 }
