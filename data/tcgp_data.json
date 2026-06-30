@@ -1,5 +1,5 @@
 {
-"metaSummary": "Mega Altaria ex Espeon reste de loin le deck le plus joué (7,53 % d'usage) mais plafonne à 50,48 % de winrate ; le meilleur winrate réellement jouable revient à Mega Manectric ex Zeraora (52,15 %, 2 % d'usage), juste devant Suicune ex Baxcalibur (51,86 %), Mega Altaria ex Gourgeist (51,57 %) et Mega Blaziken ex Greninja (51,48 %). Le méta reste très stable et dominé par les decks Méga et les variantes Magnezone/Miraidon ; seuls quelques échanges de places animent le top 10 (Mega Blaziken et Zoroark ex montent, Magnezone Miraidon ex et Mega Altaria ex Gourgeist reculent d'un rang). Côté outsiders à fort winrate à surveiller : Mega Altaria ex Greninja (52,92 %, meilleur winrate du format), Jolteon ex Jolteon (52,83 %), Iron Valiant Iron Boulder (52,67 %) et Sylveon ex Mega Altaria ex (51,57 %, boosté par le nouveau set). Actu chaude : la mini-extension Everyday Wonders est désormais disponible (sortie le 29 juin à 18 h PDT, 30 juin en Asie), menée par Mega Diancie ex avec Pikachu, Piplup, Snorlax, Greedent et Sylveon. Suivront en juillet l'Emblem Event Everyday Wonders, la Community Week et le Hisuian Zorua Drop Event, puis la grande extension Ruler of the Skies (B4, ~30 juillet, Mega Rayquaza ex).",
+"metaSummary": "Mega Altaria ex Espeon reste de loin le deck le plus joué (7,53 % d'usage) mais plafonne à 50,48 % de winrate ; le meilleur winrate réellement jouable revient à Mega Manectric ex Zeraora (52,15 %, 2 % d'usage), juste devant Suicune ex Baxcalibur (51,86 %), Mega Altaria ex Gourgeist (51,58 %) et Mega Blaziken ex Greninja (51,48 %). Le méta reste très stable au lendemain d'Everyday Wonders et toujours dominé par les decks Méga et les variantes Magnezone/Miraidon ; seuls quelques échanges de places animent le top 10 (Mega Blaziken et Zoroark ex montent, Magnezone Miraidon ex et Mega Altaria ex Gourgeist reculent d'un rang). Côté outsiders à fort winrate à surveiller : Mega Altaria ex Greninja (52,92 %, meilleur winrate du format), Jolteon ex Jolteon (52,83 %), Iron Valiant Iron Boulder (52,67 %), Mega Lucario ex (52,02 %) et Sylveon ex Mega Altaria ex (51,57 %, boosté par le nouveau set). Actu chaude : la mini-extension Everyday Wonders (B3b) est disponible depuis le 29 juin (18 h PDT, 30 juin en Asie), menée par Mega Diancie ex avec Pikachu, Piplup, Snorlax, Greedent et Sylveon. En juillet s'enchaînent l'Emblem Event Everyday Wonders, la Community Week, un wonder pick Growlithe/Emolga et le Hisuian Zorua Drop Event, avant la grande extension Ruler of the Skies (B4, ~30 juillet, Mega Rayquaza ex).",
 "topUsage": [
 {
 "rank": 1,
@@ -15,11 +15,11 @@
 {
 "rank": 2,
 "name": "Miraidon ex Magnezone",
-"usage": 6.51,
+"usage": 6.50,
 "winrate": 49.65,
 "record": "2612-2470-179",
 "winRate": 49.65,
-"share": 6.51,
+"share": 6.50,
 "move": "same",
 "limitless": "miraidon-ex-b3a-magnezone-b1a"
 },
@@ -93,9 +93,9 @@
 "rank": 9,
 "name": "Mega Altaria ex Gourgeist",
 "usage": 3.79,
-"winrate": 51.57,
-"record": "1696-1478-115",
-"winRate": 51.57,
+"winrate": 51.58,
+"record": "1700-1481-115",
+"winRate": 51.58,
 "share": 3.79,
 "move": "down",
 "limitless": "mega-altaria-ex-b1-gourgeist-b2"
@@ -104,9 +104,9 @@
 "rank": 10,
 "name": "Magnezone ex Magnezone",
 "usage": 2.28,
-"winrate": 50.49,
-"record": "925-845-62",
-"winRate": 50.49,
+"winrate": 50.57,
+"record": "930-847-62",
+"winRate": 50.57,
 "share": 2.28,
 "move": "same",
 "limitless": "magnezone-ex-b3-magnezone-b1a"
@@ -136,10 +136,10 @@
 {
 "rank": 3,
 "name": "Mega Altaria ex Gourgeist",
-"winrate": 51.57,
+"winrate": 51.58,
 "usage": 3.79,
-"record": "1696-1478-115",
-"winRate": 51.57,
+"record": "1700-1481-115",
+"winRate": 51.58,
 "share": 3.79,
 "limitless": "mega-altaria-ex-b1-gourgeist-b2"
 },
@@ -157,10 +157,10 @@
 "rank": 5,
 "name": "Mega Lucario ex Greninja",
 "winrate": 50.80,
-"usage": 2.11,
+"usage": 2.10,
 "record": "916-837-50",
 "winRate": 50.80,
-"share": 2.11,
+"share": 2.10,
 "limitless": "mega-lucario-ex-b3-greninja-a1"
 },
 {
@@ -186,10 +186,10 @@
 {
 "rank": 8,
 "name": "Magnezone ex Magnezone",
-"winrate": 50.49,
+"winrate": 50.57,
 "usage": 2.28,
-"record": "925-845-62",
-"winRate": 50.49,
+"record": "930-847-62",
+"winRate": 50.57,
 "share": 2.28,
 "limitless": "magnezone-ex-b3-magnezone-b1a"
 },
@@ -218,7 +218,7 @@
 "Mega Altaria ex Greninja (52.92% WR, 1.18% usage, meilleur winrate du format)",
 "Jolteon ex Jolteon (52.83% WR, 0.33% usage)",
 "Iron Valiant Iron Boulder (52.67% WR, 0.87% usage)",
-"Mega Charizard Y ex Entei ex (51.64% WR, 0.96% usage)",
+"Mega Lucario ex (52.02% WR, 1.67% usage)",
 "Sylveon ex Mega Altaria ex (51.57% WR, 0.42% usage, boosté par Everyday Wonders)"
 ],
 "leavingMeta": [],
@@ -234,7 +234,7 @@
 "slug": "miraidon-ex-b3a-magnezone-b1a",
 "name": "Miraidon ex Magnezone",
 "rank": 2,
-"usage": 6.51,
+"usage": 6.50,
 "move": "same"
 },
 {
@@ -294,8 +294,8 @@
 "move": "same"
 }
 ],
-"totalDecks": 14627,
-"updatedAt": "2026-06-29T20:12:28.000Z",
+"totalDecks": 14635,
+"updatedAt": "2026-06-30T20:10:25.000Z",
 "topDecks": [
 {
 "rank": 1,
@@ -311,11 +311,11 @@
 {
 "rank": 2,
 "name": "Miraidon ex Magnezone",
-"usage": 6.51,
+"usage": 6.50,
 "winrate": 49.65,
 "record": "2612-2470-179",
 "winRate": 49.65,
-"share": 6.51,
+"share": 6.50,
 "move": "same",
 "limitless": "miraidon-ex-b3a-magnezone-b1a"
 },
@@ -389,9 +389,9 @@
 "rank": 9,
 "name": "Mega Altaria ex Gourgeist",
 "usage": 3.79,
-"winrate": 51.57,
-"record": "1696-1478-115",
-"winRate": 51.57,
+"winrate": 51.58,
+"record": "1700-1481-115",
+"winRate": 51.58,
 "share": 3.79,
 "move": "down",
 "limitless": "mega-altaria-ex-b1-gourgeist-b2"
@@ -400,18 +400,18 @@
 "rank": 10,
 "name": "Magnezone ex Magnezone",
 "usage": 2.28,
-"winrate": 50.49,
-"record": "925-845-62",
-"winRate": 50.49,
+"winrate": 50.57,
+"record": "930-847-62",
+"winRate": 50.57,
 "share": 2.28,
 "move": "same",
 "limitless": "magnezone-ex-b3-magnezone-b1a"
 }
 ],
-"metaSummary_en": "Mega Altaria ex Espeon is still by far the most played deck (7.53% usage) but caps at 50.48% win rate; the best genuinely playable win rate belongs to Mega Manectric ex Zeraora (52.15%, 2% usage), just ahead of Suicune ex Baxcalibur (51.86%), Mega Altaria ex Gourgeist (51.57%) and Mega Blaziken ex Greninja (51.48%). The meta stays very stable and dominated by Mega decks and Magnezone/Miraidon variants; only a few seat swaps shake up the top 10 (Mega Blaziken and Zoroark ex rise, Magnezone Miraidon ex and Mega Altaria ex Gourgeist each drop a rank). High-win-rate outsiders to watch: Mega Altaria ex Greninja (52.92%, best win rate of the format), Jolteon ex Jolteon (52.83%), Iron Valiant Iron Boulder (52.67%) and Sylveon ex Mega Altaria ex (51.57%, boosted by the new set). Hot news: the Everyday Wonders mini-expansion is now live (released June 29 at 6:00 p.m. PDT, June 30 in Asia), led by Mega Diancie ex alongside Pikachu, Piplup, Snorlax, Greedent and Sylveon. July follows with the Everyday Wonders Emblem Event, Community Week and the Hisuian Zorua Drop Event, then the major Ruler of the Skies expansion (B4, ~July 30, Mega Rayquaza ex).",
+"metaSummary_en": "Mega Altaria ex Espeon is still by far the most played deck (7.53% usage) but caps at 50.48% win rate; the best genuinely playable win rate belongs to Mega Manectric ex Zeraora (52.15%, 2% usage), just ahead of Suicune ex Baxcalibur (51.86%), Mega Altaria ex Gourgeist (51.58%) and Mega Blaziken ex Greninja (51.48%). The meta stays very stable in the wake of Everyday Wonders and remains dominated by Mega decks and Magnezone/Miraidon variants; only a few seat swaps shake up the top 10 (Mega Blaziken and Zoroark ex rise, Magnezone Miraidon ex and Mega Altaria ex Gourgeist each drop a rank). High-win-rate outsiders to watch: Mega Altaria ex Greninja (52.92%, best win rate of the format), Jolteon ex Jolteon (52.83%), Iron Valiant Iron Boulder (52.67%), Mega Lucario ex (52.02%) and Sylveon ex Mega Altaria ex (51.57%, boosted by the new set). Hot news: the Everyday Wonders mini-expansion (B3b) has been live since June 29 (6:00 p.m. PDT, June 30 in Asia), led by Mega Diancie ex alongside Pikachu, Piplup, Snorlax, Greedent and Sylveon. July brings the Everyday Wonders Emblem Event, Community Week, a Growlithe/Emolga wonder pick and the Hisuian Zorua Drop Event, before the major Ruler of the Skies expansion (B4, ~July 30, Mega Rayquaza ex).",
 "news": [
 {
-"title": "Everyday Wonders : la mini-extension est disponible (29 juin, 18 h PDT / 30 juin en Asie)",
+"title": "Everyday Wonders : la mini-extension (B3b) est disponible (29 juin, 18 h PDT / 30 juin en Asie)",
 "url": "https://www.pokemon.com/us/news/pokemon-tcg-pocket-everyday-wonders-expansion-coming-soon",
 "source": "Pokemon.com (officiel)",
 "kind": "article",
@@ -437,6 +437,13 @@
 "source": "The Official Pokémon YouTube channel",
 "kind": "video",
 "date": "19 juin 2026"
+},
+{
+"title": "Everyday Wonders : nouveaux boosters, nouveaux événements de juillet et récompenses Hisuian Zorua",
+"url": "https://noisypixel.net/pokemon-tcg-pocket-everyday-wonders-booster-pack-july-events/",
+"source": "Noisy Pixel",
+"kind": "article",
+"date": "29 juin 2026"
 },
 {
 "title": "Mega Diancie ex en carte phare : liste complète des cartes Everyday Wonders",
