@@ -1,71 +1,77 @@
 {
-  "hero": {
-    "tag": "Hub Competitif Pokemon",
-    "title": "L'actu competitive en un seul endroit."
-  },
-  "news": [
-    {
-      "game": "tcgp",
-      "title": "TCG Pocket — Everyday Wonders sort aujourd'hui, Mega Altaria toujours en tête",
-      "desc": "La mini-extension Everyday Wonders sort aujourd'hui (29 juin, 18 h PDT ; 30 juin en Asie), menée par Mega Diancie ex. Côté méta : Mega Altaria ex Espeon reste de loin le deck le plus joué (7,57 % d'usage) mais plafonne à 50,58 % de winrate. Le meilleur winrate réellement jouable revient à Suicune ex Baxcalibur (52,08 %), devant Mega Altaria ex Gourgeist (51,69 %) et Mega Blaziken ex Greninja (51,37 %). Méta très stable, sans changement dans le top 10.",
-      "when": "TCG Pocket",
-      "badgeText": "META",
-      "badgeStyle": "tcgp",
-      "clickAction": "tcgp"
-    },
-    {
-      "game": "vgc",
-      "title": "VGC — Régulation M-B : Louis Markl remporte le 1er gros tournoi",
-      "desc": "La Régulation M-B est en vigueur depuis le 16 juin (jusqu'au 1er sept) : les Pokémon M-A restent jouables, rejoints par cinq nouvelles Méga-Évolutions (Sceptile, Blaziken, Swampert, Mawile, Staraptor). Au VR June Challenge #2, premier gros tournoi en M-B (174 joueurs), Louis Markl s'impose ; Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant les nouveautés Swampert (20,1 %) et Staraptor (19,0 %). Sur le circuit officiel, Francesco Pio Pero a remporté le NAIC 2026, dernier grand rendez-vous en Reg. M-A. Pokémon Champions est disponible sur iOS et Android.",
-      "when": "Pokémon Champions",
-      "badgeText": "VGC",
-      "badgeStyle": "vgc",
-      "clickAction": "vgc"
-    },
-    {
-      "game": "classic",
-      "title": "TCG Classic — Dragapult ex en tête du Standard",
-      "desc": "Méta Standard 2026-27 (post-rotation H/I/J, ère Méga-Évolution), stable depuis le NAIC. Dragapult ex domine avec 9,36 % de part de méta, devant Gardevoir ex (7,79 %) et Charizard ex (5,28 %) ; Lugia Archeops, Gholdengo ex et Lost Zone Box complètent le haut du tableau. Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
-      "when": "TCG Classic",
-      "badgeText": "CLASSIC",
-      "badgeStyle": "classic",
-      "clickAction": "classic"
-    },
-    {
-      "game": "unite",
-      "title": "Unite — patch Enduring Formation, Moltres seul en OP",
-      "desc": "Le patch Enduring Formation (17 juin) laisse Moltres seul au tier OP. La collab Pokémon Horizons installe Skeledirge et Quaquaval en tier S. Cap sur le 5e anniversaire : Yveltal, Palkia, Reshiram et Solgaleo rejoignent le jeu avec un événement chargé en récompenses dès le 21 juillet.",
-      "when": "Pokémon Unite",
-      "badgeText": "UNITE",
-      "badgeStyle": "unite",
-      "clickAction": "unite"
-    }
-  ],
-  "timeline": [
-    {
-      "title": "Everyday Wonders (B3b)",
-      "desc": "Mini-extension Pocket menée par Mega Diancie ex",
-      "game": "tcgp",
-      "date": "29 juin · TCG POCKET"
-    },
-    {
-      "title": "5e anniversaire Pokémon Unite",
-      "desc": "Yveltal, Palkia, Reshiram et Solgaleo + événement récompenses",
-      "game": "unite",
-      "date": "21 juil · UNITE"
-    },
-    {
-      "title": "Ruler of the Skies",
-      "desc": "Prochaine extension Pocket, Mega Rayquaza ex en tête",
-      "game": "tcgp",
-      "date": "~30 juil · TCG POCKET"
-    }
-  ],
-  "gamePreviews": {
-    "tcgp": true,
-    "vgc": true,
-    "classic": true,
-    "unite": true
-  },
-  "updatedAt": "2026-06-29T20:45:00.000Z"
+"hero": {
+"tag": "Hub Competitif Pokemon",
+"title": "L'actu competitive en un seul endroit."
+},
+"news": [
+{
+"game": "tcgp",
+"title": "TCG Pocket — Everyday Wonders est disponible, Mega Altaria toujours en tête",
+"desc": "La mini-extension Everyday Wonders est désormais disponible (sortie le 29 juin, 18 h PDT ; 30 juin en Asie), menée par Mega Diancie ex. Côté méta : Mega Altaria ex Espeon reste de loin le deck le plus joué (7,53 % d'usage) mais plafonne à 50,48 % de winrate. Le meilleur winrate réellement jouable revient désormais à Mega Manectric ex Zeraora (52,15 %, 2 % d'usage), devant Suicune ex Baxcalibur (51,86 %) et Mega Altaria ex Gourgeist (51,57 %). Méta très stable, sans bouleversement dans le top 10. À suivre en juillet : Emblem Event, Community Week et Hisuian Zorua Drop, puis l'extension Ruler of the Skies (~30 juillet, Mega Rayquaza ex).",
+"when": "TCG Pocket",
+"badgeText": "META",
+"badgeStyle": "tcgp",
+"clickAction": "tcgp"
+},
+{
+"game": "vgc",
+"title": "VGC — Régulation M-B : Louis Markl lance la saison, Champions Arena II en approche",
+"desc": "La Régulation M-B est en vigueur depuis le 16 juin (jusqu'au 1er sept) : les Pokémon M-A restent jouables, rejoints par cinq nouvelles Méga-Évolutions (Sceptile, Blaziken, Swampert, Mawile, Staraptor). Au VR June Challenge #2, premier gros tournoi en M-B (174 joueurs), Louis Markl s'impose ; Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %) et les nouveautés Swampert (20,1 %) et Staraptor (19,0 %). Le Monthly Challenge Series de juin a été remporté par Kaminchu, et The Champions Arena II se tiendra en ligne les 4-5 juillet. Sur le circuit officiel, Francesco Pio Pero a remporté le NAIC 2026, dernier grand rendez-vous en Reg. M-A. Pokémon Champions est disponible sur iOS et Android.",
+"when": "Pokémon Champions",
+"badgeText": "VGC",
+"badgeStyle": "vgc",
+"clickAction": "vgc"
+},
+{
+"game": "classic",
+"title": "TCG Classic — Dragapult ex en tête du Standard",
+"desc": "Méta Standard 2026-27 (ère Méga-Évolution, post-Chaos Rising), stable depuis le NAIC. Dragapult ex domine l'agrégat Limitless avec 9,36 % de part de méta, devant Gardevoir ex (7,79 %) et Charizard ex (5,28 %) ; Lugia Archeops, Gholdengo ex et Lost Zone Box complètent le haut du tableau. Sur les tournois récents, de nouveaux archétypes montent (Méga-Greninja ex, Slowking, N's Zoroark). Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
+"when": "TCG Classic",
+"badgeText": "CLASSIC",
+"badgeStyle": "classic",
+"clickAction": "classic"
+},
+{
+"game": "unite",
+"title": "Unite — patch Enduring Formation, Moltres seul en OP",
+"desc": "Le patch Enduring Formation (17 juin) laisse Moltres seul au tier OP, avec des buffs pour Sylveon, Tinkaton, Armarouge et Falinks. La collab Pokémon Horizons installe Skeledirge et Quaquaval en tier S. Cap sur le 5e anniversaire : Yveltal arrive dès le 3 juillet, suivi de Palkia (17 juillet), Reshiram (7 août) et Solgaleo (21 août), avec un grand événement à récompenses à partir du 21 juillet.",
+"when": "Pokémon Unite",
+"badgeText": "UNITE",
+"badgeStyle": "unite",
+"clickAction": "unite"
+}
+],
+"timeline": [
+{
+"title": "Yveltal rejoint Pokémon Unite",
+"desc": "Nouvel Attaquant, coup d'envoi du 5e anniversaire",
+"game": "unite",
+"date": "3 juil · UNITE"
+},
+{
+"title": "The Champions Arena II",
+"desc": "Tournoi en ligne en Régulation M-B",
+"game": "vgc",
+"date": "4-5 juil · POKÉMON CHAMPIONS"
+},
+{
+"title": "5e anniversaire Pokémon Unite",
+"desc": "Palkia, Reshiram, Solgaleo + événement récompenses",
+"game": "unite",
+"date": "21 juil · UNITE"
+},
+{
+"title": "Ruler of the Skies",
+"desc": "Prochaine extension Pocket, Mega Rayquaza ex en tête",
+"game": "tcgp",
+"date": "~30 juil · TCG POCKET"
+}
+],
+"gamePreviews": {
+"tcgp": true,
+"vgc": true,
+"classic": true,
+"unite": true
+},
+"updatedAt": "2026-06-30T09:00:00.000Z"
 }
