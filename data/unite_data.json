@@ -107,15 +107,15 @@
     ]
   },
   "patch": "Enduring Formation — v1.23.2.5 (17 juin 2026)",
-  "metaSummary": "Patch Enduring Formation (v1.23.2.5, 17 juin 2026) : Moltres domine seul le tier OP. Les buffs de Sylveon, Tinkaton, Armarouge et Falinks rebattent les cartes côté Attaquants, tandis que Greninja, Machamp et Meganium sont nerfés. Les Légendaires et Méga-Évolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) restent au sommet en SS, aux côtés d'Alcremie et Blissey côté soutien. Les nouveaux venus de la collaboration Pokémon Horizons, Skeledirge (Attaquant) et Quaquaval (Polyvalent), se sont installés en tier S. À venir : le 5e anniversaire, avec Yveltal (Attaquant) dès le 3 juillet, puis Palkia (17 juillet), Reshiram (7 août) et Solgaleo (21 août), et un grand événement à récompenses à partir du 21 juillet.",
-  "metaSummary_en": "Enduring Formation patch (v1.23.2.5, June 17, 2026): Moltres stands alone in the OP tier. Buffs to Sylveon, Tinkaton, Armarouge, and Falinks reshuffle the Attacker meta, while Greninja, Machamp, and Meganium take nerfs. Legendaries and Mega Evolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) remain dominant in SS, alongside support stars Alcremie and Blissey. The Pokémon Horizons collaboration newcomers Skeledirge (Attacker) and Quaquaval (All-Rounder) have settled into S tier. Coming up: the 5th Anniversary, with Yveltal (Attacker) on July 3, followed by Palkia (July 17), Reshiram (August 7), and Solgaleo (August 21), plus a reward-packed event starting July 21.",
+  "metaSummary": "Patch Enduring Formation (v1.23.2.5, 17 juin 2026) : aucun rééquilibrage n'est intervenu depuis, la méta reste stable à l'approche du 5e anniversaire. Moltres domine seul le tier OP. Les Légendaires et Méga-Évolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) trustent le SS aux côtés d'Alcremie et Blissey côté soutien. Les nouveaux venus de la collaboration Pokémon Horizons, Skeledirge (Attaquant) et Quaquaval (Polyvalent), se sont installés en tier S. Événement majeur en approche : le 5e anniversaire. Yveltal (Attaquant) sort dès le 3 juillet — son aperçu des capacités est déjà en ligne —, suivi de Palkia (17 juillet), Reshiram (7 août) et Solgaleo (21 août), avec un grand événement à récompenses à partir du 21 juillet.",
+  "metaSummary_en": "Enduring Formation patch (v1.23.2.5, June 17, 2026): no balance changes have shipped since, so the meta stays stable heading into the 5th Anniversary. Moltres stands alone in the OP tier. Legendaries and Mega Evolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) dominate SS, alongside support stars Alcremie and Blissey. The Pokémon Horizons collaboration newcomers Skeledirge (Attacker) and Quaquaval (All-Rounder) have settled into S tier. Big event incoming: the 5th Anniversary. Yveltal (Attacker) launches July 3 — its moves overview is already live — followed by Palkia (July 17), Reshiram (August 7), and Solgaleo (August 21), with a reward-packed event starting July 21.",
   "news": [
     {
-      "title": "Yveltal arrive le 3 juillet comme nouvel Attaquant (5e anniversaire)",
-      "url": "https://game8.co/games/Pokemon-UNITE/archives/606982",
-      "source": "Game8",
-      "kind": "article",
-      "date": "2026-06-26"
+      "title": "Yveltal Moves Overview — aperçu des capacités du nouvel Attaquant",
+      "url": "https://www.youtube.com/watch?v=pz4wRriKZ5U",
+      "source": "Pokémon UNITE (YouTube)",
+      "kind": "video",
+      "date": "2026-07-01"
     },
     {
       "title": "Yveltal Character Spotlight",
@@ -123,6 +123,13 @@
       "source": "Pokémon UNITE (YouTube)",
       "kind": "video",
       "date": "2026-06-29"
+    },
+    {
+      "title": "Yveltal arrive le 3 juillet comme nouvel Attaquant (5e anniversaire)",
+      "url": "https://game8.co/games/Pokemon-UNITE/archives/606982",
+      "source": "Game8",
+      "kind": "article",
+      "date": "2026-06-26"
     },
     {
       "title": "5e anniversaire de Pokémon UNITE : Yveltal, Palkia, Reshiram et Solgaleo rejoignent le jeu, événement à partir du 21 juillet",
@@ -139,13 +146,6 @@
       "date": "2026-06-26"
     },
     {
-      "title": "Patch Enduring Formation (v1.23.2.5) : buffs Sylveon/Tinkaton/Armarouge/Falinks, nerfs Greninja/Machamp/Meganium",
-      "url": "https://game8.co/games/Pokemon-UNITE/archives/337641",
-      "source": "Game8",
-      "kind": "article",
-      "date": "2026-06-17"
-    },
-    {
       "title": "Quaquaval rejoint Pokémon UNITE comme nouveau Polyvalent",
       "url": "https://game8.co/games/Pokemon-UNITE/archives/602357",
       "source": "Game8",
@@ -153,11 +153,11 @@
       "date": "2026-06-19"
     },
     {
-      "title": "Quaquaval Character Spotlight",
-      "url": "https://www.youtube.com/watch?v=o2kF-Xx5el8",
-      "source": "Pokémon UNITE (YouTube)",
-      "kind": "video",
-      "date": "2026-06-12"
+      "title": "Patch Enduring Formation (v1.23.2.5) : buffs Sylveon/Tinkaton/Armarouge/Falinks, nerfs Greninja/Machamp/Meganium",
+      "url": "https://game8.co/games/Pokemon-UNITE/archives/337641",
+      "source": "Game8",
+      "kind": "article",
+      "date": "2026-06-17"
     },
     {
       "title": "Événement collaboration Pokémon UNITE × Pokémon Horizons (4–30 juin) avec Holowear exclusifs",
@@ -167,5 +167,5 @@
       "date": "2026-06-04"
     }
   ],
-  "updatedAt": "2026-06-30T07:00:00.000Z"
+  "updatedAt": "2026-07-02T07:00:00.000Z"
 }
