@@ -6,8 +6,8 @@
   "news": [
     {
       "game": "tcgp",
-      "title": "TCG Pocket — Everyday Wonders rebat les cartes : Miraidon ex Magnezone en tête, Mega Sceptile roi du winrate",
-      "desc": "Avec l'arrivée d'Everyday Wonders (B3b), le méta s'est totalement recomposé. Miraidon ex Magnezone prend la tête (7,87 % d'usage, 51,85 % de winrate) devant le tout nouveau Greninja Mega Sableye ex (7,26 %, 52,38 %), tandis que Mega Gardevoir ex Mega Diancie ex, très joué (6,35 %), déçoit à 43,65 %. Le meilleur winrate réellement jouable revient aux variantes Mega Sceptile : Mega Sceptile ex Greninja culmine à 63,06 % et Butterfree Mega Sceptile ex à 61,97 %, devant Suicune ex Baxcalibur (57,45 %) et Zoroark ex Mega Absol ex (56,00 %). Les anciens rois du format B3a chutent nettement : Mega Altaria ex Espeon passe de la 1re place à ~1,4 % d'usage. L'échantillon reste modeste (661 joueurs sur 10 tournois). À suivre : Ruler of the Skies (B4, ~30 juillet, Mega Rayquaza ex).",
+      "title": "TCG Pocket — Miraidon ex Magnezone résiste, Mega Sceptile ex Greninja explose au classement",
+      "desc": "Une semaine après l'arrivée d'Everyday Wonders (B3b), le méta se stabilise en tête mais bouge fort derrière : Miraidon ex Magnezone reste n°1 en usage (7,72 %, 52,93 % de winrate), talonné de très près par Greninja Mega Sableye ex (7,61 %, 52,77 %). Mega Gardevoir ex Mega Diancie ex, 3e le plus joué (5,69 %), continue de décevoir (42,80 % de winrate). La sensation du moment : Mega Sceptile ex Greninja bondit du rang 7 au rang 4 (4,57 % d'usage) avec le meilleur winrate réellement jouable du format (59,08 %), devant Suicune ex Baxcalibur (58,44 %) et Zoroark ex Mega Absol ex (58,16 %). Milotic ex Igglybuff et Meowscarada ex Meowscarada perdent du terrain, tandis que les piliers de B3a (Mega Altaria ex Espeon, Magnezone Miraidon ex) continuent de s'effacer. Échantillon élargi à 985 joueurs sur 13 tournois. À suivre : Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
       "when": "TCG Pocket",
       "badgeText": "META",
       "badgeStyle": "tcgp",
@@ -15,8 +15,8 @@
     },
     {
       "game": "vgc",
-      "title": "VGC — Régulation M-B : Louis Markl lance la saison, Champions Arena II en approche",
-      "desc": "La Régulation M-B est en vigueur depuis le 16 juin (jusqu'au 1er sept) : les Pokémon M-A restent jouables, rejoints par cinq nouvelles Méga-Évolutions (Sceptile, Blaziken, Swampert, Mawile, Staraptor). Au VR June Challenge #2, premier gros tournoi en M-B (174 joueurs), Louis Markl s'impose ; Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %) et les nouveautés Swampert (20,1 %) et Staraptor (19,0 %). En usage général, Garchomp, Basculegion et Whimsicott dominent. Le Monthly Challenge Series de juin a été remporté par Kaminchu, et The Champions Arena II se tient en ligne les 4-5 juillet (inscriptions ouvertes). Sur le circuit officiel, Francesco Pio Pero a remporté le NAIC 2026, dernier grand rendez-vous en Reg. M-A. Pokémon Champions est disponible sur iOS et Android.",
+      "title": "VGC — The Champions Arena II lancé, nouveaux Top Moments du NAIC 2026",
+      "desc": "La Régulation M-B (16 juin – 1er sept) confirme sa hiérarchie : Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), talonnées par les nouveautés Mega Swampert (20,1 %) et Mega Staraptor (19,0 %), au VR June Challenge #2 remporté par Louis Markl. En usage général, Garchomp, Basculegion et Whimsicott dominent. The Champions Arena II, tournoi d'entraînement en ligne avant l'été qualificatif, a débuté aujourd'hui (Phase 1 Swiss le 4 juillet, Phase 2 et top cut le 5 juillet), avec Sekiam, Folagor et PokeAlex. Le Monthly Challenge Series de juin s'est conclu, remporté par Kaminchu. Play! Pokémon a publié un nouveau récap vidéo « Top Moments » du NAIC 2026, remporté par Francesco Pio Pero. Prochain rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
       "when": "Pokémon Champions",
       "badgeText": "VGC",
       "badgeStyle": "vgc",
@@ -24,8 +24,8 @@
     },
     {
       "game": "classic",
-      "title": "TCG Classic — Dragapult ex en tête du Standard, vitrine 30th Celebration dévoilée",
-      "desc": "Méta Standard 2026-27 (ère Méga-Évolution, post-Chaos Rising), en pause estivale depuis le NAIC de la Nouvelle-Orléans (vainqueur James Kowalski). Dragapult ex domine l'agrégat Limitless avec 9,36 % de part de méta, devant Gardevoir ex (7,79 %) et Charizard ex (5,28 %) ; Lugia Archeops, Gholdengo ex et Lost Zone Box complètent le haut du tableau. Sur le format récent post-Chaos Rising (TEF–CRI), de nouveaux archétypes percent : N's Zoroark ex, Marnie's Grimmsnarl ex, Slowking et Hydrapple. Côté produit, The Pokémon Company a dévoilé la vitrine de l'extension anniversaire 30th Celebration (sortie le 16 septembre, cartes tout-foil, nouvelle rareté « Futuristic »). Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
+      "title": "TCG Classic — Dragapult ex toujours en tête, Mega Evolution—Pitch Black dévoilée",
+      "desc": "Méta Standard 2026-27 stable en pause estivale : Dragapult ex reste n°1 de l'agrégat Limitless (9,36 %), devant Gardevoir ex (7,79 %) et Charizard ex (5,28 %) ; aucun mouvement dans le top 10 depuis la dernière veille (pas de tournoi majeur depuis le NAIC du 10 juin, vainqueur James Kowalski). Actualité produit majeure : The Pokémon Company a dévoilé la prochaine extension Mega Evolution—Pitch Black (sortie le 17 juillet), avec des cartes promo offertes chez certains revendeurs (Primarina, Zarude, Amovélie). La vitrine de l'extension anniversaire 30th Celebration (16 septembre, cartes tout-foil, rareté « Futuristic rare ») reste également au programme. Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
       "when": "TCG Classic",
       "badgeText": "CLASSIC",
       "badgeStyle": "classic",
@@ -33,8 +33,8 @@
     },
     {
       "game": "unite",
-      "title": "Unite — Yveltal disponible, Moltres seul en OP",
-      "desc": "Le patch Enduring Formation (17 juin) laisse Moltres seul au tier OP, avec des buffs pour Sylveon, Tinkaton, Armarouge et Falinks ; aucun rééquilibrage majeur depuis, la méta reste stable en plein 5e anniversaire. La collab Pokémon Horizons installe Skeledirge et Quaquaval en tier S. Temps fort du moment : Yveltal (Attaquant) est disponible depuis le 3 juillet, avec une mission gratuite pour débloquer sa licence, suivi de Palkia (17 juillet), Reshiram (7 août) et Solgaleo (21 août), avec un grand événement à récompenses à partir du 21 juillet.",
+      "title": "Unite — Yveltal débarque, le tier OP disparaît au profit du SS",
+      "desc": "Le patch Enduring Formation (17 juin) reste en vigueur sans nouveau rééquilibrage, mais la tier list Game8 évolue : le tier OP a disparu et Moltres rejoint désormais le tier SS aux côtés des Légendaires et Méga-Évolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) et des soutiens Alcremie et Blissey — plus de pick isolé au sommet de la méta. Les arrivants Horizons Skeledirge et Quaquaval restent installés en tier S. Temps fort : Yveltal (Attaquant) est disponible depuis le 3 juillet avec une mission gratuite pour débloquer sa licence, suivi de Palkia (17 juillet), Reshiram (7 août) et Solgaleo (21 août), avec un grand événement à récompenses dès le 21 juillet pour le 5e anniversaire du jeu.",
       "when": "Pokémon Unite",
       "badgeText": "UNITE",
       "badgeStyle": "unite",
@@ -43,16 +43,16 @@
   ],
   "timeline": [
     {
-      "title": "Yveltal rejoint Pokémon Unite",
-      "desc": "Nouvel Attaquant disponible, coup d'envoi du 5e anniversaire",
-      "game": "unite",
-      "date": "3 juil · UNITE"
-    },
-    {
       "title": "The Champions Arena II",
-      "desc": "Tournoi en ligne en Régulation M-B",
+      "desc": "Tournoi en ligne en Régulation M-B, Phase 1 Swiss aujourd'hui",
       "game": "vgc",
       "date": "4-5 juil · POKÉMON CHAMPIONS"
+    },
+    {
+      "title": "Mega Evolution—Pitch Black",
+      "desc": "Nouvelle extension TCG, cartes promo Primarina/Zarude/Amovélie",
+      "game": "classic",
+      "date": "17 juil · TCG CLASSIC"
     },
     {
       "title": "5e anniversaire Pokémon Unite",
@@ -73,5 +73,5 @@
     "classic": true,
     "unite": true
   },
-  "updatedAt": "2026-07-03T21:00:00.000Z"
+  "updatedAt": "2026-07-04T13:00:00.000Z"
 }
