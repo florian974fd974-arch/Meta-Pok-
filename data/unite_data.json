@@ -1,8 +1,6 @@
 {
   "tierList": {
-    "OP": [
-      "Moltres"
-    ],
+    "OP": [],
     "SS": [
       "Alcremie",
       "Blissey",
@@ -15,6 +13,7 @@
       "Mega Lucario",
       "Mimikyu",
       "Miraidon",
+      "Moltres",
       "Slowbro",
       "Zacian",
       "Zapdos"
@@ -109,9 +108,16 @@
   },
   "patch": "Enduring Formation — v1.23.2.5 (17 juin 2026)",
   "topPokemon": "Moltres",
-  "metaSummary": "Patch Enduring Formation (v1.23.2.5, 17 juin 2026) : aucun rééquilibrage n'est intervenu depuis (seul un ajustement mineur le 24 juin), la méta reste stable en plein 5e anniversaire. Moltres domine seul le tier OP. Les Légendaires et Méga-Évolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) trustent le SS aux côtés d'Alcremie et Blissey côté soutien. Les nouveaux venus de la collaboration Pokémon Horizons, Skeledirge (Attaquant) et Quaquaval (Polyvalent), se sont installés en tier S. Temps fort du moment : Yveltal (Attaquant) est disponible depuis le 3 juillet, avec une mission gratuite pour débloquer sa licence. Suivent Palkia (17 juillet), Reshiram (7 août) et Solgaleo (21 août), et un grand événement à récompenses à partir du 21 juillet.",
-  "metaSummary_en": "Enduring Formation patch (v1.23.2.5, June 17, 2026): no balance changes have shipped since (only a minor June 24 tweak), so the meta stays stable in the middle of the 5th Anniversary. Moltres stands alone in the OP tier. Legendaries and Mega Evolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) dominate SS, alongside support stars Alcremie and Blissey. The Pokémon Horizons collaboration newcomers Skeledirge (Attacker) and Quaquaval (All-Rounder) have settled into S tier. Current highlight: Yveltal (Attacker) is live as of July 3, with a free mission to unlock its license. Next up are Palkia (July 17), Reshiram (August 7), and Solgaleo (August 21), plus a reward-packed event starting July 21.",
+  "metaSummary": "Patch Enduring Formation (v1.23.2.5, 17 juin 2026) toujours en vigueur, sans nouveau rééquilibrage. Changement notable côté tier list Game8 (mise à jour du 3 juillet) : le tier OP a disparu, Moltres a été rétrogradé et rejoint désormais le tier SS aux côtés des Légendaires et Méga-Évolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) et des soutiens Alcremie et Blissey — il n'y a donc plus de pick isolé au sommet de la méta. Les nouveaux venus de la collaboration Pokémon Horizons, Skeledirge (Attaquant) et Quaquaval (Polyvalent), restent installés en tier S. Temps fort du moment : Yveltal (Attaquant) est disponible depuis le 3 juillet, avec une mission gratuite pour débloquer sa licence. Suivent Palkia (17 juillet), Reshiram (7 août) et Solgaleo (21 août), et un grand événement à récompenses à partir du 21 juillet pour le 5e anniversaire du jeu.",
+  "metaSummary_en": "The Enduring Formation patch (v1.23.2.5, June 17, 2026) is still current, with no new balance changes shipped. Notable shift on Game8's tier list (updated July 3): the OP tier is gone — Moltres has been moved down into SS, joining the Legendaries and Mega Evolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) alongside support stars Alcremie and Blissey, so there's no longer a single standalone pick at the top of the meta. The Pokémon Horizons collaboration newcomers Skeledirge (Attacker) and Quaquaval (All-Rounder) remain settled into S tier. Current highlight: Yveltal (Attacker) is live as of July 3, with a free mission to unlock its license. Next up are Palkia (July 17), Reshiram (August 7), and Solgaleo (August 21), plus a reward-packed event starting July 21 for the game's 5th anniversary.",
   "news": [
+    {
+      "title": "Yveltal joins the fray on July 3!",
+      "url": "https://www.pokemonunite.jp/en/topics/news/20260703-1/",
+      "source": "Pokémon UNITE Official",
+      "kind": "article",
+      "date": "2026-07-03"
+    },
     {
       "title": "Yveltal, nouvel Attaquant, disponible le 3 juillet — mission gratuite pour débloquer sa licence",
       "url": "https://game8.co/games/Pokemon-UNITE/archives/606982",
@@ -160,14 +166,7 @@
       "source": "Game8",
       "kind": "article",
       "date": "2026-06-17"
-    },
-    {
-      "title": "Événement collaboration Pokémon UNITE × Pokémon Horizons (4–30 juin) avec Holowear exclusifs",
-      "url": "https://www.pokemonunite.jp/en/topics/news/20260527-1/",
-      "source": "Pokémon UNITE Official",
-      "kind": "article",
-      "date": "2026-06-04"
     }
   ],
-  "updatedAt": "2026-07-03T07:00:00.000Z"
+  "updatedAt": "2026-07-04T09:00:00.000Z"
 }
