@@ -1,127 +1,126 @@
 {
-  "metaSummary": "Une semaine après l'arrivée d'Everyday Wonders (B3b), le méta se stabilise en tête mais bouge fort derrière : Miraidon ex Magnezone reste n°1 en usage (7,72 %, 52,93 % de winrate) mais recule légèrement, talonné de très près par Greninja Mega Sableye ex qui continue de grimper (7,61 %, 52,77 %). Mega Gardevoir ex Mega Diancie ex, 3e le plus joué (5,69 %), continue de décevoir avec seulement 42,80 % de winrate. La vraie sensation, c'est Mega Sceptile ex Greninja qui bondit du rang 7 au rang 4 (2,57 % → 4,57 % d'usage) tout en conservant le meilleur winrate réellement jouable du format (59,08 %), devant Suicune ex Baxcalibur (58,44 %) et Zoroark ex Mega Absol ex (58,16 %) ; Mega Blaziken ex Greninja fait aussi son entrée dans le top 10. À l'inverse, Milotic ex Igglybuff et Meowscarada ex Meowscarada perdent du terrain, et les anciens piliers du format B3a (Mega Altaria ex Espeon, Magnezone Miraidon ex, Mega Manectric ex Zeraora) continuent de s'effacer. L'échantillon s'est étoffé (985 joueurs sur 13 tournois, 2 531 matchs) et la prochaine extension majeure, Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex), rebattra les cartes.",
-  "metaSummary_en": "A week after the arrival of Everyday Wonders (B3b), the top of the meta holds steady while the field behind it shifts fast: Miraidon ex Magnezone remains the #1 most-played deck (7.72% usage, 52.93% win rate) but eased back slightly, closely trailed by Greninja Mega Sableye ex, which keeps climbing (7.61%, 52.77%). Mega Gardevoir ex Mega Diancie ex, the 3rd most-played deck (5.69%), continues to underwhelm at just 42.80% win rate. The real story is Mega Sceptile ex Greninja, which jumped from rank 7 to rank 4 (2.57% to 4.57% usage) while keeping the best genuinely playable win rate in the format (59.08%), ahead of Suicune ex Baxcalibur (58.44%) and Zoroark ex Mega Absol ex (58.16%); Mega Blaziken ex Greninja also cracked the top 10 for the first time. On the other side, Milotic ex Igglybuff and Meowscarada ex Meowscarada are losing ground, and the old B3a mainstays (Mega Altaria ex Espeon, Magnezone Miraidon ex, Mega Manectric ex Zeraora) keep fading further. The sample has grown (985 players across 13 tournaments, 2,531 matches), and the next major expansion, Ruler of the Skies (B4, July 30, Mega Rayquaza ex), will shake things up again.",
-  "topUsage": [
-    { "rank": 1, "name": "Miraidon ex Magnezone", "usage": 7.72, "winrate": 52.93, "record": "217-184-9", "winRate": 52.93, "share": 7.72, "move": "down", "limitless": "miraidon-ex-b3a-magnezone-b1a" },
-    { "rank": 2, "name": "Greninja Mega Sableye ex", "usage": 7.61, "winrate": 52.77, "record": "219-183-13", "winRate": 52.77, "share": 7.61, "move": "up", "limitless": "greninja-a1-mega-sableye-ex-b3b" },
-    { "rank": 3, "name": "Mega Gardevoir ex Mega Diancie ex", "usage": 5.69, "winrate": 42.80, "record": "107-138-5", "winRate": 42.80, "share": 5.69, "move": "down", "limitless": "mega-gardevoir-ex-b2-mega-diancie-ex-b3b" },
-    { "rank": 4, "name": "Mega Sceptile ex Greninja", "usage": 4.57, "winrate": 59.08, "record": "179-115-9", "winRate": 59.08, "share": 4.57, "move": "up", "limitless": "mega-sceptile-ex-b3-greninja-a1" },
-    { "rank": 5, "name": "Mega Sableye ex Darkrai ex", "usage": 4.06, "winrate": 48.54, "record": "100-99-7", "winRate": 48.54, "share": 4.06, "move": "down", "limitless": "mega-sableye-ex-b3b-darkrai-ex-a2" },
-    { "rank": 6, "name": "Meowscarada ex Meowscarada", "usage": 2.74, "winrate": 53.19, "record": "75-59-7", "winRate": 53.19, "share": 2.74, "move": "down", "limitless": "meowscarada-ex-b2a-meowscarada-a2b" },
-    { "rank": 7, "name": "Mega Blaziken ex Greninja", "usage": 2.44, "winrate": 48.31, "record": "57-56-5", "winRate": 48.31, "share": 2.44, "move": "up", "limitless": "mega-blaziken-ex-b1-greninja-a1" },
-    { "rank": 8, "name": "Milotic ex Igglybuff", "usage": 2.44, "winrate": 41.23, "record": "47-64-3", "winRate": 41.23, "share": 2.44, "move": "down", "limitless": "milotic-ex-b3b-igglybuff-a4a" },
-    { "rank": 9, "name": "Butterfree Mega Sceptile ex", "usage": 2.34, "winrate": 56.55, "record": "82-56-7", "winRate": 56.55, "share": 2.34, "move": "up", "limitless": "butterfree-b3b-mega-sceptile-ex-b3" },
-    { "rank": 10, "name": "Butterfree Hisuian Zoroark ex", "usage": 2.13, "winrate": 52.25, "record": "58-52-1", "winRate": 52.25, "share": 2.13, "move": "up", "limitless": "butterfree-hisuian-zoroark-ex-b3b" }
-  ],
-  "topWinrate": [
-    { "rank": 1, "name": "Mega Sceptile ex Greninja", "winrate": 59.08, "usage": 4.57, "record": "179-115-9", "winRate": 59.08, "share": 4.57, "limitless": "mega-sceptile-ex-b3-greninja-a1" },
-    { "rank": 2, "name": "Suicune ex Baxcalibur", "winrate": 58.44, "usage": 1.62, "record": "45-29-3", "winRate": 58.44, "share": 1.62, "limitless": "suicune-ex-a4a-baxcalibur-b2a" },
-    { "rank": 3, "name": "Zoroark ex Mega Absol ex", "winrate": 58.16, "usage": 1.52, "record": "57-37-4", "winRate": 58.16, "share": 1.52, "limitless": "zoroark-ex-b3-mega-absol-ex-b1" },
-    { "rank": 4, "name": "Butterfree Mega Sceptile ex", "winrate": 56.55, "usage": 2.34, "record": "82-56-7", "winRate": 56.55, "share": 2.34, "limitless": "butterfree-b3b-mega-sceptile-ex-b3" },
-    { "rank": 5, "name": "Zoroark ex Mega Sableye ex", "winrate": 56.10, "usage": 1.52, "record": "46-36-0", "winRate": 56.10, "share": 1.52, "limitless": "zoroark-ex-b3-mega-sableye-ex-b3b" },
-    { "rank": 6, "name": "Mega Sceptile ex Teal Mask Ogerpon ex", "winrate": 55.32, "usage": 1.73, "record": "52-38-4", "winRate": 55.32, "share": 1.73, "limitless": "mega-sceptile-ex-b3-teal-mask-ogerpon-ex-b2" },
-    { "rank": 7, "name": "Hydreigon Mega Absol ex", "winrate": 53.41, "usage": 1.52, "record": "47-36-5", "winRate": 53.41, "share": 1.52, "limitless": "hydreigon-mega-absol-ex-b1" },
-    { "rank": 8, "name": "Meowscarada ex Meowscarada", "winrate": 53.19, "usage": 2.74, "record": "75-59-7", "winRate": 53.19, "share": 2.74, "limitless": "meowscarada-ex-b2a-meowscarada-a2b" },
-    { "rank": 9, "name": "Miraidon ex Magnezone", "winrate": 52.93, "usage": 7.72, "record": "217-184-9", "winRate": 52.93, "share": 7.72, "limitless": "miraidon-ex-b3a-magnezone-b1a" },
-    { "rank": 10, "name": "Greninja Mega Sableye ex", "winrate": 52.77, "usage": 7.61, "record": "219-183-13", "winRate": 52.77, "share": 7.61, "limitless": "greninja-a1-mega-sableye-ex-b3b" }
-  ],
-  "enteringMeta": [
-    "Mega Sceptile ex Greninja (4.57% usage, 59.08% WR — grimpe du rang 7 au rang 4, meilleur winrate réellement jouable du méta)",
-    "Mega Blaziken ex Greninja (2.44% usage, 48.31% WR — fait son entrée dans le top 10)",
-    "Butterfree Mega Sceptile ex (2.34% usage, 56.55% WR — en hausse constante depuis la sortie de B3b)",
-    "Butterfree Hisuian Zoroark ex (2.13% usage, 52.25% WR — progresse également)",
-    "Greninja Mega Sableye ex (7.61% usage, 52.77% WR — se rapproche de la 1re place)"
-  ],
-  "leavingMeta": [
-    "Milotic ex Igglybuff (recule de 3.33% à 2.44% d'usage, glisse du rang 6 au rang 8)",
-    "Meowscarada ex Meowscarada (recule de 3.63% à 2.74% d'usage, glisse du rang 5 au rang 6)",
-    "Mega Gardevoir ex Mega Diancie ex (recule de 6.35% à 5.69% d'usage malgré une carte phare du set)",
-    "Mega Altaria ex Espeon (ancien n°1 du format B3a, tombé à ~1.02% d'usage)",
-    "Magnezone Miraidon ex (chute encore, 0.81% d'usage)",
-    "Mega Manectric ex Zeraora (0.81% d'usage, 39.39% WR)"
-  ],
-  "movements": [
-    { "slug": "miraidon-ex-b3a-magnezone-b1a", "name": "Miraidon ex Magnezone", "rank": 1, "usage": 7.72, "move": "down" },
-    { "slug": "greninja-a1-mega-sableye-ex-b3b", "name": "Greninja Mega Sableye ex", "rank": 2, "usage": 7.61, "move": "up" },
-    { "slug": "mega-gardevoir-ex-b2-mega-diancie-ex-b3b", "name": "Mega Gardevoir ex Mega Diancie ex", "rank": 3, "usage": 5.69, "move": "down" },
-    { "slug": "mega-sceptile-ex-b3-greninja-a1", "name": "Mega Sceptile ex Greninja", "rank": 4, "usage": 4.57, "move": "up" },
-    { "slug": "mega-sableye-ex-b3b-darkrai-ex-a2", "name": "Mega Sableye ex Darkrai ex", "rank": 5, "usage": 4.06, "move": "down" },
-    { "slug": "meowscarada-ex-b2a-meowscarada-a2b", "name": "Meowscarada ex Meowscarada", "rank": 6, "usage": 2.74, "move": "down" },
-    { "slug": "mega-blaziken-ex-b1-greninja-a1", "name": "Mega Blaziken ex Greninja", "rank": 7, "usage": 2.44, "move": "up" },
-    { "slug": "milotic-ex-b3b-igglybuff-a4a", "name": "Milotic ex Igglybuff", "rank": 8, "usage": 2.44, "move": "down" },
-    { "slug": "butterfree-b3b-mega-sceptile-ex-b3", "name": "Butterfree Mega Sceptile ex", "rank": 9, "usage": 2.34, "move": "up" },
-    { "slug": "butterfree-hisuian-zoroark-ex-b3b", "name": "Butterfree Hisuian Zoroark ex", "rank": 10, "usage": 2.13, "move": "up" }
-  ],
-  "totalDecks": 985,
-  "updatedAt": "2026-07-04T09:00:00.000Z",
-  "topDecks": [
-    { "rank": 1, "name": "Miraidon ex Magnezone", "usage": 7.72, "winrate": 52.93, "record": "217-184-9", "winRate": 52.93, "share": 7.72, "move": "down", "limitless": "miraidon-ex-b3a-magnezone-b1a" },
-    { "rank": 2, "name": "Greninja Mega Sableye ex", "usage": 7.61, "winrate": 52.77, "record": "219-183-13", "winRate": 52.77, "share": 7.61, "move": "up", "limitless": "greninja-a1-mega-sableye-ex-b3b" },
-    { "rank": 3, "name": "Mega Gardevoir ex Mega Diancie ex", "usage": 5.69, "winrate": 42.80, "record": "107-138-5", "winRate": 42.80, "share": 5.69, "move": "down", "limitless": "mega-gardevoir-ex-b2-mega-diancie-ex-b3b" },
-    { "rank": 4, "name": "Mega Sceptile ex Greninja", "usage": 4.57, "winrate": 59.08, "record": "179-115-9", "winRate": 59.08, "share": 4.57, "move": "up", "limitless": "mega-sceptile-ex-b3-greninja-a1" },
-    { "rank": 5, "name": "Mega Sableye ex Darkrai ex", "usage": 4.06, "winrate": 48.54, "record": "100-99-7", "winRate": 48.54, "share": 4.06, "move": "down", "limitless": "mega-sableye-ex-b3b-darkrai-ex-a2" },
-    { "rank": 6, "name": "Meowscarada ex Meowscarada", "usage": 2.74, "winrate": 53.19, "record": "75-59-7", "winRate": 53.19, "share": 2.74, "move": "down", "limitless": "meowscarada-ex-b2a-meowscarada-a2b" },
-    { "rank": 7, "name": "Mega Blaziken ex Greninja", "usage": 2.44, "winrate": 48.31, "record": "57-56-5", "winRate": 48.31, "share": 2.44, "move": "up", "limitless": "mega-blaziken-ex-b1-greninja-a1" },
-    { "rank": 8, "name": "Milotic ex Igglybuff", "usage": 2.44, "winrate": 41.23, "record": "47-64-3", "winRate": 41.23, "share": 2.44, "move": "down", "limitless": "milotic-ex-b3b-igglybuff-a4a" },
-    { "rank": 9, "name": "Butterfree Mega Sceptile ex", "usage": 2.34, "winrate": 56.55, "record": "82-56-7", "winRate": 56.55, "share": 2.34, "move": "up", "limitless": "butterfree-b3b-mega-sceptile-ex-b3" },
-    { "rank": 10, "name": "Butterfree Hisuian Zoroark ex", "usage": 2.13, "winrate": 52.25, "record": "58-52-1", "winRate": 52.25, "share": 2.13, "move": "up", "limitless": "butterfree-hisuian-zoroark-ex-b3b" }
-  ],
-  "news": [
-    {
-      "title": "Everyday Wonders Emblem Event : PvP du 3 au 13 juillet pour des Emblèmes et du Shinedust",
-      "url": "https://game8.co/games/Pokemon-TCG-Pocket/archives/607401",
-      "source": "Game8",
-      "kind": "article",
-      "date": "3 juillet 2026"
-    },
-    {
-      "title": "Pokémon TCG Pocket : programme du Premium Pass de juillet 2026 (promo Psyduck, accessoires Piplup)",
-      "url": "https://pokemongohub.net/post/tcg-pocket/pokemon-tcg-pocket-july-2026-premium-pass-lineup-missions/",
-      "source": "Pokémon GO Hub",
-      "kind": "article",
-      "date": "30 juin 2026"
-    },
-    {
-      "title": "Everyday Wonders : la mini-extension (B3b) est disponible depuis le 29 juin (Mega Diancie ex en carte phare)",
-      "url": "https://www.pokemon.com/us/news/pokemon-tcg-pocket-everyday-wonders-expansion-coming-soon",
-      "source": "Pokemon.com (officiel)",
-      "kind": "article",
-      "date": "29 juin 2026"
-    },
-    {
-      "title": "Ruler of the Skies (B4) prévue le 30 juillet : Mega Rayquaza ex en vedette",
-      "url": "https://game8.co/games/Pokemon-TCG-Pocket/archives/605801",
-      "source": "Game8",
-      "kind": "article",
-      "date": "juillet 2026"
-    },
-    {
-      "title": "Pokémon TCG Pocket: Everyday Wonders | Official Trailer",
-      "url": "https://www.youtube.com/watch?v=fgZy2-XUmXM",
-      "source": "The Official Pokémon YouTube channel",
-      "kind": "video",
-      "date": "24 juin 2026"
-    },
-    {
-      "title": "Pokémon TCG: Mega Evolution—Delta Reign & Pokémon TCG Pocket: Ruler of the Skies | Coming Soon",
-      "url": "https://www.youtube.com/watch?v=1zkUQDXaklY",
-      "source": "The Official Pokémon YouTube channel",
-      "kind": "video",
-      "date": "19 juin 2026"
-    },
-    {
-      "title": "Everyday Wonders : liste complète des cartes (Mega Diancie ex en tête d'affiche)",
-      "url": "https://www.thegamer.com/pokemon-tcg-pocket-everyday-wonders-every-card/",
-      "source": "TheGamer",
-      "kind": "article",
-      "date": "26 juin 2026"
-    },
-    {
-      "title": "\"Everyday Wonders\" Pocket Set Revealed Starring Cute Pokemon",
-      "url": "https://www.pokebeach.com/2026/06/everyday-wonders-pocket-set-revealed-starring-cute-pokemon",
-      "source": "PokeBeach",
-      "kind": "article",
-      "date": "25 juin 2026"
-    }
-  ]
+"metaSummary": "Gros chamboulement en tête du méta cette semaine : Greninja Mega Sableye ex détrône Miraidon ex Magnezone et devient le deck le plus joué (8,88 % d'usage, 49,66 % de winrate), tandis que l'ancien n°1 recule à la 2e place (7,59 %, 52,81 %). La vraie sensation reste Mega Sceptile ex Greninja, qui grimpe du rang 4 au rang 3 (6,29 % d'usage) tout en conservant l'un des meilleurs winrates du format ; il est toutefois devancé au classement winrate par Suicune ex Baxcalibur, qui fait une entrée fracassante dans le top 10 avec 57,14 % de victoires, le meilleur du méta. Butterfree Mega Sceptile ex confirme sa progression en bondissant du rang 9 au rang 5, et Hydreigon Mega Sableye ex fait aussi son entrée dans le top 10, pendant que Mega Sableye ex Darkrai ex, Meowscarada ex Meowscarada et Milotic ex Igglybuff perdent du terrain. L'échantillon s'élargit encore (1 542 joueurs sur 19 tournois, 4 016 matchs) à l'approche de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex) qui doit rebattre les cartes.",
+"metaSummary_en": "A big shake-up at the top of the meta this week: Greninja Mega Sableye ex dethrones Miraidon ex Magnezone to become the most-played deck (8.88% usage, 49.66% win rate), while the former #1 slips to 2nd place (7.59%, 52.81%). The real story is still Mega Sceptile ex Greninja, climbing from rank 4 to rank 3 (6.29% usage) while keeping one of the format's best win rates; it's nonetheless edged out on the win-rate leaderboard by Suicune ex Baxcalibur, which crashes into the top 10 with a meta-best 57.14% win rate. Butterfree Mega Sceptile ex keeps rising, jumping from rank 9 to rank 5, and Hydreigon Mega Sableye ex also cracks the top 10 for the first time, while Mega Sableye ex Darkrai ex, Meowscarada ex Meowscarada, and Milotic ex Igglybuff lose ground. The sample keeps growing (1,542 players across 19 tournaments, 4,016 matches) as the next expansion, Ruler of the Skies (B4, July 30, Mega Rayquaza ex), approaches and is expected to shake things up again.",
+"topUsage": [
+{ "rank": 1, "name": "Greninja Mega Sableye ex", "usage": 8.88, "winrate": 49.66, "record": "366-351-20", "winRate": 49.66, "share": 8.88, "move": "up", "limitless": "greninja-a1-mega-sableye-ex-b3b" },
+{ "rank": 2, "name": "Miraidon ex Magnezone", "usage": 7.59, "winrate": 52.81, "record": "338-285-17", "winRate": 52.81, "share": 7.59, "move": "down", "limitless": "miraidon-ex-b3a-magnezone-b1a" },
+{ "rank": 3, "name": "Mega Sceptile ex Greninja", "usage": 6.29, "winrate": 56.75, "record": "332-240-13", "winRate": 56.75, "share": 6.29, "move": "up", "limitless": "mega-sceptile-ex-b3-greninja-a1" },
+{ "rank": 4, "name": "Mega Gardevoir ex Mega Diancie ex", "usage": 5.77, "winrate": 44.78, "record": "193-229-9", "winRate": 44.78, "share": 5.77, "move": "down", "limitless": "mega-gardevoir-ex-b2-mega-diancie-ex-b3b" },
+{ "rank": 5, "name": "Butterfree Mega Sceptile ex", "usage": 3.31, "winrate": 55.23, "record": "169-118-19", "winRate": 55.23, "share": 3.31, "move": "up", "limitless": "butterfree-b3b-mega-sceptile-ex-b3" },
+{ "rank": 6, "name": "Mega Blaziken ex Greninja", "usage": 2.92, "winrate": 53.49, "record": "138-110-10", "winRate": 53.49, "share": 2.92, "move": "up", "limitless": "mega-blaziken-ex-b1-greninja-a1" },
+{ "rank": 7, "name": "Mega Sableye ex Darkrai ex", "usage": 2.85, "winrate": 46.30, "record": "100-109-7", "winRate": 46.30, "share": 2.85, "move": "down", "limitless": "mega-sableye-ex-b3b-darkrai-ex-a2" },
+{ "rank": 8, "name": "Suicune ex Baxcalibur", "usage": 2.72, "winrate": 57.14, "record": "136-93-9", "winRate": 57.14, "share": 2.72, "move": "up", "limitless": "suicune-ex-a4a-baxcalibur-b2a" },
+{ "rank": 9, "name": "Hydreigon Mega Sableye ex", "usage": 2.40, "winrate": 50.50, "record": "102-98-2", "winRate": 50.50, "share": 2.40, "move": "up", "limitless": "hydreigon-b1-mega-sableye-ex-b3b" },
+{ "rank": 10, "name": "Butterfree Hisuian Zoroark ex", "usage": 2.33, "winrate": 48.37, "record": "89-92-3", "winRate": 48.37, "share": 2.33, "move": "same", "limitless": "butterfree-hisuian-zoroark-ex-b3b" }
+],
+"topWinrate": [
+{ "rank": 1, "name": "Suicune ex Baxcalibur", "winrate": 57.14, "usage": 2.72, "record": "136-93-9", "winRate": 57.14, "share": 2.72, "limitless": "suicune-ex-a4a-baxcalibur-b2a" },
+{ "rank": 2, "name": "Mega Sceptile ex Greninja", "winrate": 56.75, "usage": 6.29, "record": "332-240-13", "winRate": 56.75, "share": 6.29, "limitless": "mega-sceptile-ex-b3-greninja-a1" },
+{ "rank": 3, "name": "Zoroark ex Mega Absol ex", "winrate": 55.81, "usage": 1.43, "record": "72-53-4", "winRate": 55.81, "share": 1.43, "limitless": "zoroark-ex-b3-mega-absol-ex-b1" },
+{ "rank": 4, "name": "Butterfree Mega Sceptile ex", "winrate": 55.23, "usage": 3.31, "record": "169-118-19", "winRate": 55.23, "share": 3.31, "limitless": "butterfree-b3b-mega-sceptile-ex-b3" },
+{ "rank": 5, "name": "Mega Sceptile ex Teal Mask Ogerpon ex", "winrate": 54.90, "usage": 1.23, "record": "56-42-4", "winRate": 54.90, "share": 1.23, "limitless": "mega-sceptile-ex-b3-teal-mask-ogerpon-ex-b2" },
+{ "rank": 6, "name": "Mega Blaziken ex Greninja", "winrate": 53.49, "usage": 2.92, "record": "138-110-10", "winRate": 53.49, "share": 2.92, "limitless": "mega-blaziken-ex-b1-greninja-a1" },
+{ "rank": 7, "name": "Magnezone Miraidon ex", "winrate": 53.41, "usage": 1.10, "record": "47-41-0", "winRate": 53.41, "share": 1.10, "limitless": "magnezone-b1a-miraidon-ex-b3a" },
+{ "rank": 8, "name": "Miraidon ex Magnezone", "winrate": 52.81, "usage": 7.59, "record": "338-285-17", "winRate": 52.81, "share": 7.59, "limitless": "miraidon-ex-b3a-magnezone-b1a" },
+{ "rank": 9, "name": "Meowscarada ex Meowscarada", "winrate": 52.60, "usage": 2.14, "record": "91-75-7", "winRate": 52.60, "share": 2.14, "limitless": "meowscarada-ex-b2a-meowscarada-a2b" },
+{ "rank": 10, "name": "Mega Altaria ex Greninja", "winrate": 51.92, "usage": 1.04, "record": "54-48-2", "winRate": 51.92, "share": 1.04, "limitless": "mega-altaria-ex-b1-greninja-a1" }
+],
+"enteringMeta": [
+"Greninja Mega Sableye ex (8,88 % usage, 49,66 % WR — détrône Miraidon ex Magnezone et devient le deck n°1 du méta)",
+"Mega Sceptile ex Greninja (6,29 % usage, 56,75 % WR — grimpe du rang 4 au rang 3, l'un des meilleurs decks très joués)",
+"Butterfree Mega Sceptile ex (3,31 % usage, 55,23 % WR — bondit du rang 9 au rang 5)",
+"Suicune ex Baxcalibur (2,72 % usage, 57,14 % WR — entre dans le top 10, meilleur winrate du format)",
+"Hydreigon Mega Sableye ex (2,40 % usage, 50,50 % WR — nouvelle entrée dans le top 10)"
+],
+"leavingMeta": [
+"Miraidon ex Magnezone (recule de 7,72 % à 7,59 % d'usage, cède la 1re place après plusieurs semaines en tête)",
+"Mega Sableye ex Darkrai ex (recule de 4,06 % à 2,85 % d'usage, glisse du rang 5 au rang 7)",
+"Meowscarada ex Meowscarada (recule de 2,74 % à 2,14 % d'usage, glisse du rang 6 au rang 11)",
+"Milotic ex Igglybuff (recule de 2,44 % à 1,82 % d'usage, glisse du rang 8 au rang 12)",
+"Mega Manectric ex Zeraora (continue de s'effacer, 0,71 % d'usage, 46,15 % WR)"
+],
+"movements": [
+{ "slug": "greninja-a1-mega-sableye-ex-b3b", "name": "Greninja Mega Sableye ex", "rank": 1, "usage": 8.88, "move": "up" },
+{ "slug": "miraidon-ex-b3a-magnezone-b1a", "name": "Miraidon ex Magnezone", "rank": 2, "usage": 7.59, "move": "down" },
+{ "slug": "mega-sceptile-ex-b3-greninja-a1", "name": "Mega Sceptile ex Greninja", "rank": 3, "usage": 6.29, "move": "up" },
+{ "slug": "mega-gardevoir-ex-b2-mega-diancie-ex-b3b", "name": "Mega Gardevoir ex Mega Diancie ex", "rank": 4, "usage": 5.77, "move": "down" },
+{ "slug": "butterfree-b3b-mega-sceptile-ex-b3", "name": "Butterfree Mega Sceptile ex", "rank": 5, "usage": 3.31, "move": "up" },
+{ "slug": "mega-blaziken-ex-b1-greninja-a1", "name": "Mega Blaziken ex Greninja", "rank": 6, "usage": 2.92, "move": "up" },
+{ "slug": "mega-sableye-ex-b3b-darkrai-ex-a2", "name": "Mega Sableye ex Darkrai ex", "rank": 7, "usage": 2.85, "move": "down" },
+{ "slug": "suicune-ex-a4a-baxcalibur-b2a", "name": "Suicune ex Baxcalibur", "rank": 8, "usage": 2.72, "move": "up" },
+{ "slug": "hydreigon-b1-mega-sableye-ex-b3b", "name": "Hydreigon Mega Sableye ex", "rank": 9, "usage": 2.40, "move": "up" },
+{ "slug": "butterfree-hisuian-zoroark-ex-b3b", "name": "Butterfree Hisuian Zoroark ex", "rank": 10, "usage": 2.33, "move": "same" }
+],
+"totalDecks": 1542,
+"updatedAt": "2026-07-05T09:00:00.000Z",
+"topDecks": [
+{ "rank": 1, "name": "Greninja Mega Sableye ex", "usage": 8.88, "winrate": 49.66, "record": "366-351-20", "winRate": 49.66, "share": 8.88, "move": "up", "limitless": "greninja-a1-mega-sableye-ex-b3b" },
+{ "rank": 2, "name": "Miraidon ex Magnezone", "usage": 7.59, "winrate": 52.81, "record": "338-285-17", "winRate": 52.81, "share": 7.59, "move": "down", "limitless": "miraidon-ex-b3a-magnezone-b1a" },
+{ "rank": 3, "name": "Mega Sceptile ex Greninja", "usage": 6.29, "winrate": 56.75, "record": "332-240-13", "winRate": 56.75, "share": 6.29, "move": "up", "limitless": "mega-sceptile-ex-b3-greninja-a1" },
+{ "rank": 4, "name": "Mega Gardevoir ex Mega Diancie ex", "usage": 5.77, "winrate": 44.78, "record": "193-229-9", "winRate": 44.78, "share": 5.77, "move": "down", "limitless": "mega-gardevoir-ex-b2-mega-diancie-ex-b3b" },
+{ "rank": 5, "name": "Butterfree Mega Sceptile ex", "usage": 3.31, "winrate": 55.23, "record": "169-118-19", "winRate": 55.23, "share": 3.31, "move": "up", "limitless": "butterfree-b3b-mega-sceptile-ex-b3" },
+{ "rank": 6, "name": "Mega Blaziken ex Greninja", "usage": 2.92, "winrate": 53.49, "record": "138-110-10", "winRate": 53.49, "share": 2.92, "move": "up", "limitless": "mega-blaziken-ex-b1-greninja-a1" },
+{ "rank": 7, "name": "Mega Sableye ex Darkrai ex", "usage": 2.85, "winrate": 46.30, "record": "100-109-7", "winRate": 46.30, "share": 2.85, "move": "down", "limitless": "mega-sableye-ex-b3b-darkrai-ex-a2" },
+{ "rank": 8, "name": "Suicune ex Baxcalibur", "usage": 2.72, "winrate": 57.14, "record": "136-93-9", "winRate": 57.14, "share": 2.72, "move": "up", "limitless": "suicune-ex-a4a-baxcalibur-b2a" },
+{ "rank": 9, "name": "Hydreigon Mega Sableye ex", "usage": 2.40, "winrate": 50.50, "record": "102-98-2", "winRate": 50.50, "share": 2.40, "move": "up", "limitless": "hydreigon-b1-mega-sableye-ex-b3b" },
+{ "rank": 10, "name": "Butterfree Hisuian Zoroark ex", "usage": 2.33, "winrate": 48.37, "record": "89-92-3", "winRate": 48.37, "share": 2.33, "move": "same", "limitless": "butterfree-hisuian-zoroark-ex-b3b" }
+],
+"news": [
+{
+"title": "Everyday Wonders Emblem Event : PvP du 3 au 13 juillet pour des Emblèmes et du Shinedust",
+"url": "https://game8.co/games/Pokemon-TCG-Pocket/archives/607401",
+"source": "Game8",
+"kind": "article",
+"date": "3 juillet 2026"
+},
+{
+"title": "Pokémon TCG Pocket : programme du Premium Pass de juillet 2026 (promo Psyduck, accessoires Piplup)",
+"url": "https://pokemongohub.net/post/tcg-pocket/pokemon-tcg-pocket-july-2026-premium-pass-lineup-missions/",
+"source": "Pokémon GO Hub",
+"kind": "article",
+"date": "30 juin 2026"
+},
+{
+"title": "Everyday Wonders : la mini-extension (B3b) est disponible depuis le 29 juin (Mega Diancie ex en carte phare)",
+"url": "https://www.pokemon.com/us/news/pokemon-tcg-pocket-everyday-wonders-expansion-is-now-available",
+"source": "Pokemon.com (officiel)",
+"kind": "article",
+"date": "29 juin 2026"
+},
+{
+"title": "Ruler of the Skies (B4) prévue le 30 juillet : Mega Rayquaza ex en vedette",
+"url": "https://game8.co/games/Pokemon-TCG-Pocket/archives/605801",
+"source": "Game8",
+"kind": "article",
+"date": "juillet 2026"
+},
+{
+"title": "Pokémon TCG Pocket: Everyday Wonders | Official Trailer",
+"url": "https://www.youtube.com/watch?v=fgZy2-XUmXM",
+"source": "The Official Pokémon YouTube channel",
+"kind": "video",
+"date": "24 juin 2026"
+},
+{
+"title": "Pokémon TCG: Mega Evolution—Delta Reign & Pokémon TCG Pocket: Ruler of the Skies | Coming Soon",
+"url": "https://www.youtube.com/watch?v=1zkUQDXaklY",
+"source": "The Official Pokémon YouTube channel",
+"kind": "video",
+"date": "19 juin 2026"
+},
+{
+"title": "\"Storm Emeralda\" et \"Delta Reign\" (TCG physique) officiellement teasés aux côtés de Ruler of the Skies pour Pocket",
+"url": "https://www.pokebeach.com/2026/06/storm-emeralda-and-delta-reign-tcg-sets-officially-teased-along-with-pockets-ruler-of-the-skies",
+"source": "PokeBeach",
+"kind": "article",
+"date": "18 juin 2026"
+},
+{
+"title": "\"Everyday Wonders\" Pocket Set Revealed Starring Cute Pokemon",
+"url": "https://www.pokebeach.com/2026/06/everyday-wonders-pocket-set-revealed-starring-cute-pokemon",
+"source": "PokeBeach",
+"kind": "article",
+"date": "25 juin 2026"
+}
+]
 }
