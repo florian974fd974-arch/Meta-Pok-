@@ -143,6 +143,8 @@
   }
   function chipText(n){ if(n==null) return ''; if(typeof n!=='object') return String(n); return n.name||n.label||n.title||n.deck||''; }
   function chips(names, cls){ var w=el('div','mp-chips'); (names||[]).forEach(function(n){ var t=chipText(n); if(!t) return; var isPk=(n&&typeof n==='object'&&(n.role||n.range||n.tier)); var sp=isPk?spriteTag(t,18):''; var ch=el('span','mp-chip'+(cls?' '+cls:'')); ch.innerHTML=sp+(sp?' ':'')+esc(t); w.appendChild(ch); }); return w; }
+  // Chips pour la tier list Unite : sprite systématique à partir du nom du Pokémon.
+  function spriteChips(names){ var w=el('div','mp-chips'); (names||[]).forEach(function(n){ var t=chipText(n)||String(n); if(!t) return; var sp=spriteTag(t,18); var ch=el('span','mp-chip'); ch.innerHTML=sp+(sp?' ':'')+esc(t); w.appendChild(ch); }); return w; }
   // Carte "Actus & vidéos officielles" — alimentée par d.news = [{title,url,source,kind,date}]
   function newsCard(list){
     if(!list||!list.length) return null;
@@ -220,7 +222,7 @@
     }
     if(d.recentResults&&d.recentResults.length){
       var rc=el('div','mp-card'); rc.style.marginTop='20px'; rc.appendChild(el('h3',null,'Résultats récents'));
-      d.recentResults.forEach(function(r){ rc.appendChild(el('div','mp-evt','<div><b>'+esc(r.player||'')+'</b> — '+esc(tr(r,'title')||'')+'<br><span class="mp-sec">'+esc(r.team||'')+'</span></div>')); });
+      d.recentResults.forEach(function(r){ var teamHtml=(r.teamList&&r.teamList.length)?('<div style="display:flex;gap:2px;flex-wrap:wrap;margin-top:6px">'+r.teamList.map(function(p){return spriteTag(chipText(p)||String(p),30);}).join('')+'</div>'):('<span class="mp-sec">'+esc(r.team||'')+'</span>'); rc.appendChild(el('div','mp-evt','<div><b>'+esc(r.player||'')+'</b> — '+esc(tr(r,'title')||'')+'<br>'+teamHtml+'</div>')); });
       w.appendChild(rc);
     }
     var ev=eventsCard(d.upcomingEvents); if(ev){ ev.style.marginTop='20px'; w.appendChild(ev); }
@@ -237,7 +239,7 @@
       order.forEach(function(t){ var arr=d.tierList[t]; if(!arr||!arr.length) return;
         var row=el('div','mp-tier');
         var lbl=el('div','mp-tierlbl',esc(t)); lbl.style.color='var(--accent)';
-        row.appendChild(lbl); row.appendChild(chips(arr));
+        row.appendChild(lbl); row.appendChild(spriteChips(arr));
         c.appendChild(row);
       });
       w.appendChild(c);
