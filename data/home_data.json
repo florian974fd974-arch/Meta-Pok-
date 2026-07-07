@@ -6,8 +6,8 @@
 "news": [
 {
 "game": "tcgp",
-"title": "TCG Pocket — Greninja Mega Sableye ex conserve la tête, Suicune ex Baxcalibur signe le meilleur winrate",
-"desc": "La méta reste stable en tête cette semaine : Greninja Mega Sableye ex conserve la 1re place (8,93 % d'usage, 48,81 % WR) devant Miraidon ex Magnezone (7,58 %, 52,42 %) et Mega Sceptile ex Greninja, qui garde le meilleur profil offensif du top avec 54,93 % de winrate pour 6,95 % d'usage. Mega Gardevoir ex Mega Diancie ex (4e, 5,60 %) et Butterfree Mega Sceptile ex (5e, 4,68 %, 53,26 % WR) complètent un top 5 inchangé. Suicune ex Baxcalibur reste le deck avec le meilleur winrate du top 10 (56,39 %) en 7e position, tandis que l'échantillon continue de grossir (2 071 joueurs sur 23 tournois, 5 579 matchs) juste avant l'arrivée de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
+"title": "TCG Pocket — Greninja Mega Sableye ex toujours n°1, Suicune ex Baxcalibur signe le meilleur winrate du top 10",
+"desc": "La méta reste emmenée par Greninja Mega Sableye ex (8,00 % d'usage, 47,62 % WR) devant Miraidon ex Magnezone (7,93 %, 52,10 %) et Mega Sceptile ex Greninja, toujours solide (7,11 %, 53,73 % WR). Suicune ex Baxcalibur confirme sa progression au rang 6 (4,20 % usage) avec le meilleur winrate du top 10 (56,71 %), porté par deux tops 1 début juillet incluant la liste avec Starting Plains. L'échantillon continue de grossir (3 050 joueurs sur 32 tournois, 8 013 matchs) et la decklist complète d'Hydreigon Mega Sableye ex (rang 8) vient d'être ajoutée, à l'approche de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
 "when": "TCG Pocket",
 "badgeText": "META",
 "badgeStyle": "tcgp",
@@ -16,7 +16,7 @@
 {
 "game": "vgc",
 "title": "VGC — The Champions Arena II s'achève, victoire de Marco Silva face à Toler Webb",
-"desc": "The Champions Arena II (tournoi en ligne Victory Road, Reg. M-B) vient de se conclure : Marco Silva (Italie) l'emporte en finale face à Toler Webb (États-Unis), avec Jorge Tabuyo et Nikolaj Høj Nielsen en demi-finale. Les équipes restent bâties autour de Mega Charizard Y, Garchomp et Kingambit. Sur la méta générale de la Régulation M-B, Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), talonnées par les nouveautés Mega Swampert (20,1 %) et Mega Staraptor (19,0 %), au VR June Challenge #2 remporté par Louis Markl. En usage général, Garchomp, Basculegion et Whimsicott dominent. Play! Pokémon a aussi publié un nouveau récap vidéo « Top Moments » du NAIC 2026. Prochain rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
+"desc": "The Champions Arena II (tournoi en ligne Victory Road, Reg. M-B) s'est conclu par la victoire de Marco Silva (Italie) en finale face à Toler Webb (États-Unis), avec Jorge Tabuyo et Nikolaj Høj Nielsen en demi-finale. Les équipes restent bâties autour de Mega Charizard Y, Garchomp et Kingambit. Sur la méta générale de la Régulation M-B, Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), talonnées par les nouveautés Mega Swampert (20,1 %) et Mega Staraptor (19,0 %), au VR June Challenge #2 remporté par Louis Markl. En usage général, Garchomp, Basculegion et Whimsicott dominent. Play! Pokémon a aussi publié un nouveau récap vidéo « Top Moments » du NAIC 2026. Prochain rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
 "when": "Pokémon Champions",
 "badgeText": "VGC",
 "badgeStyle": "vgc",
@@ -73,5 +73,5 @@
 "classic": true,
 "unite": true
 },
-"updatedAt": "2026-07-06T13:00:00.000Z"
+"updatedAt": "2026-07-08T12:00:00.000Z"
 }
