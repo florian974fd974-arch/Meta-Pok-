@@ -1,77 +1,83 @@
 {
-"hero": {
-"tag": "Hub Competitif Pokemon",
-"title": "L'actu competitive en un seul endroit."
-},
-"news": [
-{
-"game": "tcgp",
-"title": "TCG Pocket — Greninja Mega Sableye ex toujours n°1, Suicune ex Baxcalibur signe le meilleur winrate du top 10",
-"desc": "La méta reste emmenée par Greninja Mega Sableye ex (8,00 % d'usage, 47,62 % WR) devant Miraidon ex Magnezone (7,93 %, 52,10 %) et Mega Sceptile ex Greninja, toujours solide (7,11 %, 53,73 % WR). Suicune ex Baxcalibur confirme sa progression au rang 6 (4,20 % usage) avec le meilleur winrate du top 10 (56,71 %), porté par deux tops 1 début juillet incluant la liste avec Starting Plains. L'échantillon continue de grossir (3 050 joueurs sur 32 tournois, 8 013 matchs) et la decklist complète d'Hydreigon Mega Sableye ex (rang 8) vient d'être ajoutée, à l'approche de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
-"when": "TCG Pocket",
-"badgeText": "META",
-"badgeStyle": "tcgp",
-"clickAction": "tcgp"
-},
-{
-"game": "vgc",
-"title": "VGC — The Champions Arena II s'achève, victoire de Marco Silva face à Toler Webb",
-"desc": "The Champions Arena II (tournoi en ligne Victory Road, Reg. M-B) s'est conclu par la victoire de Marco Silva (Italie) en finale face à Toler Webb (États-Unis), avec Jorge Tabuyo et Nikolaj Høj Nielsen en demi-finale. Les équipes restent bâties autour de Mega Charizard Y, Garchomp et Kingambit. Sur la méta générale de la Régulation M-B, Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), talonnées par les nouveautés Mega Swampert (20,1 %) et Mega Staraptor (19,0 %), au VR June Challenge #2 remporté par Louis Markl. En usage général, Garchomp, Basculegion et Whimsicott dominent. Play! Pokémon a aussi publié un nouveau récap vidéo « Top Moments » du NAIC 2026. Prochain rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
-"when": "Pokémon Champions",
-"badgeText": "VGC",
-"badgeStyle": "vgc",
-"clickAction": "vgc"
-},
-{
-"game": "classic",
-"title": "TCG Classic — Dragapult ex toujours en tête, méta stable en pause estivale",
-"desc": "Méta Standard 2026-27 stable en pause estivale : Dragapult ex reste n°1 de l'agrégat Limitless (9,36 %), devant Gardevoir ex (7,79 %) et Charizard ex (5,28 %) ; aucun mouvement dans le top 10 depuis la dernière veille (pas de tournoi majeur depuis le NAIC du 10 juin, vainqueur James Kowalski). Play! Pokémon a confirmé le 2 juillet qu'aucune carte ne sera bannie en Standard ni en Expanded à l'entrée en vigueur de Mega Evolution—Pitch Black (17 juillet), l'environnement de jeu restant jugé sain. The Pokémon Company a détaillé toute la gamme de produits de l'extension (Display Box, Elite Trainer Box, Build & Battle Box en prerelease dès le 31 juillet), avec des cartes promo offertes chez certains revendeurs (Primarina, Zarude, Armarouge). La vitrine de l'extension anniversaire 30th Celebration (16 septembre) reste également au programme.",
-"when": "TCG Classic",
-"badgeText": "CLASSIC",
-"badgeStyle": "classic",
-"clickAction": "classic"
-},
-{
-"game": "unite",
-"title": "Unite — Yveltal débarque, Quaquaval grimpe en tier SS",
-"desc": "Le patch Enduring Formation (17 juin) reste en vigueur sans nouveau rééquilibrage, mais la tier list Game8 évolue : Quaquaval fait désormais son entrée en tier SS aux côtés de Moltres, des Légendaires et Méga-Évolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) et des soutiens Alcremie et Blissey. Skeledirge reste installé en tier S. Temps fort : Yveltal (Attaquant) est disponible depuis le 3 juillet avec une mission gratuite pour débloquer sa licence, suivi de Palkia (17 juillet), Reshiram (7 août) et Solgaleo (21 août), avec un grand événement à récompenses dès le 21 juillet pour le 5e anniversaire du jeu.",
-"when": "Pokémon Unite",
-"badgeText": "UNITE",
-"badgeStyle": "unite",
-"clickAction": "unite"
-}
-],
-"timeline": [
-{
-"title": "Mega Evolution—Pitch Black",
-"desc": "Nouvelle extension TCG, aucune carte bannie, cartes promo Primarina/Zarude/Armarouge",
-"game": "classic",
-"date": "17 juil · TCG CLASSIC"
-},
-{
-"title": "5e anniversaire Pokémon Unite",
-"desc": "Palkia, Reshiram, Solgaleo + événement récompenses",
-"game": "unite",
-"date": "21 juil · UNITE"
-},
-{
-"title": "Ruler of the Skies",
-"desc": "Prochaine extension Pocket, Mega Rayquaza ex en tête",
-"game": "tcgp",
-"date": "~30 juil · TCG POCKET"
-},
-{
-"title": "Championnats du Monde 2026",
-"desc": "Moscone Center, San Francisco — VGC & TCG",
-"game": "vgc",
-"date": "28-30 août · MONDIAUX"
-}
-],
-"gamePreviews": {
-"tcgp": true,
-"vgc": true,
-"classic": true,
-"unite": true
-},
-"updatedAt": "2026-07-08T12:00:00.000Z"
+    "hero": {
+          "tag": "Hub Competitif Pokemon",
+          "title": "L'actu competitive en un seul endroit."
+    },
+    "news": [
+          {
+                  "game": "tcgp",
+                  "title": "TCG Pocket — Miraidon ex Magnezone détrône Greninja Mega Sableye ex, Milotic ex Vaporeon ex fait son entrée",
+                  "desc": "Miraidon ex Magnezone prend la tête du classement (8,41 % d'usage, 53,71 % WR), porté par plusieurs tops 1 début juillet, reléguant Greninja Mega Sableye ex au rang 2 (winrate en baisse à 46,90 %). Suicune ex Baxcalibur confirme sa progression au rang 4 avec le meilleur winrate du top 5 (54,55 %). Nouveauté marquante : Milotic ex Vaporeon ex entre dans le top 10 (rang 9) avec une liste emmenée par Wallace et Lisia, faisant sortir Mega Gardevoir ex Gardevoir. L'échantillon atteint désormais 3 687 joueurs sur 38 tournois (9 837 matchs), à l'approche de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
+                  "when": "TCG Pocket",
+                  "badgeText": "META",
+                  "badgeStyle": "tcgp",
+                  "clickAction": "tcgp"
+          },
+          {
+                  "game": "vgc",
+                  "title": "VGC — Marco Silva remporte The Champions Arena II, Ranked M-4 et nouveau Battle Pass lancés",
+                  "desc": "The Champions Arena II (Reg. M-B) s'est conclu par la victoire de Marco Silva (Italie) face à Toler Webb (États-Unis). La saison Ranked M-3 s'est achevée (victoire de Shohei Kimura) et la saison M-4 ainsi qu'un nouveau Battle Pass ont démarré le 7 juillet. Sur la méta Reg. M-B (VR June Challenge #2), Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), suivie des nouveautés Mega Swampert (20,1 %) et Mega Staraptor (19,0 %). Prochain rendez-vous : le Monthly Challenge Series de juillet (23-26 juillet), avant les Mondiaux 2026 à San Francisco (28-30 août).",
+                  "when": "Pokémon Champions",
+                  "badgeText": "VGC",
+                  "badgeStyle": "vgc",
+                  "clickAction": "vgc"
+          },
+          {
+                  "game": "classic",
+                  "title": "TCG Classic — Dragapult ex toujours en tête, aucune carte bannie avec Mega Evolution—Pitch Black",
+                  "desc": "Méta Standard stable en pause estivale : Dragapult ex reste n°1 (9,36 %) devant Gardevoir ex (7,79 %) et Charizard ex (5,28 %), sans mouvement dans le top 10 depuis le NAIC 2026 (10 juin, vainqueur James Kowalski). Play! Pokémon a confirmé qu'aucune carte ne sera bannie en Standard ni en Expanded à la sortie de Mega Evolution—Pitch Black (17 juillet), l'environnement restant jugé sain. La chaîne officielle a publié une vidéo technique sur le deck Zoroark ex et un récapitulatif du NAIC 2026. Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
+                  "when": "TCG Classic",
+                  "badgeText": "CLASSIC",
+                  "badgeStyle": "classic",
+                  "clickAction": "classic"
+          },
+          {
+                  "game": "unite",
+                  "title": "Unite — Yveltal disponible, cap sur le 5e anniversaire avec Palkia, Reshiram et Solgaleo",
+                  "desc": "Aucun nouveau patch depuis Enduring Formation (17 juin) ; la tier list Game8 reste stable, toujours menée par Moltres en tier SS aux côtés des Légendaires/Méga-Évolutions et des soutiens Alcremie et Blissey, avec Skeledirge installé en tier S. Yveltal (Attaquant) est disponible depuis le 3 juillet avec une mission gratuite de déblocage. Suivront Palkia (17 juillet), Reshiram (7 août) et Solgaleo (21 août), dans le cadre du 5e anniversaire du jeu, avec un grand événement à récompenses dès le 21 juillet.",
+                  "when": "Pokémon Unite",
+                  "badgeText": "UNITE",
+                  "badgeStyle": "unite",
+                  "clickAction": "unite"
+          }
+    ],
+    "timeline": [
+          {
+                  "title": "Mega Evolution—Pitch Black",
+                  "desc": "Nouvelle extension TCG, aucune carte bannie, cartes promo Primarina/Zarude/Armarouge",
+                  "game": "classic",
+                  "date": "17 juil · TCG CLASSIC"
+          },
+          {
+                  "title": "5e anniversaire Pokémon Unite",
+                  "desc": "Palkia rejoint le jeu (17 juil), événement à récompenses dès le 21 juil, avant Reshiram (7 août) et Solgaleo (21 août)",
+                  "game": "unite",
+                  "date": "17-21 juil · UNITE"
+          },
+          {
+                  "title": "Monthly Challenge Series",
+                  "desc": "Compétition officielle Reg. M-B, simple, inscriptions dès le 17 juillet",
+                  "game": "vgc",
+                  "date": "23-26 juil · VGC"
+          },
+          {
+                  "title": "Ruler of the Skies",
+                  "desc": "Prochaine extension Pocket, Mega Rayquaza ex en tête",
+                  "game": "tcgp",
+                  "date": "~30 juil · TCG POCKET"
+          },
+          {
+                  "title": "Championnats du Monde 2026",
+                  "desc": "Moscone Center, San Francisco — VGC & TCG",
+                  "game": "vgc",
+                  "date": "28-30 août · MONDIAUX"
+          }
+    ],
+    "gamePreviews": {
+          "tcgp": true,
+          "vgc": true,
+          "classic": true,
+          "unite": true
+    },
+    "updatedAt": "2026-07-09T12:00:00.000Z"
 }
