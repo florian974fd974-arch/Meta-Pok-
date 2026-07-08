@@ -1,155 +1,156 @@
 {
-"metaSummary": "Pokémon Champions — Regulation Set M-B en vigueur depuis le 16 juin 2026 (jusqu'au 1er septembre). Les Pokémon de la M-A restent jouables, rejoints par cinq nouvelles Méga-Évolutions : Mega Sceptile, Mega Blaziken, Mega Swampert, Mega Mawile et Mega Staraptor. Le jeu est disponible sur iOS et Android, avec la saison Ranked M-3 (17 juin – 8 juillet) et un nouveau Battle Pass. Les premiers repères de la méta M-B viennent du VR June Challenge #2 (premier gros tournoi en Reg. M-B, 174 joueurs), remporté par Louis Markl : Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), tandis que les nouveautés Mega Swampert (20,1 %) et Mega Staraptor (19,0 %) s'installent déjà dans le top. En usage général, Garchomp, Basculegion et Whimsicott dominent. Sur le circuit officiel, le NAIC 2026 (Nouvelle-Orléans, dernier événement en Reg. M-A) a été remporté par Francesco Pio Pero et la Taiwan Master Ball League (Taichung) par Chen Yu-Wei. Le Monthly Challenge Series de juin (26–29 juin, en ligne, simple, Reg. M-B) s'est conclu, remporté par Kaminchu. The Champions Arena II (en ligne, Reg. M-B, avec Sekiam, Folagor et PokeAlex, 4–5 juillet) s'est achevé : victoire de Marco Silva (Italie) en finale face à Toler Webb (États-Unis), avec des équipes toujours bâties autour de Mega Charizard Y, Garchomp et Kingambit. Ce tournoi d'entraînement précède les événements live de l'été qualificatifs pour les Mondiaux 2026 à San Francisco (28–30 août) via la Victory Road to San Francisco. Play! Pokémon a également publié un nouveau récap vidéo « Top Moments » du NAIC 2026. Aucun nouveau résultat majeur n'est venu s'ajouter depuis (dernière mise à jour Victory Road : 5 juillet), la saison Ranked M-3 restant en cours jusqu'au 8 juillet.",
-"metaSummary_en": "Pokémon Champions — Regulation Set M-B is in effect from 16 June 2026 to 1 September. All Regulation M-A Pokémon remain eligible, joined by five new Mega Evolutions: Mega Sceptile, Mega Blaziken, Mega Swampert, Mega Mawile and Mega Staraptor. The game is available on iOS and Android, with Ranked Battles Season M-3 (17 June – 8 July) and a new Battle Pass underway. The first read on the M-B meta comes from the VR June Challenge #2 (the first major in Reg. M-B, 174 players), won by Louis Markl: Mega Charizard Y remains the most-used Mega (29.3%) ahead of Mega Floette (25.3%), while newcomers Mega Swampert (20.1%) and Mega Staraptor (19.0%) are already in the top tier. In general usage, Garchomp, Basculegion and Whimsicott lead the field. On the official circuit, the 2026 NAIC (New Orleans, the last event under Reg. M-A) was won by Francesco Pio Pero and the Taiwan Master Ball League (Taichung) by Chen Yu-Wei. June's Monthly Challenge Series (26–29 June, online, single battles, Reg. M-B) wrapped up, won by Kaminchu. The Champions Arena II (online, Reg. M-B, featuring Sekiam, Folagor and PokeAlex, 4–5 July) has concluded: Marco Silva (Italy) won the final against Toler Webb (USA), with top teams still built around Mega Charizard Y, Garchomp and Kingambit. This practice event precedes the summer live tournaments that qualify players for the 2026 World Championships in San Francisco (28–30 August) through the Victory Road to San Francisco. Play! Pokémon also released a new \"Top Moments\" recap video from the 2026 NAIC. No new major results have landed since (Victory Road's last update was 5 July), with the M-3 Ranked season running through 8 July.",
-"topPokemon": [
-{ "name": "Mega Charizard Y", "usage": "29.3%", "note": "Usage Méga, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Mega Floette", "usage": "25.3%", "note": "Usage Méga, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Mega Swampert", "usage": "20.1%", "note": "Nouvelle Méga M-B, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Mega Staraptor", "usage": "19.0%", "note": "Nouvelle Méga M-B, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Mega Metagross", "usage": "13.8%", "note": "Usage Méga, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Mega Delphox", "usage": "8.0%", "note": "Usage Méga, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Mega Mawile", "usage": "6.9%", "note": "Nouvelle Méga M-B, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Mega Aerodactyl", "usage": "6.9%", "note": "Usage Méga, VR June Challenge #2 (Reg. M-B)" }
-],
-"topRestricted": [
-{ "name": "Garchomp", "usage": "42.5%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Basculegion", "usage": "37.4%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Whimsicott", "usage": "33.3%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Sinistcha", "usage": "32.2%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Incineroar", "usage": "29.9%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" },
-{ "name": "Kingambit", "usage": "27.6%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" }
-],
-"newMegasMB": ["Mega Sceptile", "Mega Blaziken", "Mega Swampert", "Mega Mawile", "Mega Staraptor"],
-"recentResults": [
-{
-"event": "The Champions Arena II (en ligne)",
-"location": "En ligne",
-"date": "2026-07-05",
-"winner": "Marco Silva (marcofiero)",
-"runnerUp": "Toler Webb (Toler)",
-"top4": ["Marco Silva", "Toler Webb", "Jorge Tabuyo", "Nikolaj Høj Nielsen"],
-"notable": "Tournoi grassroots Victory Road, Reg. M-B, ft. Sekiam, Folagor, PokeAlex ; hors circuit officiel (pas de CPs)",
-"regulation": "Reg. M-B",
-"url": "https://victoryroad.pro/vr-champions-arena-2/",
-"team": "Mega Charizard Y / Aerodactyl / Incineroar / Farigiraf / Sylveon / Garchomp",
-"teamList": ["Charizard", "Aerodactyl", "Incineroar", "Farigiraf", "Sylveon", "Garchomp"]
-},
-{
-"event": "Monthly Challenge Series June 2026 (en ligne)",
-"location": "En ligne",
-"date": "2026-06-29",
-"winner": "Kaminchu",
-"notable": "Compétition officielle TPC, simple, Reg. M-B (hors circuit)",
-"regulation": "Reg. M-B",
-"url": "https://victoryroad.pro/2026-season-calendar/"
-},
-{
-"event": "Victory Road June Challenge #2 (en ligne)",
-"location": "En ligne",
-"date": "2026-06-21",
-"winner": "Louis Markl (Louis)",
-"runnerUp": "Giovanni Piscitelli (Genius)",
-"top4": ["Louis Markl", "Giovanni Piscitelli", "Jeongso Lee", "Shai Rabà"],
-"notable": "Premier gros tournoi en Reg. M-B ; 174 joueurs",
-"regulation": "Reg. M-B",
-"url": "https://victoryroad.pro/vr-jun26-2/",
-"team": "Mega Floette / Incineroar / Basculegion / Kingambit / Sinistcha / Sneasler",
-"teamList": ["Floette", "Incineroar", "Basculegion", "Kingambit", "Sinistcha", "Sneasler"]
-},
-{
-"event": "North America International Championships 2026 (NAIC)",
-"location": "Nouvelle-Orléans, USA",
-"date": "2026-06-14",
-"winner": "Francesco Pio Pero (CICCIOTT)",
-"runnerUp": "Eric Rios (Riopaser)",
-"top4": ["Francesco Pio Pero", "Eric Rios", "Wolfe Glick", "Shoma Honami"],
-"regulation": "Reg. M-A",
-"url": "https://victoryroad.pro/2026-naic/",
-"team": "Mega Charizard Y / Aerodactyl / Basculegion / Kingambit / Sylveon / Garchomp",
-"teamList": ["Charizard", "Aerodactyl", "Basculegion", "Kingambit", "Sylveon", "Garchomp"]
-},
-{
-"event": "2025-26 Taiwan Master Ball League",
-"location": "Taichung, Taïwan",
-"date": "2026-06-14",
-"winner": "Chen Yu-Wei (YuWei)",
-"runnerUp": "Liu Jian-Ting (Sayha)",
-"notable": "Équipe Mega Charizard Y + Mega Aerodactyl ; 242 joueurs",
-"regulation": "Reg. M-A",
-"url": "https://victoryroad.pro/2026-taiwan/",
-"team": "Mega Charizard Y / Aerodactyl / Basculegion / Kingambit / Sylveon / Garchomp",
-"teamList": ["Charizard", "Aerodactyl", "Basculegion", "Kingambit", "Sylveon", "Garchomp"]
-}
-],
-"news": [
-{
-"title": "The Champions Arena II — Marco Silva remporte le tournoi face à Toler Webb (résultats complets, Reg. M-B)",
-"url": "https://victoryroad.pro/vr-champions-arena-2/",
-"source": "Victory Road",
-"kind": "article",
-"date": "2026-07-05"
-},
-{
-"title": "Top Moments - 2026 North America International Championships",
-"url": "https://www.youtube.com/watch?v=YZzliA7eG-s",
-"source": "Play! Pokémon (YouTube)",
-"kind": "video",
-"date": "2026-07-04"
-},
-{
-"title": "Francesco Pio Pero Came Back with a Vengeance | 2026 Pokémon NAIC",
-"url": "https://www.youtube.com/watch?v=Qrh_Ro-bH8g",
-"source": "Play! Pokémon (YouTube)",
-"kind": "video",
-"date": "2026-07-02"
-},
-{
-"title": "Monthly Challenge Series June 2026 — résultats (vainqueur : Kaminchu, simple, Reg. M-B)",
-"url": "https://victoryroad.pro/2026-season-calendar/",
-"source": "Victory Road",
-"kind": "article",
-"date": "2026-06-29"
-},
-{
-"title": "Teams, results and usage from the VR June Challenge #2 (first major in Reg. M-B)",
-"url": "https://victoryroad.pro/vr-jun26-2/",
-"source": "Victory Road",
-"kind": "article",
-"date": "2026-06-21"
-},
-{
-"title": "Regulation Set M-B Kicks off a New Ranked Battles Season and Battle Pass in Pokémon Champions",
-"url": "https://www.pokemon.com/us/pokemon-news/regulation-set-m-b-kicks-off-a-new-ranked-battles-season-and-battle-pass-in-pokemon-champions",
-"source": "Pokémon Champions (officiel)",
-"kind": "article",
-"date": "2026-06-17"
-},
-{
-"title": "Pokémon Champions Is Available Now on iOS and Android Devices",
-"url": "https://www.pokemon.com/us/pokemon-news/pokemon-champions-is-available-now-on-ios-and-android-devices",
-"source": "Pokémon Champions (officiel)",
-"kind": "article",
-"date": "2026-06-17"
-},
-{
-"title": "Championship Sunday | 2026 Pokémon North America International Championships",
-"url": "https://www.youtube.com/watch?v=igPt0ZyyUSY",
-"source": "Play! Pokémon (YouTube)",
-"kind": "video",
-"date": "2026-06-14"
-}
-],
-"newsFeed": [
-"Marco Silva (Italy) wins The Champions Arena II, defeating Toler Webb (USA); Jorge Tabuyo and Nikolaj Høj Nielsen reach the semifinals.",
-"Play! Pokémon released a new \"Top Moments\" recap video from the 2026 NAIC.",
-"Regulation Set M-B is live (16 June – 1 Sept 2026): new Megas including Sceptile, Blaziken, Swampert, Mawile and Staraptor.",
-"First Reg. M-B usage in: at the VR June Challenge #2, Mega Charizard Y (29.3%) leads, with new Megas Swampert (20.1%) and Staraptor (19.0%) already in the top tier.",
-"Garchomp, Basculegion and Whimsicott top general usage in early Reg. M-B play.",
-"Louis Markl wins the VR June Challenge #2, the first big Regulation M-B event.",
-"Monthly Challenge Series June 2026 (online, single battles, Reg. M-B) has concluded, won by Kaminchu.",
-"Ranked Battles Season M-3 (17 June – 8 July) and a new Battle Pass are underway.",
-"Pokémon Champions is now available on iOS and Android.",
-"2026 World Championships set for San Francisco, 28–30 August."
-],
-"updatedAt": "2026-07-08T00:00:00.000Z"
+  "metaSummary": "Pokémon Champions — Regulation Set M-B en vigueur depuis le 16 juin 2026 (jusqu'au 1er septembre). Les Pokémon de la M-A restent jouables, rejoints par cinq nouvelles Méga-Évolutions : Mega Sceptile, Mega Blaziken, Mega Swampert, Mega Mawile et Mega Staraptor. Le jeu est disponible sur iOS et Android. La saison Ranked M-3 (17 juin – 8 juillet) s'est achevée sur la victoire de Shohei Kimura, et la saison Ranked M-4 (7 juillet – 4 août) ainsi que le Battle Pass M-4 ont démarré, avec Sceptile, Blaziken et Swampert (et leurs Méga-Pierres) parmi les récompenses. Le prochain Monthly Challenge Series (23–26 juillet, inscriptions dès le 17 juillet, simple, Reg. M-B) a été annoncé. Les premiers repères de la méta M-B viennent du VR June Challenge #2 (premier gros tournoi en Reg. M-B, 174 joueurs), remporté par Louis Markl : Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), tandis que les nouveautés Mega Swampert (20,1 %) et Mega Staraptor (19,0 %) s'installent déjà dans le top. En usage général, Garchomp, Basculegion et Whimsicott dominent. Sur le circuit officiel, le NAIC 2026 (Nouvelle-Orléans, dernier événement en Reg. M-A) a été remporté par Francesco Pio Pero et la Taiwan Master Ball League (Taichung) par Chen Yu-Wei. Le Monthly Challenge Series de juin (26–29 juin, en ligne, simple, Reg. M-B) s'est conclu, remporté par Kaminchu. The Champions Arena II (en ligne, Reg. M-B, avec Sekiam, Folagor et PokeAlex, 4–5 juillet) s'est achevé : victoire de Marco Silva (Italie) en finale face à Toler Webb (États-Unis), avec des équipes toujours bâties autour de Mega Charizard Y, Garchomp et Kingambit. Ce tournoi d'entraînement précède les événements live de l'été qualificatifs pour les Mondiaux 2026 à San Francisco (28–30 août) via la Victory Road to San Francisco. Play! Pokémon a également publié un nouveau récap vidéo « Top Moments » du NAIC 2026. Aucun nouveau résultat majeur de tournoi n'est venu s'ajouter depuis Champions Arena II (dernière mise à jour Victory Road : 5 juillet).",
+  "metaSummary_en": "Pokémon Champions — Regulation Set M-B is in effect from 16 June 2026 to 1 September. All Regulation M-A Pokémon remain eligible, joined by five new Mega Evolutions: Mega Sceptile, Mega Blaziken, Mega Swampert, Mega Mawile and Mega Staraptor. The game is available on iOS and Android. Ranked Battles Season M-3 (17 June – 8 July) has concluded, won by Shohei Kimura, and Ranked Battles Season M-4 (7 July – 4 August) plus Battle Pass M-4 are now underway, with Sceptile, Blaziken and Swampert (and their Mega Stones) among the rewards. The next Monthly Challenge Series (23–26 July, entries open 17 July, Single Battle, Reg. M-B) has been announced. The first read on the M-B meta comes from the VR June Challenge #2 (the first major in Reg. M-B, 174 players), won by Louis Markl: Mega Charizard Y remains the most-used Mega (29.3%) ahead of Mega Floette (25.3%), while newcomers Mega Swampert (20.1%) and Mega Staraptor (19.0%) are already in the top tier. In general usage, Garchomp, Basculegion and Whimsicott lead the field. On the official circuit, the 2026 NAIC (New Orleans, the last event under Reg. M-A) was won by Francesco Pio Pero and the Taiwan Master Ball League (Taichung) by Chen Yu-Wei. June's Monthly Challenge Series (26–29 June, online, single battles, Reg. M-B) wrapped up, won by Kaminchu. The Champions Arena II (online, Reg. M-B, featuring Sekiam, Folagor and PokeAlex, 4–5 July) has concluded: Marco Silva (Italy) won the final against Toler Webb (USA), with top teams still built around Mega Charizard Y, Garchomp and Kingambit. This practice event precedes the summer live tournaments that qualify players for the 2026 World Championships in San Francisco (28–30 August) through the Victory Road to San Francisco. Play! Pokémon also released a new \"Top Moments\" recap video from the 2026 NAIC. No new major tournament results have landed since Champions Arena II (Victory Road's last update was 5 July).",
+  "topPokemon": [
+    { "name": "Mega Charizard Y", "usage": "29.3%", "note": "Usage Méga, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Mega Floette", "usage": "25.3%", "note": "Usage Méga, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Mega Swampert", "usage": "20.1%", "note": "Nouvelle Méga M-B, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Mega Staraptor", "usage": "19.0%", "note": "Nouvelle Méga M-B, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Mega Metagross", "usage": "13.8%", "note": "Usage Méga, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Mega Delphox", "usage": "8.0%", "note": "Usage Méga, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Mega Mawile", "usage": "6.9%", "note": "Nouvelle Méga M-B, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Mega Aerodactyl", "usage": "6.9%", "note": "Usage Méga, VR June Challenge #2 (Reg. M-B)" }
+  ],
+  "topRestricted": [
+    { "name": "Garchomp", "usage": "42.5%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Basculegion", "usage": "37.4%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Whimsicott", "usage": "33.3%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Sinistcha", "usage": "32.2%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Incineroar", "usage": "29.9%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" },
+    { "name": "Kingambit", "usage": "27.6%", "note": "Usage général, VR June Challenge #2 (Reg. M-B)" }
+  ],
+  "newMegasMB": ["Mega Sceptile", "Mega Blaziken", "Mega Swampert", "Mega Mawile", "Mega Staraptor"],
+  "recentResults": [
+    {
+      "event": "The Champions Arena II (en ligne)",
+      "location": "En ligne",
+      "date": "2026-07-05",
+      "winner": "Marco Silva (marcofiero)",
+      "runnerUp": "Toler Webb (Toler)",
+      "top4": ["Marco Silva", "Toler Webb", "Jorge Tabuyo", "Nikolaj Høj Nielsen"],
+      "notable": "Tournoi grassroots Victory Road, Reg. M-B, ft. Sekiam, Folagor, PokeAlex ; hors circuit officiel (pas de CPs)",
+      "regulation": "Reg. M-B",
+      "url": "https://victoryroad.pro/vr-champions-arena-2/",
+      "team": "Mega Charizard Y / Aerodactyl / Incineroar / Farigiraf / Sylveon / Garchomp",
+      "teamList": ["Charizard", "Aerodactyl", "Incineroar", "Farigiraf", "Sylveon", "Garchomp"]
+    },
+    {
+      "event": "Monthly Challenge Series June 2026 (en ligne)",
+      "location": "En ligne",
+      "date": "2026-06-29",
+      "winner": "Kaminchu",
+      "notable": "Compétition officielle TPC, simple, Reg. M-B (hors circuit)",
+      "regulation": "Reg. M-B",
+      "url": "https://victoryroad.pro/2026-season-calendar/"
+    },
+    {
+      "event": "Victory Road June Challenge #2 (en ligne)",
+      "location": "En ligne",
+      "date": "2026-06-21",
+      "winner": "Louis Markl (Louis)",
+      "runnerUp": "Giovanni Piscitelli (Genius)",
+      "top4": ["Louis Markl", "Giovanni Piscitelli", "Jeongso Lee", "Shai Rabà"],
+      "notable": "Premier gros tournoi en Reg. M-B ; 174 joueurs",
+      "regulation": "Reg. M-B",
+      "url": "https://victoryroad.pro/vr-jun26-2/",
+      "team": "Mega Floette / Incineroar / Basculegion / Kingambit / Sinistcha / Sneasler",
+      "teamList": ["Floette", "Incineroar", "Basculegion", "Kingambit", "Sinistcha", "Sneasler"]
+    },
+    {
+      "event": "North America International Championships 2026 (NAIC)",
+      "location": "Nouvelle-Orléans, USA",
+      "date": "2026-06-14",
+      "winner": "Francesco Pio Pero (CICCIOTT)",
+      "runnerUp": "Eric Rios (Riopaser)",
+      "top4": ["Francesco Pio Pero", "Eric Rios", "Wolfe Glick", "Shoma Honami"],
+      "regulation": "Reg. M-A",
+      "url": "https://victoryroad.pro/2026-naic/",
+      "team": "Mega Charizard Y / Aerodactyl / Basculegion / Kingambit / Sylveon / Garchomp",
+      "teamList": ["Charizard", "Aerodactyl", "Basculegion", "Kingambit", "Sylveon", "Garchomp"]
+    },
+    {
+      "event": "2025-26 Taiwan Master Ball League",
+      "location": "Taichung, Taïwan",
+      "date": "2026-06-14",
+      "winner": "Chen Yu-Wei (YuWei)",
+      "runnerUp": "Liu Jian-Ting (Sayha)",
+      "notable": "Équipe Mega Charizard Y + Mega Aerodactyl ; 242 joueurs",
+      "regulation": "Reg. M-A",
+      "url": "https://victoryroad.pro/2026-taiwan/",
+      "team": "Mega Charizard Y / Aerodactyl / Basculegion / Kingambit / Sylveon / Garchomp",
+      "teamList": ["Charizard", "Aerodactyl", "Basculegion", "Kingambit", "Sylveon", "Garchomp"]
+    }
+  ],
+  "news": [
+    {
+      "title": "Pokémon Champions July 2026 Events: MCS, Ranked Battles Season, and Battle Pass",
+      "url": "https://www.pokemon.com/us/news/pokemon-champions-july-2026-events-mcs-ranked-battles-season-and-battle-pass",
+      "source": "Pokémon Champions (officiel)",
+      "kind": "article",
+      "date": "2026-07-08"
+    },
+    {
+      "title": "The Champions Arena II — Marco Silva remporte le tournoi face à Toler Webb (résultats complets, Reg. M-B)",
+      "url": "https://victoryroad.pro/vr-champions-arena-2/",
+      "source": "Victory Road",
+      "kind": "article",
+      "date": "2026-07-05"
+    },
+    {
+      "title": "Top Moments - 2026 North America International Championships",
+      "url": "https://www.youtube.com/watch?v=YZzliA7eG-s",
+      "source": "Play! Pokémon (YouTube)",
+      "kind": "video",
+      "date": "2026-07-04"
+    },
+    {
+      "title": "Francesco Pio Pero Came Back with a Vengeance | 2026 Pokémon NAIC",
+      "url": "https://www.youtube.com/watch?v=Qrh_Ro-bH8g",
+      "source": "Play! Pokémon (YouTube)",
+      "kind": "video",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "Monthly Challenge Series June 2026 — résultats (vainqueur : Kaminchu, simple, Reg. M-B)",
+      "url": "https://victoryroad.pro/2026-season-calendar/",
+      "source": "Victory Road",
+      "kind": "article",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Teams, results and usage from the VR June Challenge #2 (first major in Reg. M-B)",
+      "url": "https://victoryroad.pro/vr-jun26-2/",
+      "source": "Victory Road",
+      "kind": "article",
+      "date": "2026-06-21"
+    },
+    {
+      "title": "Regulation Set M-B Kicks off a New Ranked Battles Season and Battle Pass in Pokémon Champions",
+      "url": "https://www.pokemon.com/us/pokemon-news/regulation-set-m-b-kicks-off-a-new-ranked-battles-season-and-battle-pass-in-pokemon-champions",
+      "source": "Pokémon Champions (officiel)",
+      "kind": "article",
+      "date": "2026-06-17"
+    },
+    {
+      "title": "Championship Sunday | 2026 Pokémon North America International Championships",
+      "url": "https://www.youtube.com/watch?v=igPt0ZyyUSY",
+      "source": "Play! Pokémon (YouTube)",
+      "kind": "video",
+      "date": "2026-06-14"
+    }
+  ],
+  "newsFeed": [
+    "Ranked Battles Season M-3 has ended (won by Shohei Kimura); Season M-4 (7 July – 4 August) and Battle Pass M-4 are now live, with Sceptile, Blaziken and Swampert among the rewards.",
+    "Monthly Challenge Series July 2026 announced: entries open 17 July, event runs 23–26 July, Single Battle, Reg. M-B.",
+    "Marco Silva (Italy) wins The Champions Arena II, defeating Toler Webb (USA); Jorge Tabuyo and Nikolaj Høj Nielsen reach the semifinals.",
+    "Play! Pokémon released a new \"Top Moments\" recap video from the 2026 NAIC.",
+    "Regulation Set M-B is live (16 June – 1 Sept 2026): new Megas including Sceptile, Blaziken, Swampert, Mawile and Staraptor.",
+    "First Reg. M-B usage in: at the VR June Challenge #2, Mega Charizard Y (29.3%) leads, with new Megas Swampert (20.1%) and Staraptor (19.0%) already in the top tier.",
+    "Garchomp, Basculegion and Whimsicott top general usage in early Reg. M-B play.",
+    "Louis Markl wins the VR June Challenge #2, the first big Regulation M-B event.",
+    "Monthly Challenge Series June 2026 (online, single battles, Reg. M-B) has concluded, won by Kaminchu.",
+    "Pokémon Champions is now available on iOS and Android.",
+    "2026 World Championships set for San Francisco, 28–30 August."
+  ],
+  "updatedAt": "2026-07-09T00:00:00.000Z"
 }
