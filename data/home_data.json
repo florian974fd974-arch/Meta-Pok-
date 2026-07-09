@@ -6,8 +6,8 @@
     "news": [
           {
                   "game": "tcgp",
-                  "title": "TCG Pocket — Miraidon ex Magnezone détrône Greninja Mega Sableye ex, Milotic ex Vaporeon ex fait son entrée",
-                  "desc": "Miraidon ex Magnezone prend la tête du classement (8,41 % d'usage, 53,71 % WR), porté par plusieurs tops 1 début juillet, reléguant Greninja Mega Sableye ex au rang 2 (winrate en baisse à 46,90 %). Suicune ex Baxcalibur confirme sa progression au rang 4 avec le meilleur winrate du top 5 (54,55 %). Nouveauté marquante : Milotic ex Vaporeon ex entre dans le top 10 (rang 9) avec une liste emmenée par Wallace et Lisia, faisant sortir Mega Gardevoir ex Gardevoir. L'échantillon atteint désormais 3 687 joueurs sur 38 tournois (9 837 matchs), à l'approche de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
+                  "title": "TCG Pocket — Miraidon ex Magnezone conforte sa 1ère place, méta stable avant Ruler of the Skies",
+                  "desc": "Miraidon ex Magnezone confirme sa position de leader avec 8,57 % d'usage et un solide 54,20 % de winrate, devant Greninja Mega Sableye ex (7,48 % usage, winrate en berne à 46,98 %). Suicune ex Baxcalibur poursuit sa progression au rang 4 (5,61 % usage, 54,15 % WR) porté par plusieurs tops 1 récents, tandis que Milotic ex Vaporeon ex reste solidement installé au rang 9 avec sa liste Wallace/Lisia. L'échantillon atteint désormais 4 062 joueurs sur 44 tournois (10 822 matchs), à l'approche de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
                   "when": "TCG Pocket",
                   "badgeText": "META",
                   "badgeStyle": "tcgp",
@@ -24,8 +24,8 @@
           },
           {
                   "game": "classic",
-                  "title": "TCG Classic — Dragapult ex toujours en tête, aucune carte bannie avec Mega Evolution—Pitch Black",
-                  "desc": "Méta Standard stable en pause estivale : Dragapult ex reste n°1 (9,36 %) devant Gardevoir ex (7,79 %) et Charizard ex (5,28 %), sans mouvement dans le top 10 depuis le NAIC 2026 (10 juin, vainqueur James Kowalski). Play! Pokémon a confirmé qu'aucune carte ne sera bannie en Standard ni en Expanded à la sortie de Mega Evolution—Pitch Black (17 juillet), l'environnement restant jugé sain. La chaîne officielle a publié une vidéo technique sur le deck Zoroark ex et un récapitulatif du NAIC 2026. Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
+                  "title": "TCG Classic — Grand chamboulement du top 10 Standard, Dragapult (ex) toujours en tête mais talonné",
+                  "desc": "Le classement agrégé Limitless (496 tournois, 28 246 joueurs, 62 508 matchs) montre un fort renouvellement de la méta Standard : Dragapult (ex) reste n°1 mais recule à 7,90 % de part, désormais suivi de près par Dragapult Dusknoir (6,52 %), N's Zoroark (5,90 %), Slowking (5,81 %) et Mega Greninja ex (5,64 %) — cinq archétypes absents du top 10 lors de la dernière veille. Aucun deck ne dépasse 8 % de part dans un top 10 très disputé. Play! Pokémon confirme qu'aucune carte ne sera bannie en Standard/Expanded à l'arrivée de Mega Evolution—Pitch Black (sortie boutique le 17 juillet, effective le 31 juillet). Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
                   "when": "TCG Classic",
                   "badgeText": "CLASSIC",
                   "badgeStyle": "classic",
@@ -33,8 +33,8 @@
           },
           {
                   "game": "unite",
-                  "title": "Unite — Yveltal disponible, cap sur le 5e anniversaire avec Palkia, Reshiram et Solgaleo",
-                  "desc": "Aucun nouveau patch depuis Enduring Formation (17 juin) ; la tier list Game8 reste stable, toujours menée par Moltres en tier SS aux côtés des Légendaires/Méga-Évolutions et des soutiens Alcremie et Blissey, avec Skeledirge installé en tier S. Yveltal (Attaquant) est disponible depuis le 3 juillet avec une mission gratuite de déblocage. Suivront Palkia (17 juillet), Reshiram (7 août) et Solgaleo (21 août), dans le cadre du 5e anniversaire du jeu, avec un grand événement à récompenses dès le 21 juillet.",
+                  "title": "Unite — Yveltal entre directement en tier SS, cap sur le 5e anniversaire",
+                  "desc": "La tier list Game8 (mise à jour le 8 juillet) fait entrer Yveltal directement en tier SS pour ses débuts, aux côtés de Moltres toujours en tête, des Légendaires/Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Quaquaval. Aucun nouveau patch depuis Enduring Formation (17 juin). Yveltal (Attaquant) est disponible depuis le 3 juillet avec une mission gratuite de déblocage ; suivront Palkia (16 juillet), Reshiram (7 août) et Solgaleo (21 août), dans le cadre du 5e anniversaire du jeu, avec un grand événement à récompenses dès le 21 juillet.",
                   "when": "Pokémon Unite",
                   "badgeText": "UNITE",
                   "badgeStyle": "unite",
@@ -50,9 +50,9 @@
           },
           {
                   "title": "5e anniversaire Pokémon Unite",
-                  "desc": "Palkia rejoint le jeu (17 juil), événement à récompenses dès le 21 juil, avant Reshiram (7 août) et Solgaleo (21 août)",
+                  "desc": "Palkia rejoint le jeu (16 juil), événement à récompenses dès le 21 juil, avant Reshiram (7 août) et Solgaleo (21 août)",
                   "game": "unite",
-                  "date": "17-21 juil · UNITE"
+                  "date": "16-21 juil · UNITE"
           },
           {
                   "title": "Monthly Challenge Series",
@@ -79,5 +79,5 @@
           "classic": true,
           "unite": true
     },
-    "updatedAt": "2026-07-09T12:00:00.000Z"
+    "updatedAt": "2026-07-10T12:00:00.000Z"
 }
