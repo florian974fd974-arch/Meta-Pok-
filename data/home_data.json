@@ -6,8 +6,8 @@
     "news": [
           {
                   "game": "tcgp",
-                  "title": "TCG Pocket — Miraidon ex Magnezone conforte sa 1ère place, méta stable avant Ruler of the Skies",
-                  "desc": "Miraidon ex Magnezone confirme sa position de leader avec 8,57 % d'usage et un solide 54,20 % de winrate, devant Greninja Mega Sableye ex (7,48 % usage, winrate en berne à 46,98 %). Suicune ex Baxcalibur poursuit sa progression au rang 4 (5,61 % usage, 54,15 % WR) porté par plusieurs tops 1 récents, tandis que Milotic ex Vaporeon ex reste solidement installé au rang 9 avec sa liste Wallace/Lisia. L'échantillon atteint désormais 4 062 joueurs sur 44 tournois (10 822 matchs), à l'approche de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
+                  "title": "TCG Pocket — Miraidon ex Magnezone creuse l'écart en tête, Hydreigon Mega Sableye ex grimpe au top 10",
+                  "desc": "Miraidon ex Magnezone conforte sa position de leader avec 8,98 % d'usage et 53,85 % de winrate, loin devant Greninja Mega Sableye ex (7,29 % usage, winrate toujours faible à 46,91 %). Hydreigon Mega Sableye ex dépasse Milotic ex Vaporeon ex et grimpe au rang 9, tandis que Suicune ex Baxcalibur (rang 4, 54,00 % WR) confirme sa solidité. L'échantillon atteint 4 363 joueurs sur 47 tournois (11 595 matchs), à l'approche de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
                   "when": "TCG Pocket",
                   "badgeText": "META",
                   "badgeStyle": "tcgp",
@@ -15,7 +15,7 @@
           },
           {
                   "game": "vgc",
-                  "title": "VGC — Marco Silva remporte The Champions Arena II, Ranked M-4 et nouveau Battle Pass lancés",
+                  "title": "VGC — Marco Silva remporte The Champions Arena II, saison Ranked M-4 et nouveau Battle Pass lancés",
                   "desc": "The Champions Arena II (Reg. M-B) s'est conclu par la victoire de Marco Silva (Italie) face à Toler Webb (États-Unis). La saison Ranked M-3 s'est achevée (victoire de Shohei Kimura) et la saison M-4 ainsi qu'un nouveau Battle Pass ont démarré le 7 juillet. Sur la méta Reg. M-B (VR June Challenge #2), Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), suivie des nouveautés Mega Swampert (20,1 %) et Mega Staraptor (19,0 %). Prochain rendez-vous : le Monthly Challenge Series de juillet (23-26 juillet), avant les Mondiaux 2026 à San Francisco (28-30 août).",
                   "when": "Pokémon Champions",
                   "badgeText": "VGC",
@@ -24,8 +24,8 @@
           },
           {
                   "game": "classic",
-                  "title": "TCG Classic — Grand chamboulement du top 10 Standard, Dragapult (ex) toujours en tête mais talonné",
-                  "desc": "Le classement agrégé Limitless (496 tournois, 28 246 joueurs, 62 508 matchs) montre un fort renouvellement de la méta Standard : Dragapult (ex) reste n°1 mais recule à 7,90 % de part, désormais suivi de près par Dragapult Dusknoir (6,52 %), N's Zoroark (5,90 %), Slowking (5,81 %) et Mega Greninja ex (5,64 %) — cinq archétypes absents du top 10 lors de la dernière veille. Aucun deck ne dépasse 8 % de part dans un top 10 très disputé. Play! Pokémon confirme qu'aucune carte ne sera bannie en Standard/Expanded à l'arrivée de Mega Evolution—Pitch Black (sortie boutique le 17 juillet, effective le 31 juillet). Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
+                  "title": "TCG Classic — Dragapult (ex) toujours en tête d'une méta Standard stabilisée",
+                  "desc": "Le classement agrégé Limitless (510 tournois, 28 852 joueurs, 63 931 matchs) reste stable : Dragapult (ex) conserve la 1ère place avec 7,87 % de part (53,11 % winrate), suivi de Dragapult Dusknoir (6,56 %), N's Zoroark (5,95 %), Slowking (5,78 %) et Mega Greninja ex (5,59 %) — un top 5 inchangé depuis la dernière veille. Pokemon.com dévoile cinq nouvelles cartes (Mega Darkrai ex, Mega Delphox ex, Mega Chandelure ex, Armarouge, Slowbro) de l'extension Mega Evolution—Pitch Black, toujours prévue le 17 juillet (effective le 31 juillet, sans carte bannie). Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
                   "when": "TCG Classic",
                   "badgeText": "CLASSIC",
                   "badgeStyle": "classic",
@@ -33,8 +33,8 @@
           },
           {
                   "game": "unite",
-                  "title": "Unite — Yveltal entre directement en tier SS, cap sur le 5e anniversaire",
-                  "desc": "La tier list Game8 (mise à jour le 8 juillet) fait entrer Yveltal directement en tier SS pour ses débuts, aux côtés de Moltres toujours en tête, des Légendaires/Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Quaquaval. Aucun nouveau patch depuis Enduring Formation (17 juin). Yveltal (Attaquant) est disponible depuis le 3 juillet avec une mission gratuite de déblocage ; suivront Palkia (16 juillet), Reshiram (7 août) et Solgaleo (21 août), dans le cadre du 5e anniversaire du jeu, avec un grand événement à récompenses dès le 21 juillet.",
+                  "title": "Unite — Yveltal s'installe en tier SS, cap sur le 5e anniversaire du jeu",
+                  "desc": "La tier list Game8 (mise à jour le 8-9 juillet) confirme l'entrée de Yveltal directement en tier SS pour ses débuts, aux côtés de Moltres toujours en tête, des Légendaires/Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Quaquaval. Aucun nouveau patch depuis Enduring Formation (17 juin). Le 5e anniversaire du jeu se prépare : après Yveltal (3 juillet), Palkia arrive le 16 juillet, puis Reshiram (7 août) et Solgaleo (21 août), avec un vote Facebook « Unite Move Shout-Out Showdown » lancé le 10 juillet pour élire le Unite Move le plus épique.",
                   "when": "Pokémon Unite",
                   "badgeText": "UNITE",
                   "badgeStyle": "unite",
@@ -79,5 +79,5 @@
           "classic": true,
           "unite": true
     },
-    "updatedAt": "2026-07-10T12:00:00.000Z"
+    "updatedAt": "2026-07-11T09:00:00.000Z"
 }
