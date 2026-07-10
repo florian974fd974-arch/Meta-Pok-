@@ -109,9 +109,16 @@
 },
 "patch": "Enduring Formation — v1.23.2.5 (17 juin 2026)",
 "topPokemon": "Moltres",
-"metaSummary": "Aucun nouveau patch depuis Enduring Formation (v1.23.2.5, 17 juin 2026). La tier list Game8 (mise à jour le 8 juillet) fait désormais entrer Yveltal directement en tier SS pour ses débuts, aux côtés de Moltres toujours en tête, des Légendaires et Méga-Évolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) et de Quaquaval. Les soutiens Alcremie et Blissey et Skeledirge (tier S) complètent un méta stable. Temps fort du moment : Yveltal (Attaquant) est disponible depuis le 3 juillet, avec une mission gratuite pour débloquer sa licence. Suivent Palkia (16 juillet), Reshiram (7 août) et Solgaleo (21 août), et un grand événement à récompenses à partir du 21 juillet pour le 5e anniversaire du jeu.",
-"metaSummary_en": "No new patch since Enduring Formation (v1.23.2.5, June 17, 2026). Game8's tier list (updated July 8) now places Yveltal straight into SS tier for its debut, alongside Moltres still on top, the Legendaries and Mega Evolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai), and Quaquaval. Support stars Alcremie and Blissey plus Skeledirge (S tier) round out a stable meta. Current highlight: Yveltal (Attacker) has been live since July 3, with a free mission to unlock its license. Next up are Palkia (July 16), Reshiram (August 7), and Solgaleo (August 21), plus a reward-packed event starting July 21 for the game's 5th anniversary.",
+"metaSummary": "Aucun nouveau patch depuis Enduring Formation (v1.23.2.5, 17 juin 2026) : la tier list Game8 (mise à jour le 8-9 juillet) reste stable avec Moltres toujours en tête, Yveltal fraîchement entré en SS pour ses débuts, les Légendaires et Méga-Évolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai) et Quaquaval. Alcremie, Blissey et Skeledirge (tier S) complètent ce méta dominé par le contrôle et le soutien. Le 5e anniversaire du jeu se prépare activement : après Yveltal (3 juillet), Palkia (16 juillet), Reshiram (7 août) et Solgaleo (21 août) suivront, et The Pokémon Company lance depuis le 10 juillet un vote Facebook « Unite Move Shout-Out Showdown » pour élire le Unite Move le plus épique, avec des tickets Aeos à la clé.",
+"metaSummary_en": "No new patch since Enduring Formation (v1.23.2.5, June 17, 2026): Game8's tier list (updated July 8-9) stays stable with Moltres still on top, Yveltal freshly landing in SS for its debut, the Legendaries and Mega Evolutions (Mega Charizard X/Y, Mega Lucario, Zacian, Miraidon, Latios/Latias, Darkrai), and Quaquaval. Alcremie, Blissey, and Skeledirge (S tier) round out a meta dominated by control and support picks. The game's 5th anniversary is ramping up: after Yveltal (July 3), Palkia (July 16), Reshiram (August 7), and Solgaleo (August 21) are next, and since July 10 The Pokemon Company has been running a Facebook vote, the 'Unite Move Shout-Out Showdown,' to crown the most epic Unite Move, with Aeos tickets up for grabs.",
 "news": [
+{
+"title": "Vote for your favorite UNITE Move! The Unite Move Shout-Out Showdown",
+"url": "https://www.pokemonunite.jp/en/topics/news/20260710-1/",
+"source": "Pokémon UNITE Official",
+"kind": "article",
+"date": "2026-07-10"
+},
 {
 "title": "Yveltal joins the fray on July 3!",
 "url": "https://www.pokemonunite.jp/en/topics/news/20260703-1/",
@@ -148,14 +155,7 @@
 "date": "2026-06-26"
 },
 {
-"title": "The Pokémon UNITE 5th Anniversary starts July 21!",
-"url": "https://www.youtube.com/watch?v=KAg_2GifYIM",
-"source": "Pokémon UNITE (YouTube)",
-"kind": "video",
-"date": "2026-06-27"
-},
-{
-"title": "Yveltal entre directement en tier SS sur la tier list Game8 (mise à jour du 8 juillet)",
+"title": "Yveltal entre directement en tier SS sur la tier list Game8 (mise à jour du 8-9 juillet)",
 "url": "https://game8.co/games/Pokemon-UNITE/archives/335997",
 "source": "Game8",
 "kind": "article",
@@ -169,5 +169,5 @@
 "date": "2026-06-17"
 }
 ],
-"updatedAt": "2026-07-10T00:00:00.000Z"
+"updatedAt": "2026-07-11T00:00:00.000Z"
 }
