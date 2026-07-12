@@ -6,8 +6,8 @@
 "news": [
 {
 "game": "tcgp",
-"title": "TCG Pocket — Miraidon ex Magnezone garde une large avance, Mega Lucario ex Lucario et Indeedee ex Giratina ex progressent",
-"desc": "Miraidon ex Magnezone conserve une large avance en tête (9,46 % usage, 53,47 % winrate), toujours suivi de Greninja Mega Sableye ex (6,94 % usage, winrate toujours faible à 47,10 %). Mega Lucario ex Lucario grimpe du rang 8 au rang 6, et Indeedee ex Giratina ex fait son entrée dans le top 10 usage (rang 10), repoussant Milotic ex Vaporeon ex. Côté winrate, Zoroark ex Mega Absol ex passe devant Miraidon ex Magnezone (54,36 %). L'échantillon atteint 4 958 joueurs sur 52 tournois (13 246 matchs), à quelques jours de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
+"title": "TCG Pocket — Miraidon ex Magnezone garde une large avance, Indeedee ex Giratina ex passe devant Hydreigon Mega Sableye ex",
+"desc": "Miraidon ex Magnezone conserve une large avance en tête (9,38 % usage, 53,33 % winrate), toujours suivi de Greninja Mega Sableye ex (6,83 % usage, winrate toujours faible à 47,11 %). Dans le top 10 usage, Indeedee ex Giratina ex grimpe au rang 9 (2,15 % usage, 53,09 % WR) et dépasse désormais Hydreigon Mega Sableye ex, qui recule au rang 10. Côté winrate, Zoroark ex Mega Absol ex prend la tête du classement (53,48 %), juste devant Miraidon ex Magnezone. L'échantillon atteint 5 128 joueurs sur 54 tournois (13 724 matchs), à quelques jours de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
 "when": "TCG Pocket",
 "badgeText": "META",
 "badgeStyle": "tcgp",
@@ -25,7 +25,7 @@
 {
 "game": "classic",
 "title": "TCG Classic — Dragapult (ex) toujours en tête d'une méta Standard stabilisée",
-"desc": "Le classement agrégé Limitless (510 tournois, 28 852 joueurs, 63 931 matchs) reste stable : Dragapult (ex) conserve la 1ère place avec 7,87 % de part (53,11 % winrate), suivi de Dragapult Dusknoir (6,56 %), N's Zoroark (5,95 %), Slowking (5,78 %) et Mega Greninja ex (5,59 %) — un top 5 inchangé depuis la dernière veille. Pokemon.com dévoile de nouvelles cartes (Mega Darkrai ex, Mega Delphox ex, Mega Chandelure ex) de l'extension Mega Evolution—Pitch Black, toujours prévue le 17 juillet (effective le 31 juillet, sans carte bannie). Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
+"desc": "Le classement agrégé Limitless (534 tournois, 30 153 joueurs, 66 733 matchs) reste stable : Dragapult (ex) conserve la 1ère place avec 7,87 % de part (53,08 % winrate), suivi de Dragapult Dusknoir (6,59 %), N's Zoroark (6,07 %), Slowking (5,82 %) et Mega Greninja ex (5,61 %) — un top 5 inchangé. Les decklists des meilleurs decks ont été actualisées avec les listes de tournois les plus récentes, dont une nouvelle entrée pour Ogerpon Meganium Hydrapple. Pokemon.com continue de dévoiler les cartes de l'extension Mega Evolution—Pitch Black (Mega Darkrai ex, Mega Delphox ex, Mega Chandelure ex), toujours prévue le 17 juillet (effective le 31 juillet, sans carte bannie). Prochain grand rendez-vous : les Mondiaux 2026 à San Francisco (28-30 août).",
 "when": "TCG Classic",
 "badgeText": "CLASSIC",
 "badgeStyle": "classic",
@@ -79,5 +79,5 @@
 "classic": true,
 "unite": true
 },
-"updatedAt": "2026-07-12T12:00:00.000Z"
+"updatedAt": "2026-07-13T14:00:00.000Z"
 }
