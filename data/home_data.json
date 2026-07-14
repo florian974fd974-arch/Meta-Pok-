@@ -6,8 +6,8 @@
 "news": [
 {
 "game": "tcgp",
-"title": "TCG Pocket — Mega Lucario ex Lucario dépasse Butterfree Mega Sceptile ex, Suicune ex Baxcalibur grimpe au général winrate",
-"desc": "La méta reste globalement stable avec 5 897 joueurs sur 62 tournois et 15 719 matchs analysés. Miraidon ex Magnezone conserve largement la tête du classement usage (9,63 % usage, 53,07 % WR), toujours suivi de Greninja Mega Sableye ex (6,56 % usage). Mouvement notable aux rangs 5-6 : Mega Lucario ex Lucario (4,65 % usage, 51,72 % WR) dépasse désormais Butterfree Mega Sceptile ex. Côté winrate, Suicune ex Baxcalibur passe devant Miraidon ex Magnezone pour la 2e place, et Mega Manectric ex Zeraora fait son entrée dans le top 10, à 16 jours du lancement de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex).",
+"title": "TCG Pocket — Zoroark ex Mega Absol ex prend la tête du winrate, Indeedee ex Giratina ex entre dans le top 10",
+"desc": "La méta reste stable en usage sur 6 329 joueurs, 67 tournois et 16 912 matchs analysés. Miraidon ex Magnezone conserve largement la tête du classement usage (9,65 % usage, 52,97 % WR), toujours suivi de Greninja Mega Sableye ex (6,49 % usage, mais un winrate faible de 47,30 %). Le classement winrate bouge davantage : Zoroark ex Mega Absol ex garde la 1ère place (53,28 %) devant Miraidon ex Magnezone qui reprend la 2e place à Suicune ex Baxcalibur, tandis que Mega Sceptile ex Greninja grimpe à la 4e place et qu'Indeedee ex Giratina ex fait son entrée dans le top 10 winrate à la place de Mega Lucario ex Lucario, à 15 jours du lancement de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex en vedette).",
 "when": "TCG Pocket",
 "badgeText": "META",
 "badgeStyle": "tcgp",
@@ -15,8 +15,8 @@
 },
 {
 "game": "vgc",
-"title": "VGC — Marco Silva remporte The Champions Arena II, saison Ranked M-4 et nouveau Battle Pass lancés",
-"desc": "The Champions Arena II (Reg. M-B) s'est conclu par la victoire de Marco Silva (Italie) face à Toler Webb (États-Unis). La saison Ranked M-3 s'est achevée (victoire de Shohei Kimura) et la saison M-4 ainsi qu'un nouveau Battle Pass ont démarré le 7 juillet. Sur la méta Reg. M-B (VR June Challenge #2), Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), suivie des nouveautés Mega Swampert (20,1 %) et Mega Staraptor (19,0 %). Prochain rendez-vous : le Monthly Challenge Series de juillet (23-26 juillet), avant les Mondiaux 2026 à San Francisco (28-30 août).",
+"title": "VGC — Marco Silva remporte The Champions Arena II, Champion Tier et saison Ranked M-4 lancés",
+"desc": "The Champions Arena II (en ligne, Reg. M-B, 706 joueurs) s'est conclu par la victoire de Marco Silva (Italie) face à Toler Webb (États-Unis), avec des équipes toujours bâties autour de Mega Charizard Y, Garchomp et Kingambit. La saison Ranked M-4 et un nouveau Battle Pass ont démarré le 7 juillet, et le Champion Tier ainsi que les rangs 1 à 3 du palier Master Ball ont ouvert le 14 juillet. Sur la méta Reg. M-B (VR June Challenge #2), Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), suivie des nouveautés Mega Swampert (20,1 %) et Mega Staraptor (19,0 %). Prochain rendez-vous : le Monthly Challenge Series de juillet (23-26 juillet, inscriptions dès le 17), avant les Mondiaux 2026 à San Francisco (28-30 août).",
 "when": "Pokémon Champions",
 "badgeText": "VGC",
 "badgeStyle": "vgc",
@@ -24,8 +24,8 @@
 },
 {
 "game": "classic",
-"title": "TCG Classic — Top 10 inchangé, Crustle perce sur le podium des gros événements",
-"desc": "Le classement agrégé Limitless (542 tournois, 30 541 joueurs, 67 612 matchs) confirme une méta Standard stabilisée : Dragapult (ex) garde la 1ère place (7,87 %, 53,13 % WR), suivi de Dragapult Dusknoir, N's Zoroark, Slowking et Mega Greninja ex — un top 5 strictement inchangé. À surveiller : Crustle (Mysterious Rock Inn), encore modeste en usage global (2,19 %) mais monté sur le podium des plus gros événements récents (2e à Turin, 5e au NAIC 2026 New Orleans). Pokemon.com continue de dévoiler les cartes de Mega Evolution—Pitch Black, toujours prévue le 17 juillet (effective le 31 juillet, sans carte bannie).",
+"title": "TCG Classic — Top 10 inchangé, Crustle confirme sa percée sur les podiums",
+"desc": "Le classement agrégé Limitless (552 tournois, 31 253 joueurs, 69 229 matchs) confirme une méta Standard totalement stabilisée : Dragapult (ex) garde la 1ère place (7,83 %, 53,07 % WR), suivi de Dragapult Dusknoir, N's Zoroark, Slowking et Mega Greninja ex — un top 10 strictement inchangé en position. À surveiller : Crustle (Mysterious Rock Inn), encore modeste en usage global (2,18 %) mais monté sur le podium des plus gros événements récents (2e à Turin, 5e au NAIC 2026 New Orleans). Pokemon.com continue de dévoiler les cartes de Mega Evolution—Pitch Black (dont Mega Darkrai ex et Mega Zeraora ex), toujours prévue le 17 juillet (effective le 31 juillet, sans carte bannie).",
 "when": "TCG Classic",
 "badgeText": "CLASSIC",
 "badgeStyle": "classic",
@@ -34,7 +34,7 @@
 {
 "game": "unite",
 "title": "Unite — Yveltal s'installe en tier SS, cap sur le 5e anniversaire du jeu",
-"desc": "La tier list Game8 (mise à jour le 8-9 juillet) confirme l'entrée de Yveltal directement en tier SS pour ses débuts, aux côtés de Moltres toujours en tête, des Légendaires/Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Quaquaval. Aucun nouveau patch depuis Enduring Formation (17 juin). Le 5e anniversaire du jeu se prépare : après Yveltal (3 juillet), Palkia arrive le 16 juillet, puis Reshiram (7 août) et Solgaleo (21 août), avec un vote Facebook « Unite Move Shout-Out Showdown » lancé le 10 juillet pour élire le Unite Move le plus épique.",
+"desc": "La tier list Game8 (mise à jour le 8-9 juillet) confirme l'entrée de Yveltal directement en tier SS pour ses débuts, aux côtés de Moltres toujours en tête, des Légendaires/Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Quaquaval. Patch stable en v1.23.2.5, aucun changement majeur depuis Enduring Formation. Le 5e anniversaire du jeu se prépare : après Yveltal (3 juillet), Palkia arrive le 16 juillet, puis Reshiram (7 août) et Solgaleo (21 août), avec un vote « Unite Move Shout-Out Showdown » lancé le 10 juillet pour élire le Unite Move le plus épique.",
 "when": "Pokémon Unite",
 "badgeText": "UNITE",
 "badgeStyle": "unite",
@@ -79,5 +79,5 @@
 "classic": true,
 "unite": true
 },
-"updatedAt": "2026-07-14T13:00:00.000Z"
+"updatedAt": "2026-07-15T12:00:00.000Z"
 }
