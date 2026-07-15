@@ -6,8 +6,8 @@
 "news": [
 {
 "game": "tcgp",
-"title": "TCG Pocket — Zoroark ex Mega Absol ex prend la tête du winrate, Indeedee ex Giratina ex entre dans le top 10",
-"desc": "La méta reste stable en usage sur 6 329 joueurs, 67 tournois et 16 912 matchs analysés. Miraidon ex Magnezone conserve largement la tête du classement usage (9,65 % usage, 52,97 % WR), toujours suivi de Greninja Mega Sableye ex (6,49 % usage, mais un winrate faible de 47,30 %). Le classement winrate bouge davantage : Zoroark ex Mega Absol ex garde la 1ère place (53,28 %) devant Miraidon ex Magnezone qui reprend la 2e place à Suicune ex Baxcalibur, tandis que Mega Sceptile ex Greninja grimpe à la 4e place et qu'Indeedee ex Giratina ex fait son entrée dans le top 10 winrate à la place de Mega Lucario ex Lucario, à 15 jours du lancement de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex en vedette).",
+"title": "TCG Pocket — Mega Blaziken ex Greninja bondit au 2e rang winrate, Miraidon ex Magnezone toujours en tête d'usage",
+"desc": "La méta reste dominée par Miraidon ex Magnezone en usage (9,96 % usage, 52,82 % WR) sur 6 649 joueurs, 72 tournois et 17 727 matchs analysés cette semaine, toujours suivi de Greninja Mega Sableye ex (6,47 % usage, 47,12 % WR, toujours le point faible du top 3). Suicune ex Baxcalibur reprend la 3e place usage à Mega Sceptile ex Greninja (6,17 % contre 6,12 %). Le classement winrate bouge fortement : Zoroark ex Mega Absol ex conserve la tête (54,02 %) mais Mega Blaziken ex Greninja bondit à la 2e place (53,26 %, +3 rangs), reléguant Miraidon ex Magnezone à la 3e place malgré ses 52,82 % WR ; Mega Altaria ex Espeon grimpe aussi à la 4e place (+3 rangs, 52,81 %). Le Community Week Event (Everyday Wonders) se termine le 18 juillet, à 14 jours du lancement de Ruler of the Skies (B4, 30 juillet, Mega Rayquaza ex en vedette).",
 "when": "TCG Pocket",
 "badgeText": "META",
 "badgeStyle": "tcgp",
@@ -24,8 +24,8 @@
 },
 {
 "game": "classic",
-"title": "TCG Classic — Top 10 inchangé, Crustle confirme sa percée sur les podiums",
-"desc": "Le classement agrégé Limitless (552 tournois, 31 253 joueurs, 69 229 matchs) confirme une méta Standard totalement stabilisée : Dragapult (ex) garde la 1ère place (7,83 %, 53,07 % WR), suivi de Dragapult Dusknoir, N's Zoroark, Slowking et Mega Greninja ex — un top 10 strictement inchangé en position. À surveiller : Crustle (Mysterious Rock Inn), encore modeste en usage global (2,18 %) mais monté sur le podium des plus gros événements récents (2e à Turin, 5e au NAIC 2026 New Orleans). Pokemon.com continue de dévoiler les cartes de Mega Evolution—Pitch Black (dont Mega Darkrai ex et Mega Zeraora ex), toujours prévue le 17 juillet (effective le 31 juillet, sans carte bannie).",
+"title": "TCG Classic — Lucario Hariyama entre dans le top 10, Mega Evolution—Pitch Black arrive demain",
+"desc": "Le classement agrégé Limitless (561 tournois, 31 695 joueurs, 70 181 matchs) confirme une méta Standard toujours stable : Dragapult ex garde la 1ère place (7,82 % de part, 53,02 % WR), devant Dragapult Dusknoir (6,63 %), N's Zoroark (6,17 %), Slowking (5,81 %) et Mega Greninja ex (5,52 %). Seul vrai mouvement de la semaine : Lucario Hariyama fait son entrée à la 10e place (2,79 % d'usage) et détrône de justesse Rocket's Honchkrow (2,76 %), désormais 11e. L'extension Mega Evolution—Pitch Black sort dès demain, le 17 juillet (effective en Standard le 31 juillet, sans aucune carte bannie), avec Mega Darkrai ex et Mega Delphox ex en vedette.",
 "when": "TCG Classic",
 "badgeText": "CLASSIC",
 "badgeStyle": "classic",
@@ -33,8 +33,8 @@
 },
 {
 "game": "unite",
-"title": "Unite — Yveltal s'installe en tier SS, cap sur le 5e anniversaire du jeu",
-"desc": "La tier list Game8 (mise à jour le 8-9 juillet) confirme l'entrée de Yveltal directement en tier SS pour ses débuts, aux côtés de Moltres toujours en tête, des Légendaires/Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Quaquaval. Patch stable en v1.23.2.5, aucun changement majeur depuis Enduring Formation. Le 5e anniversaire du jeu se prépare : après Yveltal (3 juillet), Palkia arrive le 16 juillet, puis Reshiram (7 août) et Solgaleo (21 août), avec un vote « Unite Move Shout-Out Showdown » lancé le 10 juillet pour élire le Unite Move le plus épique.",
+"title": "Unite — Patch Enduring Formation Part 2 déployé, Unite quittera les Mondiaux pour l'Aeos Crown 2027",
+"desc": "Le nouveau patch « Enduring Formation Part 2 », déployé le 16 juillet, buffe Aegislash, Mega Gyarados, Clefable, Umbreon, Skeledirge et Quaquaval, tout en nerfant Feraligatr, Sirfetch'd, Suicune, Sylveon et Typhlosion. La tier list Game8 reste inchangée : Moltres domine toujours le tier SS aux côtés de Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario et Yveltal. The Pokémon Company a annoncé que Pokémon Unite quittera les Pokémon World Championships dès 2027 pour organiser son propre tournoi, le Pokémon UNITE Aeos Crown 2027 Tokyo (qualifications régionales dès novembre 2026, finale à Tokyo fin mars 2027). Le 5e anniversaire du jeu démarre le 21 juillet avec l'arrivée de Palkia, avant Reshiram (7 août) et Solgaleo (21 août).",
 "when": "Pokémon Unite",
 "badgeText": "UNITE",
 "badgeStyle": "unite",
@@ -44,15 +44,15 @@
 "timeline": [
 {
 "title": "Mega Evolution—Pitch Black",
-"desc": "Nouvelle extension TCG, aucune carte bannie, cartes promo Primarina/Zarude/Armarouge",
+"desc": "Nouvelle extension TCG Classic, aucune carte bannie, Mega Darkrai ex et Mega Delphox ex en vedette",
 "game": "classic",
 "date": "17 juil · TCG CLASSIC"
 },
 {
 "title": "5e anniversaire Pokémon Unite",
-"desc": "Palkia rejoint le jeu (16 juil), événement à récompenses dès le 21 juil, avant Reshiram (7 août) et Solgaleo (21 août)",
+"desc": "Palkia rejoint le jeu, événement à récompenses, avant Reshiram (7 août) et Solgaleo (21 août)",
 "game": "unite",
-"date": "16-21 juil · UNITE"
+"date": "21 juil · UNITE"
 },
 {
 "title": "Monthly Challenge Series",
@@ -62,9 +62,15 @@
 },
 {
 "title": "Ruler of the Skies",
-"desc": "Prochaine extension Pocket, Mega Rayquaza ex en tête",
+"desc": "Prochaine extension Pocket, Mega Rayquaza ex en vedette",
 "game": "tcgp",
-"date": "~30 juil · TCG POCKET"
+"date": "30 juil · TCG POCKET"
+},
+{
+"title": "Pitch Black effective en Standard",
+"desc": "L'extension Mega Evolution—Pitch Black devient légale en tournoi Standard/Expanded",
+"game": "classic",
+"date": "31 juil · TCG CLASSIC"
 },
 {
 "title": "Championnats du Monde 2026",
@@ -79,5 +85,5 @@
 "classic": true,
 "unite": true
 },
-"updatedAt": "2026-07-15T12:00:00.000Z"
+"updatedAt": "2026-07-16T12:00:00.000Z"
 }
