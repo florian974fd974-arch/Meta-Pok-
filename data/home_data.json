@@ -6,8 +6,8 @@
   "news": [
     {
       "game": "tcgp",
-      "title": "TCG Pocket — Miraidon ex Magnezone toujours en tête, Suicune ex Baxcalibur reprend la 3e place usage",
-      "desc": "Miraidon ex Magnezone conserve une large avance en usage (10,03 %, 52,91 % winrate) sur un échantillon de 6 817 joueurs, 77 tournois et 18 117 matchs. Suicune ex Baxcalibur reprend la 3e place usage à Mega Sceptile ex Greninja (6,16 % contre 6,13 %), inversant le mouvement de la veille. Zoroark ex Mega Absol ex reste #1 winrate (53,53 %) devant Mega Blaziken ex Greninja (53,28 %) et Mega Altaria ex Espeon (53,08 %). Plus que 12 jours avant Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette.",
+      "title": "TCG Pocket — Miraidon ex Magnezone toujours en tête, Mega Sceptile ex Greninja reprend la 3e place usage",
+      "desc": "Miraidon ex Magnezone conserve une large avance en usage (10,09 %, 52,78 % winrate) sur un échantillon de 6 956 joueurs, 80 tournois et 18 453 matchs. Mega Sceptile ex Greninja reprend la 3e place usage à Suicune ex Baxcalibur (6,20 % contre 6,18 %), inversant à nouveau le mouvement de la veille. Zoroark ex Mega Absol ex reste #1 winrate (53,51 %) devant Mega Blaziken ex Greninja (53,26 %), tandis que Mega Altaria ex Espeon recule à la 5e place (52,71 %). L'événement PvE Hisuian Zorua Drop se poursuit jusqu'au 26 juillet. Plus que 11 jours avant Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette.",
       "when": "TCG Pocket",
       "badgeText": "META",
       "badgeStyle": "tcgp",
@@ -24,8 +24,8 @@
     },
     {
       "game": "classic",
-      "title": "TCG Classic — Dragapult ex toujours en tête d'une méta Standard stable, Mega Evolution—Pitch Black disponible",
-      "desc": "Le classement agrégé Limitless (575 tournois, 32 275 joueurs, 71 469 matchs) confirme une méta parfaitement stable : Dragapult ex reste en tête (7,83 % de part, 52,95 % winrate), devant Dragapult Dusknoir, N's Zoroark, Slowking et Mega Greninja ex — aucun mouvement dans le top 10. L'extension Mega Evolution—Pitch Black est officiellement sortie le 17 juillet (plus de 115 cartes, dont Mega Darkrai ex et Mega Chandelure ex) sur Pokémon TCG Live, et sera légale en tournoi Standard/Expanded dès le 31 juillet, sans aucune carte bannie. Pokemon.com publie aussi une rétrospective Mewtwo pour les 30 ans du jeu, avec un aperçu de sa carte dans l'extension 30th Celebration (16 septembre). Saison compétitive toujours en pause estivale jusqu'aux Mondiaux 2026 (28-30 août).",
+      "title": "TCG Classic — Dragapult ex toujours en tête d'une méta Standard stable, Mega Evolution—Pitch Black légal le 31 juillet",
+      "desc": "Le classement agrégé Limitless (583 tournois, 32 863 joueurs, 72 837 matchs) confirme une méta toujours parfaitement stable, sans aucun mouvement de rang dans le top 10. Dragapult ex reste en tête (7,78 % de part, 53,01 % winrate), devant Dragapult Dusknoir, N's Zoroark, Slowking et Mega Greninja ex. L'extension Mega Evolution—Pitch Black reste l'actualité dominante depuis sa sortie officielle le 17 juillet (plus de 115 cartes, dont Mega Darkrai ex, Mega Zeraora ex, Mega Chandelure ex et Mega Excadrill ex) sur Pokémon TCG Live ; elle sera légale en tournoi Standard/Expanded dès le 31 juillet, sans aucune carte bannie. Pokemon.com propose aussi une rétrospective Mewtwo pour les 30 ans du jeu, avec un aperçu de sa carte dans l'extension 30th Celebration (16 septembre). Saison compétitive toujours en pause estivale jusqu'aux Mondiaux 2026 (28-30 août).",
       "when": "TCG Classic",
       "badgeText": "CLASSIC",
       "badgeStyle": "classic",
@@ -79,5 +79,5 @@
     "classic": true,
     "unite": true
   },
-  "updatedAt": "2026-07-18T12:00:00.000Z"
+  "updatedAt": "2026-07-19T15:00:00.000Z"
 }
