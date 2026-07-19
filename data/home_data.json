@@ -1,83 +1,83 @@
 {
-  "hero": {
-    "tag": "Hub Competitif Pokemon",
-    "title": "L'actu competitive en un seul endroit."
-  },
-  "news": [
-    {
-      "game": "tcgp",
-      "title": "TCG Pocket — Miraidon ex Magnezone toujours en tête, Mega Sceptile ex Greninja reprend la 3e place usage",
-      "desc": "Miraidon ex Magnezone conserve une large avance en usage (10,09 %, 52,78 % winrate) sur un échantillon de 6 956 joueurs, 80 tournois et 18 453 matchs. Mega Sceptile ex Greninja reprend la 3e place usage à Suicune ex Baxcalibur (6,20 % contre 6,18 %), inversant à nouveau le mouvement de la veille. Zoroark ex Mega Absol ex reste #1 winrate (53,51 %) devant Mega Blaziken ex Greninja (53,26 %), tandis que Mega Altaria ex Espeon recule à la 5e place (52,71 %). L'événement PvE Hisuian Zorua Drop se poursuit jusqu'au 26 juillet. Plus que 11 jours avant Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette.",
-      "when": "TCG Pocket",
-      "badgeText": "META",
-      "badgeStyle": "tcgp",
-      "clickAction": "tcgp"
-    },
-    {
-      "game": "vgc",
-      "title": "VGC — Saison Ranked M-4 en cours, calendrier 2027 dévoilé, cap sur le Monthly Challenge Series du 23-26 juillet",
-      "desc": "La Regulation Set M-B reste en vigueur (jusqu'au 1er septembre) avec cinq nouvelles Méga-Évolutions (Sceptile, Blaziken, Swampert, Mawile, Staraptor). Ranked M-4 et son Battle Pass tournent depuis le 7 juillet ; le Champion Tier et le palier Master Ball (rangs 1-3) ont ouvert le 14 juillet. Sur la méta M-B, Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %). The Champions Arena II s'est conclu par la victoire de Marco Silva (Italie) face à Toler Webb ; The Pokémon Company a aussi dévoilé le calendrier 2027 du Championship Series (LAIC São Paulo, EUIC Londres, NAIC Chicago) et confirmé le départ de Pokémon Unite du circuit officiel. Prochain rendez-vous : le Monthly Challenge Series du 23 au 26 juillet, avant les Mondiaux 2026 à San Francisco (28-30 août).",
-      "when": "Pokémon Champions",
-      "badgeText": "VGC",
-      "badgeStyle": "vgc",
-      "clickAction": "vgc"
-    },
-    {
-      "game": "classic",
-      "title": "TCG Classic — Dragapult ex toujours en tête d'une méta Standard stable, Mega Evolution—Pitch Black légal le 31 juillet",
-      "desc": "Le classement agrégé Limitless (583 tournois, 32 863 joueurs, 72 837 matchs) confirme une méta toujours parfaitement stable, sans aucun mouvement de rang dans le top 10. Dragapult ex reste en tête (7,78 % de part, 53,01 % winrate), devant Dragapult Dusknoir, N's Zoroark, Slowking et Mega Greninja ex. L'extension Mega Evolution—Pitch Black reste l'actualité dominante depuis sa sortie officielle le 17 juillet (plus de 115 cartes, dont Mega Darkrai ex, Mega Zeraora ex, Mega Chandelure ex et Mega Excadrill ex) sur Pokémon TCG Live ; elle sera légale en tournoi Standard/Expanded dès le 31 juillet, sans aucune carte bannie. Pokemon.com propose aussi une rétrospective Mewtwo pour les 30 ans du jeu, avec un aperçu de sa carte dans l'extension 30th Celebration (16 septembre). Saison compétitive toujours en pause estivale jusqu'aux Mondiaux 2026 (28-30 août).",
-      "when": "TCG Classic",
-      "badgeText": "CLASSIC",
-      "badgeStyle": "classic",
-      "clickAction": "classic"
-    },
-    {
-      "game": "unite",
-      "title": "Unite — Palkia arrive en avance sur le 5e anniversaire, Pokémon Unite quitte les Mondiaux dès 2027",
-      "desc": "La tier list Game8 reste inchangée : Moltres domine toujours le tier SS aux côtés des Légendaires/Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Yveltal. Le patch Enduring Formation Part 2 (16 juillet) buffe Aegislash, Mega Gyarados, Clefable, Umbreon, Skeledirge et Quaquaval, et nerfe Feraligatr, Sirfetch'd, Suicune, Sylveon et Typhlosion. Palkia a rejoint le jeu dès le 17 juillet, en avance sur le lancement officiel du 5e anniversaire prévu le 21 juillet, qui verra ensuite arriver Reshiram (7 août) puis Solgaleo (21 août). The Pokémon Company a par ailleurs confirmé que Pokémon Unite quittera les Mondiaux Pokémon dès 2027 pour son propre tournoi, l'Aeos Crown 2027 Tokyo.",
-      "when": "Pokémon Unite",
-      "badgeText": "UNITE",
-      "badgeStyle": "unite",
-      "clickAction": "unite"
-    }
-  ],
-  "timeline": [
-    {
-      "title": "5e anniversaire Pokémon Unite",
-      "desc": "Lancement officiel de l'événement (Palkia déjà disponible depuis le 17 juillet), avant Reshiram (7 août) et Solgaleo (21 août)",
-      "game": "unite",
-      "date": "21 juil · UNITE"
-    },
-    {
-      "title": "Monthly Challenge Series",
-      "desc": "Compétition officielle Reg. M-B, simple, inscriptions depuis le 16 juillet",
-      "game": "vgc",
-      "date": "23-26 juil · VGC"
-    },
-    {
-      "title": "Ruler of the Skies",
-      "desc": "Prochaine extension Pocket, Mega Rayquaza ex en tête",
-      "game": "tcgp",
-      "date": "~30 juil · TCG POCKET"
-    },
-    {
-      "title": "Mega Evolution—Pitch Black légal en tournoi",
-      "desc": "L'extension sortie le 17 juillet devient jouable en tournoi Standard/Expanded, aucune carte bannie",
-      "game": "classic",
-      "date": "31 juil · TCG CLASSIC"
-    },
-    {
-      "title": "Championnats du Monde 2026",
-      "desc": "Moscone Center, San Francisco — VGC & TCG",
-      "game": "vgc",
-      "date": "28-30 août · MONDIAUX"
-    }
-  ],
-  "gamePreviews": {
-    "tcgp": true,
-    "vgc": true,
-    "classic": true,
-    "unite": true
-  },
-  "updatedAt": "2026-07-19T15:00:00.000Z"
+"hero": {
+"tag": "Hub Competitif Pokemon",
+"title": "L'actu competitive en un seul endroit."
+},
+"news": [
+{
+"game": "tcgp",
+"title": "TCG Pocket — Miraidon ex Magnezone toujours en tête, Suicune ex Baxcalibur reprend la 3e place usage",
+"desc": "Miraidon ex Magnezone conserve une large avance en usage (10,00 %, 52,71 % winrate) sur un échantillon de 7 381 joueurs, 83 tournois et 19 439 matchs. Suicune ex Baxcalibur reprend la 3e place usage à Mega Sceptile ex Greninja (6,39 % contre 6,21 %), inversant à nouveau le mouvement de la veille. Zoroark ex Mega Absol ex reste #1 winrate (54,13 %) devant Mega Blaziken ex Greninja (53,17 %), tandis que Mega Altaria ex Espeon fait son entrée dans le top 10 usage (53,03 % WR) au détriment d'Indeedee ex Giratina ex. L'événement PvE Hisuian Zorua Drop se poursuit jusqu'au 26 juillet. Plus que 10 jours avant Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette.",
+"when": "TCG Pocket",
+"badgeText": "META",
+"badgeStyle": "tcgp",
+"clickAction": "tcgp"
+},
+{
+"game": "vgc",
+"title": "VGC — Ranked M-4 et calendrier 2027 dévoilé, cap sur le Monthly Challenge Series du 24 au 27 juillet",
+"desc": "La Regulation Set M-B reste en vigueur (jusqu'au 1er septembre) avec cinq nouvelles Méga-Évolutions (Sceptile, Blaziken, Swampert, Mawile, Staraptor). Ranked M-4 et son Battle Pass tournent depuis le 7 juillet ; le Champion Tier et le palier Master Ball (rangs 1-3) ont ouvert le 14 juillet. Sur la méta M-B, Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), suivies des nouvelles Mega Swampert (20,1 %) et Mega Staraptor (19,0 %). The Champions Arena II s'est conclu par la victoire de Marco Silva (Italie) face à Toler Webb (706 joueurs) ; The Pokémon Company a aussi dévoilé le calendrier 2027 du Championship Series (LAIC São Paulo, EUIC Londres, NAIC Chicago) et confirmé le départ de Pokémon Unite du circuit officiel. Les inscriptions au Monthly Challenge Series (24-27 juillet) sont ouvertes depuis le 17 juillet, avant les Mondiaux 2026 à San Francisco (28-30 août).",
+"when": "Pokémon Champions",
+"badgeText": "VGC",
+"badgeStyle": "vgc",
+"clickAction": "vgc"
+},
+{
+"game": "classic",
+"title": "TCG Classic — Dragapult ex toujours en tête d'une méta Standard stable, Pitch Black légal le 31 juillet",
+"desc": "Le classement agrégé Limitless (567 tournois, 31 973 joueurs, 70 804 matchs) confirme une méta toujours parfaitement stable, sans aucun mouvement de rang dans le top 10. Dragapult ex reste en tête (7,83 % de part, 53,04 % winrate), devant Dragapult Dusknoir, N's Zoroark, Slowking et Mega Greninja ex. L'extension Mega Evolution—Pitch Black reste l'actualité dominante depuis sa sortie officielle le 17 juillet (plus de 115 cartes, dont Mega Darkrai ex, Mega Zeraora ex, Mega Chandelure ex et Mega Excadrill ex) sur Pokémon TCG Live ; elle sera légale en tournoi Standard/Expanded dès le 31 juillet, sans aucune carte bannie. Pokemon.com propose aussi une rétrospective Mewtwo pour les 30 ans du jeu, avec un aperçu de sa carte dans l'extension 30th Celebration (16 septembre). Saison compétitive toujours en pause estivale jusqu'aux Mondiaux 2026 (28-30 août).",
+"when": "TCG Classic",
+"badgeText": "CLASSIC",
+"badgeStyle": "classic",
+"clickAction": "classic"
+},
+{
+"game": "unite",
+"title": "Unite — Palkia disponible, 5e anniversaire officiel le 21 juillet, Unite quitte les Mondiaux dès 2027",
+"desc": "La tier list Game8 reste inchangée : Moltres domine toujours le tier SS aux côtés des Légendaires/Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Yveltal. Le patch Enduring Formation Part 2 (16 juillet) buffe Aegislash, Mega Gyarados, Clefable, Umbreon, Skeledirge et Quaquaval, et nerfe Feraligatr, Sirfetch'd, Suicune, Sylveon et Typhlosion. Palkia a rejoint le jeu dès le 17 juillet, en avance sur le lancement officiel du 5e anniversaire prévu le 21 juillet, qui verra ensuite arriver Reshiram (7 août) puis Solgaleo (21 août). The Pokémon Company a par ailleurs confirmé que Pokémon Unite quittera les Mondiaux Pokémon dès 2027 pour son propre tournoi, l'Aeos Crown 2027 Tokyo.",
+"when": "Pokémon Unite",
+"badgeText": "UNITE",
+"badgeStyle": "unite",
+"clickAction": "unite"
+}
+],
+"timeline": [
+{
+"title": "5e anniversaire Pokémon Unite",
+"desc": "Lancement officiel de l'événement (Palkia déjà disponible depuis le 17 juillet), avant Reshiram (7 août) et Solgaleo (21 août)",
+"game": "unite",
+"date": "21 juil · UNITE"
+},
+{
+"title": "Monthly Challenge Series",
+"desc": "Compétition officielle Reg. M-B, simple, inscriptions depuis le 17 juillet",
+"game": "vgc",
+"date": "24-27 juil · VGC"
+},
+{
+"title": "Ruler of the Skies",
+"desc": "Prochaine extension Pocket, Mega Rayquaza ex en tête",
+"game": "tcgp",
+"date": "~30 juil · TCG POCKET"
+},
+{
+"title": "Mega Evolution—Pitch Black légal en tournoi",
+"desc": "L'extension sortie le 17 juillet devient jouable en tournoi Standard/Expanded, aucune carte bannie",
+"game": "classic",
+"date": "31 juil · TCG CLASSIC"
+},
+{
+"title": "Championnats du Monde 2026",
+"desc": "Moscone Center, San Francisco — VGC & TCG",
+"game": "vgc",
+"date": "28-30 août · MONDIAUX"
+}
+],
+"gamePreviews": {
+"tcgp": true,
+"vgc": true,
+"classic": true,
+"unite": true
+},
+"updatedAt": "2026-07-20T14:00:00.000Z"
 }
