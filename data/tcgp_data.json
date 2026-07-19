@@ -1,315 +1,315 @@
 {
-"metaSummary": "La méta reste dominée par Miraidon ex Magnezone en usage avec 6 956 joueurs sur 80 tournois et 18 453 matchs analysés cette semaine (10,09 % usage, 52,78 % WR), toujours suivi par Greninja Mega Sableye ex (6,47 % usage, 46,98 % WR, toujours le point faible du top 3). Mega Sceptile ex Greninja reprend la 3e place du classement usage à Suicune ex Baxcalibur (6,20 % contre 6,18 %), inversant à nouveau le mouvement de la veille. Côté winrate, Zoroark ex Mega Absol ex conserve la tête (53,51 %) devant Mega Blaziken ex Greninja (53,26 %), tandis que Mega Altaria ex Espeon recule à la 5e place (52,71 %), dépassée par Mega Sceptile ex Greninja et Miraidon ex Magnezone. Plus que 11 jours avant le lancement de Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette.",
-"metaSummary_en": "The meta remains dominated by Miraidon ex Magnezone in usage with 6,956 players across 80 tournaments and 18,453 matches analyzed this week (10.09% usage, 52.78% win rate), still followed by Greninja Mega Sableye ex (6.47% usage, 46.98% win rate, still the weak point of the top 3). Mega Sceptile ex Greninja reclaims 3rd place in usage from Suicune ex Baxcalibur (6.20% vs 6.18%), reversing yesterday's swing once again. In the win-rate ranking, Zoroark ex Mega Absol ex keeps the top spot (53.51%) ahead of Mega Blaziken ex Greninja (53.26%), while Mega Altaria ex Espeon slips to 5th place (52.71%), overtaken by Mega Sceptile ex Greninja and Miraidon ex Magnezone. Just 11 days remain before the launch of Ruler of the Skies (B4) on July 30, starring Mega Rayquaza ex.",
+"metaSummary": "La méta reste dominée par Miraidon ex Magnezone en usage avec 7 381 joueurs sur 83 tournois et 19 439 matchs analysés cette semaine (10,00 % usage, 52,71 % WR), toujours suivi par Greninja Mega Sableye ex (6,48 % usage, 47,12 % WR, toujours le point faible du top 3). Suicune ex Baxcalibur reprend la 3e place du classement usage à Mega Sceptile ex Greninja (6,39 % contre 6,21 %), inversant à nouveau le mouvement de la veille. Côté winrate, Zoroark ex Mega Absol ex conserve la tête (54,13 %) devant Mega Blaziken ex Greninja (53,17 %), tandis que Mega Altaria ex Espeon fait son entrée dans le top 10 usage (2,21 %, 10e place, 53,03 % WR) au détriment d'Indeedee ex Giratina ex. Plus que 10 jours avant le lancement de Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette.",
+"metaSummary_en": "The meta remains dominated by Miraidon ex Magnezone in usage with 7,381 players across 83 tournaments and 19,439 matches analyzed this week (10.00% usage, 52.71% win rate), still followed by Greninja Mega Sableye ex (6.48% usage, 47.12% win rate, still the weak point of the top 3). Suicune ex Baxcalibur reclaims 3rd place in usage from Mega Sceptile ex Greninja (6.39% vs 6.21%), reversing yesterday's swing once again. In the win-rate ranking, Zoroark ex Mega Absol ex keeps the top spot (54.13%) ahead of Mega Blaziken ex Greninja (53.17%), while Mega Altaria ex Espeon enters the usage top 10 (2.21%, 10th place, 53.03% win rate) at the expense of Indeedee ex Giratina ex. Just 10 days remain before the launch of Ruler of the Skies (B4) on July 30, starring Mega Rayquaza ex.",
 "topUsage": [
 {
 "rank": 1,
 "name": "Miraidon ex Magnezone",
-"usage": 10.09,
-"winrate": 52.78,
-"record": "2129-1755-150",
+"usage": 10.00,
+"winrate": 52.71,
+"record": "2216-1833-155",
 "move": "same",
 "limitless": "miraidon-ex-b3a-magnezone-b1a",
-"winRate": 52.78,
-"share": 10.09
+"winRate": 52.71,
+"share": 10.00
 },
 {
 "rank": 2,
 "name": "Greninja Mega Sableye ex",
-"usage": 6.47,
-"winrate": 46.98,
-"record": "1121-1192-73",
+"usage": 6.48,
+"winrate": 47.12,
+"record": "1180-1250-74",
 "move": "same",
 "limitless": "greninja-a1-mega-sableye-ex-b3b",
-"winRate": 46.98,
-"share": 6.47
+"winRate": 47.12,
+"share": 6.48
 },
 {
 "rank": 3,
-"name": "Mega Sceptile ex Greninja",
-"usage": 6.20,
-"winrate": 52.82,
-"record": "1322-1106-75",
+"name": "Suicune ex Baxcalibur",
+"usage": 6.39,
+"winrate": 52.59,
+"record": "1373-1151-87",
 "move": "up",
-"limitless": "mega-sceptile-ex-b3-greninja-a1",
-"winRate": 52.82,
-"share": 6.20
+"limitless": "suicune-ex-a4a-baxcalibur-b2a",
+"winRate": 52.59,
+"share": 6.39
 },
 {
 "rank": 4,
-"name": "Suicune ex Baxcalibur",
-"usage": 6.18,
-"winrate": 52.64,
-"record": "1256-1046-84",
+"name": "Mega Sceptile ex Greninja",
+"usage": 6.21,
+"winrate": 52.52,
+"record": "1375-1162-81",
 "move": "down",
-"limitless": "suicune-ex-a4a-baxcalibur-b2a",
-"winRate": 52.64,
-"share": 6.18
+"limitless": "mega-sceptile-ex-b3-greninja-a1",
+"winRate": 52.52,
+"share": 6.21
 },
 {
 "rank": 5,
 "name": "Mega Lucario ex Lucario",
-"usage": 5.12,
-"winrate": 51.10,
-"record": "1064-939-79",
+"usage": 5.22,
+"winrate": 50.84,
+"record": "1124-1005-82",
 "move": "same",
 "limitless": "mega-lucario-ex-b3-lucario-a2",
-"winRate": 51.10,
-"share": 5.12
+"winRate": 50.84,
+"share": 5.22
 },
 {
 "rank": 6,
 "name": "Butterfree Mega Sceptile ex",
-"usage": 4.01,
-"winrate": 48.27,
-"record": "727-732-47",
+"usage": 3.90,
+"winrate": 48.12,
+"record": "743-754-47",
 "move": "same",
 "limitless": "butterfree-b3b-mega-sceptile-ex-b3",
-"winRate": 48.27,
-"share": 4.01
+"winRate": 48.12,
+"share": 3.90
 },
 {
 "rank": 7,
 "name": "Mega Blaziken ex Greninja",
-"usage": 3.34,
-"winrate": 53.26,
-"record": "718-589-41",
+"usage": 3.32,
+"winrate": 53.17,
+"record": "746-616-41",
 "move": "same",
 "limitless": "mega-blaziken-ex-b1-greninja-a1",
-"winRate": 53.26,
-"share": 3.34
+"winRate": 53.17,
+"share": 3.32
 },
 {
 "rank": 8,
 "name": "Mega Gardevoir ex Mega Diancie ex",
-"usage": 2.96,
-"winrate": 43.55,
-"record": "429-538-18",
+"usage": 2.87,
+"winrate": 43.54,
+"record": "435-546-18",
 "move": "same",
 "limitless": "mega-gardevoir-ex-b2-mega-diancie-ex-b3b",
-"winRate": 43.55,
-"share": 2.96
+"winRate": 43.54,
+"share": 2.87
 },
 {
 "rank": 9,
 "name": "Hydreigon Mega Sableye ex",
-"usage": 2.33,
-"winrate": 49.53,
-"record": "425-421-12",
+"usage": 2.38,
+"winrate": 49.41,
+"record": "459-456-14",
 "move": "same",
 "limitless": "hydreigon-b1-mega-sableye-ex-b3b",
-"winRate": 49.53,
-"share": 2.33
+"winRate": 49.41,
+"share": 2.38
 },
 {
 "rank": 10,
-"name": "Indeedee ex Giratina ex",
-"usage": 2.26,
-"winrate": 51.77,
-"record": "438-355-53",
-"move": "same",
-"limitless": "indeedee-ex-b1-giratina-ex-a2b",
-"winRate": 51.77,
-"share": 2.26
+"name": "Mega Altaria ex Espeon",
+"usage": 2.21,
+"winrate": 53.03,
+"record": "481-398-28",
+"move": "up",
+"limitless": "mega-altaria-ex-b1-espeon-b3a",
+"winRate": 53.03,
+"share": 2.21
 }
 ],
 "topWinrate": [
 {
 "rank": 1,
 "name": "Zoroark ex Mega Absol ex",
-"winrate": 53.51,
-"usage": 1.27,
-"record": "267-217-15",
-"winRate": 53.51,
-"share": 1.27,
+"winrate": 54.13,
+"usage": 1.35,
+"record": "308-242-19",
+"winRate": 54.13,
+"share": 1.35,
 "limitless": "zoroark-ex-b3-mega-absol-ex-b1"
 },
 {
 "rank": 2,
 "name": "Mega Blaziken ex Greninja",
-"winrate": 53.26,
-"usage": 3.34,
-"record": "718-589-41",
-"winRate": 53.26,
-"share": 3.34,
+"winrate": 53.17,
+"usage": 3.32,
+"record": "746-616-41",
+"winRate": 53.17,
+"share": 3.32,
 "limitless": "mega-blaziken-ex-b1-greninja-a1"
 },
 {
 "rank": 3,
-"name": "Mega Sceptile ex Greninja",
-"winrate": 52.82,
-"usage": 6.20,
-"record": "1322-1106-75",
-"winRate": 52.82,
-"share": 6.20,
-"limitless": "mega-sceptile-ex-b3-greninja-a1"
+"name": "Mega Altaria ex Espeon",
+"winrate": 53.03,
+"usage": 2.21,
+"record": "481-398-28",
+"winRate": 53.03,
+"share": 2.21,
+"limitless": "mega-altaria-ex-b1-espeon-b3a"
 },
 {
 "rank": 4,
 "name": "Miraidon ex Magnezone",
-"winrate": 52.78,
-"usage": 10.09,
-"record": "2129-1755-150",
-"winRate": 52.78,
-"share": 10.09,
+"winrate": 52.71,
+"usage": 10.00,
+"record": "2216-1833-155",
+"winRate": 52.71,
+"share": 10.00,
 "limitless": "miraidon-ex-b3a-magnezone-b1a"
 },
 {
 "rank": 5,
-"name": "Mega Altaria ex Espeon",
-"winrate": 52.71,
-"usage": 2.00,
-"record": "409-342-25",
-"winRate": 52.71,
-"share": 2.00,
-"limitless": "mega-altaria-ex-b1-espeon-b3a"
+"name": "Suicune ex Baxcalibur",
+"winrate": 52.59,
+"usage": 6.39,
+"record": "1373-1151-87",
+"winRate": 52.59,
+"share": 6.39,
+"limitless": "suicune-ex-a4a-baxcalibur-b2a"
 },
 {
 "rank": 6,
-"name": "Suicune ex Baxcalibur",
-"winrate": 52.64,
-"usage": 6.18,
-"record": "1256-1046-84",
-"winRate": 52.64,
-"share": 6.18,
-"limitless": "suicune-ex-a4a-baxcalibur-b2a"
+"name": "Mega Sceptile ex Greninja",
+"winrate": 52.52,
+"usage": 6.21,
+"record": "1375-1162-81",
+"winRate": 52.52,
+"share": 6.21,
+"limitless": "mega-sceptile-ex-b3-greninja-a1"
 },
 {
 "rank": 7,
 "name": "Magnezone Miraidon ex",
-"winrate": 52.41,
-"usage": 0.91,
-"record": "174-151-7",
-"winRate": 52.41,
-"share": 0.91,
+"winrate": 52.37,
+"usage": 0.88,
+"record": "177-154-7",
+"winRate": 52.37,
+"share": 0.88,
 "limitless": "magnezone-b1a-miraidon-ex-b3a"
 },
 {
 "rank": 8,
 "name": "Mega Manectric ex Zeraora",
-"winrate": 51.96,
-"usage": 1.02,
-"record": "212-181-15",
-"winRate": 51.96,
-"share": 1.02,
+"winrate": 51.71,
+"usage": 0.98,
+"record": "212-183-15",
+"winRate": 51.71,
+"share": 0.98,
 "limitless": "mega-manectric-ex-b2b-zeraora-a3a"
 },
 {
 "rank": 9,
-"name": "Indeedee ex Giratina ex",
-"winrate": 51.77,
-"usage": 2.26,
-"record": "438-355-53",
-"winRate": 51.77,
-"share": 2.26,
-"limitless": "indeedee-ex-b1-giratina-ex-a2b"
+"name": "Milotic ex Chien-Pao ex",
+"winrate": 51.71,
+"usage": 0.70,
+"record": "151-132-9",
+"winRate": 51.71,
+"share": 0.70,
+"limitless": "milotic-ex-b3b-chien-pao-ex-b2a"
 },
 {
 "rank": 10,
-"name": "Milotic ex Chien-Pao ex",
-"winrate": 51.71,
-"usage": 0.75,
-"record": "151-132-9",
-"winRate": 51.71,
-"share": 0.75,
-"limitless": "milotic-ex-b3b-chien-pao-ex-b2a"
+"name": "Mega Blaziken ex Castform Sunny Form",
+"winrate": 51.40,
+"usage": 0.83,
+"record": "165-144-12",
+"winRate": 51.40,
+"share": 0.83,
+"limitless": "mega-blaziken-ex-b1-castform-sunny-form-b3"
 }
 ],
 "enteringMeta": [
-"Mega Sceptile ex Greninja (6,20 % usage — reprend la 3e place du classement usage à Suicune ex Baxcalibur)",
-"Zoroark ex Mega Absol ex (1,27 % usage, 53,51 % WR — conserve la tête du classement winrate)",
-"Mega Blaziken ex Greninja (3,34 % usage, 53,26 % WR — 2e meilleur winrate du méta, en légère hausse)",
-"Indeedee ex Giratina ex (2,26 % usage, 51,77 % WR — léger regain après plusieurs jours de recul)"
+"Suicune ex Baxcalibur (6,39 % usage — reprend la 3e place du classement usage à Mega Sceptile ex Greninja)",
+"Mega Altaria ex Espeon (2,21 % usage — fait son entrée dans le top 10 usage, 53,03 % WR)",
+"Zoroark ex Mega Absol ex (1,35 % usage, 54,13 % WR — conserve la tête du classement winrate)",
+"Mega Blaziken ex Greninja (3,32 % usage, 53,17 % WR — 2e meilleur winrate du méta)"
 ],
 "leavingMeta": [
-"Suicune ex Baxcalibur (6,18 % usage — cède la 3e place du classement usage à Mega Sceptile ex Greninja)",
-"Greninja Mega Sableye ex (2e place en usage à 6,47 % mais winrate toujours faible, 46,98 %)",
-"Mega Gardevoir ex Mega Diancie ex (rang 8, toujours le winrate le plus faible du top 10 usage à 43,55 %)",
-"Mega Altaria ex Espeon (recule de la 3e à la 5e place du classement winrate, 52,71 % WR)"
+"Mega Sceptile ex Greninja (6,21 % usage — cède la 3e place du classement usage à Suicune ex Baxcalibur)",
+"Indeedee ex Giratina ex (sort du top 10 usage, 11e place à 2,18 % usage, 51,38 % WR)",
+"Greninja Mega Sableye ex (2e place en usage à 6,48 % mais winrate toujours faible, 47,12 %)",
+"Mega Gardevoir ex Mega Diancie ex (rang 8, toujours le winrate le plus faible du top 10 usage à 43,54 %)"
 ],
 "movements": [
 {
 "slug": "miraidon-ex-b3a-magnezone-b1a",
 "name": "Miraidon ex Magnezone",
 "rank": 1,
-"usage": 10.09,
+"usage": 10.00,
 "move": "same"
 },
 {
 "slug": "greninja-a1-mega-sableye-ex-b3b",
 "name": "Greninja Mega Sableye ex",
 "rank": 2,
-"usage": 6.47,
+"usage": 6.48,
 "move": "same"
-},
-{
-"slug": "mega-sceptile-ex-b3-greninja-a1",
-"name": "Mega Sceptile ex Greninja",
-"rank": 3,
-"usage": 6.20,
-"move": "up"
 },
 {
 "slug": "suicune-ex-a4a-baxcalibur-b2a",
 "name": "Suicune ex Baxcalibur",
+"rank": 3,
+"usage": 6.39,
+"move": "up"
+},
+{
+"slug": "mega-sceptile-ex-b3-greninja-a1",
+"name": "Mega Sceptile ex Greninja",
 "rank": 4,
-"usage": 6.18,
+"usage": 6.21,
 "move": "down"
 },
 {
 "slug": "mega-lucario-ex-b3-lucario-a2",
 "name": "Mega Lucario ex Lucario",
 "rank": 5,
-"usage": 5.12,
+"usage": 5.22,
 "move": "same"
 },
 {
 "slug": "butterfree-b3b-mega-sceptile-ex-b3",
 "name": "Butterfree Mega Sceptile ex",
 "rank": 6,
-"usage": 4.01,
+"usage": 3.90,
 "move": "same"
 },
 {
 "slug": "mega-blaziken-ex-b1-greninja-a1",
 "name": "Mega Blaziken ex Greninja",
 "rank": 7,
-"usage": 3.34,
+"usage": 3.32,
 "move": "same"
 },
 {
 "slug": "mega-gardevoir-ex-b2-mega-diancie-ex-b3b",
 "name": "Mega Gardevoir ex Mega Diancie ex",
 "rank": 8,
-"usage": 2.96,
+"usage": 2.87,
 "move": "same"
 },
 {
 "slug": "hydreigon-b1-mega-sableye-ex-b3b",
 "name": "Hydreigon Mega Sableye ex",
 "rank": 9,
-"usage": 2.33,
+"usage": 2.38,
 "move": "same"
 },
 {
-"slug": "indeedee-ex-b1-giratina-ex-a2b",
-"name": "Indeedee ex Giratina ex",
+"slug": "mega-altaria-ex-b1-espeon-b3a",
+"name": "Mega Altaria ex Espeon",
 "rank": 10,
-"usage": 2.26,
-"move": "same"
+"usage": 2.21,
+"move": "up"
 }
 ],
-"totalDecks": 6956,
-"updatedAt": "2026-07-19T14:30:00.000Z",
+"totalDecks": 7381,
+"updatedAt": "2026-07-20T12:00:00.000Z",
 "topDecks": [
 {
 "rank": 1,
 "name": "Miraidon ex Magnezone",
-"usage": 10.09,
-"winrate": 52.78,
-"record": "2129-1755-150",
-"winRate": 52.78,
-"share": 10.09,
+"usage": 10.00,
+"winrate": 52.71,
+"record": "2216-1833-155",
+"winRate": 52.71,
+"share": 10.00,
 "move": "same",
 "limitless": "miraidon-ex-b3a-magnezone-b1a",
 "listBy": "Tornado1",
@@ -338,11 +338,11 @@
 {
 "rank": 2,
 "name": "Greninja Mega Sableye ex",
-"usage": 6.47,
-"winrate": 46.98,
-"record": "1121-1192-73",
-"winRate": 46.98,
-"share": 6.47,
+"usage": 6.48,
+"winrate": 47.12,
+"record": "1180-1250-74",
+"winRate": 47.12,
+"share": 6.48,
 "move": "same",
 "limitless": "greninja-a1-mega-sableye-ex-b3b",
 "listBy": "𝑻𝑩 / Hasalf",
@@ -369,13 +369,44 @@
 },
 {
 "rank": 3,
-"name": "Mega Sceptile ex Greninja",
-"usage": 6.20,
-"winrate": 52.82,
-"record": "1322-1106-75",
-"winRate": 52.82,
-"share": 6.20,
+"name": "Suicune ex Baxcalibur",
+"usage": 6.39,
+"winrate": 52.59,
+"record": "1373-1151-87",
+"winRate": 52.59,
+"share": 6.39,
 "move": "up",
+"limitless": "suicune-ex-a4a-baxcalibur-b2a",
+"listBy": "・",
+"cards": {
+"pokemon": [
+{ "q": 2, "n": "Frigibax", "set": "B2a-34" },
+{ "q": 2, "n": "Baxcalibur", "set": "B2a-36" },
+{ "q": 2, "n": "Suicune ex", "set": "A4a-20" },
+{ "q": 1, "n": "Chien-Pao ex", "set": "B2a-37" }
+],
+"trainers": [
+{ "q": 2, "n": "Professor's Research" },
+{ "q": 2, "n": "Copycat" },
+{ "q": 1, "n": "Pokémon Center Lady" },
+{ "q": 2, "n": "Poké Ball" },
+{ "q": 2, "n": "Rare Candy" },
+{ "q": 2, "n": "Giant Cape" },
+{ "q": 1, "n": "Inflatable Boat" },
+{ "q": 1, "n": "Starting Plains" }
+],
+"energy": []
+}
+},
+{
+"rank": 4,
+"name": "Mega Sceptile ex Greninja",
+"usage": 6.21,
+"winrate": 52.52,
+"record": "1375-1162-81",
+"winRate": 52.52,
+"share": 6.21,
+"move": "down",
 "limitless": "mega-sceptile-ex-b3-greninja-a1",
 "listBy": "𝗕𝗢𝗔𝗧 | Koe",
 "cards": {
@@ -402,44 +433,13 @@
 }
 },
 {
-"rank": 4,
-"name": "Suicune ex Baxcalibur",
-"usage": 6.18,
-"winrate": 52.64,
-"record": "1256-1046-84",
-"winRate": 52.64,
-"share": 6.18,
-"move": "down",
-"limitless": "suicune-ex-a4a-baxcalibur-b2a",
-"listBy": "・",
-"cards": {
-"pokemon": [
-{ "q": 2, "n": "Frigibax", "set": "B2a-34" },
-{ "q": 2, "n": "Baxcalibur", "set": "B2a-36" },
-{ "q": 2, "n": "Suicune ex", "set": "A4a-20" },
-{ "q": 1, "n": "Chien-Pao ex", "set": "B2a-37" }
-],
-"trainers": [
-{ "q": 2, "n": "Professor's Research" },
-{ "q": 2, "n": "Copycat" },
-{ "q": 1, "n": "Pokémon Center Lady" },
-{ "q": 2, "n": "Poké Ball" },
-{ "q": 2, "n": "Rare Candy" },
-{ "q": 2, "n": "Giant Cape" },
-{ "q": 1, "n": "Inflatable Boat" },
-{ "q": 1, "n": "Starting Plains" }
-],
-"energy": []
-}
-},
-{
 "rank": 5,
 "name": "Mega Lucario ex Lucario",
-"usage": 5.12,
-"winrate": 51.10,
-"record": "1064-939-79",
-"winRate": 51.10,
-"share": 5.12,
+"usage": 5.22,
+"winrate": 50.84,
+"record": "1124-1005-82",
+"winRate": 50.84,
+"share": 5.22,
 "move": "same",
 "limitless": "mega-lucario-ex-b3-lucario-a2",
 "listBy": "Hansuwe",
@@ -471,11 +471,11 @@
 {
 "rank": 6,
 "name": "Butterfree Mega Sceptile ex",
-"usage": 4.01,
-"winrate": 48.27,
-"record": "727-732-47",
-"winRate": 48.27,
-"share": 4.01,
+"usage": 3.90,
+"winrate": 48.12,
+"record": "743-754-47",
+"winRate": 48.12,
+"share": 3.90,
 "move": "same",
 "limitless": "butterfree-b3b-mega-sceptile-ex-b3",
 "listBy": "AndrewBreaker",
@@ -504,11 +504,11 @@
 {
 "rank": 7,
 "name": "Mega Blaziken ex Greninja",
-"usage": 3.34,
-"winrate": 53.26,
-"record": "718-589-41",
-"winRate": 53.26,
-"share": 3.34,
+"usage": 3.32,
+"winrate": 53.17,
+"record": "746-616-41",
+"winRate": 53.17,
+"share": 3.32,
 "move": "same",
 "limitless": "mega-blaziken-ex-b1-greninja-a1",
 "listBy": "Banzai",
@@ -538,11 +538,11 @@
 {
 "rank": 8,
 "name": "Mega Gardevoir ex Mega Diancie ex",
-"usage": 2.96,
-"winrate": 43.55,
-"record": "429-538-18",
-"winRate": 43.55,
-"share": 2.96,
+"usage": 2.87,
+"winrate": 43.54,
+"record": "435-546-18",
+"winRate": 43.54,
+"share": 2.87,
 "move": "same",
 "limitless": "mega-gardevoir-ex-b2-mega-diancie-ex-b3b",
 "listBy": "sleepy512pete",
@@ -571,11 +571,11 @@
 {
 "rank": 9,
 "name": "Hydreigon Mega Sableye ex",
-"usage": 2.33,
-"winrate": 49.53,
-"record": "425-421-12",
-"winRate": 49.53,
-"share": 2.33,
+"usage": 2.38,
+"winrate": 49.41,
+"record": "459-456-14",
+"winRate": 49.41,
+"share": 2.38,
 "move": "same",
 "limitless": "hydreigon-b1-mega-sableye-ex-b3b",
 "listBy": "JLNG",
@@ -601,31 +601,32 @@
 },
 {
 "rank": 10,
-"name": "Indeedee ex Giratina ex",
-"usage": 2.26,
-"winrate": 51.77,
-"record": "438-355-53",
-"winRate": 51.77,
-"share": 2.26,
-"move": "same",
-"limitless": "indeedee-ex-b1-giratina-ex-a2b",
-"listBy": "n7hs4",
+"name": "Mega Altaria ex Espeon",
+"usage": 2.21,
+"winrate": 53.03,
+"record": "481-398-28",
+"winRate": 53.03,
+"share": 2.21,
+"move": "up",
+"limitless": "mega-altaria-ex-b1-espeon-b3a",
+"listBy": "Feyyzo",
 "cards": {
 "pokemon": [
-{ "q": 2, "n": "Oricorio", "set": "A3-66" },
-{ "q": 2, "n": "Indeedee ex", "set": "B1-121" },
-{ "q": 1, "n": "Giratina ex", "set": "A2b-35" }
+{ "q": 2, "n": "Swablu", "set": "B1-196" },
+{ "q": 1, "n": "Mega Altaria ex", "set": "B1-102" },
+{ "q": 2, "n": "Eevee", "set": "B1-184" },
+{ "q": 2, "n": "Espeon", "set": "B3a-20" },
+{ "q": 2, "n": "Darkrai", "set": "B2b-40" },
+{ "q": 2, "n": "Igglybuff", "set": "A4a-59" }
 ],
 "trainers": [
-{ "q": 2, "n": "Copycat" },
-{ "q": 2, "n": "Pokémon Center Lady" },
-{ "q": 1, "n": "Professor's Research" },
+{ "q": 2, "n": "Professor's Research" },
 { "q": 1, "n": "Cyrus" },
+{ "q": 1, "n": "Copycat" },
+{ "q": 1, "n": "Lisia" },
+{ "q": 1, "n": "Sabrina" },
 { "q": 2, "n": "Poké Ball" },
-{ "q": 2, "n": "Lucky Ice Pop" },
-{ "q": 2, "n": "Protective Poncho" },
-{ "q": 2, "n": "Giant Cape" },
-{ "q": 1, "n": "Starting Plains" }
+{ "q": 1, "n": "Training Area" }
 ],
 "energy": []
 }
@@ -640,18 +641,18 @@
 "date": "16 juillet 2026"
 },
 {
+"title": "Ruler of the Skies (B4) confirmée pour le 30 juillet 2026 : Mega Rayquaza ex en vedette",
+"url": "https://game8.co/games/Pokemon-TCG-Pocket/archives/605801",
+"source": "Game8",
+"kind": "article",
+"date": "juillet 2026"
+},
+{
 "title": "Pokémon TCG Pocket : programme du Premium Pass de juillet 2026 (promo Psyduck, accessoires Piplup)",
 "url": "https://pokemongohub.net/post/tcg-pocket/pokemon-tcg-pocket-july-2026-premium-pass-lineup-missions/",
 "source": "Pokémon GO Hub",
 "kind": "article",
 "date": "30 juin 2026"
-},
-{
-"title": "Ruler of the Skies (B4) prévue le 30 juillet : Mega Rayquaza ex en vedette",
-"url": "https://game8.co/games/Pokemon-TCG-Pocket/archives/605801",
-"source": "Game8",
-"kind": "article",
-"date": "juillet 2026"
 },
 {
 "title": "Everyday Wonders : la mini-extension (B3b) est disponible depuis le 29 juin (Mega Diancie ex en carte phare)",
