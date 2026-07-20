@@ -109,9 +109,16 @@
 },
 "patch": "Enduring Formation Part 2 (16 juillet 2026)",
 "topPokemon": "Moltres",
-"metaSummary": "La tier list Game8 reste inchangee depuis le 9 juillet : Moltres domine toujours le tier SS aux cotes des Legendaires et Mega-Evolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Yveltal. Le patch \"Enduring Formation Part 2\" du 16 juillet reste le plus recent, avec des buffs pour Aegislash, Mega Gyarados, Clefable, Umbreon, Skeledirge et Quaquaval et des nerfs pour Feraligatr, Sirfetch'd, Suicune, Sylveon et Typhlosion. Palkia a rejoint le jeu des le 17 juillet, en avance sur le lancement officiel du 5e anniversaire prevu le 21 juillet, qui verra ensuite arriver Reshiram (7 aout) puis Solgaleo (21 aout). The Pokemon Company a par ailleurs confirme que Pokemon UNITE quittera les Pokemon World Championships a partir de 2027 pour son propre tournoi, le Pokemon UNITE Aeos Crown 2027 Tokyo.",
-"metaSummary_en": "Game8's tier list has been unchanged since July 9: Moltres still leads SS tier alongside the Legendaries and Mega Evolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) and Yveltal. The \"Enduring Formation Part 2\" patch from July 16 remains the latest, buffing Aegislash, Mega Gyarados, Clefable, Umbreon, Skeledirge and Quaquaval while nerfing Feraligatr, Sirfetch'd, Suicune, Sylveon and Typhlosion. Palkia joined the game early, on July 17, ahead of the official 5th-anniversary kickoff on July 21, which will then bring Reshiram (August 7) and Solgaleo (August 21). The Pokemon Company also confirmed Pokemon UNITE will leave the Pokemon World Championships starting 2027 for its own standalone tournament, the Pokemon UNITE Aeos Crown 2027 Tokyo.",
+"metaSummary": "La tier list Game8 reste inchangee depuis le 9 juillet : Moltres domine toujours le tier SS aux cotes des Legendaires et Mega-Evolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Yveltal. Le patch \"Enduring Formation Part 2\" du 16 juillet reste la derniere mise a jour majeure, suivi d'un hotfix le 20 juillet qui buffe le Mouvement Unite de Palkia (degats +25%, recuperation raccourcie). Palkia a rejoint le jeu le 17 juillet, ouvrant la voie au coup d'envoi officiel du 5e anniversaire ce 21 juillet, qui verra ensuite arriver Reshiram (7 aout) puis Solgaleo (21 aout). The Pokemon Company a par ailleurs confirme que Pokemon UNITE quittera les Pokemon World Championships des 2027 pour son propre tournoi, le Pokemon UNITE Aeos Crown 2027 Tokyo.",
+"metaSummary_en": "Game8's tier list remains unchanged since July 9: Moltres still leads SS tier alongside the Legendaries and Mega Evolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) and Yveltal. The \"Enduring Formation Part 2\" patch from July 16 remains the latest major update, followed by a July 20 hotfix buffing Palkia's Unite Move (+25% damage, shorter recovery). Palkia joined the game on July 17, paving the way for the official 5th-anniversary kickoff on July 21, which will then bring Reshiram (August 7) and Solgaleo (August 21). The Pokemon Company also confirmed Pokemon UNITE will leave the Pokemon World Championships starting 2027 for its own standalone tournament, the Pokemon UNITE Aeos Crown 2027 Tokyo.",
 "news": [
+{
+"title": "July 20, 2026 – Update Details: Palkia's Unite Move buffed (+25% damage, shorter recovery)",
+"url": "https://www.pokemonunite.jp/en/topics/battle/20260720-1/",
+"source": "Pokémon UNITE Official",
+"kind": "article",
+"date": "2026-07-20"
+},
 {
 "title": "Palkia joins the fray on July 17!",
 "url": "https://www.pokemonunite.jp/en/topics/news/20260717-1/",
@@ -148,26 +155,19 @@
 "date": "2026-07-16"
 },
 {
-"title": "Vote for your favorite UNITE Move! The Unite Move Shout-Out Showdown",
-"url": "https://www.pokemonunite.jp/en/topics/news/20260710-1/",
-"source": "Pokémon UNITE Official",
-"kind": "article",
-"date": "2026-07-10"
+"title": "The Pokémon UNITE 5th Anniversary starts July 21!",
+"url": "https://www.youtube.com/watch?v=KAg_2GifYIM",
+"source": "Pokémon UNITE (YouTube)",
+"kind": "video",
+"date": "2026-06-30"
 },
 {
-"title": "Yveltal entre directement en tier SS sur la tier list Game8 (mise a jour du 8-9 juillet)",
+"title": "Yveltal entre directement en tier SS sur la tier list Game8 (mise a jour du 9 juillet)",
 "url": "https://game8.co/games/Pokemon-UNITE/archives/335997",
 "source": "Game8",
 "kind": "article",
 "date": "2026-07-09"
-},
-{
-"title": "Yveltal joins the fray on July 3!",
-"url": "https://www.pokemonunite.jp/en/topics/news/20260703-1/",
-"source": "Pokémon UNITE Official",
-"kind": "article",
-"date": "2026-07-03"
 }
 ],
-"updatedAt": "2026-07-18T00:00:00.000Z"
+"updatedAt": "2026-07-21T00:00:00.000Z"
 }
