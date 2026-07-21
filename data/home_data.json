@@ -6,8 +6,8 @@
   "news": [
     {
       "game": "tcgp",
-      "title": "TCG Pocket — Miraidon ex Magnezone toujours en tête, top 10 usage parfaitement stable",
-      "desc": "Miraidon ex Magnezone conserve une large avance en usage (10,10 %, 52,89 % winrate) sur un échantillon de 7 478 joueurs, 85 tournois et 19 657 matchs. Le top 10 usage reste inchangé par rapport à la veille : Suicune ex Baxcalibur garde la 3e place (6,38 %) devant Mega Sceptile ex Greninja (6,18 %). Zoroark ex Mega Absol ex reste #1 winrate (54,18 %) devant Mega Blaziken ex Greninja (53,12 %), tandis qu'Indeedee ex Giratina ex refait son entrée dans le top 10 winrate (51,42 %) au détriment de Mega Blaziken ex Castform Sunny Form. L'événement PvE Hisuian Zorua Drop se termine le 26 juillet. Plus que 9 jours avant Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette.",
+      "title": "TCG Pocket — Miraidon ex Magnezone toujours en tête, bouleversement au sommet du winrate",
+      "desc": "Miraidon ex Magnezone reste la référence en usage (10,09 %, 52,90 % winrate) sur 7 539 joueurs, 87 tournois et 19 813 matchs analysés. Le top 10 usage reste stable, Suicune ex Baxcalibur gardant la 3e place devant Mega Sceptile ex Greninja. Côté winrate en revanche, Greninja Mega Absol ex (55,25 %) et Milotic ex Eevee ex (54,65 %) font une entrée fracassante et prennent la tête, reléguant Zoroark ex Mega Absol ex à la 3e place. Plus que 8 jours avant Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette ; l'événement PvE Hisuian Zorua Drop se termine le 26 juillet.",
       "when": "TCG Pocket",
       "badgeText": "META",
       "badgeStyle": "tcgp",
@@ -15,8 +15,8 @@
     },
     {
       "game": "vgc",
-      "title": "VGC — Ranked M-4 et calendrier 2027 dévoilé, cap sur le Monthly Challenge Series du 24 au 27 juillet",
-      "desc": "La Regulation Set M-B reste en vigueur (jusqu'au 1er septembre) avec cinq nouvelles Méga-Évolutions (Sceptile, Blaziken, Swampert, Mawile, Staraptor). Ranked M-4 et son Battle Pass tournent depuis le 7 juillet ; le Champion Tier et le palier Master Ball (rangs 1-3) ont ouvert le 14 juillet. Sur la méta M-B, Mega Charizard Y reste la Méga la plus jouée (29,3 %) devant Mega Floette (25,3 %), suivies des nouvelles Mega Swampert (20,1 %) et Mega Staraptor (19,0 %). The Champions Arena II s'est conclu par la victoire de Marco Silva (Italie) face à Toler Webb (706 joueurs) ; The Pokémon Company a aussi dévoilé le calendrier 2027 du Championship Series (LAIC São Paulo, EUIC Londres, NAIC Chicago) et confirmé le départ de Pokémon Unite du circuit officiel. Les inscriptions au Monthly Challenge Series (24-27 juillet) sont ouvertes depuis le 17 juillet, avant les Mondiaux 2026 à San Francisco (28-30 août).",
+      "title": "VGC — Statistiques complètes de The Champions Arena II publiées, Mega Charizard Y toujours dominant",
+      "desc": "Les stats d'usage les plus complètes en Reg. M-B viennent désormais de The Champions Arena II (706 joueurs, le plus gros tournoi M-B à ce jour), remporté par Marco Silva face à Toler Webb : Mega Charizard Y domine le pool des Méga (40,0 %), devant Mega Aerodactyl (20,3 %) et Mega Floette (18,0 %) ; Garchomp (47,2 %) et Kingambit (44,8 %) mènent la méta générale. Les inscriptions à la Victory Road July Challenge (25-26 juillet) viennent d'ouvrir, juste avant le Monthly Challenge Series de juillet (24-27 juillet) et les Mondiaux 2026 à San Francisco (28-30 août).",
       "when": "Pokémon Champions",
       "badgeText": "VGC",
       "badgeStyle": "vgc",
@@ -24,8 +24,8 @@
     },
     {
       "game": "classic",
-      "title": "TCG Classic — Mega Excadrill ex explose en tête suite à la sortie de Pitch Black, Dragapult ex chute en 7e place",
-      "desc": "Gros bouleversement du méta Standard : la sortie de l'extension Mega Evolution—Pitch Black (17 juillet) propulse directement Mega Excadrill ex à la 1ère place du ladder en ligne (9,05 % de part, 48,85 % winrate), reléguant l'ex-numéro 1 Dragapult ex à la 7e place (4,71 %, contre 7,83 % avant la sortie du set). Deux archétypes inédits, Dhelmise (6,30 %) et Festival Lead (6,03 %, 56,84 % winrate), entrent directement dans le top 5, tandis que Mega Greninja ex, Beedrill ex, Ogerpon Meganium Hydrapple et Lucario Hariyama sortent tous du top 10. Ces chiffres (32 tournois, 1 824 joueurs, 4 091 matchs sur le ladder Pokémon TCG Live) anticipent la rotation officielle : Pitch Black ne devient légal en tournoi papier Standard/Expanded que le 31 juillet. Pokemon.com a publié le 20 juillet son top 5 des cartes de l'extension, Mega Excadrill ex en tête.",
+      "title": "TCG Classic — Mega Excadrill ex resserre son avance, Dhelmise et Festival Lead confirment leur poussée",
+      "desc": "Sur 37 tournois et 2 542 joueurs, Mega Excadrill ex reste n°1 (8,81 % usage, 49,30 % winrate) mais voit son avance se resserrer depuis son lancement fracassant à plus de 9 %. Dhelmise (6,33 %) et Festival Lead (6,25 %, 54,80 % winrate) grimpent aux 2e et 3e places, dépassant Dragapult Dusknoir et N's Zoroark, tandis que Slowking recule en 8e position. La rotation papier de Mega Evolution—Pitch Black (sortie le 17 juillet) reste prévue pour le 31 juillet ; pokemon.com référence déjà les premières cartes du prochain set Mega Evolution—Chaos Rising.",
       "when": "TCG Classic",
       "badgeText": "CLASSIC",
       "badgeStyle": "classic",
@@ -33,8 +33,8 @@
     },
     {
       "game": "unite",
-      "title": "Unite — 5e anniversaire du jeu lancé aujourd'hui, Palkia buffé par un hotfix",
-      "desc": "La tier list Game8 reste inchangée : Moltres domine toujours le tier SS aux côtés des Légendaires/Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Yveltal. Le patch Enduring Formation Part 2 (16 juillet) reste la dernière mise à jour majeure, suivi d'un hotfix le 20 juillet qui buffe le Mouvement Unite de Palkia (dégâts +25 %, récupération raccourcie). Palkia a rejoint le jeu le 17 juillet, ouvrant la voie au coup d'envoi officiel du 5e anniversaire ce 21 juillet, qui verra ensuite arriver Reshiram (7 août) puis Solgaleo (21 août). The Pokémon Company a par ailleurs confirmé que Pokémon Unite quittera les Mondiaux Pokémon dès 2027 pour son propre tournoi, l'Aeos Crown 2027 Tokyo.",
+      "title": "Unite — 5e anniversaire lancé, Palkia buffé par un hotfix",
+      "desc": "La tier list Game8 reste inchangée depuis le 9 juillet : Moltres domine toujours le tier SS aux côtés des Légendaires et Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Yveltal). Le patch Enduring Formation Part 2 (16 juillet) reste la dernière mise à jour majeure, suivi d'un hotfix le 20 juillet buffant le Mouvement Unite de Palkia (+25 % dégâts). Le 5e anniversaire du jeu a officiellement démarré le 21 juillet, avant l'arrivée de Reshiram (7 août) puis Solgaleo (21 août). The Pokémon Company a confirmé que Pokémon Unite quittera les Mondiaux dès 2027 pour son propre tournoi, l'Aeos Crown 2027 Tokyo.",
       "when": "Pokémon Unite",
       "badgeText": "UNITE",
       "badgeStyle": "unite",
@@ -43,10 +43,10 @@
   ],
   "timeline": [
     {
-      "title": "5e anniversaire Pokémon Unite",
-      "desc": "Coup d'envoi officiel de l'événement aujourd'hui (Palkia déjà disponible depuis le 17 juillet), avant Reshiram (7 août) et Solgaleo (21 août)",
-      "game": "unite",
-      "date": "21 juil · UNITE"
+      "title": "Victory Road July Challenge",
+      "desc": "Tournoi en ligne Reg. M-B, inscriptions ouvertes depuis le 22 juillet",
+      "game": "vgc",
+      "date": "25-26 juil · VGC"
     },
     {
       "title": "Monthly Challenge Series",
@@ -73,6 +73,12 @@
       "date": "31 juil · TCG CLASSIC"
     },
     {
+      "title": "Reshiram rejoint Pokémon Unite",
+      "desc": "Nouvel arrivant dans le cadre du 5e anniversaire du jeu (lancé le 21 juillet), avant Solgaleo le 21 août",
+      "game": "unite",
+      "date": "7 août · UNITE"
+    },
+    {
       "title": "Championnats du Monde 2026",
       "desc": "Moscone Center, San Francisco — VGC & TCG",
       "game": "vgc",
@@ -85,5 +91,5 @@
     "classic": true,
     "unite": true
   },
-  "updatedAt": "2026-07-21T12:00:00.000Z"
+  "updatedAt": "2026-07-22T16:30:00.000Z"
 }
