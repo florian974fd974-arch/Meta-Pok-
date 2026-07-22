@@ -1,34 +1,34 @@
 {
-"metaSummary": "Le méta Standard continue de se stabiliser autour du set Mega Evolution—Pitch Black : au 22/07/2026 (37 tournois, 2542 joueurs, 5709 matchs sur le ladder Pokémon TCG Live), Mega Excadrill ex reste solidement en tête avec 8,81% de part d'usage (49,30% de winrate), mais son avance s'est un peu resserrée depuis son lancement fracassant à plus de 9%. Les deux nouveaux archétypes Dhelmise (6,33%, 46,63% de winrate) et Festival Lead (6,25%, 54,80% de winrate, toujours porté par Grookey/Applin/Dipplin et le stade Festival Grounds) confirment leur poussée et grimpent respectivement à la 2e et 3e place, dépassant Dragapult Dusknoir (4e, 6,02%) et N's Zoroark (5e, 5,90%), tandis que Dragapult ex (6e, 55,25% de winrate) et Dragapult Blaziken (7e, 59,28% de winrate) remontent au détriment de Slowking, repoussé en 8e position (4,72%). Côté actus, Pokemon.com continue de mettre en avant le top 5 des cartes de Pitch Black par Ellis Longhurst tout en commençant déjà à référencer les premières cartes du prochain set Mega Evolution—Chaos Rising dans sa base de données ; la rotation papier de Pitch Black reste prévue pour le 31/07/2026, et aucune nouvelle vidéo TCG officielle n'est parue depuis le clip de lancement du 18/07 (re-vérifié le 22/07). Les Championnats du Monde 2026 à San Francisco (28-30 août) restent le prochain grand rendez-vous compétitif.",
-"metaSummary_en": "The Standard metagame continues to settle around the Mega Evolution—Pitch Black set: as of 2026-07-22 (37 tournaments, 2,542 players, 5,709 matches on the Pokémon TCG Live ladder), Mega Excadrill ex still firmly holds the top spot with 8.81% usage share (49.30% winrate), though its lead has narrowed slightly since its explosive launch above 9%. The two new archetypes Dhelmise (6.33%, 46.63% winrate) and Festival Lead (6.25%, 54.80% winrate, still built around Grookey/Applin/Dipplin and the Festival Grounds stadium) keep climbing, moving up to 2nd and 3rd place and overtaking Dragapult Dusknoir (4th, 6.02%) and N's Zoroark (5th, 5.90%), while Dragapult ex (6th, 55.25% winrate) and Dragapult Blaziken (7th, 59.28% winrate) also rose, pushing Slowking down to 8th place (4.72%). On the news side, Pokemon.com continues to highlight Ellis Longhurst's top five Pitch Black cards while its card database has already started listing early cards from the upcoming Mega Evolution—Chaos Rising set; the paper rotation for Pitch Black remains set for 2026-07-31, and no new official TCG video has appeared since the 07-18 launch clip (re-checked on 07-22). The 2026 World Championships in San Francisco (August 28-30) remain the next major competitive event.",
+"metaSummary": "Le méta Standard reste dominé par le set Mega Evolution—Pitch Black : au 23/07/2026 (48 tournois, 3461 joueurs, 7800 matchs sur le ladder Pokémon TCG Live), Mega Excadrill ex conserve la première place avec 8,58% de part d'usage (48,68% de winrate), en léger repli depuis son lancement à plus de 9%. Festival Lead (6,41%, 53,85% de winrate) dépasse désormais Dhelmise (6,41%, 46,11%) pour la 2e place, les deux archétypes restant au coude-à-coude devant Dragapult Dusknoir (4e, 6,01%) et N's Zoroark (5e, 5,69%). Dragapult Blaziken (6e, 57,94% de winrate) grimpe devant Dragapult (7e, 56,36%), tandis que Slowking (8e, 4,88%) et Alakazam Dudunsparce (9e, 4,54%) tiennent leur rang et que Mega Greninja ex fait son entrée dans le top 10, repoussant Mega Absol Box hors du podium. Côté actus, rien de neuf depuis le lancement de Pitch Black le 17/07 : Pokemon.com continue de mettre en avant le top 5 des cartes de Pitch Black par Ellis Longhurst tout en référençant déjà les premières cartes de Mega Evolution—Chaos Rising dans sa base de données, la rotation papier de Pitch Black reste prévue pour le 31/07/2026, et aucune nouvelle vidéo TCG officielle n'est parue depuis le clip de lancement du 18/07 (re-vérifié le 23/07). Les Championnats du Monde 2026 à San Francisco (28-30 août) restent le prochain grand rendez-vous compétitif.",
+"metaSummary_en": "The Standard metagame remains anchored around the Mega Evolution—Pitch Black set: as of 2026-07-23 (48 tournaments, 3,461 players, 7,800 matches on the Pokémon TCG Live ladder), Mega Excadrill ex still holds the top spot with 8.58% usage share (48.68% winrate), slightly down from its explosive launch above 9%. Festival Lead (6.41%, 53.85% winrate) has now overtaken Dhelmise (6.41%, 46.11%) for 2nd place, the two archetypes remaining neck-and-neck ahead of Dragapult Dusknoir (4th, 6.01%) and N's Zoroark (5th, 5.69%). Dragapult Blaziken (6th, 57.94% winrate) climbed past Dragapult (7th, 56.36%), while Slowking (8th, 4.88%) and Alakazam Dudunsparce (9th, 4.54%) held steady and Mega Greninja ex broke into the top 10, pushing Mega Absol Box out of the podium spots. On the news side, nothing new since the Pitch Black launch on 07-17: Pokemon.com continues to highlight Ellis Longhurst's top five Pitch Black cards while its card database already lists early cards from the upcoming Mega Evolution—Chaos Rising set; the paper rotation for Pitch Black remains set for 2026-07-31, and no new official TCG video has appeared since the 07-18 launch clip (re-checked on 07-23). The 2026 World Championships in San Francisco (August 28-30) remain the next major competitive event.",
 "topUsage": [
-{ "rank": 1, "name": "Mega Excadrill ex", "usage": 8.81, "winrate": 49.30, "record": "531 - 537 - 9", "winRate": 49.30, "share": 8.81, "move": "same" },
-{ "rank": 2, "name": "Dhelmise", "usage": 6.33, "winrate": 46.63, "record": "318 - 351 - 13", "winRate": 46.63, "share": 6.33, "move": "up" },
-{ "rank": 3, "name": "Festival Lead", "usage": 6.25, "winrate": 54.80, "record": "411 - 332 - 7", "winRate": 54.80, "share": 6.25, "move": "up" },
-{ "rank": 4, "name": "Dragapult Dusknoir", "usage": 6.02, "winrate": 49.57, "record": "345 - 340 - 11", "winRate": 49.57, "share": 6.02, "move": "down" },
-{ "rank": 5, "name": "N's Zoroark", "usage": 5.90, "winrate": 46.70, "record": "304 - 342 - 5", "winRate": 46.70, "share": 5.90, "move": "down" },
-{ "rank": 6, "name": "Dragapult ex", "usage": 4.84, "winrate": 55.25, "record": "337 - 263 - 10", "winRate": 55.25, "share": 4.84, "move": "up" },
-{ "rank": 7, "name": "Dragapult Blaziken", "usage": 4.72, "winrate": 59.28, "record": "377 - 244 - 15", "winRate": 59.28, "share": 4.72, "move": "up" },
-{ "rank": 8, "name": "Slowking", "usage": 4.72, "winrate": 52.26, "record": "289 - 258 - 6", "winRate": 52.26, "share": 4.72, "move": "down" },
-{ "rank": 9, "name": "Alakazam Dudunsparce", "usage": 4.64, "winrate": 57.95, "record": "328 - 231 - 7", "winRate": 57.95, "share": 4.64, "move": "same" },
-{ "rank": 10, "name": "Mega Absol Box", "usage": 2.08, "winrate": 51.21, "record": "127 - 118 - 3", "winRate": 51.21, "share": 2.08, "move": "same" }
+{ "rank": 1, "name": "Mega Excadrill ex", "usage": 8.58, "winrate": 48.68, "record": "683 - 710 - 10", "winRate": 48.68, "share": 8.58, "move": "same" },
+{ "rank": 2, "name": "Festival Lead", "usage": 6.41, "winrate": 53.85, "record": "559 - 467 - 12", "winRate": 53.85, "share": 6.41, "move": "up" },
+{ "rank": 3, "name": "Dhelmise", "usage": 6.41, "winrate": 46.11, "record": "444 - 505 - 14", "winRate": 46.11, "share": 6.41, "move": "down" },
+{ "rank": 4, "name": "Dragapult Dusknoir", "usage": 6.01, "winrate": 50.42, "record": "478 - 455 - 15", "winRate": 50.42, "share": 6.01, "move": "same" },
+{ "rank": 5, "name": "N's Zoroark", "usage": 5.69, "winrate": 48.15, "record": "417 - 443 - 6", "winRate": 48.15, "share": 5.69, "move": "same" },
+{ "rank": 6, "name": "Dragapult Blaziken", "usage": 5.23, "winrate": 57.94, "record": "540 - 372 - 20", "winRate": 57.94, "share": 5.23, "move": "up" },
+{ "rank": 7, "name": "Dragapult ex", "usage": 5.06, "winrate": 56.36, "record": "505 - 376 - 15", "winRate": 56.36, "share": 5.06, "move": "down" },
+{ "rank": 8, "name": "Slowking", "usage": 4.88, "winrate": 50.73, "record": "381 - 364 - 6", "winRate": 50.73, "share": 4.88, "move": "same" },
+{ "rank": 9, "name": "Alakazam Dudunsparce", "usage": 4.54, "winrate": 57.20, "record": "429 - 310 - 11", "winRate": 57.20, "share": 4.54, "move": "same" },
+{ "rank": 10, "name": "Mega Greninja ex", "usage": 2.20, "winrate": 47.66, "record": "153 - 166 - 2", "winRate": 47.66, "share": 2.20, "move": "up" }
 ],
 "topWinrate": [],
 "movements": [
-{ "slug": "mega-excadrill-ex", "name": "Mega Excadrill ex", "rank": 1, "usage": 8.81, "move": "same" },
-{ "slug": "dhelmise-pbl", "name": "Dhelmise", "rank": 2, "usage": 6.33, "move": "up" },
-{ "slug": "festival-lead", "name": "Festival Lead", "rank": 3, "usage": 6.25, "move": "up" },
-{ "slug": "dragapult-dusknoir", "name": "Dragapult Dusknoir", "rank": 4, "usage": 6.02, "move": "down" },
-{ "slug": "n-zoroark", "name": "N's Zoroark", "rank": 5, "usage": 5.90, "move": "down" },
-{ "slug": "dragapult-ex", "name": "Dragapult ex", "rank": 6, "usage": 4.84, "move": "up" },
-{ "slug": "dragapult-blaziken", "name": "Dragapult Blaziken", "rank": 7, "usage": 4.72, "move": "up" },
-{ "slug": "slowking-scr", "name": "Slowking", "rank": 8, "usage": 4.72, "move": "down" },
-{ "slug": "alakazam-dudunsparce", "name": "Alakazam Dudunsparce", "rank": 9, "usage": 4.64, "move": "same" },
-{ "slug": "mega-absol-box", "name": "Mega Absol Box", "rank": 10, "usage": 2.08, "move": "same" },
-{ "slug": "mega-greninja-ex", "name": "Mega Greninja ex", "rank": 11, "usage": 1.97, "move": "up" },
-{ "slug": "ogerpon-meganium-hydrapple", "name": "Ogerpon Meganium Hydrapple", "rank": 14, "usage": 1.65, "move": "up" },
-{ "slug": "beedrill-ex-cri", "name": "Beedrill ex", "rank": 17, "usage": 1.38, "move": "down" },
-{ "slug": "lucario-hariyama", "name": "Lucario Hariyama", "rank": 18, "usage": 1.26, "move": "up" }
+{ "slug": "mega-excadrill-ex", "name": "Mega Excadrill ex", "rank": 1, "usage": 8.58, "move": "same" },
+{ "slug": "festival-lead", "name": "Festival Lead", "rank": 2, "usage": 6.41, "move": "up" },
+{ "slug": "dhelmise-pbl", "name": "Dhelmise", "rank": 3, "usage": 6.41, "move": "down" },
+{ "slug": "dragapult-dusknoir", "name": "Dragapult Dusknoir", "rank": 4, "usage": 6.01, "move": "same" },
+{ "slug": "n-zoroark", "name": "N's Zoroark", "rank": 5, "usage": 5.69, "move": "same" },
+{ "slug": "dragapult-blaziken", "name": "Dragapult Blaziken", "rank": 6, "usage": 5.23, "move": "up" },
+{ "slug": "dragapult-ex", "name": "Dragapult", "rank": 7, "usage": 5.06, "move": "down" },
+{ "slug": "slowking-scr", "name": "Slowking", "rank": 8, "usage": 4.88, "move": "same" },
+{ "slug": "alakazam-dudunsparce", "name": "Alakazam Dudunsparce", "rank": 9, "usage": 4.54, "move": "same" },
+{ "slug": "mega-greninja-ex", "name": "Mega Greninja ex", "rank": 10, "usage": 2.20, "move": "up" },
+{ "slug": "mega-absol-box", "name": "Mega Absol Box", "rank": 11, "usage": 2.14, "move": "down" },
+{ "slug": "grimmsnarl-froslass", "name": "Grimmsnarl Froslass", "rank": 12, "usage": 1.96, "move": "up" },
+{ "slug": "rockets-honchkrow", "name": "Rocket's Honchkrow", "rank": 13, "usage": 1.85, "move": "up" },
+{ "slug": "ogerpon-meganium-hydrapple", "name": "Ogerpon Meganium Hydrapple", "rank": 14, "usage": 1.68, "move": "up" }
 ],
 "news": [
 { "title": "Ellis Longhurst Shares Her Top Five Cards from Mega Evolution—Pitch Black", "url": "https://www.pokemon.com/us/features/check-out-the-top-five-cards-from-mega-evolution-pitch-black", "source": "Pokemon.com", "kind": "article", "date": "2026-07-20" },
@@ -40,41 +40,81 @@
 { "title": "Top Moments - 2026 North America International Championships | Pokémon NAIC", "url": "https://www.youtube.com/watch?v=YZzliA7eG-s", "source": "Play! Pokémon (YouTube)", "kind": "video", "date": "2026-07-04" },
 { "title": "Mega Evolution—Pitch Black Rule Changes Announcement: aucune carte bannie en Standard/Expanded", "url": "https://www.pokemon.com/us/play-pokemon/about/mega-evolution/mega-evolution-pitch-black-rule-changes-announcement", "source": "Pokemon.com (Play! Pokémon)", "kind": "article", "date": "2026-07-02" }
 ],
-"updatedAt": "2026-07-22T12:00:00.000Z",
+"updatedAt": "2026-07-23T12:00:00.000Z",
 "topDecks": [
-{ "rank": 1, "name": "Mega Excadrill ex", "usage": 8.81, "winrate": 49.30, "record": "531 - 537 - 9", "winRate": 49.30, "share": 8.81, "move": "same",
-"listBy": "Ap3XxX9941 (2nd place of 416, TOURNAMENT OF DOOM! IS THAT THE....., 18/07/2026)",
+{ "rank": 1, "name": "Mega Excadrill ex", "usage": 8.58, "winrate": 48.68, "record": "683 - 710 - 10", "winRate": 48.68, "share": 8.58, "move": "same",
+"listBy": "Santiago Prieto (1st place of 35, Premio Productos sellados 🏆 PITCH BLACK ✅ (CHILE), 22/07/2026)",
 "cards": {
 "pokemon": [
-{ "q": 4, "n": "Beldum", "set": "TEF 113" },
+{ "q": 4, "n": "Beldum", "set": "CRI 59" },
 { "q": 4, "n": "Metang", "set": "TEF 114" },
-{ "q": 2, "n": "Metagross", "set": "CRI 61" },
+{ "q": 1, "n": "Metagross", "set": "CRI 61" },
 { "q": 3, "n": "Drilbur", "set": "PBL 46" },
 { "q": 2, "n": "Mega Excadrill ex", "set": "PBL 65" },
 { "q": 2, "n": "Genesect ex", "set": "BLK 67" },
-{ "q": 1, "n": "Ethan's Pichu", "set": "DRI 71" }
+{ "q": 1, "n": "Fezandipiti ex", "set": "ASC 142" },
+{ "q": 1, "n": "Meowth ex", "set": "POR 62" },
+{ "q": 1, "n": "Mega Skarmory ex", "set": "POR 55" }
 ],
 "trainers": [
 { "q": 4, "n": "Team Rocket's Petrel" },
-{ "q": 3, "n": "Boss's Orders" },
-{ "q": 2, "n": "Kieran" },
 { "q": 2, "n": "Lillie's Determination" },
+{ "q": 2, "n": "Boss's Orders" },
 { "q": 4, "n": "Team Rocket's Transceiver" },
-{ "q": 2, "n": "Energy Recycler" },
-{ "q": 2, "n": "Jumbo Ice Cream" },
-{ "q": 1, "n": "Ultra Ball" },
-{ "q": 1, "n": "Special Red Card" },
+{ "q": 3, "n": "Jumbo Ice Cream" },
+{ "q": 3, "n": "Iron Defender" },
+{ "q": 2, "n": "Ultra Ball" },
 { "q": 1, "n": "Buddy-Buddy Poffin" },
 { "q": 1, "n": "Precious Trolley" },
-{ "q": 1, "n": "Air Balloon" },
-{ "q": 1, "n": "Gravity Mountain" }
+{ "q": 1, "n": "Energy Recycler" },
+{ "q": 1, "n": "Night Stretcher" },
+{ "q": 1, "n": "Special Red Card" },
+{ "q": 1, "n": "Switch" }
 ],
 "energy": [
-{ "q": 17, "n": "Metal Energy" }
+{ "q": 15, "n": "Metal Energy" }
 ]
 }
 },
-{ "rank": 2, "name": "Dhelmise", "usage": 6.33, "winrate": 46.63, "record": "318 - 351 - 13", "winRate": 46.63, "share": 6.33, "move": "up",
+{ "rank": 2, "name": "Festival Lead", "usage": 6.41, "winrate": 53.85, "record": "559 - 467 - 12", "winRate": 53.85, "share": 6.41, "move": "up",
+"listBy": "Tsuki Nagasawa (1st place of 118, 👑 CrownOfSpain 👑 #2, 21/07/2026)",
+"cards": {
+"pokemon": [
+{ "q": 4, "n": "Applin", "set": "TWM 17" },
+{ "q": 4, "n": "Dipplin", "set": "TWM 18" },
+{ "q": 3, "n": "Grookey", "set": "TWM 14" },
+{ "q": 4, "n": "Thwackey", "set": "TWM 15" },
+{ "q": 2, "n": "Goldeen", "set": "TWM 44" },
+{ "q": 1, "n": "Seaking", "set": "PRE 21" },
+{ "q": 1, "n": "Rellor", "set": "TEF 23" },
+{ "q": 1, "n": "Rabsca", "set": "TEF 24" },
+{ "q": 1, "n": "Shaymin", "set": "DRI 10" },
+{ "q": 1, "n": "Moltres", "set": "PFL 14" }
+],
+"trainers": [
+{ "q": 3, "n": "Lillie's Determination" },
+{ "q": 2, "n": "Gladion's Final Battle" },
+{ "q": 2, "n": "Boss's Orders" },
+{ "q": 1, "n": "Kieran" },
+{ "q": 4, "n": "Poké Pad" },
+{ "q": 4, "n": "Buddy-Buddy Poffin" },
+{ "q": 2, "n": "Bug Catching Set" },
+{ "q": 2, "n": "Ultra Ball" },
+{ "q": 1, "n": "Switch" },
+{ "q": 1, "n": "Night Stretcher" },
+{ "q": 1, "n": "Secret Box" },
+{ "q": 1, "n": "Sacred Ash" },
+{ "q": 2, "n": "Air Balloon" },
+{ "q": 2, "n": "Brave Bangle" },
+{ "q": 4, "n": "Festival Grounds" }
+],
+"energy": [
+{ "q": 5, "n": "Grass Energy" },
+{ "q": 1, "n": "Fire Energy" }
+]
+}
+},
+{ "rank": 3, "name": "Dhelmise", "usage": 6.41, "winrate": 46.11, "record": "444 - 505 - 14", "winRate": 46.11, "share": 6.41, "move": "down",
 "listBy": "Tobias_Freitag (1st place of 120, Monster Collectibles After Hours #13, 19/07/2026)",
 "cards": {
 "pokemon": [
@@ -109,70 +149,36 @@
 ]
 }
 },
-{ "rank": 3, "name": "Festival Lead", "usage": 6.25, "winrate": 54.80, "record": "411 - 332 - 7", "winRate": 54.80, "share": 6.25, "move": "up",
-"listBy": "ilian (1st place of 104, SEASAC League Challenge #22 (SEASON 3) [50 CODES], 20/07/2026)",
-"cards": {
-"pokemon": [
-{ "q": 4, "n": "Grookey", "set": "TWM 14" },
-{ "q": 4, "n": "Thwackey", "set": "TWM 15" },
-{ "q": 4, "n": "Applin", "set": "TWM 17" },
-{ "q": 4, "n": "Dipplin", "set": "TWM 18" },
-{ "q": 2, "n": "Goldeen", "set": "TWM 44" },
-{ "q": 1, "n": "Seaking", "set": "PRE 21" },
-{ "q": 1, "n": "Rellor", "set": "TEF 23" },
-{ "q": 1, "n": "Rabsca", "set": "TEF 24" }
-],
-"trainers": [
-{ "q": 4, "n": "Lillie's Determination" },
-{ "q": 2, "n": "Boss's Orders" },
-{ "q": 2, "n": "Gladion's Final Battle" },
-{ "q": 1, "n": "Kieran" },
-{ "q": 4, "n": "Poké Pad" },
-{ "q": 4, "n": "Buddy-Buddy Poffin" },
-{ "q": 2, "n": "Ultra Ball" },
-{ "q": 2, "n": "Bug Catching Set" },
-{ "q": 1, "n": "Night Stretcher" },
-{ "q": 1, "n": "Secret Box" },
-{ "q": 1, "n": "Switch" },
-{ "q": 1, "n": "Sacred Ash" },
-{ "q": 2, "n": "Brave Bangle" },
-{ "q": 2, "n": "Air Balloon" },
-{ "q": 4, "n": "Festival Grounds" }
-],
-"energy": [
-{ "q": 6, "n": "Grass Energy" }
-]
-}
-},
-{ "rank": 4, "name": "Dragapult Dusknoir", "usage": 6.02, "winrate": 49.57, "record": "345 - 340 - 11", "winRate": 49.57, "share": 6.02, "move": "down",
-"listBy": "ericix (1st place of 82, SEASAC League Challenge #21 (SEASON 3) [50 CODES], 19/07/2026)",
+{ "rank": 4, "name": "Dragapult Dusknoir", "usage": 6.01, "winrate": 50.42, "record": "478 - 455 - 15", "winRate": 50.42, "share": 6.01, "move": "same",
+"listBy": "Menezes (1st place of 141, Team Corna Weekly July #4, 21/07/2026)",
 "cards": {
 "pokemon": [
 { "q": 4, "n": "Dreepy", "set": "TWM 128" },
 { "q": 4, "n": "Drakloak", "set": "TWM 129" },
-{ "q": 3, "n": "Dragapult ex", "set": "TWM 130" },
+{ "q": 2, "n": "Dragapult ex", "set": "TWM 130" },
 { "q": 2, "n": "Duskull", "set": "PRE 35" },
 { "q": 2, "n": "Dusclops", "set": "PRE 36" },
 { "q": 1, "n": "Dusknoir", "set": "PRE 37" },
-{ "q": 2, "n": "Budew", "set": "ASC 16" },
+{ "q": 1, "n": "Budew", "set": "ASC 16" },
+{ "q": 1, "n": "Fezandipiti ex", "set": "ASC 142" },
 { "q": 1, "n": "Meowth ex", "set": "POR 62" },
-{ "q": 1, "n": "Munkidori", "set": "TWM 95" },
-{ "q": 1, "n": "Fezandipiti ex", "set": "ASC 142" }
+{ "q": 1, "n": "Munkidori", "set": "TWM 95" }
 ],
 "trainers": [
 { "q": 4, "n": "Lillie's Determination" },
-{ "q": 3, "n": "Boss's Orders" },
-{ "q": 2, "n": "Crispin" },
-{ "q": 1, "n": "Rosa's Encouragement" },
-{ "q": 4, "n": "Buddy-Buddy Poffin" },
-{ "q": 4, "n": "Poké Pad" },
+{ "q": 3, "n": "Crispin" },
+{ "q": 2, "n": "Boss's Orders" },
+{ "q": 1, "n": "Dawn" },
 { "q": 4, "n": "Ultra Ball" },
-{ "q": 3, "n": "Night Stretcher" },
-{ "q": 2, "n": "Rare Candy" },
-{ "q": 1, "n": "Special Red Card" },
+{ "q": 4, "n": "Poké Pad" },
+{ "q": 4, "n": "Buddy-Buddy Poffin" },
+{ "q": 4, "n": "Crushing Hammer" },
+{ "q": 2, "n": "Night Stretcher" },
 { "q": 1, "n": "Unfair Stamp" },
-{ "q": 1, "n": "Jamming Tower" },
-{ "q": 1, "n": "Team Rocket's Watchtower" }
+{ "q": 1, "n": "Special Red Card" },
+{ "q": 1, "n": "Handheld Fan" },
+{ "q": 1, "n": "Team Rocket's Watchtower" },
+{ "q": 1, "n": "Jamming Tower" }
 ],
 "energy": [
 { "q": 3, "n": "Psychic Energy" },
@@ -181,81 +187,45 @@
 ]
 }
 },
-{ "rank": 5, "name": "N's Zoroark", "usage": 5.90, "winrate": 46.70, "record": "304 - 342 - 5", "winRate": 46.70, "share": 5.90, "move": "down",
-"listBy": "Ryan Anderson (1st place of 42, OceanicTournamentSeries2026 16/20, 19/07/2026)",
+{ "rank": 5, "name": "N's Zoroark", "usage": 5.69, "winrate": 48.15, "record": "417 - 443 - 6", "winRate": 48.15, "share": 5.69, "move": "same",
+"listBy": "Mateusz Łaszkiewicz - Team Poland (1st place of 32, 2026 Pokemon TCG World Cup, 18/07/2026)",
 "cards": {
 "pokemon": [
 { "q": 4, "n": "N's Zorua", "set": "JTG 97" },
 { "q": 4, "n": "N's Zoroark ex", "set": "JTG 98" },
 { "q": 2, "n": "Munkidori", "set": "TWM 95" },
 { "q": 2, "n": "N's Zekrom", "set": "ASC 155" },
+{ "q": 2, "n": "Pecharunt ex", "set": "SFA 39" },
 { "q": 1, "n": "N's Darumaka", "set": "JTG 26" },
 { "q": 1, "n": "N's Darmanitan", "set": "JTG 27" },
-{ "q": 1, "n": "Pecharunt ex", "set": "SFA 39" },
-{ "q": 1, "n": "Meowth ex", "set": "POR 62" },
+{ "q": 1, "n": "Budew", "set": "ASC 16" },
 { "q": 1, "n": "Fezandipiti ex", "set": "ASC 142" },
-{ "q": 1, "n": "Flutter Mane", "set": "TEF 78" },
-{ "q": 1, "n": "Budew", "set": "ASC 16" }
+{ "q": 1, "n": "Meowth ex", "set": "POR 62" },
+{ "q": 1, "n": "Yveltal", "set": "MEG 88" },
+{ "q": 1, "n": "Tatsugiri", "set": "TWM 131" }
 ],
 "trainers": [
 { "q": 4, "n": "Lillie's Determination" },
 { "q": 3, "n": "Boss's Orders" },
 { "q": 2, "n": "Cyrano" },
 { "q": 1, "n": "Black Belt's Training" },
+{ "q": 4, "n": "Transformation Tome" },
 { "q": 4, "n": "Buddy-Buddy Poffin" },
-{ "q": 3, "n": "Ultra Ball" },
-{ "q": 3, "n": "Transformation Tome" },
 { "q": 3, "n": "N's PP Up" },
 { "q": 2, "n": "Poké Pad" },
-{ "q": 1, "n": "Night Stretcher" },
-{ "q": 1, "n": "Special Red Card" },
+{ "q": 2, "n": "Ultra Ball" },
 { "q": 1, "n": "Secret Box" },
-{ "q": 1, "n": "Energy Switch" },
+{ "q": 1, "n": "Special Red Card" },
+{ "q": 1, "n": "Night Stretcher" },
 { "q": 2, "n": "Binding Mochi" },
-{ "q": 2, "n": "N's Castle" }
+{ "q": 1, "n": "N's Castle" }
 ],
 "energy": [
 { "q": 8, "n": "Darkness Energy" }
 ]
 }
 },
-{ "rank": 6, "name": "Dragapult ex", "usage": 4.84, "winrate": 55.25, "record": "337 - 263 - 10", "winRate": 55.25, "share": 4.84, "move": "up",
-"listBy": "Muzak (1st place of 210, Sunny's Weekly #266 Live from The Abyss!, 21/07/2026)",
-"cards": {
-"pokemon": [
-{ "q": 4, "n": "Dreepy", "set": "TWM 128" },
-{ "q": 4, "n": "Drakloak", "set": "TWM 129" },
-{ "q": 3, "n": "Dragapult ex", "set": "TWM 130" },
-{ "q": 2, "n": "Munkidori", "set": "TWM 95" },
-{ "q": 1, "n": "Dunsparce", "set": "JTG 120" },
-{ "q": 1, "n": "Dudunsparce", "set": "TEF 129" },
-{ "q": 1, "n": "Meowth ex", "set": "POR 62" },
-{ "q": 1, "n": "Shaymin", "set": "DRI 10" },
-{ "q": 1, "n": "Fezandipiti ex", "set": "ASC 142" },
-{ "q": 1, "n": "Budew", "set": "ASC 16" },
-{ "q": 1, "n": "Moltres", "set": "PFL 14" }
-],
-"trainers": [
-{ "q": 4, "n": "Lillie's Determination" },
-{ "q": 3, "n": "Crispin" },
-{ "q": 3, "n": "Boss's Orders" },
-{ "q": 4, "n": "Buddy-Buddy Poffin" },
-{ "q": 4, "n": "Poké Pad" },
-{ "q": 4, "n": "Ultra Ball" },
-{ "q": 3, "n": "Crushing Hammer" },
-{ "q": 2, "n": "Night Stretcher" },
-{ "q": 1, "n": "Special Red Card" },
-{ "q": 1, "n": "Unfair Stamp" },
-{ "q": 2, "n": "Risky Ruins" }
-],
-"energy": [
-{ "q": 4, "n": "Fire Energy" },
-{ "q": 3, "n": "Psychic Energy" },
-{ "q": 2, "n": "Darkness Energy" }
-]
-}
-},
-{ "rank": 7, "name": "Dragapult Blaziken", "usage": 4.72, "winrate": 59.28, "record": "377 - 244 - 15", "winRate": 59.28, "share": 4.72, "move": "up",
+{ "rank": 6, "name": "Dragapult Blaziken", "usage": 5.23, "winrate": 57.94, "record": "540 - 372 - 20", "winRate": 57.94, "share": 5.23, "move": "up",
 "listBy": "HankDaTank (1st place of 416, TOURNAMENT OF DOOM! IS THAT THE....., 18/07/2026)",
 "cards": {
 "pokemon": [
@@ -293,40 +263,77 @@
 ]
 }
 },
-{ "rank": 8, "name": "Slowking", "usage": 4.72, "winrate": 52.26, "record": "289 - 258 - 6", "winRate": 52.26, "share": 4.72, "move": "down",
-"listBy": "GuiFlai (5th place of 267, Rare Candy Club Showdown #33 (PITCH BLACK LEGAL), 20/07/2026)",
+{ "rank": 7, "name": "Dragapult", "usage": 5.06, "winrate": 56.36, "record": "505 - 376 - 15", "winRate": 56.36, "share": 5.06, "move": "down",
+"listBy": "Muzak (1st place of 210, Sunny's Weekly #266 Live from The Abyss!, 21/07/2026)",
+"cards": {
+"pokemon": [
+{ "q": 4, "n": "Dreepy", "set": "TWM 128" },
+{ "q": 4, "n": "Drakloak", "set": "TWM 129" },
+{ "q": 3, "n": "Dragapult ex", "set": "TWM 130" },
+{ "q": 2, "n": "Munkidori", "set": "TWM 95" },
+{ "q": 1, "n": "Dunsparce", "set": "JTG 120" },
+{ "q": 1, "n": "Dudunsparce", "set": "TEF 129" },
+{ "q": 1, "n": "Meowth ex", "set": "POR 62" },
+{ "q": 1, "n": "Shaymin", "set": "DRI 10" },
+{ "q": 1, "n": "Fezandipiti ex", "set": "ASC 142" },
+{ "q": 1, "n": "Budew", "set": "ASC 16" },
+{ "q": 1, "n": "Moltres", "set": "PFL 14" }
+],
+"trainers": [
+{ "q": 4, "n": "Lillie's Determination" },
+{ "q": 3, "n": "Crispin" },
+{ "q": 3, "n": "Boss's Orders" },
+{ "q": 4, "n": "Buddy-Buddy Poffin" },
+{ "q": 4, "n": "Poké Pad" },
+{ "q": 4, "n": "Ultra Ball" },
+{ "q": 3, "n": "Crushing Hammer" },
+{ "q": 2, "n": "Night Stretcher" },
+{ "q": 1, "n": "Special Red Card" },
+{ "q": 1, "n": "Unfair Stamp" },
+{ "q": 2, "n": "Risky Ruins" }
+],
+"energy": [
+{ "q": 4, "n": "Fire Energy" },
+{ "q": 3, "n": "Psychic Energy" },
+{ "q": 2, "n": "Darkness Energy" }
+]
+}
+},
+{ "rank": 8, "name": "Slowking", "usage": 4.88, "winrate": 50.73, "record": "381 - 364 - 6", "winRate": 50.73, "share": 4.88, "move": "same",
+"listBy": "Huntedyou (1st place of 35, Nightshades Premier Circuit Challenge #15 25 Codes, 21/07/2026)",
 "cards": {
 "pokemon": [
 { "q": 4, "n": "Slowpoke", "set": "SCR 57" },
 { "q": 3, "n": "Slowking", "set": "SCR 58" },
-{ "q": 3, "n": "Mega Kangaskhan ex", "set": "MEG 104" },
-{ "q": 2, "n": "Metagross", "set": "CRI 61" },
 { "q": 2, "n": "Kyurem", "set": "SFA 47" },
+{ "q": 2, "n": "Mega Kangaskhan ex", "set": "MEG 104" },
+{ "q": 2, "n": "Metagross", "set": "CRI 61" },
 { "q": 2, "n": "Latias ex", "set": "SSP 76" },
-{ "q": 1, "n": "Fezandipiti ex", "set": "ASC 142" },
+{ "q": 1, "n": "Smoochum", "set": "SSP 75" },
 { "q": 1, "n": "Lillie's Clefairy ex", "set": "JTG 56" },
+{ "q": 1, "n": "Fezandipiti ex", "set": "ASC 142" },
 { "q": 1, "n": "Meowth ex", "set": "POR 62" },
-{ "q": 1, "n": "Zeraora", "set": "DRI 78" }
+{ "q": 1, "n": "Spectrier", "set": "ASC 98" },
+{ "q": 1, "n": "Annihilape", "set": "SSP 100" }
 ],
 "trainers": [
 { "q": 4, "n": "Lillie's Determination" },
 { "q": 3, "n": "Ciphermaniac's Codebreaking" },
-{ "q": 1, "n": "N's Plan" },
+{ "q": 2, "n": "Hilda" },
+{ "q": 1, "n": "Colress's Tenacity" },
+{ "q": 1, "n": "Surfer" },
+{ "q": 4, "n": "Ultra Ball" },
 { "q": 4, "n": "Poké Pad" },
 { "q": 3, "n": "Wondrous Patch" },
-{ "q": 3, "n": "Ultra Ball" },
 { "q": 2, "n": "Night Stretcher" },
 { "q": 1, "n": "Secret Box" },
-{ "q": 1, "n": "Switch" },
-{ "q": 1, "n": "Special Red Card" },
 { "q": 1, "n": "Brave Bangle" },
-{ "q": 1, "n": "Lucky Helmet" },
 { "q": 4, "n": "Academy at Night" }
 ],
 "energy": [
 { "q": 4, "n": "Telepathic Psychic Energy" },
 { "q": 4, "n": "Psychic Energy" },
-{ "q": 3, "n": "Boomerang Energy" }
+{ "q": 1, "n": "Boomerang Energy" }
 ]
 }
 }
