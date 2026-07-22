@@ -6,8 +6,8 @@
   "news": [
     {
       "game": "tcgp",
-      "title": "TCG Pocket — Miraidon ex Magnezone toujours en tête, bouleversement au sommet du winrate",
-      "desc": "Miraidon ex Magnezone reste la référence en usage (10,09 %, 52,90 % winrate) sur 7 539 joueurs, 87 tournois et 19 813 matchs analysés. Le top 10 usage reste stable, Suicune ex Baxcalibur gardant la 3e place devant Mega Sceptile ex Greninja. Côté winrate en revanche, Greninja Mega Absol ex (55,25 %) et Milotic ex Eevee ex (54,65 %) font une entrée fracassante et prennent la tête, reléguant Zoroark ex Mega Absol ex à la 3e place. Plus que 8 jours avant Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette ; l'événement PvE Hisuian Zorua Drop se termine le 26 juillet.",
+      "title": "TCG Pocket — Miraidon ex Magnezone toujours en tête, Giratina ex Darkrai ex bouscule le winrate",
+      "desc": "Miraidon ex Magnezone conserve la 1re place en usage (10,17 %, 52,98 % winrate) sur 7 631 joueurs, 89 tournois et 20 042 matchs analysés — le top 10 usage reste parfaitement stable. Côté winrate en revanche, gros chamboulement : Giratina ex Darkrai ex fait une entrée fracassante en tête (55,17 % WR, 0,55 % usage), reléguant Milotic ex Eevee ex et Greninja Mega Absol ex aux 2e et 3e places, tandis que Gourgeist Houndstone et Magnezone ex Magnezone entrent aussi dans le top 10 winrate. Plus que 7 jours avant Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette ; l'événement PvE Hisuian Zorua Drop se termine le 26 juillet.",
       "when": "TCG Pocket",
       "badgeText": "META",
       "badgeStyle": "tcgp",
@@ -24,8 +24,8 @@
     },
     {
       "game": "classic",
-      "title": "TCG Classic — Mega Excadrill ex resserre son avance, Dhelmise et Festival Lead confirment leur poussée",
-      "desc": "Sur 37 tournois et 2 542 joueurs, Mega Excadrill ex reste n°1 (8,81 % usage, 49,30 % winrate) mais voit son avance se resserrer depuis son lancement fracassant à plus de 9 %. Dhelmise (6,33 %) et Festival Lead (6,25 %, 54,80 % winrate) grimpent aux 2e et 3e places, dépassant Dragapult Dusknoir et N's Zoroark, tandis que Slowking recule en 8e position. La rotation papier de Mega Evolution—Pitch Black (sortie le 17 juillet) reste prévue pour le 31 juillet ; pokemon.com référence déjà les premières cartes du prochain set Mega Evolution—Chaos Rising.",
+      "title": "TCG Classic — Festival Lead dépasse Dhelmise, Mega Greninja ex fait son entrée dans le top 10",
+      "desc": "Sur 48 tournois et 3 461 joueurs (7 800 matchs analysés sur le ladder TCG Live), Mega Excadrill ex reste n°1 (8,58 % usage, 48,68 % winrate) mais son avance continue de se resserrer depuis son lancement fracassant. Festival Lead (6,41 %, 53,85 % winrate) dépasse désormais Dhelmise (6,41 %, 46,11 % winrate) pour la 2e place, et Mega Greninja ex (10e, 47,66 % winrate) fait son entrée dans le top 10 au détriment de Mega Absol Box. La rotation papier de Mega Evolution—Pitch Black (sortie le 17 juillet) reste prévue pour le 31 juillet ; pokemon.com référence déjà les premières cartes du prochain set Mega Evolution—Chaos Rising.",
       "when": "TCG Classic",
       "badgeText": "CLASSIC",
       "badgeStyle": "classic",
@@ -91,5 +91,5 @@
     "classic": true,
     "unite": true
   },
-  "updatedAt": "2026-07-22T16:30:00.000Z"
+  "updatedAt": "2026-07-23T20:00:00.000Z"
 }
