@@ -1,95 +1,107 @@
 {
-  "hero": {
-    "tag": "Hub Competitif Pokemon",
-    "title": "L'actu competitive en un seul endroit."
-  },
-  "news": [
-    {
-      "game": "tcgp",
-      "title": "TCG Pocket — Miraidon ex Magnezone toujours en tête, Giratina ex Darkrai ex bouscule le winrate",
-      "desc": "Miraidon ex Magnezone conserve la 1re place en usage (10,17 %, 52,98 % winrate) sur 7 631 joueurs, 89 tournois et 20 042 matchs analysés — le top 10 usage reste parfaitement stable. Côté winrate en revanche, gros chamboulement : Giratina ex Darkrai ex fait une entrée fracassante en tête (55,17 % WR, 0,55 % usage), reléguant Milotic ex Eevee ex et Greninja Mega Absol ex aux 2e et 3e places, tandis que Gourgeist Houndstone et Magnezone ex Magnezone entrent aussi dans le top 10 winrate. Plus que 7 jours avant Ruler of the Skies (B4, 30 juillet), avec Mega Rayquaza ex en vedette ; l'événement PvE Hisuian Zorua Drop se termine le 26 juillet.",
-      "when": "TCG Pocket",
-      "badgeText": "META",
-      "badgeStyle": "tcgp",
-      "clickAction": "tcgp"
-    },
-    {
-      "game": "vgc",
-      "title": "VGC — Statistiques complètes de The Champions Arena II publiées, Mega Charizard Y toujours dominant",
-      "desc": "Les stats d'usage les plus complètes en Reg. M-B viennent désormais de The Champions Arena II (706 joueurs, le plus gros tournoi M-B à ce jour), remporté par Marco Silva face à Toler Webb : Mega Charizard Y domine le pool des Méga (40,0 %), devant Mega Aerodactyl (20,3 %) et Mega Floette (18,0 %) ; Garchomp (47,2 %) et Kingambit (44,8 %) mènent la méta générale. Les inscriptions à la Victory Road July Challenge (25-26 juillet) viennent d'ouvrir, juste avant le Monthly Challenge Series de juillet (24-27 juillet) et les Mondiaux 2026 à San Francisco (28-30 août).",
-      "when": "Pokémon Champions",
-      "badgeText": "VGC",
-      "badgeStyle": "vgc",
-      "clickAction": "vgc"
-    },
-    {
-      "game": "classic",
-      "title": "TCG Classic — Festival Lead dépasse Dhelmise, Mega Greninja ex fait son entrée dans le top 10",
-      "desc": "Sur 48 tournois et 3 461 joueurs (7 800 matchs analysés sur le ladder TCG Live), Mega Excadrill ex reste n°1 (8,58 % usage, 48,68 % winrate) mais son avance continue de se resserrer depuis son lancement fracassant. Festival Lead (6,41 %, 53,85 % winrate) dépasse désormais Dhelmise (6,41 %, 46,11 % winrate) pour la 2e place, et Mega Greninja ex (10e, 47,66 % winrate) fait son entrée dans le top 10 au détriment de Mega Absol Box. La rotation papier de Mega Evolution—Pitch Black (sortie le 17 juillet) reste prévue pour le 31 juillet ; pokemon.com référence déjà les premières cartes du prochain set Mega Evolution—Chaos Rising.",
-      "when": "TCG Classic",
-      "badgeText": "CLASSIC",
-      "badgeStyle": "classic",
-      "clickAction": "classic"
-    },
-    {
-      "game": "unite",
-      "title": "Unite — 5e anniversaire lancé, Palkia buffé par un hotfix",
-      "desc": "La tier list Game8 reste inchangée depuis le 9 juillet : Moltres domine toujours le tier SS aux côtés des Légendaires et Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Yveltal). Le patch Enduring Formation Part 2 (16 juillet) reste la dernière mise à jour majeure, suivi d'un hotfix le 20 juillet buffant le Mouvement Unite de Palkia (+25 % dégâts). Le 5e anniversaire du jeu a officiellement démarré le 21 juillet, avant l'arrivée de Reshiram (7 août) puis Solgaleo (21 août). The Pokémon Company a confirmé que Pokémon Unite quittera les Mondiaux dès 2027 pour son propre tournoi, l'Aeos Crown 2027 Tokyo.",
-      "when": "Pokémon Unite",
-      "badgeText": "UNITE",
-      "badgeStyle": "unite",
-      "clickAction": "unite"
-    }
-  ],
-  "timeline": [
-    {
-      "title": "Victory Road July Challenge",
-      "desc": "Tournoi en ligne Reg. M-B, inscriptions ouvertes depuis le 22 juillet",
-      "game": "vgc",
-      "date": "25-26 juil · VGC"
-    },
-    {
-      "title": "Monthly Challenge Series",
-      "desc": "Compétition officielle Reg. M-B, simple, inscriptions depuis le 17 juillet",
-      "game": "vgc",
-      "date": "24-27 juil · VGC"
-    },
-    {
-      "title": "Fin de l'événement Hisuian Zorua Drop",
-      "desc": "Dernier jour de l'événement PvE en cours, juste avant le lancement de Ruler of the Skies",
-      "game": "tcgp",
-      "date": "26 juil · TCG POCKET"
-    },
-    {
-      "title": "Ruler of the Skies",
-      "desc": "Prochaine extension Pocket, Mega Rayquaza ex en tête",
-      "game": "tcgp",
-      "date": "~30 juil · TCG POCKET"
-    },
-    {
-      "title": "Mega Evolution—Pitch Black légal en tournoi",
-      "desc": "Déjà en tête du ladder en ligne (Mega Excadrill ex), l'extension sortie le 17 juillet devient légale en tournoi papier Standard/Expanded, aucune carte bannie",
-      "game": "classic",
-      "date": "31 juil · TCG CLASSIC"
-    },
-    {
-      "title": "Reshiram rejoint Pokémon Unite",
-      "desc": "Nouvel arrivant dans le cadre du 5e anniversaire du jeu (lancé le 21 juillet), avant Solgaleo le 21 août",
-      "game": "unite",
-      "date": "7 août · UNITE"
-    },
-    {
-      "title": "Championnats du Monde 2026",
-      "desc": "Moscone Center, San Francisco — VGC & TCG",
-      "game": "vgc",
-      "date": "28-30 août · MONDIAUX"
-    }
-  ],
-  "gamePreviews": {
-    "tcgp": true,
-    "vgc": true,
-    "classic": true,
-    "unite": true
-  },
-  "updatedAt": "2026-07-23T20:00:00.000Z"
+"hero": {
+"tag": "Hub Competitif Pokemon",
+"title": "L'actu competitive en un seul endroit."
+},
+"news": [
+{
+"game": "tcgp",
+"title": "TCG Pocket — Miraidon ex Magnezone reste en tête, Giratina ex Darkrai ex consolide son avance au winrate",
+"desc": "Sur 7 876 joueurs, 94 tournois et 20 492 matchs analysés cette semaine, Miraidon ex Magnezone conserve la 1re place en usage (10,18 %, 53,13 % winrate) et le top 10 usage reste parfaitement stable. Côté winrate, Giratina ex Darkrai ex creuse son avance en tête (55,02 % WR) devant Milotic ex Eevee ex et Zoroark ex Mega Absol ex, tandis que Suicune ex Baxcalibur dépasse Mega Altaria ex Espeon pour la 7e place. Plus que 5 jours avant Ruler of the Skies (B4, 30 juillet) : la chaîne officielle Pokémon a dévoilé la bande-annonce, avec Mega Rayquaza ex et Mega Gengar ex en vedette.",
+"when": "TCG Pocket",
+"badgeText": "META",
+"badgeStyle": "tcgp",
+"clickAction": "tcgp"
+},
+{
+"game": "vgc",
+"title": "VGC — Pokémon.com publie un dossier stratégique officiel sur la méta Reg. M-B, Mega Charizard Y toujours dominant",
+"desc": "Le 24 juillet, Pokémon.com a publié une grande analyse officielle de la méta Reg. M-B, confirmant la domination de Mega Charizard Y (40,0 % d'usage Méga à The Champions Arena II, 706 joueurs, remporté par Marco Silva) via l'équipe « Big Six » (Mega Floette, Whimsicott, Incineroar, Farigiraf, Kingambit, Garchomp) et détaillant les archétypes montants (weather teams, Mega Gengar Perish Song, Mega Scovillain). Garchomp (47,2 %) et Kingambit (44,8 %) mènent l'usage général. La Victory Road July Challenge (25-26 juillet) et le Monthly Challenge Series (24-27 juillet) battent leur plein, avant la Victory Road to San Francisco (15-16 août), grande finale qualificative pour les Mondiaux.",
+"when": "Pokémon Champions",
+"badgeText": "VGC",
+"badgeStyle": "vgc",
+"clickAction": "vgc"
+},
+{
+"game": "classic",
+"title": "TCG Classic — Festival Lead reprend la 2e place, Dragapult Blaziken grimpe au 5e rang grâce à un vainqueur des Qualifiers SEASAC",
+"desc": "Sur 70 tournois et 4 644 joueurs (10 453 matchs analysés sur le ladder TCG Live), Mega Excadrill ex reste n°1 (8,44 % usage, 48,53 % winrate) mais son avance continue de se resserrer. Festival Lead (6,29 %, 53,65 % winrate) redevient 2e devant Dhelmise (3e), et Dragapult Blaziken grimpe à la 5e place (57,18 % winrate, meilleur score du top 5) grâce à une nouvelle liste de mrbak87, vainqueur des SEASAC World Championships Qualifiers. La rotation papier de Mega Evolution—Pitch Black (sortie le 17 juillet) devient légale en tournoi Standard/Expanded le 31 juillet, sans carte bannie.",
+"when": "TCG Classic",
+"badgeText": "CLASSIC",
+"badgeStyle": "classic",
+"clickAction": "classic"
+},
+{
+"game": "unite",
+"title": "Unite — Palkia entre en tier B, 5e anniversaire du jeu lancé",
+"desc": "La tier list Game8 a été mise à jour le 24 juillet : Palkia fait son entrée directement en tier B, le reste du classement restant inchangé avec Moltres toujours en tête du tier SS aux côtés des Légendaires et Méga-Évolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario, Yveltal). Le hotfix du 20 juillet a buffé le Mouvement Unite de Palkia (+25 % dégâts). Le 5e anniversaire du jeu, lancé le 21 juillet, se poursuit avec l'arrivée de Reshiram le 7 août puis Solgaleo le 21 août, tandis que le Group Stage Draw Show des Mondiaux 2026 est annoncé pour le 1er août.",
+"when": "Pokémon Unite",
+"badgeText": "UNITE",
+"badgeStyle": "unite",
+"clickAction": "unite"
+}
+],
+"timeline": [
+{
+"title": "Victory Road July Challenge",
+"desc": "Tournoi en ligne Reg. M-B, dernier jour des inscriptions/de l'événement",
+"game": "vgc",
+"date": "25-26 juil · VGC"
+},
+{
+"title": "Monthly Challenge Series",
+"desc": "Compétition officielle Reg. M-B, simple, inscriptions depuis le 17 juillet",
+"game": "vgc",
+"date": "24-27 juil · VGC"
+},
+{
+"title": "Fin de l'événement Hisuian Zorua Drop",
+"desc": "Dernier jour de l'événement PvE en cours, juste avant le lancement de Ruler of the Skies",
+"game": "tcgp",
+"date": "26 juil · TCG POCKET"
+},
+{
+"title": "Ruler of the Skies",
+"desc": "Prochaine extension Pocket, Mega Rayquaza ex et Mega Gengar ex en tête",
+"game": "tcgp",
+"date": "~30 juil · TCG POCKET"
+},
+{
+"title": "Mega Evolution—Pitch Black légal en tournoi",
+"desc": "Déjà en tête du ladder en ligne (Mega Excadrill ex), l'extension sortie le 17 juillet devient légale en tournoi papier Standard/Expanded, aucune carte bannie",
+"game": "classic",
+"date": "31 juil · TCG CLASSIC"
+},
+{
+"title": "Group Stage Draw Show des Mondiaux 2026",
+"desc": "Tirage au sort des groupes de la phase finale du Pokémon UNITE Championship Series, à suivre en direct",
+"game": "unite",
+"date": "1er août · UNITE"
+},
+{
+"title": "Reshiram rejoint Pokémon Unite",
+"desc": "Nouvel arrivant dans le cadre du 5e anniversaire du jeu (lancé le 21 juillet), avant Solgaleo le 21 août",
+"game": "unite",
+"date": "7 août · UNITE"
+},
+{
+"title": "Victory Road to San Francisco",
+"desc": "Grande finale du circuit en ligne Victory Road, Reg. M-B, qualificative pour les Mondiaux",
+"game": "vgc",
+"date": "15-16 août · VGC"
+},
+{
+"title": "Championnats du Monde 2026",
+"desc": "Moscone Center, San Francisco — VGC & TCG",
+"game": "vgc",
+"date": "28-30 août · MONDIAUX"
+}
+],
+"gamePreviews": {
+"tcgp": true,
+"vgc": true,
+"classic": true,
+"unite": true
+},
+"updatedAt": "2026-07-25T18:00:00.000Z"
 }
