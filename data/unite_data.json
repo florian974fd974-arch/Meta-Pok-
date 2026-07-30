@@ -14,6 +14,7 @@
       "Mimikyu",
       "Miraidon",
       "Moltres",
+      "Palkia",
       "Quaquaval",
       "Slowbro",
       "Yveltal",
@@ -99,7 +100,6 @@
       "Falinks",
       "Machamp",
       "Mr. Mime",
-      "Palkia",
       "Sableye",
       "Tsareena"
     ],
@@ -108,11 +108,18 @@
       "Greedent"
     ]
   },
-  "patch": "Enduring Formation Part 2 (16 juillet 2026)",
+  "patch": "Enduring Formation Part 2 (16 juillet 2026, v1.23.3.9)",
   "topPokemon": "Moltres",
-  "metaSummary": "La tier list Game8 a ete mise a jour le 24 juillet : Palkia fait son entree directement en tier B, tandis que le reste du classement reste inchange, avec Moltres toujours en tete du tier SS aux cotes des Legendaires et Mega-Evolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) et de Yveltal. Le patch \"Enduring Formation Part 2\" du 16 juillet reste la derniere mise a jour majeure, suivi d'un hotfix le 20 juillet qui buffe le Mouvement Unite de Palkia (degats +25%, recuperation raccourcie). Le 5e anniversaire de Pokemon UNITE a officiellement demarre le 21 juillet, avec l'arrivee prochaine de Reshiram (7 aout) puis Solgaleo (21 aout). Pokemon UNITE a egalement annonce le Group Stage Draw Show des Championnats du Monde 2026, a suivre en direct le 1er aout, dans le sillage de la confirmation que le jeu quittera les Pokemon World Championships des 2027 pour son propre tournoi, le Pokemon UNITE Aeos Crown 2027 Tokyo.",
-  "metaSummary_en": "Game8's tier list was updated on July 24: Palkia enters directly into B tier, while the rest of the rankings remain unchanged, with Moltres still leading SS tier alongside the Legendaries and Mega Evolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Mega Charizard X/Y, Mega Lucario) and Yveltal. The \"Enduring Formation Part 2\" patch from July 16 remains the latest major update, followed by a July 20 hotfix buffing Palkia's Unite Move (+25% damage, shorter recovery). Pokemon UNITE's 5th anniversary officially kicked off on July 21, with Reshiram (August 7) and Solgaleo (August 21) still to come. Pokemon UNITE also announced the 2026 World Championships Group Stage Draw Show, airing live on August 1, following confirmation that the game will leave the Pokemon World Championships starting 2027 for its own standalone tournament, the Pokemon UNITE Aeos Crown 2027 Tokyo.",
+  "metaSummary": "Game8 a profondement remanie sa tier list le 26 juillet : desormais seuls les Pokemon des tiers OP et SS beneficient d'une analyse individuelle, et Palkia y fait une entree remarquee en tier SS a peine dix jours apres sa sortie, porte par le hotfix du 20 juillet qui a muscle son Mouvement Unite. Moltres reste la reference du tier SS aux cotes des Legendaires et Mega-Evolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Yveltal, Mega Charizard X/Y, Mega Lucario), un classement corrobore par le consensus communautaire de mi-fin juillet. Cote calendrier, le 5e anniversaire de Pokemon UNITE bat son plein avec l'arrivee de Reshiram le 7 aout puis de Solgaleo le 21 aout, tandis que le Group Stage Draw Show des Championnats du Monde 2026 est attendu le 1er aout. Ces Championnats du Monde se tiendront finalement a San Francisco du 28 au 30 aout et marqueront la derniere apparition de Pokemon UNITE dans ce format, le jeu migrant en 2027 vers son propre tournoi, le Pokemon UNITE Aeos Crown Tokyo.",
+  "metaSummary_en": "Game8 significantly overhauled its tier list on July 26: only OP and SS tier Pokemon now get individual breakdowns, and Palkia has made a notable entrance into SS tier just ten days after release, boosted by the July 20 hotfix that strengthened its Unite Move. Moltres remains the SS tier standard-bearer alongside Legendaries and Mega Evolutions (Zacian, Miraidon, Latios/Latias, Darkrai, Yveltal, Mega Charizard X/Y, Mega Lucario), a ranking corroborated by mid-to-late July community consensus. On the calendar side, Pokemon UNITE's 5th anniversary is in full swing with Reshiram arriving August 7 and Solgaleo on August 21, while the 2026 World Championships Group Stage Draw Show is expected August 1. The World Championships themselves will be held in San Francisco from August 28-30 and will mark Pokemon UNITE's final appearance in this format, with the game moving to its own standalone tournament, the Pokemon UNITE Aeos Crown Tokyo, starting in 2027.",
   "news": [
+    {
+      "title": "Pokemon UNITE Tier List Update (July 26): Palkia enters SS tier, new OP/SS-only breakdown format",
+      "url": "https://game8.co/games/Pokemon-UNITE/archives/335997",
+      "source": "Game8",
+      "kind": "article",
+      "date": "2026-07-26"
+    },
     {
       "title": "2026 World Championships Group Stage Draw Show | Pokémon UNITE Championship Series",
       "url": "https://www.youtube.com/watch?v=bBzgZrnBW94",
@@ -121,11 +128,18 @@
       "date": "2026-08-01"
     },
     {
-      "title": "Palkia entre en tier B sur la tier list Game8 (mise a jour du 24 juillet)",
-      "url": "https://game8.co/games/Pokemon-UNITE/archives/335997",
+      "title": "Reshiram Release Date and Time | Pokemon UNITE - joins the roster August 7",
+      "url": "https://game8.co/games/Pokemon-UNITE/archives/377271",
       "source": "Game8",
       "kind": "article",
-      "date": "2026-07-24"
+      "date": "2026-06-27"
+    },
+    {
+      "title": "2026 Pokémon World Championships confirmed for San Francisco (Aug 28-30) — final year for Pokémon UNITE before Aeos Crown Tokyo 2027",
+      "url": "https://bulbapedia.bulbagarden.net/wiki/2026_Pok%C3%A9mon_World_Championships",
+      "source": "Bulbapedia / Pokémon Championships",
+      "kind": "article",
+      "date": "2026-07-16"
     },
     {
       "title": "July 20, 2026 – Update Details: Palkia's Unite Move buffed (+25% damage, shorter recovery)",
@@ -154,21 +168,7 @@
       "source": "Pokémon UNITE (YouTube)",
       "kind": "video",
       "date": "2026-07-03"
-    },
-    {
-      "title": "Pokémon UNITE Championship Series Update — le jeu quitte les Worlds pour l'Aeos Crown 2027 Tokyo",
-      "url": "https://www.pokemonunite.jp/en/topics/news/20260716-2/",
-      "source": "Pokémon UNITE Official",
-      "kind": "article",
-      "date": "2026-07-16"
-    },
-    {
-      "title": "The Pokémon UNITE 5th Anniversary starts July 21!",
-      "url": "https://www.youtube.com/watch?v=KAg_2GifYIM",
-      "source": "Pokémon UNITE (YouTube)",
-      "kind": "video",
-      "date": "2026-06-30"
     }
   ],
-  "updatedAt": "2026-07-25T00:00:00.000Z"
+  "updatedAt": "2026-07-30"
 }
